@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="../../" name="aosp" review="https://10.10.10.29"/>
+  <remote fetch="../../" name="rk" review="https://10.10.10.29"/>
+  
+  <default remote="aosp" revision="refs/tags/android-6.0.1_r63" sync-j="4"/>
+  
+  <project name="android/RKDocs" path="RKDocs" remote="rk" revision="ad1357afedeffdaff616cc6610be457204bffac4" upstream="rk312x/mid/android-6.0"/>
+  <project name="android/RKTools" path="RKTools" remote="rk" revision="f25c39526f9fc68622f0ac9df71f68df360b973a" upstream="rk312x/mid/android-6.0"/>
+  <project groups="pdk,linux,arm" name="android/platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" revision="4b341df712969ca2ac0c3cf6294260d406b9d9be" upstream="refs/tags/android-6.0.1_r63"/>
+  <project groups="pdk,linux,arm" name="android/platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" remote="rk" revision="d73a051b1fd1d98f5c2463354fb67898f0090bdb" upstream="refs/tags/android-4.4.4_r2"/>
+  <project name="android/rk/u-boot" path="u-boot" remote="rk" revision="b6d41332b8bee6749dcd2c02b8e8185b4edc0832" upstream="rkdevelop"/>
+  <project name="linux/device/rockchip/rk322x" path="device/rockchip/rk322x" remote="rk" revision="0a7f1fa52ecfe7ea55f8e268f6d6c1bef26c2103" upstream="master">
+    <copyfile dest="mkfirmware.sh" src="mkfirmware.sh"/>
+    <copyfile dest="build_all.sh" src="build_all.sh"/>
+    <copyfile dest="envsetup.sh" src="envsetup.sh"/>
+  </project>
+  <project name="rk/kernel" path="kernel" remote="rk" revision="418a0e880855e79387445853aeb55c9b46d13480" upstream="develop-3.10"/>
+  <project name="rk/rk1108/buildroot" path="buildroot" remote="rk" revision="174cce0c52637e8e428bb1fe1689b36b429e0bc1" upstream="rockchip/rk1108/2016.08.x"/>
+</manifest>
