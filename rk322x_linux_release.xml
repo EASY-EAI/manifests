@@ -16,5 +16,5 @@
     <copyfile dest="envsetup.sh" src="envsetup.sh"/>
   </project>
   <project name="rk/kernel" path="kernel" remote="rk" revision="f6763430780fcdefb16e1405e7fa3f3eedca76fd" upstream="develop-3.10"/>
-  <project name="rk/rk1108/buildroot" path="buildroot" remote="rk" revision="1c07c06ba3035ad6e108adbeaee8e7aa5a5a261f" upstream="rockchip/rk1108/2016.08.x"/>
+  <project name="rk/rk1108/buildroot" path="buildroot" remote="rk" revision="ba9e0931431c2bfe4a8525b1de5f19011e77b155" upstream="rockchip/rk1108/2016.08.x"/>
 </manifest>
