@@ -16,7 +16,7 @@
     <copyfile dest="README" src="README"/>
     <copyfile dest="setup-environment" src="setup-environment"/>
   </project>
-  <project name="linux/rkbin-retrogame" path="rkbin" remote="rk" revision="e0e617458854df66123254961039ef78ee3b5f5c" upstream="master"/>
+  <project name="linux/rkbin-retrogame" path="rkbin" remote="rk" revision="f00fb7ce3b348813257773c522c2182259a4db29" upstream="master"/>
   <project name="meta-browser" path="sources/meta-browser" remote="OSSystems" revision="4dda3fb94072a515763d816e15855d7fdf210a25" upstream="master"/>
   <project name="meta-openembedded" path="sources/meta-openembedded" remote="oe" revision="dfbdd28d206a74bf264c2f7ee0f7b3e5af587796" upstream="pyro"/>
   <project name="meta-qt5" path="sources/meta-qt5" remote="QT5" revision="c6aa602d0640040b470ee81de39726276ddc0ea3" upstream="pyro"/>
