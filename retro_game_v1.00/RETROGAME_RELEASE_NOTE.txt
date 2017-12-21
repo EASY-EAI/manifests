@@ -1,0 +1,9 @@
+========Retro Game Project Release Note========
+
+【retro_game_v1.01_20171221.xml 更新日志】
+
+- 更新rkbin仓库
+1.添加RK3036 AtGames Board使用的烧录工具:tools/AndroidTool_Release_v2.31_RK3036_Atgames-Board。
+2.添加RK3036 AtGames Board Nand Boot Kernel dts及补丁：patches/rk3036-atgames-board/kernel/。
+3.添加RK3036 AtGames Board Kernel编译脚本：build_script/mk-kernel-rk3036-atgames.sh.
+4.添加RK3036 AtGames Board 烧写所需二进制文件：bin/rk3036-atgames-board/。
