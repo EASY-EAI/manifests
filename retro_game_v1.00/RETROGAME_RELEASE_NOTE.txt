@@ -1,5 +1,61 @@
 ========Retro Game Project Release Note========
 
+【retro_game_v1.10_20180112.xml 更新日志】
+
+===更新rkbin仓库===
+工具更新（tools目录）：
+1.更新RK3036 AtGames Board使用的烧录工具:tools/AndroidTool_Release_v2.31_RK3036_Atgames-Board。
+2.更新RK3066使用的烧录工具:tools/AndroidTool_Release_v2.31_RK3066。
+
+镜像更新（bin目录）：
+1.更新RK3036 AtGames Board使用的镜像文件:bin/rk3036-atgames-board/v1.10/。
+2.更新RK3066使用的镜像文件:bin/rk3066/v1.10/。
+
+===更新kernel仓库===
+RK3036 Kernel更新：
+1.DEFCONFIG=rk30x6_mini_defconfig,DTS=rk3036-ATGames-nand.dts
+2.可使用"./build/mk-kernel.sh rk3036-evb"命令编译，编译输出kernel.img及resource.img至out/rk3036/kernel/目录下。
+3.已加入开机优化。
+4.串口波特率改为1500000。
+
+RK3066 Kernel更新：
+1.DEFCONFIG=rk30x6_mini_defconfig,DTS=rk3066a-rayeager-nand.dts
+2.可使用"mk-kernel.sh rk3066-evb"命令编译，编译输出kernel.img及resource.img至out/rk3066/kernel/目录下。
+3.已加入开机优化。
+4.只支持NAND启动。如果rk3066a-rayeager板子需要使用新Kernel的话，需要重新换NAND颗粒。
+5.串口波特率改为1500000。
+
+===新增u-boot仓库===
+1.该仓库u-boot代码，供RK3036使用。
+2.DEFCONFIG=rk3036_box_defconfig。编译命令：make rk3036_box_defconfig;make -j12。
+3.编译可生成rk3036_loader_v1.09.237.bin及uboot.img可直接使用。
+4.可使用"./build/mk-uboot.sh rk3036-evb"命令编译，编译输出rk3036_loader_v1.09.237.bin及uboot.img至out/rk3036/u-boot/目录下。
+5.已加入开机优化。
+6.串口波特率改为1500000。
+
+===新增build仓库===
+1.用于各种镜像的编译，具体编译方法见build/README.md
+2.新增以下脚本：
+mk-data.sh --用于生成data分区ext4文件系统镜像
+mk-kernel.sh --用于编译RK3036/RK3066内核
+mk-rootfs.sh --用于重新生成yocto编译出来的squashfs镜像
+mk-squashfs.sh --用于生成squashfs只读文件系统镜像，rom/emulator分区镜像可用该脚本制作。
+mk-uboot.sh --用于RK3036编译uboot使用。
+
+===更新sources/meta-rockchip-extra仓库===
+1.RK3066编译方法改为：
+MACHINE=marsboard-rk3066 DISTRO=rk-x11-mini . ./setup-environment -b build_dir/
+bitbake rk-image-retroarch
+2.RK3036编译方法改为：
+MACHINE=kylin-rk3036 DISTRO=rk-x11-mini . ./setup-environment -b build_dir/
+bitbake rk-image-retroarch
+3.生成的rootfs文件(squashfs只读文件系统)在build_dir/tmp/deploy/images/<MACHINE>/*.squashfs
+4.需要手动修改sources/meta-rockchip/conf/machine/include/rk3036.inc及sources/meta-rockchip/conf/machine/include/rk3066.inc
+-SERIAL_CONSOLES = "115200;ttyS2"
++SERIAL_CONSOLES = "1500000;ttyS2"
+将窗口波特率改为1500000
+
+
 【retro_game_v1.01_20171221.xml 更新日志】
 
 - 更新rkbin仓库
