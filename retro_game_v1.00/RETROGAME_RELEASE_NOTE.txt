@@ -2,6 +2,21 @@
 
 【retro_game_v1.10_20180112.xml 更新日志】
 
+===更新rkbin仓库=== 
+工具更新（rkbin目录）：
+1.更新RK3036/RK3066 parameter,修改root设备节点为/dev/rknand_rootfs。
+
+===更新kernel仓库=== 
+RK3066 Kernel更新：
+1.RK3066 HDMI默认分辨率为1280*720。
+
+===更新build仓库=== 
+1.更新mk-data.sh,去掉多余目录层级。
+2.更新mk-rootfs.sh，新增rom、emulator目录。
+
+
+【retro_game_v1.10_20180112.xml 更新日志】
+
 ===更新rkbin仓库===
 工具更新（tools目录）：
 1.更新RK3036 AtGames Board使用的烧录工具:tools/AndroidTool_Release_v2.31_RK3036_Atgames-Board。
