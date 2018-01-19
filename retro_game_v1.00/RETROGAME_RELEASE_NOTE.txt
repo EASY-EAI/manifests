@@ -1,6 +1,28 @@
 ========Retro Game Project Release Note========
 
-【retro_game_v1.10_20180112.xml 更新日志】
+【retro_game_v1.20_20180119.xml 更新日志】
+
+===更新rkbin仓库=== 
+工具更新（tools目录）：
+1.更新RK3036 AtGames Board使用的烧录工具:tools/AndroidTool_Release_v2.31_RK3036_Atgames-Board。
+2.更新RK3066使用的烧录工具:tools/AndroidTool_Release_v2.31_RK3066。
+
+镜像更新（bin目录）：
+1.更新RK3036 AtGames Board使用的镜像文件:bin/rk3036-atgames-board/v1.20/。
+2.更新RK3066使用的镜像文件:bin/rk3066/v1.20/。
+
+===更新kernel仓库=== 
+RK3066 SEGA EVB BOARD更新：
+1.DEFCONFIG=rk30x6_mini_defconfig,DTS=rk3066-sega_evb.dts。
+2.可使用"./build/mk-kernel.sh rk3066-sega-evb"命令编译，编译输出kernel.img及resource.img至out/rk3036/kernel/目录下。
+3.已加入开机优化。
+4.新增大卡、手柄的驱动dmc_keypad，rk30x6_mini_defconfig增加CONFIG_DMC_KEYPAD=y，将dmc_keypad驱动默认build in kernel。
+
+===更新build仓库=== 
+1.更新mk-kernel.sh配置，支持RK3066 SEGA EVB板编译
+./build/mk-kernel.sh rk3066-sega-evb
+
+【retro_game_v1.10_20180116.xml 更新日志】
 
 ===更新rkbin仓库=== 
 工具更新（rkbin目录）：
