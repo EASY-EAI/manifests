@@ -1,5 +1,23 @@
 ========Retro Game Project Release Note========
 
+【retro_game_v1.30_20180126.xml 更新日志】
+
+===更新rkbin仓库=== 
+工具更新（tools目录）：
+1.更新RK3036 AtGames Board使用的镜像（update.img）打包工具:tools/rockdev_RK3036。
+2.更新RK3066使用的镜像（update.img）打包工具:tools/rockdev_RK3066。
+3.update.img可用于SDCARD升级，打包说明详见工具目录下README.txt。
+
+===更新build仓库=== 
+1.镜像更新：build/recovery/misc-updatetest.img，可用update.img升级测试。
+升级测试步骤：
+a. 打包update.img
+b. 将update.img拷贝至SDCARD根目录
+c. SDCARD插入机器
+d. 烧录build/recovery/misc-updatetest.img至misc分区，可触发升级（后续直接集成升级检测应用至rootfs，可自动检测升级）
+2.新增mk-recovery.sh脚本，可编译生成recovery.img。
+编译命令：./build/mk-recovery.sh rk3066-sega-evb（板级配置）
+
 【retro_game_v1.20_20180119.xml 更新日志】
 
 ===更新rkbin仓库=== 
