@@ -1,5 +1,39 @@
 ========Retro Game Project Release Note========
 
+【retro_game_v1.40_20180201.xml 更新日志】
+
+===更新rkbin仓库=== 
+镜像更新（bin目录）：
+1.更新RK3066使用的镜像文件:bin/rk3066/v1.40/。
+主要更新parameter分区表（recovery改为8MB、rootfs改为14MB），及recovery.img。
+
+===更新build仓库=== 
+1.更新mk-recovery.sh脚本，编译生成recovery.img打包zImage及dtb，可单独引导启动，不需要依赖kernel及resource分区。
+编译命令：./build/mk-recovery.sh rk3066-sega-evb（板级配置）
+2.更新mk-rootfs.sh脚本，去除一些目录重复创建。
+
+===更新kernel仓库=== 
+RK3066 SEGA EVB BOARD更新：
+1.更新cmdline分区表配置（recovery改为8MB、rootfs改为14MB）。
+2.更新Jason外围驱动修改，包括手柄、大卡、按键等修改。
+
+===更新meta-rockchip仓库=== 
+1.RK3036、RK3066 串口配置统一改为了ttyS2,1500000。
+2.若更新提示出错，请使用以下命令更新：
+.repo/repo/repo sync -c --force-sync sources/meta-rockchip
+
+===更新meta-rockchip-extra仓库=== 
+1.更新rk-image-retroarch.bb，添加libsdl2-ttf, libsdl2-image, libpng软件包。
+2.更新fstab文件，添加以下挂载节点：
+tmpfs                /tmp             tmpfs      defaults              0  0
+tmpfs                /var/lib/dbus    tmpfs      defaults              0  0
+tmpfs                /media           tmpfs      defaults              0  0
+/dev/rknand_rom      /rom             squashfs   defaults              0  0
+/dev/rknand_emulator /emulator        squashfs   defaults              0  0
+/dev/rknand_data     /data            ext4       defaults              0  0
+3.若更新提示出错，请使用以下命令更新：
+.repo/repo/repo sync -c --force-sync sources/meta-rockchip-extra
+
 【retro_game_v1.30_20180126.xml 更新日志】
 
 ===更新rkbin仓库=== 
