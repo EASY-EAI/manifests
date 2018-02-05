@@ -1,5 +1,12 @@
 ========Retro Game Project Release Note========
 
+【retro_game_v1.41_20180205.xml 更新日志】
+
+===更新rkbin仓库=== 
+工具更新（tools目录）：
+1.新增RK3036 AtGames Board使用的镜像（update.img）Linux打包工具:tools/Linux_rockdev_RK3036。
+2.新增RK3066使用的镜像（update.img）Linux打包工具:tools/Linux_rockdev_RK3066。
+
 【retro_game_v1.40_20180201.xml 更新日志】
 
 ===更新rkbin仓库=== 
