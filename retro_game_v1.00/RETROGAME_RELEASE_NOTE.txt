@@ -1,5 +1,19 @@
 ========Retro Game Project Release Note========
 
+【retro_game_v1.42_20180207.xml 更新日志】
+
+===更新kernel仓库=== 
+RK3036 Atgames BOARD更新：
+1.更新Jason外围驱动修改，包括手柄、大卡、按键等修改。
+
+===更新meta-rockchip仓库=== 
+1.修改rockchip-mali_rk.bb，更新RK3036、RK3066使用libMali.so。
+
+===更新meta-rockchip-extra仓库=== 
+1.更新rk-image-retroarch.bb，添加retromenu。
+2.添加retromenu服务自启动脚本。
+
+
 【retro_game_v1.41_20180205.xml 更新日志】
 
 ===更新rkbin仓库=== 
