@@ -1,5 +1,10 @@
 ========Retro Game Project Release Note========
 
+【retro_game_v1.43_20180227.xml 更新日志】
+
+===更新build仓库=== 
+更新recovery-ramdisk.img，解决升级过程中断电，更新中断问题
+
 【retro_game_v1.42_20180207.xml 更新日志】
 
 ===更新kernel仓库=== 
