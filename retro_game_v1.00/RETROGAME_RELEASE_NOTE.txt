@@ -1,5 +1,15 @@
 ========Retro Game Project Release Note========
 
+【retro_game_v1.44_20180306.xml 更新日志】
+
+===更新rkbin仓库=== 
+镜像更新（bin目录）：
+1.更新RK3036使用的镜像文件:bin/rk3036-atgames-board/v1.30。
+主要更新parameter分区表（recovery改为8MB、rootfs改为14MB）。
+
+工具更新（tools目录）：
+1.更新RK3036 AtGames Board使用的烧写工具:tools/AndroidTool_Release_v2.31_RK3036_Atgames-Board。
+
 【retro_game_v1.43_20180227.xml 更新日志】
 
 ===更新build仓库=== 
