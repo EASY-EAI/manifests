@@ -1,5 +1,10 @@
 ========Retro Game Project Release Note========
 
+【retro_game_v1.45_20180312.xml 更新日志】
+
+===更新meta-rockchip-extra仓库=== 
+1.更新rk-image-retroarch.bb，添加libsdl2-mixer, libogg。
+
 【retro_game_v1.44_20180306.xml 更新日志】
 
 ===更新rkbin仓库=== 
