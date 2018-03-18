@@ -1,5 +1,15 @@
 ========Retro Game Project Release Note========
 
+【retro_game_v1.46_20180318.xml 更新日志】
+
+===更新meta-rockchip-extra仓库=== 
+1.修复libsdl2_mixer无法播放ogg文件
+
+===更新rkbin仓库===
+工具更新（tools目录）：
+1.新增FactoryTool_v1.6工具，用于update.img工厂烧录，支持一台主机同时烧录几台设备。
+2.新增UpgradeDllTool_1.38工具，用于烧录序列号，unique id可通过该工具烧录。
+
 【retro_game_v1.45_20180312.xml 更新日志】
 
 ===更新meta-rockchip-extra仓库=== 
