@@ -1,5 +1,14 @@
 ========Retro Game Project Release Note========
 
+【retro_game_v1.47_20180320.xml 更新日志】
+
+===更新rkbin仓库===
+工具更新（tools目录）：
+1.更新RK3036 AtGames Board使用的烧写工具:tools/AndroidTool_Release_v2.31_RK3036_Atgames-Board。
+
+镜像更新（bin目录）：
+1.更新RK3036使用的镜像文件:bin/rk3036-atgames-board/v1.40。主要更新parameter分区表。
+
 【retro_game_v1.46_20180318.xml 更新日志】
 
 ===更新meta-rockchip-extra仓库=== 
