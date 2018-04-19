@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="ssh://git@www.rockchip.com.cn/linux/" name="rk"/>  
+  <remote fetch="https://github.com/rockchip-linux" name="rockchip-linux"/>
+
+  <project groups="pdk,linux,arm" name="android/platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" remote="rk" revision="4b341df712969ca2ac0c3cf6294260d406b9d9be" upstream="refs/tags/android-6.0.1_r63"/>
+  <project groups="pdk,linux,arm" name="android/platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" remote="rk" revision="d73a051b1fd1d98f5c2463354fb67898f0090bdb" upstream="refs/tags/android-4.4.4_r2"/>
+  <project name="android/rk/u-boot" path="u-boot" remote="rk" revision="58bbba3482e493b296889a37f35fd802968bf6fe" upstream="rkdevelop"/>
+  <project name="argus/externals/adb" path="external/adb" remote="rk" revision="8c5d287d384fe33362aa6f829bcb4dbb3d1cf1be" upstream="master"/>
+  <project name="argus/externals/libcutils" path="external/libcutils" remote="rk" revision="973b41906854a32379809b11138afbf7016563a0" upstream="master"/>
+  <project name="argus/externals/liblog" path="external/liblog" remote="rk" revision="3867fe3c8f20f46d7109c2779ac48af2f16d6ea8" upstream="master"/>
+  <project name="linux/app/QLauncher" path="app/QLauncher" remote="rk" revision="a553ab5b52e3c85fca65f35f4c8450faa57b045b" upstream="master"/>
+  <project name="linux/app/gallery" path="app/gallery" remote="rk" revision="76f55041d097fcabc018fc84a6ff8886e21f3ab1" upstream="master"/>
+  <project name="linux/app/music" path="app/music" remote="rk" revision="2b40e799f2d45ae900c3279c9cd90c8d93689393" upstream="master"/>
+  <project name="linux/app/settings" path="app/settings" remote="rk" revision="e6bf157031a71b565da07f27bdc7e313b3d13acd" upstream="master"/>
+  <project name="linux/app/video" path="app/video" remote="rk" revision="b60a6d64e90296fd8d1d886fa96afa454fb1773c" upstream="master"/>
+  <project name="linux/device/rockchip/rk3128h" path="device/rockchip/rk3128h" remote="rk" revision="738b76cfef5fab4a2169dabce35112667ba336fc" upstream="master">
+    <copyfile dest="mkfirmware.sh" src="mkfirmware.sh"/>
+    <copyfile dest="build_all.sh" src="build_all.sh"/>
+    <copyfile dest="envsetup.sh" src="envsetup.sh"/>
+  </project>
+  <project name="linux/docs" path="docs" remote="rk" revision="8f457de1b264254cec4c3816bf4af2ed32183167" upstream="rk3308"/>
+  <project name="linux/external/audioservice" path="external/audioservice" remote="rk" revision="ec7efbf4cbb023a655228a1260fb83258fd667c1" upstream="master"/>
+  <project name="linux/external/io" path="external/io" remote="rk" revision="56e9d7661f2e7ae9818e6fc22f38a222867f2076" upstream="master"/>
+  <project name="linux/external/powermanager" path="external/powermanager" remote="rk" revision="5f449bc1cdbf4760ef5540ae58d78572828e4916" upstream="master"/>
+  <project name="linux/external/rkbt" path="external/rkbt" remote="rk" revision="7e1fe405a1077bae6bcae1198ec21538cf0bd72c" upstream="master"/>
+  <project name="linux/gstreamer-rockchip" path="external/gstreamer-rockchip" remote="rk" revision="bb0aefd0990467824de321d98035ee87822ba720" upstream="master"/>
+  <project name="linux/tools" path="tools" remote="rk" revision="dcea037ab0c1fa3f590a51f7a4b601ef8ef7cb66" upstream="rk3308"/>
+  <project name="rk/kernel" path="kernel" remote="rk"  revision="7223e238b3dc3ca5a248f023c39268033325de8c" upstream="stable-4.4-rk3128h-box-linux"/>
+  <project name="rk/mpp" path="external/mpp" remote="rk" revision="77b58369658b739e5c99b6a6876809e073086dcf" upstream="develop"/>
+  <project name="rk/rk1108/buildroot" path="buildroot" remote="rk" revision="4b727d8c0be192f4a87d551338939bd0bbc4bdac" upstream="rockchip/rk1108/2016.08.x"/>
+  <project name="rkbin" remote="rockchip-linux" revision="784b3ef28e746e6e3ddb6fe13421a42c374c9bb4" upstream="master"/>
+</manifest>
