@@ -16,7 +16,7 @@
     <copyfile dest="build_all.sh" src="build_all.sh"/>
     <copyfile dest="envsetup.sh" src="envsetup.sh"/>
   </project>
-  <project name="rk/kernel" path="kernel" remote="rk" revision="49fad6b2e2cb839ae794d18b6c5467a7216f80d4" upstream="develop-3.10"/>
+  <project name="rk/kernel" path="kernel" remote="rk" revision="1bf0bdb1c15e3aa56676554fe2c4a3d04edfe308" upstream="develop-3.10"/>
   <project name="rk/rk1108/buildroot" path="buildroot" remote="rk" revision="b6466c8416360c4d01f5727b5f815ee594112e21" upstream="rockchip/rk1108/2016.08.x"/>
   <project name="argus/externals/liblog" path="external/liblog" remote="rk-argus" revision="3867fe3c8f20f46d7109c2779ac48af2f16d6ea8"/>
   <project name="argus/externals/libcutils" path="external/libcutils" remote="rk-argus" revision="973b41906854a32379809b11138afbf7016563a0"/>
