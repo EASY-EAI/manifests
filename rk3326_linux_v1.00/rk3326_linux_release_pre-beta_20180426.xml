@@ -26,6 +26,6 @@
   <project name="rk/kernel" path="kernel" remote="rk" revision="cfa3036812e6c0e7f42368086fdad666b2b6c6b1" upstream="develop-4.4"/>
   <project name="rk/mpp" path="external/mpp" remote="rk" revision="db932a84de4a578efb597497c57542d4f3c27894" upstream="develop"/>
   <project name="rk/prebuilts/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" path="prebuilts/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" remote="rk" revision="f96f76d6be89a6e28d4dac1f233f9aca9921f69b" upstream="master"/>
-  <project name="rk/rk1108/buildroot" path="buildroot" remote="rk" revision="9b3656fbf8ee6fa434f1d949b9b33fe38d7d9f1c" upstream="rockchip/rk1108/2016.08.x"/>
+  <project name="rk/rk1108/buildroot" path="buildroot" remote="rk" revision="9d4ec7af6198f7c8ef6c65c417d1ddc25934e798" upstream="rockchip/rk1108/2016.08.x"/>
   <project name="rk/rkbin" path="rkbin" remote="rk" revision="67b7651dba558e357e9418a11442de67bf826355" upstream="master"/>
 </manifest>
