@@ -24,7 +24,7 @@
   <project name="linux/tools" path="tools" remote="rk" revision="62387cac33b315a04c370648bb41777e47e6df11" upstream="rk3326"/>
   <project name="linux/xserver" path="external/xserver" remote="rk" revision="2baabe700b59f5a2681558c6a764155102325974" upstream="rockchip-1.18"/>
   <project name="rk/kernel" path="kernel" remote="rk" revision="1c40af5de0ac8ac6670f417db06b5cee8233191c" upstream="develop-4.4"/>
-  <project name="rk/mpp" path="external/mpp" remote="rk" revision="db932a84de4a578efb597497c57542d4f3c27894" upstream="develop"/>
+  <project name="rk/mpp" path="external/mpp" remote="rk" revision="a1d76b96cee2a6298ef113c9a5f0b001548d17f2" upstream="develop"/>
   <project name="rk/prebuilts/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" path="prebuilts/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" remote="rk" revision="f96f76d6be89a6e28d4dac1f233f9aca9921f69b" upstream="master"/>
   <project name="rk/rk1108/buildroot" path="buildroot" remote="rk" revision="9d4ec7af6198f7c8ef6c65c417d1ddc25934e798" upstream="rockchip/rk1108/2016.08.x"/>
   <project name="rk/rkbin" path="rkbin" remote="rk" revision="67b7651dba558e357e9418a11442de67bf826355" upstream="master"/>
