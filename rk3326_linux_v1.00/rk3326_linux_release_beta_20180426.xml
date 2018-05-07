@@ -14,7 +14,7 @@
     <copyfile dest="build_all.sh" src="build_all.sh"/>
     <copyfile dest="envsetup.sh" src="envsetup.sh"/>
   </project>
-  <project name="linux/docs" path="docs" remote="rk" revision="e9fb627be358baae8aa5538ee78148f9e1945c59" upstream="rk3326"/>
+  <project name="linux/docs" path="docs" remote="rk" revision="50be1a02ecb7a62a0094ba98e9cfcc9a32e9a083" upstream="rk3326"/>
   <project name="linux/external/audioservice" path="external/audioservice" remote="rk" revision="ec7efbf4cbb023a655228a1260fb83258fd667c1" upstream="master"/>
   <project name="linux/external/io" path="external/io" remote="rk" revision="56e9d7661f2e7ae9818e6fc22f38a222867f2076" upstream="master"/>
   <project name="linux/gstreamer-rockchip" path="external/gstreamer-rockchip" remote="rk" revision="bb0aefd0990467824de321d98035ee87822ba720" upstream="master"/>
