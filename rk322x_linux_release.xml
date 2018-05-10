@@ -11,7 +11,7 @@
   <project groups="pdk,linux,arm" name="android/platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" remote="rk" revision="d73a051b1fd1d98f5c2463354fb67898f0090bdb" upstream="refs/tags/android-4.4.4_r2"/>
   <project name="android/rk/u-boot" path="u-boot" remote="rk" revision="0dab20b86588b3e515409f9f5fa034e5f966d066" upstream="rkdevelop"/>
   <project name="linux/external/WakeWordAgent" path="external/wakeWordAgent" remote="rk" revision="4a5a3c2d9d991e392894d1e5345b7487655d3cc6"/> 
-  <project name="linux/device/rockchip/rk322x" path="device/rockchip/rk322x" remote="rk" revision="bbe4c15da16a2031c321d1f744dd7527d036c260" upstream="master">
+  <project name="linux/device/rockchip/rk322x" path="device/rockchip/rk322x" remote="rk" revision="dd367fb2ef1ecc60626d68c0d972875c96173da9" upstream="master">
     <copyfile dest="mkfirmware.sh" src="mkfirmware.sh"/>
     <copyfile dest="build_all.sh" src="build_all.sh"/>
     <copyfile dest="envsetup.sh" src="envsetup.sh"/>
