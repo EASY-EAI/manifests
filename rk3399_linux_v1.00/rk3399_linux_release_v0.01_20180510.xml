@@ -26,7 +26,6 @@
   <project name="linux/libmali" path="external/libmali" remote="rk" revision="41a3e9ae1369e2e497e5c11c4c31c8fe7f4afafc" upstream="master"/>
   <project name="linux/linux-adb" path="external/linux-adb" remote="rk" revision="4704805987b12f6b69ecc3c648106bcf74d6d914" upstream="master"/>
   <project name="linux/rk-rootfs-build" path="rootfs" remote="rk" revision="274d45c14a4cb4fc97996f1c1e849ed12060a5db" upstream="master"/>
-  <project name="linux/rockchip-va-driver" path="external/rockchip-va-driver" remote="rk" revision="becf4e2ea47e215cf4f66c9cc515d62fcd2764dd" upstream="master"/>
   <project name="linux/tools" path="tools" remote="rk" revision="059959f378d1e9d8c1c19d3a1128db7bc6d74dd7" upstream="rk3399"/>
   <project name="linux/xserver" path="external/xserver" remote="rk" revision="2baabe700b59f5a2681558c6a764155102325974" upstream="rockchip-1.18"/>
   <project name="rk/kernel" path="kernel" remote="rk" revision="2b3fe0f3500bd62ea6ba3a2da177edda27a8d6ea" upstream="develop-4.4"/>
