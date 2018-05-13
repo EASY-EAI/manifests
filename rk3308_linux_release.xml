@@ -12,7 +12,7 @@
     <copyfile dest="mkfirmware.sh" src="mkfirmware.sh"/>
     <copyfile dest="build.sh" src="build.sh"/>
   </project>
-  <project name="linux/docs" path="docs" revision="2dea30ff7516804508fe6dd8fb1ce529b001fa57" upstream="rk3308"/>
+  <project name="linux/docs" path="docs" revision="dcc5111866f6d046c3149950ebcf77e9cc7661a5" upstream="rk3308"/>
   <project name="linux/external/DuerClientSDK" path="external/DuerClientSDK" revision="f2bd7f9414a2ab748954de4fdfcc6afa027dea2b" upstream="master_64bit"/>
   <project name="linux/external/WakeWordAgent" path="external/wakeWordAgent" revision="4a5a3c2d9d991e392894d1e5345b7487655d3cc6" upstream="master"/>
   <project name="linux/external/adb" path="external/adb" revision="5c57a1f9145eef7c0265b0a9bbc2379a377391c6" upstream="master"/>
