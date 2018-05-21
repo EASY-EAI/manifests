@@ -23,7 +23,7 @@
   <project name="linux/external/audioservice" path="external/audioservice" remote="rk" revision="ec7efbf4cbb023a655228a1260fb83258fd667c1" upstream="master"/>
   <project name="linux/external/io" path="external/io" remote="rk" revision="56e9d7661f2e7ae9818e6fc22f38a222867f2076" upstream="master"/>
   <project name="linux/external/powermanager" path="external/powermanager" remote="rk" revision="5f449bc1cdbf4760ef5540ae58d78572828e4916" upstream="master"/>
-  <project name="linux/gstreamer-rockchip" path="external/gstreamer-rockchip" remote="rk" revision="79079b86472ad56c5c247f8cd0425e23af7afe17" upstream="master"/>
+  <project name="linux/gstreamer-rockchip" path="external/gstreamer-rockchip" remote="rk" revision="aadf6ab77c53055f8be85c18bace6918e04e3f9c" upstream="master"/>
   <project name="linux/gstreamer-rockchip-extra" path="external/gstreamer-rockchip-extra" remote="rk" revision="ab5f747dcb82ee37e6d2cc370c5e53a39d8ddacc" upstream="master"/>
   <project name="linux/libdrm-rockchip" path="external/libdrm-rockchip" remote="rk" revision="ea6c1f85b8691f0c2ecda16fb9919eeec3dafd48" upstream="rockchip-2.4.68"/>
   <project name="linux/libmali" path="external/libmali" remote="rk" revision="41a3e9ae1369e2e497e5c11c4c31c8fe7f4afafc" upstream="master"/>
