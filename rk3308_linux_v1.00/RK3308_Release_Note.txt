@@ -1,0 +1,34 @@
+===========RK3308 Linux SDK Release Note===========
+
+【rk3308_linux_release_v1.01_20180525.xml 更新日志】
+
+本次更新内容较多，需要make clean进行编译。
+
+Buildroot更新：
+1. 更新分区表配置：data分区改名为oem分区，cfg分区改名为userdata分区。
+2. 新增PCBA功能，配套Windows测试工具使用。
+3. 新增DLNA功能，附带详细使用及开发说明。
+4. 增加Realtek的Smart Config配网支持。
+5. 更新Dueros SDK版本，完善了功能并提升了使用体验。
+6. 增加海华模组的BT A2DP Source功能，优化A2DP SINK功能；
+
+Kernel更新：
+1. 添加RK3308 EVB V11开发板支持。
+2. 提供系统稳定性。
+3. 支持RTL8723DS/8189FS WiFi.
+4. 添加RTL8723DS的BT功能支持。
+
+工具更新：
+1. 新增PCBA测试 PC端工具。
+2. 更新AndroidTool、Linux_Pack_Firmware分区表配置。
+3. 更新SecureBootTool_v1.89.zip工具。
+
+文档更新：
+1. 更新DDR支持列表：RK DDR Support List V2.32 20180525.pdf
+2. 更新eMMC支持列表：RKeMMCSupportList Ver1.39_20180515.pdf
+3. 更新SPI Nor及SLC Nand支持列表：RK SpiNor and  SLC Nand SupportList Ver1.07_20180515.pdf
+4. 更新Rockchip Linux WIFI BT 开发指南_V1.00.pdf
+5. 新增Rockchip DLNA开发指南_V1.00.pdf
+6. 新增RK3308 DuerOS 使用说明.pdf
+7. 新增Rockchip RK3308 Datasheet V1.1 20180412.pdf
+8. 更新Rockchip RK3308 Linux软件开发指南 V1.01-20180528.pdf
