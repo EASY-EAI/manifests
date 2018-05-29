@@ -1,5 +1,16 @@
 ===========RK3308 Linux SDK Release Note===========
 
+【rk3308_linux_release_v1.02_20180529.xml 更新日志】
+
+Buildroot更新：
+1. 更新Dueros SDK版本至v0.1.0_20180529。
+--修复WiFi配网问题；去除调试log；去除使用过程写pcm文件操作。
+
+文档更新：
+1. 更新RK3308 DuerOS 使用说明V0.02_20180529.pdf
+-- 添加WiFi配网说明；添加DuerOS新版本说明。
+
+
 【rk3308_linux_release_v1.01_20180525.xml 更新日志】
 
 本次更新内容较多，需要make clean进行编译。
