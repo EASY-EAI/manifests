@@ -18,15 +18,15 @@
   <project name="linux/docs" path="docs" remote="rk" revision="47e91402f95bb20f34214a2e7c5dcd3c8f443746" upstream="rk3308"/>
   <project name="linux/external/io" path="external/io" remote="rk" revision="56e9d7661f2e7ae9818e6fc22f38a222867f2076" upstream="master"/>
   <project name="linux/external/powermanager" path="external/powermanager" remote="rk" revision="2d0ea936836dbbf711ca049949c71125b7b5a3df" upstream="master"/>
-  <project name="linux/external/recoverySystem" path="external/recoverySystem" remote="rk" revision="39bb62a845930d51bdf03c1113ed90e677ec58f3" upstream="master"/>
+  <project name="linux/external/recoverySystem" path="external/recoverySystem" remote="rk" revision="278f41e6f9235ecf8c5ca2fa44c0b356c7cad11d" upstream="master"/>
   <project name="linux/external/rkbt" path="external/rkbt" remote="rk" revision="7e1fe405a1077bae6bcae1198ec21538cf0bd72c" upstream="master"/>
   <project name="linux/external/rkupdate" path="external/rkupdate" remote="rk" revision="72ffdc96ef557594dc4c22ad8ab9f62fe90195ab" upstream="master"/>
-  <project name="linux/external/ueventd" path="external/ueventd" remote="rk" revision="df5c77aef4682ca23ef988b7d5ef142578a7168f" upstream="master"/>
+  <project name="linux/external/ueventd" path="external/ueventd" remote="rk" revision="6e403220d0971092bb764e7e2c7e599eed6cf9bd" upstream="master"/>
   <project name="linux/gstreamer-rockchip" path="external/gstreamer-rockchip" remote="rk" revision="aadf6ab77c53055f8be85c18bace6918e04e3f9c" upstream="master"/>
   <project name="linux/recovery" path="external/recovery" remote="rk" revision="7b1b0228e69775b63923e47235c46139608c98c8" upstream="develop"/>
   <project name="linux/security/bin" path="external/security/bin" remote="rk" revision="63458426583c44369ba4eee8dd3721a8d9d62aff" upstream="master"/>
   <project name="linux/tools" path="tools" remote="rk" revision="7ec02131e03d548aeace14a868fff22cb83d53aa" upstream="rk3308"/>
-  <project name="rk/kernel" path="kernel" remote="rk_legacy" revision="b722a7d1b7d393f28bb1216009bbb7a30c54b4aa" upstream="stable-4.4-rk3128h-box-linux"/>
+  <project name="rk/kernel" path="kernel" remote="rk" revision="0c655f06505c7c3ca21b2fda73a379404334844f" upstream="stable-4.4-rk3128h-box-linux"/>
   <project name="rk/mpp" path="external/mpp" remote="rk" revision="91189232df92cb71e596ab7dc025f42b839f3a6e" upstream="develop"/>
   <project name="rk/rk1108/buildroot" path="buildroot" remote="rk" revision="792b2dbab8e3af9bcfb7b9dda1cdec4587be476b" upstream="rockchip/rk1108/2016.08.x"/>
   <project name="rkbin" remote="rockchip-linux" revision="784b3ef28e746e6e3ddb6fe13421a42c374c9bb4" upstream="master"/>
