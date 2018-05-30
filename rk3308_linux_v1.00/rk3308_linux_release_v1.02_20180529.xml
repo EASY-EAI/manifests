@@ -13,7 +13,7 @@
     <copyfile dest="build.sh" src="build.sh"/>
   </project>
   <project name="linux/docs" path="docs" revision="8710047b5ea442d30e27837f18fef152fbfaed76" upstream="master"/>
-  <project name="linux/external/DuerClientSDK" path="external/DuerClientSDK" revision="f4bacb730aa28cb28f1c7b77baabc4d4027178e9" upstream="master_64bit"/>
+  <project name="linux/external/DuerClientSDK" path="external/DuerClientSDK" revision="fe2308a1181af2a6e4ef9e618f26286a8df753d1" upstream="master_64bit"/>
   <project name="linux/external/WakeWordAgent" path="external/wakeWordAgent" revision="4a5a3c2d9d991e392894d1e5345b7487655d3cc6" upstream="master"/>
   <project name="linux/external/adb" path="external/adb" revision="5c57a1f9145eef7c0265b0a9bbc2379a377391c6" upstream="master"/>
   <project name="linux/external/app" path="external/app" revision="152d59fec102ec1ddd37d3552cd41817ab24592e" upstream="master"/>
