@@ -21,7 +21,7 @@
   <project name="linux/external/recoverySystem" path="external/recoverySystem" remote="rk" revision="278f41e6f9235ecf8c5ca2fa44c0b356c7cad11d" upstream="master"/>
   <project name="linux/external/rkbt" path="external/rkbt" remote="rk" revision="7e1fe405a1077bae6bcae1198ec21538cf0bd72c" upstream="master"/>
   <project name="linux/external/rkupdate" path="external/rkupdate" remote="rk" revision="72ffdc96ef557594dc4c22ad8ab9f62fe90195ab" upstream="master"/>
-  <project name="linux/external/ueventd" path="external/ueventd" remote="rk" revision="6e403220d0971092bb764e7e2c7e599eed6cf9bd" upstream="master"/>
+  <project name="linux/external/ueventd" path="external/ueventd" remote="rk" revision="a94c5e724e63a6e4a0934fd07be27003f53d7b47" upstream="master"/>
   <project name="linux/gstreamer-rockchip" path="external/gstreamer-rockchip" remote="rk" revision="aadf6ab77c53055f8be85c18bace6918e04e3f9c" upstream="master"/>
   <project name="linux/recovery" path="external/recovery" remote="rk" revision="7b1b0228e69775b63923e47235c46139608c98c8" upstream="develop"/>
   <project name="linux/security/bin" path="external/security/bin" remote="rk" revision="63458426583c44369ba4eee8dd3721a8d9d62aff" upstream="master"/>
