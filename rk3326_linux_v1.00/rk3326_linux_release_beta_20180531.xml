@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="ssh://git@www.rockchip.com.cn/linux/" name="rk"/>
+  <default remote="rk" sync-j="4"/>
+
+  <project groups="pdk,linux,arm" name="android/platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" remote="rk" revision="4b341df712969ca2ac0c3cf6294260d406b9d9be" upstream="refs/tags/android-6.0.1_r63"/>
+  <project name="android/rk/u-boot" path="u-boot" remote="rk" revision="1bb49bc4e2f612da166d09b71ad250f00f6f643c" upstream="next-dev"/>
+  <project name="linux/app/QLauncher" path="app/QLauncher" remote="rk" revision="f8cfafd0e45acad18c94ae4d26e436e5823c7cb8" upstream="master"/>
+  <project name="linux/app/camera" path="app/camera" remote="rk" revision="9abd914b0a6971473cdedf0824b0162a02881a73" upstream="master"/>
+  <project name="linux/app/gallery" path="app/gallery" remote="rk" revision="aa778f0fc07f8ebcdba95e866f154a1f66a54042" upstream="master"/>
+  <project name="linux/app/music" path="app/music" remote="rk" revision="82b8d1013fe0c8442ac38c1c4bb5727e1747a2fa" upstream="master"/>
+  <project name="linux/app/settings" path="app/settings" remote="rk" revision="893cecebc9ed6686210ed388f32d8a4853f045e3" upstream="master"/>
+  <project name="linux/app/video" path="app/video" remote="rk" revision="1dac0cf96a667b3092fcf834e741794e1d8c0ce4" upstream="master"/>
+  <project name="linux/buildroot/download" path="buildroot/download" remote="rk" revision="3ceb2ccf20931c123fea944624f758450a0c34d9" upstream="master"/>
+  <project name="linux/byte-unixbench" path="external/byte-unixbench" remote="rk" revision="05b1bd94e070d300f90e7112ef3fb4427cefac89" upstream="master"/>
+  <project name="linux/device/rockchip/rk3326" path="device/rockchip/rk3326" remote="rk" revision="331d3170fc3086af89c1528d21417992eb11bdbc" upstream="master">
+    <linkfile dest="mkfirmware.sh" src="mkfirmware.sh"/>
+    <linkfile dest="build_all.sh" src="build_all.sh"/>
+    <linkfile dest="mk-kernel.sh" src="mk-kernel.sh"/>
+    <linkfile dest="mk-rootfs.sh" src="mk-rootfs.sh"/>
+    <linkfile dest="mk-recovery.sh" src="mk-recovery.sh"/>
+    <linkfile dest="mk-uboot.sh" src="mk-uboot.sh"/>
+    <linkfile dest="rkflash.sh" src="rkflash.sh"/>
+  </project>
+  <project name="linux/docs" path="docs" remote="rk" revision="aaa843d7c59bb2b68c4025c62351b49f779a4bdb" upstream="master"/>
+  <project name="linux/external/adb" path="external/adb" remote="rk" revision="5c57a1f9145eef7c0265b0a9bbc2379a377391c6" upstream="master"/>
+  <project name="linux/external/audioservice" path="external/audioservice" remote="rk" revision="ec7efbf4cbb023a655228a1260fb83258fd667c1" upstream="master"/>
+  <project name="linux/external/libcutils" path="external/libcutils" remote="rk" revision="1f5ab8e6301221721344f4014bbf6e965c7a5d8b" upstream="arm64"/>
+  <project name="linux/external/liblog" path="external/liblog" remote="rk" revision="3867fe3c8f20f46d7109c2779ac48af2f16d6ea8" upstream="master"/>
+  <project name="linux/external/powermanager" path="external/powermanager" remote="rk" revision="2d0ea936836dbbf711ca049949c71125b7b5a3df" upstream="master"/>
+  <project name="linux/external/rkupdate" path="external/rkupdate" remote="rk" revision="72ffdc96ef557594dc4c22ad8ab9f62fe90195ab" upstream="master"/>
+  <project name="linux/external/ueventd" path="external/ueventd" remote="rk" revision="a94c5e724e63a6e4a0934fd07be27003f53d7b47" upstream="master"/>
+  <project name="linux/gstreamer-rockchip" path="external/gstreamer-rockchip" remote="rk" revision="aadf6ab77c53055f8be85c18bace6918e04e3f9c" upstream="master"/>
+  <project name="linux/gstreamer-rockchip-extra" path="external/gstreamer-rockchip-extra" remote="rk" revision="ab5f747dcb82ee37e6d2cc370c5e53a39d8ddacc" upstream="master"/>
+  <project name="linux/libdrm-rockchip" path="external/libdrm-rockchip" remote="rk" revision="ea6c1f85b8691f0c2ecda16fb9919eeec3dafd48" upstream="rockchip-2.4.68"/>
+  <project name="linux/libmali" path="external/libmali" remote="rk" revision="8c54a9d2849b69c09e69bec79922467377be4e44" upstream="master"/>
+  <project name="linux/linux-adb" path="external/linux-adb" remote="rk" revision="4704805987b12f6b69ecc3c648106bcf74d6d914" upstream="master"/>
+  <project name="linux/linux-rga" path="external/linux-rga" remote="rk" revision="b586e307e4c9336f52bc987c6b09e20c2a1ad295" upstream="master"/>
+  <project name="linux/punybench" path="external/punybench" remote="rk" revision="c050715684a5dde3a4fc818f3de816a407fdb2de" upstream="master"/>
+  <project name="linux/recovery" path="external/recovery" remote="rk" revision="7b1b0228e69775b63923e47235c46139608c98c8" upstream="develop"/>
+  <project name="linux/tools" path="tools" remote="rk" revision="548165f5961a5ba407f6ec7ee5d95ef62e0cfcbf" upstream="master">
+    <linkfile dest="tools/windows/AndroidTool/AndroidTool_Release/config.cfg" src="windows/AndroidTool/AndroidTool_Release/rk3326-config.cfg"/>
+    <linkfile dest="tools/windows/AndroidTool/rockdev/package-file" src="windows/AndroidTool/rockdev/rk3326-package-file"/>
+    <linkfile dest="tools/windows/AndroidTool/rockdev/mkupdate.bat" src="windows/AndroidTool/rockdev/rk3326-mkupdate.bat"/>
+    <linkfile dest="tools/linux/Linux_Pack_Firmware/rockdev/mkupdate.sh" src="linux/Linux_Pack_Firmware/rockdev/rk3326-mkupdate.sh"/>
+    <linkfile dest="tools/linux/Linux_Pack_Firmware/rockdev/package-file" src="linux/Linux_Pack_Firmware/rockdev/rk3326-package-file"/>
+  </project>
+  <project name="linux/xserver" path="external/xserver" remote="rk" revision="2baabe700b59f5a2681558c6a764155102325974" upstream="rockchip-1.18"/>
+  <project name="rk/kernel" path="kernel" remote="rk" revision="3c5053599bc824d7a7a80a0470bf683289cc92ae" upstream="develop-4.4"/>
+  <project name="rk/mpp" path="external/mpp" remote="rk" revision="a386893d741cad881a118ee3f847f26a6b7340d7" upstream="develop"/>
+  <project name="rk/prebuilts/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" path="prebuilts/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" remote="rk" revision="f96f76d6be89a6e28d4dac1f233f9aca9921f69b" upstream="master"/>
+  <project name="rk/rk1108/buildroot" path="buildroot" remote="rk" revision="2d280e0e1e528517c45a92d8314ecd33cfcf5ed2" upstream="rockchip/rk1108/2016.08.x">
+    <linkfile dest="Makefile" src="build/Makefile"/>
+    <linkfile dest="envsetup.sh" src="build/envsetup.sh"/>
+  </project>
+  <project name="rk/rkbin" path="rkbin" remote="rk" revision="ebae16a9c94dba7795e05decb96d44fb0abd7c8d" upstream="master"/>
+</manifest>

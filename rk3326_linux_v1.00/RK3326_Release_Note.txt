@@ -1,0 +1,9 @@
+===========RK3326 Linux SDK Release Note===========
+
+【rk3326_linux_release_beta_20180531.xml 更新日志】
+
+Buildroot更新：
+1. 修复gpu/recovery相关bug
+
+文档更新：
+1. 增加文档发布说明：RK3326_LINUX_SDK_BETA_20180531发布说明.pdf
