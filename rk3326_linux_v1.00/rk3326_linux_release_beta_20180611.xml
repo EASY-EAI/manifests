@@ -51,7 +51,7 @@
   </project>
   <project name="linux/xserver" path="external/xserver" remote="rk" revision="2baabe700b59f5a2681558c6a764155102325974" upstream="rockchip-1.18"/>
   <project name="rk/kernel" path="kernel" remote="rk" revision="6a9bb29aa09b07c711462e1a44adf8152508a311" upstream="develop-4.4"/>
-  <project name="rk/mpp" path="external/mpp" remote="rk" revision="c4976603385697c922ba25eb54e07c68f9d27c12" upstream="develop"/>
+  <project name="rk/mpp" path="external/mpp" remote="rk" revision="a1d76b96cee2a6298ef113c9a5f0b001548d17f2" upstream="develop"/>
   <project name="rk/prebuilts/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" path="prebuilts/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" remote="rk" revision="f96f76d6be89a6e28d4dac1f233f9aca9921f69b" upstream="master"/>
   <project name="rk/rk1108/buildroot" path="buildroot" remote="rk" revision="aea433813d71a3052ad761c1008973d9f19b64e4" upstream="rockchip/rk1108/2016.08.x">
     <linkfile dest="Makefile" src="build/Makefile"/>
