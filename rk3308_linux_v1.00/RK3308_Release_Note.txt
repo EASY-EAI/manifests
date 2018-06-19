@@ -1,5 +1,9 @@
 ===========RK3308 Linux SDK Release Note===========
 
+【rk3308_linux_release_v1.05_20180619.xml 更新日志】
+
+1. 更新GPT分区表，Recovery调整为12MB，uboot及trust分区减小。
+
 【rk3308_linux_release_v1.04_20180619.xml 更新日志】
 
 Buildroot更新：
