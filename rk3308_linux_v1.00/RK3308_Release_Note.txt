@@ -1,5 +1,32 @@
 ===========RK3308 Linux SDK Release Note===========
 
+【rk3308_linux_release_v1.04_20180619.xml 更新日志】
+
+Buildroot更新：
+1. 添加32bit Buildroot编译配置：rockchip_rk3308_32_release_defconfig。
+
+语音SDK更新：
+1. 更新思必驰DUI SDK至V1.7版本。
+--修复greeting应答太长问题。
+--修复对话中说唤醒词，直接唤醒问题。
+--新增播放音乐，tts播报完整歌名。
+--修复今日头条播放器概率性奔溃问题。
+--新增Led效果。
+--支持按键操作：音量加减，播放，暂停键。
+2. 更新百度Dueros SDK，修复部分问题。
+--修复网络连接异常导致的网络状态错误。
+--修复播放资讯时自动停止播放，无法再次进行唤醒或其他操作。
+--提升了Dueros SDK稳定性。
+
+Kernel更新：
+1. 提高系统稳定性。
+2. 修复录音过程放音操作，录制的声音异常问题。
+3. 修复打开WiFi热点，小概率系统异常问题。
+4. 修复BT音乐长时间播放，系统Panic问题。
+
+其他：
+1. 添加ROS Yocto支持。
+
 【rk3308_linux_release_v1.02_20180529.xml 更新日志】
 
 Buildroot更新：
@@ -25,8 +52,8 @@ Buildroot更新：
 
 Kernel更新：
 1. 添加RK3308 EVB V11开发板支持。
-2. 提供系统稳定性。
-3. 支持RTL8723DS/8189FS WiFi.
+2. 提高系统稳定性。
+3. 支持RTL8723DS/8189FS WiFi。
 4. 添加RTL8723DS的BT功能支持。
 
 工具更新：
