@@ -23,7 +23,7 @@
 		<linkfile dest="mk-uboot.sh" src="mk-uboot.sh"/>
 		<linkfile dest="rkflash.sh" src="rkflash.sh"/>
 	</project>
-	<project path="docs" name="linux/docs" upstream="master" revision="6d7721645d795fd434e98b79db914824f081797f"/>
+	<project path="docs" name="linux/docs" upstream="master" revision="0ae73fa1de3febd015a00e6d9913bd2dbb9b88f2"/>
 	<project path="external/adb" name="linux/external/adb" upstream="master" revision="5c57a1f9145eef7c0265b0a9bbc2379a377391c6"/>
 	<project path="external/audioservice" name="linux/external/audioservice" upstream="master" revision="ec7efbf4cbb023a655228a1260fb83258fd667c1"/>
 	<project path="external/byte-unixbench" name="linux/byte-unixbench" upstream="master" revision="05b1bd94e070d300f90e7112ef3fb4427cefac89"/>
