@@ -13,7 +13,7 @@
   <project name="linux/app/video" path="app/video" remote="rk" revision="08524b4fe70ec754c7e443ddc9aa5d284db5e186" upstream="master"/>
   <project name="linux/buildroot/download" path="buildroot/download" remote="rk" revision="e88ce1dd0c5ef2df10bd5bf1e39e1e8127709efe" upstream="master"/>
   <project name="linux/byte-unixbench" path="external/byte-unixbench" remote="rk" revision="05b1bd94e070d300f90e7112ef3fb4427cefac89" upstream="master"/>
-  <project name="linux/device/rockchip" path="device/rockchip" remote="rk" revision="040599a53e1e2f8ac72dd1ea9e8171e15847c33b" upstream="master">
+  <project name="linux/device/rockchip" path="device/rockchip" remote="rk" revision="afdbe5fc131e4ae00b2a6fcb4a03beb540ac3918" upstream="master">
     <linkfile dest="mkfirmware.sh" src="rk3326/mkfirmware.sh"/>
     <linkfile dest="build_all.sh" src="rk3326/build_all.sh"/>
     <linkfile dest="mk-kernel.sh" src="rk3326/mk-kernel.sh"/>
@@ -53,7 +53,7 @@
   <project name="linux/linux-rga" path="external/linux-rga" remote="rk" revision="b586e307e4c9336f52bc987c6b09e20c2a1ad295" upstream="master"/>
   <project name="linux/punybench" path="external/punybench" remote="rk" revision="c050715684a5dde3a4fc818f3de816a407fdb2de" upstream="master"/>
   <project name="linux/recovery" path="external/recovery" remote="rk" revision="60b357c867ab9495124f1e046f296c19ae8c2724" upstream="develop"/>
-  <project name="linux/tools" path="tools" remote="rk" revision="6d068af09531db28c21297ce0da477cadf38a387" upstream="master">
+  <project name="linux/tools" path="tools" remote="rk" revision="47e76b45d5c6b129acfa083c23943432952e73b7" upstream="master">
     <linkfile dest="tools/windows/AndroidTool/AndroidTool_Release/config.cfg" src="windows/AndroidTool/AndroidTool_Release/rk3326-config.cfg"/>
     <linkfile dest="tools/windows/AndroidTool/rockdev/package-file" src="windows/AndroidTool/rockdev/rk3326-package-file"/>
     <linkfile dest="tools/windows/AndroidTool/rockdev/mkupdate.bat" src="windows/AndroidTool/rockdev/rk3326-mkupdate.bat"/>
@@ -61,10 +61,10 @@
     <linkfile dest="tools/linux/Linux_Pack_Firmware/rockdev/package-file" src="linux/Linux_Pack_Firmware/rockdev/rk3326-package-file"/>
   </project>
   <project name="linux/xserver" path="external/xserver" remote="rk" revision="2baabe700b59f5a2681558c6a764155102325974" upstream="rockchip-1.18"/>
-  <project name="rk/kernel" path="kernel" remote="rk" revision="fa56b09c2e1de6ea5916826384189ce2bc6eb853" upstream="develop-4.4"/>
+  <project name="rk/kernel" path="kernel" remote="rk" revision="8c7bd35db47726af4be5d2e5364aeace053ab1f0" upstream="develop-4.4"/>
   <project name="rk/mpp" path="external/mpp" remote="rk" revision="31c657e1dca6987e35c0032da73a98aa3d46c2b7" upstream="develop"/>
   <project name="rk/prebuilts/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" path="prebuilts/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" remote="rk" revision="f96f76d6be89a6e28d4dac1f233f9aca9921f69b" upstream="master"/>
-  <project name="rk/rk1108/buildroot" path="buildroot" remote="rk" revision="3bdfc4e74e5ae251b5dbf092eb12f8a65b1c31d1" upstream="rockchip/2018.02-rc3">
+  <project name="rk/rk1108/buildroot" path="buildroot" remote="rk" revision="0a97b5ad399d61a68e478bbfca9b42add2232064" upstream="rockchip/2018.02-rc3">
     <linkfile dest="Makefile" src="build/Makefile"/>
     <linkfile dest="envsetup.sh" src="build/envsetup.sh"/>
   </project>
