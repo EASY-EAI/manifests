@@ -1,4 +1,15 @@
 ===========RK3326 Linux SDK Release Note===========
+【rk3326_linux_release_beta_20180629.xml 更新日志】
+Buildroot更新：
+1. buildroot版本从2016版本升级到2018
+2. 修复buildroot中Qlauncher的不能全屏问题.
+3. 增加电源按键的处理
+文档更新：
+1. 增加更多文档使用
+Kernel更新：
+1. 修复触摸屏不灵会异常上报问题
+2. 增加power key的处理
+
 【rk3326_linux_release_beta_20180611.xml 更新日志】
 Buildroot更新：
 1. 解决tp异常
