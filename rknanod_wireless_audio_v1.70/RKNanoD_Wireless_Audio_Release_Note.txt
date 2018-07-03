@@ -1,0 +1,18 @@
+===========RKNanoD Wireless Audio SDK Release Note===========
+
+【rknanod_wireless_audio_src_v1.74_20180703.xml 更新日志】
+
+1. 开放基于B核编程框架下解码器生成工程，支持创建工作组工程进行一次性全部编译
+ 
+2. 支持HIFI蓝牙耳机解决方案（关闭_USE_GUI_和_WIFI_， 打开_BLUETOOTH_）,分SPI BOOT和EMMC BOOT 2种版本
+
+3. 支持无屏HIFI WIFI音频解决方案（关闭_USE_GUI_和_BLUETOOTH_， 打开__WIFI__）分SPI BOOT和EMMC BOOT 2种版本
+
+4. 支持带屏幕HIFI + WIFI + BT + LCD音频解决方案（打开_USE_GUI_，_BLUETOOTH_， __WIFI__） 分 SPI BOOT和EMMC BOOT 2种版本
+
+5. 解决V1.6版本中存在并已经发现的BUG
+
+6. 删除DLNA功能，不再支持
+
+7. 统一解码库版本
+

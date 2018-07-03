@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="rk"
+           fetch="../../"
+           review="https://10.10.10.29" />
+  <default revision="master"
+           remote="rk"
+           sync-j="4" />
+
+  <project path="rknanod_wireless_audio_sdk" name="linux/rknanod/rknanod_wireless_audio_sdk" remote="rk" revision="master"/>
+  
+</manifest>
