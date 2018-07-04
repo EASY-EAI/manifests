@@ -4,10 +4,10 @@
   <remote  name="rk"
            fetch="../../"
            review="https://10.10.10.29" />
-  <default revision="master"
+  <default revision="release"
            remote="rk"
            sync-j="4" />
 
-  <project path="rknanod_wireless_audio_sdk" name="linux/rknanod/rknanod_wireless_audio_sdk" remote="rk" revision="master"/>
+  <project path="rknanod_wireless_audio_sdk" name="linux/rknanod/rknanod_wireless_audio_sdk" remote="rk" revision="release"/>
   
 </manifest>
