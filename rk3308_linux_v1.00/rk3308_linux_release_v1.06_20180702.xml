@@ -8,7 +8,7 @@
   <project name="android/rk/u-boot" path="u-boot" revision="11277c78078c3767d1758fa2d040be70951c5b9a" upstream="next-dev"/>
   <project name="linux/buildroot/download" path="buildroot/download" revision="ee87e484eef5c6e6ae27832885c76717467d0fef" upstream="master"/>
   <project name="linux/byte-unixbench" path="external/byte-unixbench" revision="05b1bd94e070d300f90e7112ef3fb4427cefac89" upstream="master"/>
-  <project name="linux/device/rockchip" path="device/rockchip" revision="4712aeaada3d458c115572acffd3f268b760370d" upstream="master">
+  <project name="linux/device/rockchip" path="device/rockchip" revision="4c58ab48db2053c1be452af4f1e14987d8d09993" upstream="master">
     <linkfile dest="build.sh" src="common/build.sh"/>
     <linkfile dest="mkfirmware.sh" src="rk3308/mkfirmware.sh"/>
     <linkfile dest="BoardConfig.mk" src="rk3308/BoardConfig.mk"/>
@@ -22,12 +22,12 @@
   <project name="linux/external/app" path="external/app" revision="13168761a3018cb82f8a3761d9285470e5b95c3b" upstream="master"/>
   <project name="linux/external/bluetooth_bsa" path="external/bluetooth_bsa" revision="f7c81b3e404639175ae8b9e31a593815fe1b06fd" upstream="master"/>
   <project name="linux/external/cae_vad" path="external/cae_vad" revision="86f5f3d4616888feea0c3916a9663f29a3af28ba" upstream="master"/>
-  <project name="linux/external/iflytekSDK" path="external/iflytekSDK" revision="cc4ac4f62887ab3b435611ebf6d684342ebea3ec" upstream="master_64bit"/>
+  <project name="linux/external/iflytekSDK" path="external/iflytekSDK" revision="cb2d4b5b6cc3bc4122fefb19fdf84db751ea09f1" upstream="master_64bit"/>
   <project name="linux/external/ladspaSDK" path="external/ladspaSDK" revision="8dbdabb03db49c57700a398aba26dc7de1d84634" upstream="master"/>
   <project name="linux/external/libcutils" path="external/libcutils" revision="dec0cddc22eb46b48d1ed338ada6f9eeb4446c51" upstream="arm64"/>
   <project name="linux/external/liblog" path="external/liblog" revision="3867fe3c8f20f46d7109c2779ac48af2f16d6ea8" upstream="master"/>
   <project name="linux/external/recoverySystem" path="external/recoverySystem" revision="f16b38b58c5508f66995cc956a3fa47cb0c7f1f4" upstream="master"/>
-  <project name="linux/external/rk_pcba_test" path="external/rk_pcba_test" revision="fc7ab0b2632d079ce7ec23d49ad28d0e4ff5872f" upstream="rk3308"/>
+  <project name="linux/external/rk_pcba_test" path="external/rk_pcba_test" revision="14507fb936c0498f598df167dfac7cf518ec35c7" upstream="rk3308"/>
   <project name="linux/external/rkdemos" path="external/rkdemos" revision="0b72ce9c1b32f977c48d1e516d8c5cce8df4452c" upstream="rk3308_64bit"/>
   <project name="linux/external/rkupdate" path="external/rkupdate" revision="72ffdc96ef557594dc4c22ad8ab9f62fe90195ab" upstream="master"/>
   <project name="linux/external/rkwifibt" path="external/rkwifibt" revision="7fc6a307951ee525fa30f5af201760362b756c2c" upstream="master"/>
@@ -51,7 +51,7 @@
   <project name="rk/kernel" path="kernel" revision="75cc610f8626224c2af4e170d09f2923a363f952" upstream="develop-4.4"/>
   <project name="rk/prebuilts/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" path="prebuilts/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" revision="f96f76d6be89a6e28d4dac1f233f9aca9921f69b" upstream="master"/>
   <project name="rk/prebuilts/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" path="prebuilts/gcc/linux-x86/arm/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" revision="dd4df7dff4f1df65d78939a958b760a79e3650a1" upstream="master"/>
-  <project name="rk/rk1108/buildroot" path="buildroot" revision="cd6d68bf005af1ec05d6dc9137196aec50e2c473" upstream="rockchip/2018.02-rc3">
+  <project name="rk/rk1108/buildroot" path="buildroot" revision="6522050a0c92ac9ebf496ef12416575189e477c2" upstream="rockchip/2018.02-rc3">
     <linkfile dest="Makefile" src="build/Makefile"/>
     <linkfile dest="envsetup.sh" src="build/envsetup.sh"/>
   </project>
