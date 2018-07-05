@@ -35,7 +35,7 @@
   <project name="linux/external/softapServer" path="external/softapServer" revision="8ace08bbd8c7cedbf61c41b37c3082b5d980054e" upstream="master"/>
   <project name="linux/external/ueventd" path="external/ueventd" revision="6131251e513d708fde4156639f2707decbc6fb29" upstream="master"/>
   <project name="linux/external/wifiAutoSetup" path="external/wifiAutoSetup" revision="0c4eed3d4dd9b1582ee44e992e9b37a1f5f051eb" upstream="master"/>
-  <project name="linux/meta-ros" path="yocto/meta-ros" revision="b193b8029747e6b04ca2cf871d29d5604cb563ba" upstream="rkdevelop"/>
+  <project name="linux/meta-ros" path="yocto/meta-ros" revision="54f13d8c124a4b8aeefe4328aea04c6b4e948ead" upstream="rkdevelop"/>
   <project name="linux/poky" path="yocto/" revision="90414ecd5cf72995074f3dc6b05cfbee0a1dab67" upstream="rocko"/>
   <project name="linux/recovery" path="external/recovery" revision="60b357c867ab9495124f1e046f296c19ae8c2724" upstream="develop"/>
   <project name="linux/security/bin" path="external/security/bin" revision="63458426583c44369ba4eee8dd3721a8d9d62aff" upstream="master"/>
@@ -47,7 +47,7 @@
     <linkfile dest="tools/linux/Linux_Pack_Firmware/rockdev/package-file" src="linux/Linux_Pack_Firmware/rockdev/rk3308-package-file"/>
   </project>
   <project name="linux/yocto/meta-openembedded" path="yocto/meta-openembedded" revision="dacfa2b1920e285531bec55cd2f08743390aaf57" upstream="rocko"/>
-  <project name="linux/yocto/meta-rockchip" path="yocto/meta-rockchip" revision="5c887a93527f24c8173ec649cb91afeaff11f4a9" upstream="master"/>
+  <project name="linux/yocto/meta-rockchip" path="yocto/meta-rockchip" revision="829199a7d58122bbcf03230d9aa87700429c9626" upstream="master"/>
   <project name="rk/kernel" path="kernel" revision="75cc610f8626224c2af4e170d09f2923a363f952" upstream="develop-4.4"/>
   <project name="rk/prebuilts/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" path="prebuilts/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" revision="f96f76d6be89a6e28d4dac1f233f9aca9921f69b" upstream="master"/>
   <project name="rk/prebuilts/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" path="prebuilts/gcc/linux-x86/arm/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" revision="dd4df7dff4f1df65d78939a958b760a79e3650a1" upstream="master"/>
