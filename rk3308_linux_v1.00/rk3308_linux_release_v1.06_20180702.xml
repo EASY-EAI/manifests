@@ -8,8 +8,9 @@
   <project name="android/rk/u-boot" path="u-boot" revision="11277c78078c3767d1758fa2d040be70951c5b9a" upstream="next-dev"/>
   <project name="linux/buildroot/download" path="buildroot/download" revision="ee87e484eef5c6e6ae27832885c76717467d0fef" upstream="master"/>
   <project name="linux/byte-unixbench" path="external/byte-unixbench" revision="05b1bd94e070d300f90e7112ef3fb4427cefac89" upstream="master"/>
-  <project name="linux/device/rockchip" path="device/rockchip" revision="4c58ab48db2053c1be452af4f1e14987d8d09993" upstream="master">
+  <project name="linux/device/rockchip" path="device/rockchip" revision="b49e30362472f414631935478978553ab8ff5f2f" upstream="master">
     <linkfile dest="build.sh" src="common/build.sh"/>
+    <linkfile dest="device/rockchip/.BoardConfig.mk" src="rk3308/BoardConfig.mk"/>
     <linkfile dest="mkfirmware.sh" src="rk3308/mkfirmware.sh"/>
     <linkfile dest="BoardConfig.mk" src="rk3308/BoardConfig.mk"/>
   </project>
