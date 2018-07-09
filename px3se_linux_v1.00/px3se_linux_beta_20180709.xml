@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote fetch="../../" name="aosp" review="https://10.10.10.29"/>
-  <remote fetch="../../" name="rk" review="https://10.10.10.29"/>
-  
-  <default remote="aosp" revision="refs/tags/android-6.0.1_r63" sync-j="4"/>
+  <remote fetch="ssh://git@www.rockchip.com.cn/linux/" name="rk"/> 
   
   <project name="android/rk/u-boot" path="u-boot" remote="rk" revision="00129fb35e18b7c7c58d07e31fc9451558acb1a1" upstream="next-dev"/>
   <project name="linux/app/QLauncher" path="app/QLauncher" remote="rk" revision="073678082e1563fa8eac1e617ac938fba7f8c7b9" upstream="master"/>
