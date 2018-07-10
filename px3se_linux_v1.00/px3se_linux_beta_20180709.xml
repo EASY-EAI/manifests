@@ -2,7 +2,7 @@
 <manifest>
   <remote fetch="ssh://git@www.rockchip.com.cn/linux/" name="rk"/> 
   
-  <project name="android/rk/u-boot" path="u-boot" remote="rk" revision="00129fb35e18b7c7c58d07e31fc9451558acb1a1" upstream="next-dev"/>
+  <project name="android/rk/u-boot" path="u-boot" remote="rk" revision="dda95de75171f2bc385b904940b757feca810912" upstream="next-dev"/>
   <project name="linux/app/QLauncher" path="app/QLauncher" remote="rk" revision="073678082e1563fa8eac1e617ac938fba7f8c7b9" upstream="master"/>
   <project name="linux/app/camera" path="app/camera" remote="rk" revision="291866bcbabb706f48398883fbcc16d9808f7ef0" upstream="master"/>
   <project name="linux/app/gallery" path="app/gallery" remote="rk" revision="e1266402c9abf78bf609432de3101d76c8c09c12" upstream="master"/>
