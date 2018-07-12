@@ -1,0 +1,4 @@
+===========PX30 Linux SDK Release Note===========
+¡¾px30_linux_release_beta_v0.1_20180710 update notes¡¿
+1. initial version
+
