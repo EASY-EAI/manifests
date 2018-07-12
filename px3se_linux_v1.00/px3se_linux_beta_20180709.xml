@@ -11,7 +11,7 @@
   <project name="linux/app/video" path="app/video" remote="rk" revision="08524b4fe70ec754c7e443ddc9aa5d284db5e186" upstream="master"/>
   <project name="linux/buildroot/download" path="buildroot/download" remote="rk" revision="e88ce1dd0c5ef2df10bd5bf1e39e1e8127709efe" upstream="master"/>
   <project name="linux/byte-unixbench" path="external/byte-unixbench" remote="rk" revision="05b1bd94e070d300f90e7112ef3fb4427cefac89" upstream="master"/>
-  <project name="linux/device/rockchip" path="device/rockchip" remote="rk" revision="801e576fd3a5bc9391d56df0f7f5be7f05683039" upstream="master">
+  <project name="linux/device/rockchip" path="device/rockchip" remote="rk" revision="00a7c78f2ef0d1ba18b1383f9c51ce62d4988232" upstream="master">
     <linkfile dest="mkfirmware.sh" src="px3se/mkfirmware.sh"/>
     <linkfile dest="build.sh" src="common/build.sh"/>
     <linkfile dest="rkflash.sh" src="px3se/rkflash.sh"/>
@@ -49,7 +49,7 @@
   <project name="rk/kernel" path="kernel" remote="rk" revision="b47f26dd1f0993b589f3dd318d2a1878c62fd534" upstream="develop-4.4"/>
   <project name="rk/mpp" path="external/mpp" remote="rk" revision="ee08efc83681b61c5d515779b5b6edd0019cb2e6" upstream="develop"/>
   <project name="rk/prebuilts/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" path="prebuilts/gcc/linux-x86/arm/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" remote="rk" revision="dd4df7dff4f1df65d78939a958b760a79e3650a1" upstream="master"/>
-  <project name="rk/rk1108/buildroot" path="buildroot" remote="rk" revision="17bb6ab55e1404c4c2f4af53dde38ea5e13cdf0f" upstream="rockchip/2018.02-rc3">
+  <project name="rk/rk1108/buildroot" path="buildroot" remote="rk" revision="e12e6d803817d7b440451fdbf20b8fec143a994d" upstream="rockchip/2018.02-rc3">
     <linkfile dest="Makefile" src="build/Makefile"/>
     <linkfile dest="envsetup.sh" src="build/envsetup.sh"/>
   </project>
