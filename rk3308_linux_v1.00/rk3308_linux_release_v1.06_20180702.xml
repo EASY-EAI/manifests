@@ -48,7 +48,7 @@
     <linkfile dest="tools/linux/Linux_Pack_Firmware/rockdev/package-file" src="linux/Linux_Pack_Firmware/rockdev/rk3308-package-file"/>
   </project>
   <project name="linux/yocto/meta-openembedded" path="yocto/meta-openembedded" revision="dacfa2b1920e285531bec55cd2f08743390aaf57" upstream="rocko"/>
-  <project name="linux/yocto/meta-rockchip" path="yocto/meta-rockchip" revision="829199a7d58122bbcf03230d9aa87700429c9626" upstream="master"/>
+  <project name="linux/yocto/meta-rockchip" path="yocto/meta-rockchip" revision="79465bfdfe033a7aa60ceba7940c36d44182e349" upstream="master"/>
   <project name="rk/kernel" path="kernel" revision="75cc610f8626224c2af4e170d09f2923a363f952" upstream="develop-4.4"/>
   <project name="rk/prebuilts/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" path="prebuilts/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" revision="f96f76d6be89a6e28d4dac1f233f9aca9921f69b" upstream="master"/>
   <project name="rk/prebuilts/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" path="prebuilts/gcc/linux-x86/arm/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" revision="dd4df7dff4f1df65d78939a958b760a79e3650a1" upstream="master"/>
