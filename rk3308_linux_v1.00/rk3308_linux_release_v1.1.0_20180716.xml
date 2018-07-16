@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="ssh://git@www.rockchip.com.cn/linux/" name="rk"/> 
+  <default remote="rk" sync-j="4"/>
+  
+  <project groups="pdk,linux,arm" name="android/platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" revision="4b341df712969ca2ac0c3cf6294260d406b9d9be" upstream="refs/tags/android-6.0.1_r63"/>
+  <project name="android/rk/platform/system/rk_tee_user" path="external/security/rk_tee_user" revision="6dd34b4e60e26e69073c5f836c9ffe338c3bd7d2" upstream="develop-next"/>
+  <project name="android/rk/u-boot" path="u-boot" revision="d5d77aebb0bdba422a93787b85c520b1c9aa7500" upstream="next-dev"/>
+  <project name="linux/buildroot/download" path="buildroot/download" revision="6bebb19e95d378dd9f4c487b2b656aeff898a110" upstream="master"/>
+  <project name="linux/byte-unixbench" path="external/byte-unixbench" revision="05b1bd94e070d300f90e7112ef3fb4427cefac89" upstream="master"/>
+  <project name="linux/device/rockchip" path="device/rockchip" revision="000a11812b9a3fd49e66ecdaf5488aa9940d70ed" upstream="master">
+    <linkfile dest="build.sh" src="common/build.sh"/>
+    <linkfile dest="device/rockchip/.BoardConfig.mk" src="rk3308/BoardConfig.mk"/>
+    <linkfile dest="mkfirmware.sh" src="rk3308/mkfirmware.sh"/>
+  </project>
+  <project name="linux/docs" path="docs" revision="e7679a5ad63d1a8ebe388566e00df14759c2943d" upstream="master"/>
+  <project name="linux/external/DuerClientSDK" path="external/DuerClientSDK" revision="7aac2861bfa64b6782697646e79ef483119f73bd" upstream="master_64bit"/>
+  <project name="linux/external/LocalPlayer" path="external/LocalPlayer" revision="e7d5cc72e5f0da13f2765aa02bd22d03ebc82750" upstream="master"/>
+  <project name="linux/external/WakeWordAgent" path="external/wakeWordAgent" revision="4a5a3c2d9d991e392894d1e5345b7487655d3cc6" upstream="master"/>
+  <project name="linux/external/adb" path="external/adb" revision="5c57a1f9145eef7c0265b0a9bbc2379a377391c6" upstream="master"/>
+  <project name="linux/external/alsatool" path="external/alsatool" revision="cfc53cf6d7b1f595a8f3f4428498e3ee3c131b97" upstream="master"/>
+  <project name="linux/external/app" path="external/app" revision="13168761a3018cb82f8a3761d9285470e5b95c3b" upstream="master"/>
+  <project name="linux/external/bluetooth_bsa" path="external/bluetooth_bsa" revision="f7c81b3e404639175ae8b9e31a593815fe1b06fd" upstream="master"/>
+  <project name="linux/external/bluez-alsa" path="external/bluez-alsa" revision="38c52f0860e45aef83fdf746347b464093873762" upstream="master"/>
+  <project name="linux/external/broadcom_bsa" path="external/broadcom_bsa" revision="5056961ec7db3545b3b544911f7a5dd997e24b59" upstream="master"/>
+  <project name="linux/external/cae_vad" path="external/cae_vad" revision="86f5f3d4616888feea0c3916a9663f29a3af28ba" upstream="master"/>
+  <project name="linux/external/iflytekSDK" path="external/iflytekSDK" revision="cb2d4b5b6cc3bc4122fefb19fdf84db751ea09f1" upstream="master_64bit"/>
+  <project name="linux/external/ladspaSDK" path="external/ladspaSDK" revision="8dbdabb03db49c57700a398aba26dc7de1d84634" upstream="master"/>
+  <project name="linux/external/libcutils" path="external/libcutils" revision="dec0cddc22eb46b48d1ed338ada6f9eeb4446c51" upstream="arm64"/>
+  <project name="linux/external/liblog" path="external/liblog" revision="3867fe3c8f20f46d7109c2779ac48af2f16d6ea8" upstream="master"/>
+  <project name="linux/external/recoverySystem" path="external/recoverySystem" revision="f16b38b58c5508f66995cc956a3fa47cb0c7f1f4" upstream="master"/>
+  <project name="linux/external/rk_pcba_test" path="external/rk_pcba_test" revision="14507fb936c0498f598df167dfac7cf518ec35c7" upstream="rk3308"/>
+  <project name="linux/external/rkupdate" path="external/rkupdate" revision="72ffdc96ef557594dc4c22ad8ab9f62fe90195ab" upstream="master"/>
+  <project name="linux/external/rkwifibt" path="external/rkwifibt" revision="6e2ee13a4bd5eed37e842fa44742bcfd8f6f0020" upstream="master"/>
+  <project name="linux/external/softapDemo" path="external/softapDemo" revision="b3fc180b0dde46f56af2706615f53a3cc516189b" upstream="master"/>
+  <project name="linux/external/softapServer" path="external/softapServer" revision="8ace08bbd8c7cedbf61c41b37c3082b5d980054e" upstream="master"/>
+  <project name="linux/external/ueventd" path="external/ueventd" revision="6131251e513d708fde4156639f2707decbc6fb29" upstream="master"/>
+  <project name="linux/external/wifiAutoSetup" path="external/wifiAutoSetup" revision="0c4eed3d4dd9b1582ee44e992e9b37a1f5f051eb" upstream="master"/>
+  <project name="linux/meta-ros" path="yocto/meta-ros" revision="54f13d8c124a4b8aeefe4328aea04c6b4e948ead" upstream="rkdevelop"/>
+  <project name="linux/poky" path="yocto/" revision="90414ecd5cf72995074f3dc6b05cfbee0a1dab67" upstream="rocko"/>
+  <project name="linux/recovery" path="external/recovery" revision="60b357c867ab9495124f1e046f296c19ae8c2724" upstream="develop"/>
+  <project name="linux/security/bin" path="external/security/bin" revision="63458426583c44369ba4eee8dd3721a8d9d62aff" upstream="master"/>
+  <project name="linux/tools" path="tools" revision="b4e9c9bf9b38555d28f0eed302dbcd8282d3de99" upstream="master">
+    <linkfile dest="tools/windows/AndroidTool/AndroidTool_Release/config.cfg" src="windows/AndroidTool/AndroidTool_Release/rk3308-config.cfg"/>
+    <linkfile dest="tools/windows/AndroidTool/rockdev/package-file" src="windows/AndroidTool/rockdev/rk3308-package-file"/>
+    <linkfile dest="tools/windows/AndroidTool/rockdev/mkupdate.bat" src="windows/AndroidTool/rockdev/rk3308-mkupdate.bat"/>
+    <linkfile dest="tools/linux/Linux_Pack_Firmware/rockdev/mkupdate.sh" src="linux/Linux_Pack_Firmware/rockdev/rk3308-mkupdate.sh"/>
+    <linkfile dest="tools/linux/Linux_Pack_Firmware/rockdev/package-file" src="linux/Linux_Pack_Firmware/rockdev/rk3308-package-file"/>
+  </project>
+  <project name="linux/yocto/meta-openembedded" path="yocto/meta-openembedded" revision="dacfa2b1920e285531bec55cd2f08743390aaf57" upstream="rocko"/>
+  <project name="linux/yocto/meta-rockchip" path="yocto/meta-rockchip" revision="79465bfdfe033a7aa60ceba7940c36d44182e349" upstream="master"/>
+  <project name="rk/kernel" path="kernel" revision="6b7277f0a3487ed4b137d267bfe9e2775e57c8c7" upstream="develop-4.4"/>
+  <project name="rk/prebuilts/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" path="prebuilts/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" revision="f96f76d6be89a6e28d4dac1f233f9aca9921f69b" upstream="master"/>
+  <project name="rk/prebuilts/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" path="prebuilts/gcc/linux-x86/arm/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" revision="dd4df7dff4f1df65d78939a958b760a79e3650a1" upstream="master"/>
+  <project name="rk/rk1108/buildroot" path="buildroot" revision="4280ee439e8c3f24646ccd5e15a5282005f75267" upstream="rockchip/2018.02-rc3">
+    <linkfile dest="Makefile" src="build/Makefile"/>
+    <linkfile dest="envsetup.sh" src="build/envsetup.sh"/>
+  </project>
+  <project name="rk/rkbin" path="rkbin" revision="2fa0b2c2e16c97e10e5f473f750fb567e07bc855" upstream="master"/>
+</manifest>

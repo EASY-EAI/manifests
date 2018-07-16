@@ -1,5 +1,31 @@
 ===========RK3308 Linux SDK Release Note===========
 
+【rk3308_linux_release_v1.1.0_20180716.xml 更新日志】
+
+Buildroot更新：
+1. 修复蓝牙A2DP SINK音量调整失败问题。
+2. 新增蓝牙BLE配网功能。
+3. 新增misc.img及recovery.img，支持升级功能。
+4. 修复adb ls字符乱码问题。
+
+Kernel更新：
+1. 添加RK3308 EVB V12开发板支持。
+2. 添加RK3308 语音模块板支持。
+3. 提升系统稳定性。
+4. 添加32bit编译选项。
+5. RK3308 EVB V11添加CPU 1.3GHz支持。
+6. 更新FTL驱动，支持SPI NAND、SPI NOR存储设备。
+
+工具更新：
+1. 更新AndroidTool、Linux_Pack_Firmware分区表配置。
+2. 更新WNpctool_Setup_V1.2.1.0625工具。
+
+文档更新：
+1. 新增Audio支持列表：RK3308 Audio Codec Benchmark v1.0.pdf
+2. 更新Rockchip Linux WIFI BT 开发指南 V1.1 20180622.pdf
+3. 更新Rockchip Linux软件开发指南 V1.03-20180716.pdf
+4. RK3308语音模块 32位系统编译指南_v1.00.pdf
+
 【rk3308_linux_release_v1.05_20180619.xml 更新日志】
 
 1. 更新GPT分区表，Recovery调整为12MB，uboot及trust分区减小。
