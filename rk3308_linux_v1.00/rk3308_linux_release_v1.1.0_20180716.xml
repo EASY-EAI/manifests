@@ -14,7 +14,7 @@
     <linkfile dest="mkfirmware.sh" src="rk3308/mkfirmware.sh"/>
   </project>
   <project name="linux/docs" path="docs" revision="e7679a5ad63d1a8ebe388566e00df14759c2943d" upstream="master"/>
-  <project name="linux/external/DuerClientSDK" path="external/DuerClientSDK" revision="7aac2861bfa64b6782697646e79ef483119f73bd" upstream="master_64bit"/>
+  <project name="linux/external/DuerClientSDK" path="external/DuerClientSDK" revision="7754543f5c47a0bc2456cc3fb4b58c2ff41d9f0d" upstream="master_64bit"/>
   <project name="linux/external/LocalPlayer" path="external/LocalPlayer" revision="e7d5cc72e5f0da13f2765aa02bd22d03ebc82750" upstream="master"/>
   <project name="linux/external/WakeWordAgent" path="external/wakeWordAgent" revision="4a5a3c2d9d991e392894d1e5345b7487655d3cc6" upstream="master"/>
   <project name="linux/external/adb" path="external/adb" revision="5c57a1f9145eef7c0265b0a9bbc2379a377391c6" upstream="master"/>
