@@ -20,7 +20,7 @@
     <linkfile dest="rkflash.sh" src="rk3399/rkflash.sh"/>
     <linkfile dest="device/rockchip/.BoardConfig.mk" src="rk3399/BoardConfig.mk"/>
   </project>
-  <project name="linux/docs" path="docs" remote="rk" revision="c829b3c6fd12de60be069151b4b8549103700747" upstream="master"/>
+  <project name="linux/docs" path="docs" remote="rk" revision="f90c05dd74a099e70040804108c0a2bde7f79220" upstream="master"/>
   <project name="linux/external/adb" path="external/adb" remote="rk" revision="5c57a1f9145eef7c0265b0a9bbc2379a377391c6" upstream="master"/>
   <project name="linux/external/audioservice" path="external/audioservice" remote="rk" revision="ec7efbf4cbb023a655228a1260fb83258fd667c1" upstream="master"/>
   <project name="linux/external/camera_engine_cifisp" path="external/camera_engine_cifisp" remote="rk" revision="9252f52b5868d7488151653eed4021975ef83935" upstream="master"/>
