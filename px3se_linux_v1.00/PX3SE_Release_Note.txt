@@ -1,4 +1,4 @@
-           30 Linux SDK Release Note
+           PX3SE Linux SDK Release Note
 --------px3se_linux_beta_20180709.xml------------
 Beta version with basic functions as below:
    - cif/dvp camera
