@@ -1,0 +1,17 @@
+           30 Linux SDK Release Note
+--------px3se_linux_beta_20180709.xml------------
+Beta version with basic functions as below:
+   - cif/dvp camera
+   - wifi
+   - audio/codec
+   - gpu/display
+   - hdmi
+   - usb
+   - adc keys
+
+Comparing with the old v0.1, it makes changes as below:
+   - upgrade kernel version to v4.4
+   - upgrade buildroot version to 2018.02-rc2
+   - change uboot to next-dev branch
+
+   The most signification changes is kernel upgrade and new cif driver.
