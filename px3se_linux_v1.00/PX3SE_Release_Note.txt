@@ -1,4 +1,17 @@
            PX3SE Linux SDK Release Note
+
+--------px3se_linux_beta_20180727.xml------------
+Change logs:
+   - uboot
+      - Add vol+ and reset key to enter Rockusb mode
+      - Fix uboot upstream loader/trust buildint
+   - docs
+      - Remove outdated documents
+      - Add release note
+   - buildroot
+      - fix kernel modules building
+      - power on wifi/bt explictly
+
 --------px3se_linux_beta_20180709.xml------------
 Beta version with basic functions as below:
    - cif/dvp camera
