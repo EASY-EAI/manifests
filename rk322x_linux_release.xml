@@ -9,14 +9,14 @@
   <project name="rk3036_linux_echo/RKTools" path="RKTools" remote="rk-argus" revision="e1257ce9b6c88fdaef9aef9f0be62436e10663bf" />
   <project groups="pdk,linux,arm" name="android/platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" revision="4b341df712969ca2ac0c3cf6294260d406b9d9be" upstream="refs/tags/android-6.0.1_r63"/>
   <project groups="pdk,linux,arm" name="android/platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" remote="rk" revision="d73a051b1fd1d98f5c2463354fb67898f0090bdb" upstream="refs/tags/android-4.4.4_r2"/>
-  <project name="android/rk/u-boot" path="u-boot" remote="rk" revision="0dab20b86588b3e515409f9f5fa034e5f966d066" upstream="rkdevelop"/>
+  <project name="android/rk/u-boot" path="u-boot" remote="rk" revision="c19e136beb3d8a74b2172d5887b98f7cf8186db6" upstream="rkdevelop"/>
   <project name="linux/external/WakeWordAgent" path="external/wakeWordAgent" remote="rk" revision="4a5a3c2d9d991e392894d1e5345b7487655d3cc6"/> 
-  <project name="linux/device/rockchip/rk322x" path="device/rockchip/rk322x" remote="rk" revision="dd367fb2ef1ecc60626d68c0d972875c96173da9" upstream="master">
+  <project name="linux/device/rockchip/rk322x" path="device/rockchip/rk322x" remote="rk" revision="cecd09b28ae9254fcfcad8e6d887a6a5fafb8bb0" upstream="master">
     <copyfile dest="mkfirmware.sh" src="mkfirmware.sh"/>
     <copyfile dest="build_all.sh" src="build_all.sh"/>
     <copyfile dest="envsetup.sh" src="envsetup.sh"/>
   </project>
-  <project name="rk/kernel" path="kernel" remote="rk" revision="1bf0bdb1c15e3aa56676554fe2c4a3d04edfe308" upstream="develop-3.10"/>
+  <project name="rk/kernel" path="kernel" remote="rk" revision="710d1a8f6394258bea385784fda85d0d536ee392" upstream="develop-3.10"/>
   <project name="rk/rk1108/buildroot" path="buildroot" remote="rk" revision="b6466c8416360c4d01f5727b5f815ee594112e21" upstream="rockchip/rk1108/2016.08.x"/>
   <project name="argus/externals/liblog" path="external/liblog" remote="rk-argus" revision="3867fe3c8f20f46d7109c2779ac48af2f16d6ea8"/>
   <project name="argus/externals/libcutils" path="external/libcutils" remote="rk-argus" revision="973b41906854a32379809b11138afbf7016563a0"/>
