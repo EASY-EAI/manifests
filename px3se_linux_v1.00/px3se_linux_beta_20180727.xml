@@ -11,13 +11,13 @@
   <project name="linux/app/video" path="app/video" remote="rk" revision="08524b4fe70ec754c7e443ddc9aa5d284db5e186" upstream="master"/>
   <project name="linux/buildroot/download" path="buildroot/download" remote="rk" revision="0a3de7dd4c145c004e595618ef16e3f0b3431cbc" upstream="master"/>
   <project name="linux/byte-unixbench" path="external/byte-unixbench" remote="rk" revision="05b1bd94e070d300f90e7112ef3fb4427cefac89" upstream="master"/>
-  <project name="linux/device/rockchip" path="device/rockchip" remote="rk" revision="0058f421d24f380469b08429a8b6bfa4862a746b" upstream="master">
+  <project name="linux/device/rockchip" path="device/rockchip" remote="rk" revision="20636deb9b570cf21edbfd5e724caec29cd669e7" upstream="master">
     <linkfile dest="mkfirmware.sh" src="px3se/mkfirmware.sh"/>
     <linkfile dest="build.sh" src="common/build.sh"/>
     <linkfile dest="rkflash.sh" src="px3se/rkflash.sh"/>
     <linkfile dest="device/rockchip/.BoardConfig.mk" src="px3se/BoardConfig.mk"/>
   </project>
-  <project name="linux/docs" path="docs" remote="rk" revision="540344e13c0c017963978346a2dbb11f97cb2391" upstream="master"/>
+  <project name="linux/docs" path="docs" remote="rk" revision="16e7e1f2af2e9429e39ace923973887e77fe0c85" upstream="master"/>
   <project name="linux/external/adb" path="external/adb" remote="rk" revision="5c57a1f9145eef7c0265b0a9bbc2379a377391c6" upstream="master"/>
   <project name="linux/external/audioservice" path="external/audioservice" remote="rk" revision="ec7efbf4cbb023a655228a1260fb83258fd667c1" upstream="master"/>
   <project name="linux/external/ffmpeg" path="external/ffmpeg" remote="rk" revision="c8b57d4333b1bc5c4125fdac8fbf4625c399fc9c" upstream="rockchip/release/4.0"/>
