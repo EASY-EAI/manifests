@@ -1,4 +1,14 @@
 ===========RK3326 Linux SDK Release Note===========
+【rk3326_linux_release_beta_20180727.xml 更新日志】
+Buildroot更新：
+1. 优化rk3326 rootfs,rk3326_robot_release和rk3326_nano_defconfig一些优化配置
+2. rootfs压缩格式从原来ext4改为squashfs,节省空间
+
+文档更新：
+1. 增加RK3326_LINUX_SDK_BETA_20180727发布说明.pdf
+Kernel更新：
+1. 增加cif camera的支持，调试sensor是gc2155
+
 【rk3326_linux_release_beta_20180629.xml 更新日志】
 Buildroot更新：
 1. buildroot版本从2016版本升级到2018
