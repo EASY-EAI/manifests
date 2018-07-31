@@ -37,7 +37,7 @@
   <project name="linux/linux-rga" path="external/linux-rga" remote="rk" revision="b586e307e4c9336f52bc987c6b09e20c2a1ad295" upstream="master"/>
   <project name="linux/punybench" path="external/punybench" remote="rk" revision="c050715684a5dde3a4fc818f3de816a407fdb2de" upstream="master"/>
   <project name="linux/recovery" path="external/recovery" remote="rk" revision="60b357c867ab9495124f1e046f296c19ae8c2724" upstream="develop"/>
-  <project name="linux/rk-rootfs-build" path="rootfs" remote="rk" revision="acd66ba6f2080d2ebec503c552eea9ea871e3c60" upstream="master"/>
+  <project name="linux/rk-rootfs-build" path="rootfs" remote="rk" revision="e74178ebeff5c9b17a16a5a46cc1f6e91af81ee9" upstream="master"/>
   <project name="linux/tools" path="tools" remote="rk" revision="54232c812c70ba541b075996292a4181255694e3" upstream="master">
     <linkfile dest="tools/windows/AndroidTool/AndroidTool_Release/config.cfg" src="windows/AndroidTool/AndroidTool_Release/px3se-config.cfg"/>
     <linkfile dest="tools/windows/AndroidTool/rockdev/package-file" src="windows/AndroidTool/rockdev/px3se-package-file"/>
