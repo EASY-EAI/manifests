@@ -1,4 +1,9 @@
 ===========RK3326 Linux SDK Release Note===========
+【rk3326_linux_release_beta_20180803.xml 更新日志】
+1. app的gallery/music/video更新
+2. mpp/rga/kernel/buildroot/tools/docs的更新
+3. external的rkupdate/rkwifibt等更新
+
 【rk3326_linux_release_beta_20180727.xml 更新日志】
 Buildroot更新：
 1. 优化rk3326 rootfs,rk3326_robot_release和rk3326_nano_defconfig一些优化配置
