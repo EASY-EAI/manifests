@@ -11,7 +11,7 @@
   <project name="linux/app/music" path="app/music" remote="rk" revision="40a4da13e82f32d83369f7777479a196d9f58576" upstream="master"/>
   <project name="linux/app/settings" path="app/settings" remote="rk" revision="ec4f67a2df498893539eb2435d14348d97ecc462" upstream="master"/>
   <project name="linux/app/video" path="app/video" remote="rk" revision="4ce9c5ae8094ff0bc30f9ac6ec9c5c5173f69dd9" upstream="master"/>
-  <project name="linux/buildroot/download" path="buildroot/download" remote="rk" revision="0a3de7dd4c145c004e595618ef16e3f0b3431cbc" upstream="master"/>
+  <project name="linux/buildroot/download" path="buildroot/download" remote="rk" revision="c3f99a8a078d972ae5816fbaeeaced07e79a5e9d" upstream="master"/>
   <project name="linux/byte-unixbench" path="external/byte-unixbench" remote="rk" revision="05b1bd94e070d300f90e7112ef3fb4427cefac89" upstream="master"/>
   <project name="linux/device/rockchip" path="device/rockchip" remote="rk" revision="b2f61dc6103a7b85eb3c3ec2bd9a159f18c637d0" upstream="master">
     <linkfile dest="mkfirmware.sh" src="px30/mkfirmware.sh"/>
