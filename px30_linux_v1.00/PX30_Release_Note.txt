@@ -1,4 +1,11 @@
 ===========PX30 Linux SDK Release Note===========
+【px30_linux_release_beta_v0.2_20180803 update notes】
+1. uboot版本升级到 px30_loader_v1.07.112.bin
+2. app的gallery/music/video更新
+3. mpp/rga/kernel/buildroot/tools/docs的更新
+4. external的rkupdate/rkwifibt等更新
+5. 增加camera_engine_rkisp和gstreamer-camera仓库
+
 【px30_linux_release_beta_v0.1_20180710 update notes】
 1. initial version
 
