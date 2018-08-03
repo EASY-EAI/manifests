@@ -3,11 +3,14 @@
 【rk3399_linux_release_v2.05_20180719.xml 更新日志】
 
 Buildroot更新：
-1.移除一些没用benchmark
-2.增加camera_cifisp个camera_gstremer仓库
+1.增加openmpp,resize2fs等工具
+2.修复oem格式不对，以及增加automount功能
 文档更新：
 1. 更新发布文档
-device/rockchip:更新自动编译脚本
+device/rockchip:脚本更新，生成update.img和之前版本差异保存
+
+Debian更新:
+增加adb的支持
 
 【rk3399_linux_release_v2.04_20180704.xml 更新日志】
 
