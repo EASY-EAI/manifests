@@ -32,7 +32,7 @@
   <project name="linux/external/recoverySystem" path="external/recoverySystem" revision="f16b38b58c5508f66995cc956a3fa47cb0c7f1f4" upstream="master"/>
   <project name="linux/external/rk_pcba_test" path="external/rk_pcba_test" revision="14507fb936c0498f598df167dfac7cf518ec35c7" upstream="rk3308"/>
   <project name="linux/external/rkupdate" path="external/rkupdate" revision="1ac05017d6263ceb7f71f9ac8cf28566efff62d7" upstream="master"/>
-  <project name="linux/external/rkwifibt" path="external/rkwifibt" revision="a6d272eeb385297d45350a86b2a620bd74025934" upstream="master"/>
+  <project name="linux/external/rkwifibt" path="external/rkwifibt" revision="063a9355c78adaecf8eb105df6512ba46db50fc5" upstream="master"/>
   <project name="linux/external/softapDemo" path="external/softapDemo" revision="b3fc180b0dde46f56af2706615f53a3cc516189b" upstream="master"/>
   <project name="linux/external/softapServer" path="external/softapServer" revision="9158517316a050190273c6809ea88467a4276e16" upstream="master"/>
   <project name="linux/external/ueventd" path="external/ueventd" revision="75e80b322e86c2797d22f4da52f55af0ed9455c3" upstream="master"/>
@@ -50,7 +50,7 @@
   </project>
   <project name="linux/yocto/meta-openembedded" path="yocto/meta-openembedded" revision="dacfa2b1920e285531bec55cd2f08743390aaf57" upstream="rocko"/>
   <project name="linux/yocto/meta-rockchip" path="yocto/meta-rockchip" revision="79465bfdfe033a7aa60ceba7940c36d44182e349" upstream="master"/>
-  <project name="rk/kernel" path="kernel" revision="e1f6f6e6133832def26e68d8aeeba5a12342824e" upstream="develop-4.4"/>
+  <project name="rk/kernel" path="kernel" revision="9e3c7c7ba58b0b3ca1f6da8d9336eb859fb853fa" upstream="develop-4.4"/>
   <project name="rk/prebuilts/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" path="prebuilts/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" revision="f96f76d6be89a6e28d4dac1f233f9aca9921f69b" upstream="master"/>
   <project name="rk/prebuilts/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" path="prebuilts/gcc/linux-x86/arm/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" revision="dd4df7dff4f1df65d78939a958b760a79e3650a1" upstream="master"/>
   <project name="rk/rk1108/buildroot" path="buildroot" revision="0680e1f841727bd4eb8b2859f906158965a1a49a" upstream="rockchip/2018.02-rc3">
