@@ -14,7 +14,7 @@
     <linkfile dest="rkflash.sh" src="common/rkflash.sh"/>
     <linkfile dest="device/rockchip/.BoardConfig.mk" src="rk3308/BoardConfig.mk"/>
   </project>
-  <project name="linux/docs" path="docs" revision="cfd6f1f5e49655891d850dc150a9ba010a4d4b91" upstream="master"/>
+  <project name="linux/docs" path="docs" revision="a3c52a396a6def449c3810cb6dfb43d7be7d0c4c" upstream="master"/>
   <project name="linux/external/DuerClientSDK" path="external/DuerClientSDK" revision="7b88319c54503da6eee2d63a555a6728a5eeb6cc" upstream="master_64bit"/>
   <project name="linux/external/LocalPlayer" path="external/LocalPlayer" revision="e7d5cc72e5f0da13f2765aa02bd22d03ebc82750" upstream="master"/>
   <project name="linux/external/WakeWordAgent" path="external/wakeWordAgent" revision="4a5a3c2d9d991e392894d1e5345b7487655d3cc6" upstream="master"/>
@@ -45,7 +45,7 @@
   <project name="linux/poky" path="yocto/" revision="c95d7b8b2d8903863a4dce17ffb2f02c987342f7" upstream="rocko"/>
   <project name="linux/recovery" path="external/recovery" revision="8d004833b17ccb64df5f508129c49a512aa08ad0" upstream="develop"/>
   <project name="linux/security/bin" path="external/security/bin" revision="63458426583c44369ba4eee8dd3721a8d9d62aff" upstream="master"/>
-  <project name="linux/tools" path="tools" revision="462f4234e259e8d363d05b3555afe92392b86001" upstream="master">
+  <project name="linux/tools" path="tools" revision="81f703d4f934842a6ab61062b1e540cc8c334c19" upstream="master">
     <linkfile dest="tools/windows/AndroidTool/AndroidTool_Release/config.cfg" src="windows/AndroidTool/AndroidTool_Release/rk3308-config.cfg"/>
     <linkfile dest="tools/windows/AndroidTool/rockdev/package-file" src="windows/AndroidTool/rockdev/rk3308-package-file"/>
     <linkfile dest="tools/windows/AndroidTool/rockdev/mkupdate.bat" src="windows/AndroidTool/rockdev/rk3308-mkupdate.bat"/>
