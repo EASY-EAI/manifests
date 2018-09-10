@@ -1,5 +1,59 @@
 ===========RK3308 Linux SDK Release Note===========
 
+【rk3308_linux_release_v1.2.0_20180907.xml 更新日志】
+
+Buildroot更新：
+1. 修复概率Recovery分区格式化慢问题。
+2. 使用devtmpfs+eudev作为/dev设备管理。
+3. 调整asound.conf，配置说明见文档《RK3308 Asound配置说明_V1.20.pdf》。
+4. 使用USBMOUNT软件包作为U盘挂载程序。
+5. 更新思必驰新版本语音算法。
+6. 修复概率oem分区ext2镜像打包失败问题。
+7. 更新DuerOS至20180731版本。
+8. 新增在rootfs下升级recovery分区功能。
+9. 解决ALSA录音对个别输入参数支持不好的问题。
+10. 调整VAD配置流程，详见《Rockchip_硬件VAD模块_使用文档_V1.0.pdf》。
+
+WiFi/BT更新：
+1. 修复broadcom_bsa及cypress_bsa功能切换异常。
+2. 新增RTL8723DS MP测试工具。
+3. 更新bluez软件包至5.50版本，添加BLE配网支持。
+4. 更新AP6212A/AP6181 Firmware版本至v4.2。
+5. 新增Realtek模组，从vendor分区读取MAC地址功能。 
+
+Kernel更新：
+1. 新增64bit Kernel压缩的支持，默认使用lz4压缩算法。
+2. 更新RK3308 DVFS频率电压表，调整1GHz、1.2GHz、1.3GHz电压。
+3. 添加TAS5731驱动支持。
+4. 添加DOT-RK816板级DTS：rk3308-dot-rk816-v10-aarch32.dts。
+5. 添加RK3308 CPUID支持，从OTP读取信息随机生成芯片序列号。
+6. 添加RTC支持：rk-timer-rtc。
+7. 提升系统稳定性。
+
+u-boot更新：
+1. 新增rk3308-aarch32_defconfig配置，支持RK816。
+2. 更新vendor storage驱动代码，与Kernel驱动保持一致。
+3. 更新Loader版本至rk3308_loader_v1.23.107.bin。
+
+工具更新：
+1. 新增rk_provision_tool_v1.0.0_180905.zip：
+   可用于Maskrom/Loader模式下写序列号/MAC地址。
+2. 更新AndroidTool、Linux_Pack_Firmware packagefile配置。
+
+文档更新：
+1. 新增RK3308_RTL8723DS_WIFI_BT_说明文档.pdf
+2. 新增Rockchip 分片升级开发指南-V1.0.0.pdf
+3. 新增RK3308 Asound配置说明_V1.20.pdf
+4. 新增RK3308 SD卡&U盘 开发指南_V1.0_20180907.pdf
+5. 新增RK3308_VAD_寄存器配置_v1.1.pdf、Rockchip_硬件VAD模块_使用文档_V1.0.pdf
+6. 新增RK3308_音频增益调节_说明文档V1.1.pdf
+7. 更新Rockchip-Secure-Boot-Application-Note-V1.9.pdf
+8. 更新Rockchip?PCBA测试开发指南_1.03.pdf
+9. 更新RK SpiNor and  SLC Nand SupportList Ver1.08_2018_0808.pdf
+10. 更新RK3308_Audio_Codec_Introduction_v0.3.0_CN.pdf
+11. 更新RK3308语音模块 32位系统编译指南_v1.40.pdf
+12. 更新Rockchip RK3308 Datasheet V1.4-20180812.pdf
+
 【rk3308_linux_release_v1.1.0_20180716.xml 更新日志】
 
 Buildroot更新：
