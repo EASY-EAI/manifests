@@ -3,7 +3,6 @@
   <remote fetch="ssh://git@www.rockchip.com.cn/linux/" name="rk"/> 
   <default remote="rk" sync-j="4"/>
   
-  <project name="android/platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" revision="4b341df712969ca2ac0c3cf6294260d406b9d9be" upstream="refs/tags/android-6.0.1_r63"/>
   <project name="android/rk/u-boot" path="u-boot" revision="affcebcd8fd85785644a5be11c469c438434695c" upstream="next-dev"/>
   <project name="linux/app/QLauncher" path="app/QLauncher" revision="073678082e1563fa8eac1e617ac938fba7f8c7b9" upstream="master"/>
   <project name="linux/app/camera" path="app/camera" revision="291866bcbabb706f48398883fbcc16d9808f7ef0" upstream="master"/>
@@ -26,8 +25,6 @@
   <project name="linux/external/camera_engine_rkisp" path="external/camera_engine_rkisp" revision="e0016ff6507b5812f807e861ea80cb07667734f1" upstream="master"/>
   <project name="linux/external/ffmpeg" path="external/ffmpeg" revision="c8b57d4333b1bc5c4125fdac8fbf4625c399fc9c" upstream="rockchip/release/4.0"/>
   <project name="linux/external/gstreamer-camera" path="external/gstreamer-camera" revision="7b8a9b33f95a0a7c65fd76d4f4e3f6778fce8ea7" upstream="master"/>
-  <project name="linux/external/libcutils" path="external/libcutils" revision="dec0cddc22eb46b48d1ed338ada6f9eeb4446c51" upstream="arm64"/>
-  <project name="linux/external/liblog" path="external/liblog" revision="3867fe3c8f20f46d7109c2779ac48af2f16d6ea8" upstream="master"/>
   <project name="linux/external/mpv" path="external/mpv" revision="2739ea80b7137daf3f9a39fd3a2ddfd787a6b964" upstream="rockchip/release/0.9"/>
   <project name="linux/external/powermanager" path="external/powermanager" revision="d257b3c0a1eee68972296d975395f7bd8bfff7db" upstream="master"/>
   <project name="linux/external/rk_pcba_test" path="external/rk_pcba_test" revision="fa3d220a8a9e8c46250f8242e90c404d342d46a5" upstream="master"/>
