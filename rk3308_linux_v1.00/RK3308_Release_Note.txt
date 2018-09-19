@@ -1,5 +1,22 @@
 ===========RK3308 Linux SDK Release Note===========
 
+【rk3308_linux_release_v1.2.1_20180919.xml 更新日志】
+
+Buildroot更新：
+1. 修复概率ADB设备识别不到问题。
+2. 修复OEM分区镜像概率打包异常问题。
+
+WiFi/BT更新：
+1. 减少broadcom_bsa及cypress_bsa调试打印信息。
+
+Kernel更新：
+1. 提升CPU高频状态下UART功能稳定性。
+2. 更新EVB板级AMIC通道映射配置。
+
+工具更新：
+1. 更新EQ/DRC调校工具：eq_drc_tool-v1.23。
+2. 更新PCBA测试工具：PCBATool_Setup_V1.0.7。
+
 【rk3308_linux_release_v1.2.0_20180907.xml 更新日志】
 
 Buildroot更新：
