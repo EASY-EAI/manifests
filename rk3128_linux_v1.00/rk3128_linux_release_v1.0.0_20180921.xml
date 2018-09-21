@@ -4,7 +4,7 @@
   
   <default remote="rk" sync-j="4"/>
   
-  <project name="android/rk/u-boot" path="u-boot" revision="3776a9bd6fd2faeb1cae6a2696a2d12c031353b1" upstream="next-dev"/>
+  <project name="android/rk/u-boot" path="u-boot" revision="1d9a4ad48babf036aa9b5c27a9622c872f36450c" upstream="next-dev"/>
   <project name="linux/app/QLauncher" path="app/QLauncher" revision="0dd9497ec64309b4512f07e01c92723c60927d88" upstream="master"/>
   <project name="linux/app/camera" path="app/camera" revision="291866bcbabb706f48398883fbcc16d9808f7ef0" upstream="master"/>
   <project name="linux/app/gallery" path="app/gallery" revision="8cdb4c492c7e0be5803675409958f816bcd56cc3" upstream="master"/>
