@@ -35,7 +35,7 @@
   <project name="linux/external/recoverySystem" path="external/recoverySystem" revision="cbf989df4f9019413219a8028698c199d4b0e44e" upstream="master"/>
   <project name="linux/external/rk_hw_vad" path="external/rk_hw_vad" revision="2fa6aaf920a6e8a9912b0407ba4f50b9c6e96b10" upstream="master"/>
   <project name="linux/external/rk_pcba_test" path="external/rk_pcba_test" revision="14507fb936c0498f598df167dfac7cf518ec35c7" upstream="rk3308"/>
-  <project name="linux/external/rkupdate" path="external/rkupdate" revision="101f84716281daecaf69fd2814d2f7d8db24dad2" upstream="master"/>
+  <project name="linux/external/rkupdate" path="external/rkupdate" revision="22e96f050b9f0b834a09a6e372ec709a688b5316" upstream="master"/>
   <project name="linux/external/rkwifibt" path="external/rkwifibt" revision="b5030536b6df9a019c9a46f7a4c8dcd44239c251" upstream="master"/>
   <project name="linux/external/softapDemo" path="external/softapDemo" revision="b3fc180b0dde46f56af2706615f53a3cc516189b" upstream="master"/>
   <project name="linux/external/softapServer" path="external/softapServer" revision="9158517316a050190273c6809ea88467a4276e16" upstream="master"/>
