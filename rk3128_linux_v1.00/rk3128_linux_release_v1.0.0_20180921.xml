@@ -4,7 +4,7 @@
   
   <default remote="rk" sync-j="4"/>
   
-  <project name="android/rk/u-boot" path="u-boot" revision="3776a9bd6fd2faeb1cae6a2696a2d12c031353b1" upstream="next-dev"/>
+  <project name="android/rk/u-boot" path="u-boot" revision="7632e2a18bc0d016bd1b951a5909c0d4919f969f" upstream="release"/>
   <project name="linux/app/QLauncher" path="app/QLauncher" revision="0dd9497ec64309b4512f07e01c92723c60927d88" upstream="master"/>
   <project name="linux/app/camera" path="app/camera" revision="291866bcbabb706f48398883fbcc16d9808f7ef0" upstream="master"/>
   <project name="linux/app/gallery" path="app/gallery" revision="8cdb4c492c7e0be5803675409958f816bcd56cc3" upstream="master"/>
@@ -42,7 +42,7 @@
     <linkfile dest="tools/linux/Linux_Pack_Firmware/rockdev/mkupdate.sh" src="linux/Linux_Pack_Firmware/rockdev/px3se-mkupdate.sh"/>
     <linkfile dest="tools/linux/Linux_Pack_Firmware/rockdev/package-file" src="linux/Linux_Pack_Firmware/rockdev/px3se-package-file"/>
   </project>
-  <project name="rk/kernel" path="kernel" revision="61a515ac93756eeb1cda9a519df8a017af0095b7" upstream="develop-4.4"/>
+  <project name="rk/kernel" path="kernel" revision="4311650fc8ae85d181313f08ab482e3dacc7bf4d" upstream="release"/>
   <project name="rk/mpp" path="external/mpp" revision="7a21a6a0454f604fdf752a1d45be6e2c954cc6de" upstream="develop"/>
   <project name="rk/prebuilts/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" path="prebuilts/gcc/linux-x86/arm/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" revision="dd4df7dff4f1df65d78939a958b760a79e3650a1" upstream="master"/>
   <project name="rk/rk1108/buildroot" path="buildroot" revision="f09c2720be1e0662fc95f54ab909914be73fba8f" upstream="rockchip/2018.02-rc3">
