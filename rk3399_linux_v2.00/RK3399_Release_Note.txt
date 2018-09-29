@@ -1,5 +1,30 @@
 ===========RK3399 Linux SDK Release Note===========
 
+【rk3399_linux_release_v2.08_20180929.xml 更新日志】
+
+Buildroot更新：
+1.增加camera 3a的app效果,具体camera,只要增加cam_iq.xml放到/etc牡蛎即可
+2.增加wifi/bt更加自能匹配
+3.更新rockchip_test
+
+Debian更新:
+1.修复32位chromiumos浏览器打开异常问题
+
+文档和工具的更新:
+1.增加20810929发布文档说明
+2.增加recovery文档使用说明
+3.Linux_Upgrade_Tool更新到v1.35
+4.增加rk_provision_tool工具和源码用来读取写入mac地址
+5.更新pcba工具
+
+kernel的更新:
+1.修复camera pin复用引起以太网不能正常使用问题
+2.修复firefly vdd_log异常问题
+3.更新wifi驱动解决一些问题
+4.切换到新的isp框架isp1
+5.修复dmc的vop参数不对问题
+
+
 【rk3399_linux_release_v2.07_20180907.xml 更新日志】
 
 Buildroot更新：
