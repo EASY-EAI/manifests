@@ -22,16 +22,16 @@
   <project name="linux/docs" path="docs" revision="e0314518bdb17cb99c41d7d8ea2632203a839041" upstream="master"/>
   <project name="linux/external/alsa-config" path="external/alsa-config" revision="fb3f7a7ac3170a97926d314c108a8352b409da88" upstream="master"/>
   <project name="linux/external/audioservice" path="external/audioservice" revision="ec7efbf4cbb023a655228a1260fb83258fd667c1" upstream="master"/>
-  <project name="linux/external/camera_engine_cifisp" path="external/camera_engine_cifisp" revision="8b85c704d2af804f6cfd281b641f50ab7b20a0ed" upstream="master"/>
-  <project name="linux/external/camera_engine_rkisp" path="external/camera_engine_rkisp" revision="96bf0f22ae6841150f66ffc5578474f4e1dfb8df" upstream="master"/>
+  <project name="linux/external/camera_engine_cifisp" path="external/camera_engine_cifisp" revision="ae1a9dffc54c798b62e29f5948d9f4b33170dd38" upstream="master"/>
+  <project name="linux/external/camera_engine_rkisp" path="external/camera_engine_rkisp" revision="3d8170fd872a1fbb748b92f2e4ea4569df261468" upstream="master"/>
   <project name="linux/external/ffmpeg" path="external/ffmpeg" revision="c8b57d4333b1bc5c4125fdac8fbf4625c399fc9c" upstream="rockchip/release/4.0"/>
   <project name="linux/external/gstreamer-camera" path="external/gstreamer-camera" revision="7b8a9b33f95a0a7c65fd76d4f4e3f6778fce8ea7" upstream="master"/>
   <project name="linux/external/mpv" path="external/mpv" revision="2739ea80b7137daf3f9a39fd3a2ddfd787a6b964" upstream="rockchip/release/0.9"/>
   <project name="linux/external/powermanager" path="external/powermanager" revision="d257b3c0a1eee68972296d975395f7bd8bfff7db" upstream="master"/>
   <project name="linux/external/rk_pcba_test" path="external/rk_pcba_test" revision="25643cf5f522a71ed2a918b0abe15e363a893504" upstream="master"/>
   <project name="linux/external/rkssd" path="external/rkssd" revision="1c50d336e770a8ce09ae33b3e09d2783d5b4c2d9" upstream="master"/>
-  <project name="linux/external/rkupdate" path="external/rkupdate" revision="22e96f050b9f0b834a09a6e372ec709a688b5316" upstream="master"/>
-  <project name="linux/external/rkwifibt" path="external/rkwifibt" revision="5576c95324135ccc52f2503db73021899a328909" upstream="master"/>
+  <project name="linux/external/rkupdate" path="external/rkupdate" revision="96606720c1cf07c9fbf48e115e064e65188544ce" upstream="master"/>
+  <project name="linux/external/rkwifibt" path="external/rkwifibt" revision="456b6008e495d40793eba5c8abcad8d09c65f6ea" upstream="master"/>
   <project name="linux/external/tensorflow" path="external/tensorflow" revision="e1877bb157a775d76ec8c0b68467aef6d053bbb2" upstream="master"/>
   <project name="linux/gstreamer-rockchip" path="external/gstreamer-rockchip" revision="aadf6ab77c53055f8be85c18bace6918e04e3f9c" upstream="master"/>
   <project name="linux/libdrm-rockchip" path="external/libdrm-rockchip" revision="ea6c1f85b8691f0c2ecda16fb9919eeec3dafd48" upstream="rockchip-2.4.68"/>
@@ -49,7 +49,7 @@
   <project name="rk/kernel-stable" path="kernel" revision="3c2e0e3c46922ae0318c43c59c84ff1d705ab462" upstream="stable-4.4-rk3399-linux"/>
   <project name="rk/mpp" path="external/mpp" revision="7a21a6a0454f604fdf752a1d45be6e2c954cc6de" upstream="develop"/>
   <project name="rk/prebuilts/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" path="prebuilts/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" revision="f96f76d6be89a6e28d4dac1f233f9aca9921f69b" upstream="master"/>
-  <project name="rk/rk1108/buildroot" path="buildroot" revision="33dcffc18e8bfd2d11dae0c24e8f85b5a457bd11" upstream="rockchip/2018.02-rc3">
+  <project name="rk/rk1108/buildroot" path="buildroot" revision="3d86bc8b751cea52193379140ba7c0c2ad53cc61" upstream="rockchip/2018.02-rc3">
     <linkfile dest="Makefile" src="build/Makefile"/>
     <linkfile dest="envsetup.sh" src="build/envsetup.sh"/>
   </project>
