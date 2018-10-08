@@ -27,7 +27,7 @@
   <project name="linux/external/ffmpeg" path="external/ffmpeg" revision="c8b57d4333b1bc5c4125fdac8fbf4625c399fc9c" upstream="rockchip/release/4.0"/>
   <project name="linux/external/gstreamer-camera" path="external/gstreamer-camera" revision="7b8a9b33f95a0a7c65fd76d4f4e3f6778fce8ea7" upstream="master"/>
   <project name="linux/external/mpv" path="external/mpv" revision="2739ea80b7137daf3f9a39fd3a2ddfd787a6b964" upstream="rockchip/release/0.9"/>
-  <project name="linux/external/powermanager" path="external/powermanager" revision="d257b3c0a1eee68972296d975395f7bd8bfff7db" upstream="master"/>
+  <project name="linux/external/powermanager" path="external/powermanager" revision="17921d6b75395df5478613973e58916a6cf7c7ad" upstream="master"/>
   <project name="linux/external/rk_pcba_test" path="external/rk_pcba_test" revision="25643cf5f522a71ed2a918b0abe15e363a893504" upstream="master"/>
   <project name="linux/external/rkssd" path="external/rkssd" revision="1c50d336e770a8ce09ae33b3e09d2783d5b4c2d9" upstream="master"/>
   <project name="linux/external/rkupdate" path="external/rkupdate" revision="96606720c1cf07c9fbf48e115e064e65188544ce" upstream="master"/>
