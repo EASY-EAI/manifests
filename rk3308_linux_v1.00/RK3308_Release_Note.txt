@@ -1,21 +1,17 @@
 ===========RK3308 Linux SDK Release Note===========
 
-【rk3308_linux_release_v1.2.2_20180929.xml 更新日志】
+【rk3308_linux_release_v1.2.2_20181009.xml 更新日志】
 
 rkbin更新：
 1. 开机默认将VCCIO4电压域切为3.3V模式。该部分硬件设计为3.3V的，需要进行软件更新。
 
-语音算法SDK更新：
-1. 更新32bit/64bit DuerClientSDK至20180928版本。
-
 Buildroot更新：
 1. 更新partinit软件包，完善分区挂载机制。
-
-WiFi/BT更新：
-1. 减少broadcom_bsa及cypress_bsa调试打印信息。
+2. 更新32bit/64bit DuerClientSDK至20180928版本。
 
 Kernel更新：
 1. 添加EVB V11 PDM DMIC 32bit板级配置。
+2. 解决 SPI NAND 和 SLC NAND 异常掉电极低概率出现数据丢失的问题。
 
 tools更新：
 1. 更新Linux_Upgrade_Tool工具至v1.35版本。
@@ -23,7 +19,6 @@ tools更新：
 3. 更新external/app应用包：
 duerhome_shell-debug.apk: Android apk for DuerOS
 EasySetupAndroid-v2.2.0.zip、EasySetupIOS-v2.1.0.zip : smartconfig for Ampak wifi
-
 
 docs更新：
 1. 更新RK3308 DuerOS 使用说明V1.00_20180929.pdf。
