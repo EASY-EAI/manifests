@@ -19,7 +19,7 @@
     <linkfile dest="device/rockchip/.BoardConfig.mk" src="rk3399/BoardConfig.mk"/>
   </project>
   <project name="linux/distro" path="distro" revision="9feccf436618905f09547335bcd11ea3f0935fe6" upstream="master"/>
-  <project name="linux/docs" path="docs" revision="e0314518bdb17cb99c41d7d8ea2632203a839041" upstream="master"/>
+  <project name="linux/docs" path="docs" revision="ce2820b7f8152cb84b6f634b4dda4e389ab85a3e" upstream="master"/>
   <project name="linux/external/alsa-config" path="external/alsa-config" revision="fb3f7a7ac3170a97926d314c108a8352b409da88" upstream="master"/>
   <project name="linux/external/audioservice" path="external/audioservice" revision="ec7efbf4cbb023a655228a1260fb83258fd667c1" upstream="master"/>
   <project name="linux/external/camera_engine_cifisp" path="external/camera_engine_cifisp" revision="ae1a9dffc54c798b62e29f5948d9f4b33170dd38" upstream="master"/>
@@ -38,15 +38,15 @@
   <project name="linux/libmali" path="external/libmali" revision="9e85623ec2733ff0b23931d0660873a482dc8758" upstream="master"/>
   <project name="linux/linux-rga" path="external/linux-rga" revision="eb14310e72e2f76eb78c0d6dafc350af8a25c3d8" upstream="master"/>
   <project name="linux/recovery" path="external/recovery" revision="7477e27f9795f09520cc5db1faeaf85efc64e1de" upstream="develop"/>
-  <project name="linux/rk-rootfs-build" path="rootfs" revision="f788d8eb06b1aab5d8c3207d901afb500f2e01ba" upstream="master"/>
-  <project name="linux/tools" path="tools" revision="7621eb9739c265868968a340b5ab099477488b0c" upstream="master">
+  <project name="linux/rk-rootfs-build" path="rootfs" revision="6673840f2e7bc7d3cbb93610ed2d0b29cfc92c90" upstream="master"/>
+  <project name="linux/tools" path="tools" revision="bca10a22ae03a1e5c7f3fd984d5ab21b966c62c7" upstream="master">
     <linkfile dest="tools/windows/AndroidTool/AndroidTool_Release/config.cfg" src="windows/AndroidTool/AndroidTool_Release/rk3399-config.cfg"/>
     <linkfile dest="tools/windows/AndroidTool/rockdev/package-file" src="windows/AndroidTool/rockdev/rk3399-package-file"/>
     <linkfile dest="tools/windows/AndroidTool/rockdev/mkupdate.bat" src="windows/AndroidTool/rockdev/rk3399-mkupdate.bat"/>
     <linkfile dest="tools/linux/Linux_Pack_Firmware/rockdev/mkupdate.sh" src="linux/Linux_Pack_Firmware/rockdev/rk3399-mkupdate.sh"/>
     <linkfile dest="tools/linux/Linux_Pack_Firmware/rockdev/package-file" src="linux/Linux_Pack_Firmware/rockdev/rk3399-package-file"/>
   </project>
-  <project name="rk/kernel-stable" path="kernel" revision="3c2e0e3c46922ae0318c43c59c84ff1d705ab462" upstream="stable-4.4-rk3399-linux"/>
+  <project name="rk/kernel-stable" path="kernel" revision="067752d2fc0060173b5db8ed5300c0ec1359a11e" upstream="stable-4.4-rk3399-linux"/>
   <project name="rk/mpp" path="external/mpp" revision="7a21a6a0454f604fdf752a1d45be6e2c954cc6de" upstream="develop"/>
   <project name="rk/prebuilts/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" path="prebuilts/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" revision="f96f76d6be89a6e28d4dac1f233f9aca9921f69b" upstream="master"/>
   <project name="rk/rk1108/buildroot" path="buildroot" revision="3d86bc8b751cea52193379140ba7c0c2ad53cc61" upstream="rockchip/2018.02-rc3">
