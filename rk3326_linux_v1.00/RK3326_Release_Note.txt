@@ -1,4 +1,12 @@
 ===========RK3326 Linux SDK Release Note===========
+【rk3326_linux_release_beta_20181022.xml 更新日志】
+1. buildroot加入camera_engine_rkisp等更新
+2. rootfs压缩格式从原来squashfs改为ext4
+3. external的camera_engine_rkisp等更新
+4. kernel更新了isp1和rkflash以及rknand
+5. uboot更新了rkflash和rknand.
+6. 文档和工具的更新.
+
 【rk3326_linux_release_beta_20180803.xml 更新日志】
 1. app的gallery/music/video更新
 2. mpp/rga/kernel/buildroot/tools/docs的更新
