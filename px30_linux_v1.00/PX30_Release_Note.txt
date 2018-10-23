@@ -1,4 +1,11 @@
 ===========PX30 Linux SDK Release Note===========
+【rk3326_linux_release_beta_20181022.xml 更新日志】
+1. buildroot加入camera_engine_rkisp等更新
+3. external的camera_engine_rkisp等更新
+4. kernel更新了isp1和rkflash以及rknand
+5. uboot更新了rkflash和rknand.
+6. 文档和工具的更新.
+
 【px30_linux_release_beta_v0.2_20180803 update notes】
 1. uboot版本升级到 px30_loader_v1.07.112.bin
 2. app的gallery/music/video更新
