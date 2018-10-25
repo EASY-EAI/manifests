@@ -42,7 +42,7 @@
     <linkfile dest="tools/linux/Linux_Pack_Firmware/rockdev/mkupdate.sh" src="linux/Linux_Pack_Firmware/rockdev/rk3288-mkupdate.sh"/>
     <linkfile dest="tools/linux/Linux_Pack_Firmware/rockdev/package-file" src="linux/Linux_Pack_Firmware/rockdev/rk3288-package-file"/>
   </project>
-  <project name="rk/kernel-stable" path="kernel" revision="3c2e0e3c46922ae0318c43c59c84ff1d705ab462" upstream="stable-4.4-rk3288-linux"/>
+  <project name="rk/kernel-stable" path="kernel" revision="1898fa5b73a79eede6ae1ce526ebf8da87523fbe" upstream="stable-4.4-rk3288-linux"/>
   <project name="rk/mpp" path="external/mpp" revision="7a21a6a0454f604fdf752a1d45be6e2c954cc6de" upstream="develop"/>
   <project name="rk/prebuilts/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" path="prebuilts/gcc/linux-x86/arm/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" upstream="master" revision="dd4df7dff4f1df65d78939a958b760a79e3650a1"/>
   <project name="rk/rk1108/buildroot" path="buildroot" revision="7b04ffd667bf77db8c9d4816bf3c859c05d26b8b" upstream="rockchip/2018.02-rc3">
