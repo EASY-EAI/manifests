@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<manifest>
+  <remote name="rk" review="https://10.10.10.29" fetch="../../"/>
+  <remote name="gerrit" fetch="ssh://10.10.10.29:29418"/>
+  <remote name="rk29" fetch="ssh://git@10.10.10.29"/>
+  <remote name="rk-argus" fetch="ssh://git@10.10.10.78:2222"/>
+  <remote name="rockchip-linux" fetch="https://github.com/rockchip-linux"/>
+
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="android/platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" groups="pdk,linux,arm"  revision="refs/tags/android-6.0.1_r63" remote="rk"/>
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" name="android/platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" groups="pdk,linux,arm" remote="rk" revision="refs/tags/android-4.4.4_r2"/>
+  <project path="u-boot" name="android/rk/u-boot" remote="gerrit" revision="rkdevelop"/>
+  <project path="kernel" name="rk/kernel" remote="rk29" revision="stable-4.4-rk3328-box-linux"/>
+  <project path="rkbin" name="rkbin" remote="rockchip-linux" revision="master"/>
+  <project path="build" name="build" remote="rockchip-linux" revision="debian">
+      <copyfile dest="README.md" src="README.md"/>
+  </project>
+  <project path="recovery" name="linux/recovery" remote="rk" revision="master"/>
+  <project path="tools" name="linux/tools" remote="rk" revision="master"/>
+  <project path="docs" name="linux/docs" remote="rk" revision="rk3328"/>
+  <project path="buildroot" name="rk/rk1108/buildroot" remote="rk" revision="rockchip/rk1108/2016.08.x"/>
+  <project path="external/io" name="linux/external/io" remote="rk" revision="master"/>
+  <project path="external/liblog" name="argus/externals/liblog" remote="rk-argus" revision="master"/>
+  <project path="external/libcutils" name="argus/externals/libcutils" remote="rk-argus" revision="arm64"/>
+  <project path="external/adb" name="argus/externals/adb" remote="rk-argus" revision="master"/>
+  <project path="external/rkbt" name="linux/external/rkbt" remote="rk" revision="master"/>
+  <project path="external/audioservice" name="linux/external/audioservice" remote="rk" revision="master"/>
+  <project path="external/powermanager" name="linux/external/powermanager" remote="rk" revision="master"/>
+  <project path="app/QLauncher" name="linux/app/QLauncher" remote="rk" revision="rk3328/ott/1.0"/>
+  <project path="app/settings" name="linux/app/settings" remote="rk" revision="rk3328/ott/1.0"/>
+  <project path="app/video" name="linux/app/video" remote="rk" revision="rk3328/ott/1.0"/>
+  <project path="app/gallery" name="linux/app/gallery" remote="rk" revision="rk3328/ott/1.0"/>
+  <project path="app/music" name="linux/app/music" remote="rk" revision="rk3328/ott/1.0"/>
+  <project path="external/rk_pcba_test" name="linux/external/rk_pcba_test" remote="rk" revision="master"/>
+  <project path="external/recovery" name="linux/recovery" remote="rk" revision="develop"/>
+  <project path="external/rkupdate" name="linux/external/rkupdate" remote="rk" revision="master"/>
+  <project path="external/recoverySystem" name="linux/external/recoverySystem" remote="rk" revision="master"/>
+  <project path="external/ueventd" name="linux/external/ueventd" remote="rk" revision="master"/>
+  <project path="device/rockchip/rk3328" name="linux/device/rockchip/rk3328" remote="rk" revision="master">
+      <copyfile dest="mkfirmware.sh" src="mkfirmware.sh"/>
+      <copyfile dest="build_all.sh" src="build_all.sh"/>
+      <copyfile dest="envsetup.sh" src="envsetup.sh"/>
+      <copyfile dest="build_recovery.sh" src="build_recovery.sh"/>
+  </project>
+</manifest>
