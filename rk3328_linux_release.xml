@@ -3,8 +3,8 @@
   <remote name="rk" review="https://10.10.10.29" fetch="../../"/>
   <remote name="gerrit" fetch="ssh://10.10.10.29:29418"/>
   <remote name="rk29" fetch="ssh://git@10.10.10.29"/>
-  <remote name="rk-argus" fetch="ssh://git@10.10.10.78:2222"/>
   <remote name="rockchip-linux" fetch="https://github.com/rockchip-linux"/>
+  <default remote="rk" sync-j="4"/>
 
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="android/platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" groups="pdk,linux,arm"  revision="refs/tags/android-6.0.1_r63" remote="rk"/>
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" name="android/platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" groups="pdk,linux,arm" remote="rk" revision="refs/tags/android-4.4.4_r2"/>
@@ -19,9 +19,9 @@
   <project path="docs" name="linux/docs" remote="rk" revision="rk3328"/>
   <project path="buildroot" name="rk/rk1108/buildroot" remote="rk" revision="rockchip/rk1108/2016.08.x"/>
   <project path="external/io" name="linux/external/io" remote="rk" revision="master"/>
-  <project path="external/liblog" name="argus/externals/liblog" remote="rk-argus" revision="master"/>
-  <project path="external/libcutils" name="argus/externals/libcutils" remote="rk-argus" revision="arm64"/>
-  <project path="external/adb" name="argus/externals/adb" remote="rk-argus" revision="master"/>
+  <project path="external/liblog" name="linux/external/liblog" revision="3867fe3c8f20f46d7109c2779ac48af2f16d6ea8" upstream="master"/>
+  <project name="linux/external/libcutils" path="external/libcutils" revision="dec0cddc22eb46b48d1ed338ada6f9eeb4446c51" upstream="arm64"/>
+  <project name="linux/external/adb" path="external/adb" revision="5c57a1f9145eef7c0265b0a9bbc2379a377391c6" upstream="master"/>
   <project path="external/rkbt" name="linux/external/rkbt" remote="rk" revision="master"/>
   <project path="external/audioservice" name="linux/external/audioservice" remote="rk" revision="master"/>
   <project path="external/powermanager" name="linux/external/powermanager" remote="rk" revision="master"/>
