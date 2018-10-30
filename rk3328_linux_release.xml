@@ -1,27 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <manifest>
   <remote name="rk" review="https://10.10.10.29" fetch="../../"/>
-  <remote name="gerrit" fetch="ssh://10.10.10.29:29418"/>
-  <remote name="rk29" fetch="ssh://git@10.10.10.29"/>
-  <remote name="rockchip-linux" fetch="https://github.com/rockchip-linux"/>
   <default remote="rk" sync-j="4"/>
 
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="android/platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" groups="pdk,linux,arm"  revision="refs/tags/android-6.0.1_r63" remote="rk"/>
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" name="android/platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" groups="pdk,linux,arm" remote="rk" revision="refs/tags/android-4.4.4_r2"/>
-  <project path="u-boot" name="android/rk/u-boot" remote="gerrit" revision="rkdevelop"/>
-  <project path="kernel" name="rk/kernel" remote="rk29" revision="stable-4.4-rk3328-box-linux"/>
-  <project path="rkbin" name="rkbin" remote="rockchip-linux" revision="master"/>
-  <project path="build" name="build" remote="rockchip-linux" revision="debian">
-      <copyfile dest="README.md" src="README.md"/>
-  </project>
   <project path="recovery" name="linux/recovery" remote="rk" revision="master"/>
   <project path="tools" name="linux/tools" remote="rk" revision="master"/>
   <project path="docs" name="linux/docs" remote="rk" revision="rk3328"/>
-  <project path="buildroot" name="rk/rk1108/buildroot" remote="rk" revision="rockchip/rk1108/2016.08.x"/>
   <project path="external/io" name="linux/external/io" remote="rk" revision="master"/>
-  <project path="external/liblog" name="linux/external/liblog" revision="3867fe3c8f20f46d7109c2779ac48af2f16d6ea8" upstream="master"/>
-  <project name="linux/external/libcutils" path="external/libcutils" revision="dec0cddc22eb46b48d1ed338ada6f9eeb4446c51" upstream="arm64"/>
-  <project name="linux/external/adb" path="external/adb" revision="5c57a1f9145eef7c0265b0a9bbc2379a377391c6" upstream="master"/>
   <project path="external/rkbt" name="linux/external/rkbt" remote="rk" revision="master"/>
   <project path="external/audioservice" name="linux/external/audioservice" remote="rk" revision="master"/>
   <project path="external/powermanager" name="linux/external/powermanager" remote="rk" revision="master"/>
@@ -35,6 +22,15 @@
   <project path="external/rkupdate" name="linux/external/rkupdate" remote="rk" revision="master"/>
   <project path="external/recoverySystem" name="linux/external/recoverySystem" remote="rk" revision="master"/>
   <project path="external/ueventd" name="linux/external/ueventd" remote="rk" revision="master"/>
+
+  <project path="rkbin" name="rk/rkbin" revision="323ec3b55f84836ba105e131365c4da27ad68f44" upstream="master"/>
+  <project path="u-boot" name="android/rk/u-boot" revision="d79566c8b94c2d0b76a61a1fed809324f685b79f" upstream="rkdevelop"/>
+  <project path="kernel" name="rk/kernel" revision="75d40db24da03bbbd1c862e5a2ed30466d39ab31" upstream="stable-4.4-rk3328-box-linux"/>
+  <project path="buildroot" name="rk/rk1108/buildroot" remote="rk" revision="ad6cce02163cb6fdc640b84731467378741d3eae" upstream="rockchip/rk1108/2016.08.x"/>
+  <project path="external/liblog" name="linux/external/liblog" revision="3867fe3c8f20f46d7109c2779ac48af2f16d6ea8" upstream="master"/>
+  <project name="linux/external/libcutils" path="external/libcutils" revision="dec0cddc22eb46b48d1ed338ada6f9eeb4446c51" upstream="arm64"/>
+  <project name="linux/external/adb" path="external/adb" revision="5c57a1f9145eef7c0265b0a9bbc2379a377391c6" upstream="master"/>
+
   <project path="device/rockchip/rk3328" name="linux/device/rockchip/rk3328" remote="rk" revision="master">
       <copyfile dest="mkfirmware.sh" src="mkfirmware.sh"/>
       <copyfile dest="build_all.sh" src="build_all.sh"/>
