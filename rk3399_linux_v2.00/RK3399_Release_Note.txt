@@ -1,5 +1,29 @@
 ===========RK3399 Linux SDK Release Note===========
 
+【rk3399_linux_release_v2.09_20181102.xml 更新日志】
+
+Buildroot更新：
+1.修改camera 3a的效果曝光问题
+
+文档和工具的更新:
+1.更新android tool, linux upgrade tool, factory tool
+2.增加SDDiskTool_v1.56.zip,支持sd卡固件的制作
+
+kernel的更新:
+1. hdmiin功能的支持
+2. 修复isp1一些问题和增加imx323 camera
+3. 修复i2c irq问题
+4. 修复devfreq cooling问题
+
+recovery/rkupdate的更新:
+1. 主要支持sd卡启动和升级固件功能
+
+mpp的更新:
+1. jpegd增加yuv444的支持
+
+ffmpeg的更新:
+1. ffplay视频硬件解码的支持
+
 【rk3399_linux_release_v2.08_20180929.xml 更新日志】
 
 Buildroot更新：
