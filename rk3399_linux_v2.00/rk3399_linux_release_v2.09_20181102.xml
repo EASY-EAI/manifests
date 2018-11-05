@@ -47,7 +47,7 @@
     <linkfile dest="tools/linux/Linux_Pack_Firmware/rockdev/package-file" src="linux/Linux_Pack_Firmware/rockdev/rk3399-package-file"/>
   </project>
   <project name="rk/kernel-stable" path="kernel" revision="0ee21a0fdb4c156a38e9d97ce4f5baadfe0d71d5" upstream="stable-4.4-rk3399-linux"/>
-  <project name="rk/mpp" path="external/mpp" revision="b9dda0fb95674651673cbab0b846d29ab9b0e96c" upstream="develop"/>
+  <project name="rk/mpp" path="external/mpp" revision="7a21a6a0454f604fdf752a1d45be6e2c954cc6de" upstream="develop"/>
   <project name="rk/prebuilts/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" path="prebuilts/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" revision="f96f76d6be89a6e28d4dac1f233f9aca9921f69b" upstream="master"/>
   <project name="rk/rk1108/buildroot" path="buildroot" revision="0e979fa9d41ca536c4c3ca0b54a702c8df3fefa4" upstream="rockchip/2018.02-rc3">
     <linkfile dest="Makefile" src="build/Makefile"/>

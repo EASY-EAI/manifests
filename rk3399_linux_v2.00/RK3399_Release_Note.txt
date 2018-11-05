@@ -18,9 +18,6 @@ kernel的更新:
 recovery/rkupdate的更新:
 1. 主要支持sd卡启动和升级固件功能
 
-mpp的更新:
-1. jpegd增加yuv444的支持
-
 ffmpeg的更新:
 1. ffplay视频硬件解码的支持
 
