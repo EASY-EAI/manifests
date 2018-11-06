@@ -18,7 +18,7 @@
     <linkfile dest="device/rockchip/.BoardConfig.mk" src="rk3328/BoardConfig.mk"/>
   </project>
   <project name="linux/distro" path="distro" revision="5bdb50e629e3fee3954635eb678399424a77ad78" upstream="master"/>
-  <project name="linux/docs" path="docs" revision="ce2820b7f8152cb84b6f634b4dda4e389ab85a3e" upstream="master"/>
+  <project name="linux/docs" path="docs" revision="f40c45f28637cc0e0a248891f899b56671ca8cc2" upstream="master"/>
   <project name="linux/external/alsa-config" path="external/alsa-config" revision="fb3f7a7ac3170a97926d314c108a8352b409da88" upstream="master"/>
   <project name="linux/external/audioservice" path="external/audioservice" revision="ec7efbf4cbb023a655228a1260fb83258fd667c1" upstream="master"/>
   <project name="linux/external/camera_engine_rkisp" path="external/camera_engine_rkisp" revision="3d8170fd872a1fbb748b92f2e4ea4569df261468" upstream="master"/>
@@ -40,7 +40,7 @@
     <linkfile dest="tools/linux/Linux_Pack_Firmware/rockdev/mkupdate.sh" src="linux/Linux_Pack_Firmware/rockdev/rk3328-mkupdate.sh"/>
     <linkfile dest="tools/linux/Linux_Pack_Firmware/rockdev/package-file" src="linux/Linux_Pack_Firmware/rockdev/rk3328-package-file"/>
   </project>
-  <project name="rk/kernel-stable" path="kernel" revision="ee7e0f729b6793814e4f8b7a9efb1d7ef148e1b0" upstream="stable-4.4-rk3328-linux"/>
+  <project name="rk/kernel-stable" path="kernel" revision="73090c4c1068e0cea697880cae4779796c8626b4" upstream="stable-4.4-rk3328-linux"/>
   <project name="rk/mpp" path="external/mpp" revision="15e357ffd0c98e3099be81eb91b4a48cf8db78a7" upstream="develop"/>
   <project name="rk/prebuilts/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" path="prebuilts/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" revision="f96f76d6be89a6e28d4dac1f233f9aca9921f69b" upstream="master"/>
   <project name="rk/rk1108/buildroot" path="buildroot" revision="5032f22426f2647a65e854d7d8426e59e9ab0ce9" upstream="rockchip/2018.02-rc3">
