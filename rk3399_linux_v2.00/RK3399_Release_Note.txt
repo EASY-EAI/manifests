@@ -21,6 +21,17 @@ recovery/rkupdate的更新:
 ffmpeg的更新:
 1. ffplay视频硬件解码的支持
 
+loader的更新:
+1. 9edd6fd all: fix some lpddr3 die print lpddr4 log first
+2. 6f34fb0 all: phy manual update after override wr lvl result
+3. 601ba71 lpddr4: let lp4_io_set adapt all frequency
+4. e35e6ba plat: rk3399: ddr: fix lpddr4 board power on block at trust
+5. 4f4079b plat: rk322xh: ddr: let ddr_set_rate can be called independent
+6. 3f0aafa6 static ta: support read data from user ta
+7. de6bc87b ta verify: support new key to sign TA
+8. 4a0d30f0 console_init: set printf uart from rk_atags
+9. e1096a16 uart: rockchip: add timeout for uart operation
+
 【rk3399_linux_release_v2.08_20180929.xml 更新日志】
 
 Buildroot更新：
