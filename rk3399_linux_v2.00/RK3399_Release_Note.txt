@@ -4,16 +4,25 @@
 
 Buildroot更新：
 1.修改camera 3a的效果曝光问题
+2.gstreamer升级到v1.14.4
+3.支持gstreamer的render-rectangle属性的支持
+4.增加ffplay支持rkmppdec
+
+Debian更新:
+1.解决bt默认开启，不需要手动配置
 
 文档和工具的更新:
 1.更新android tool, linux upgrade tool, factory tool
 2.增加SDDiskTool_v1.56.zip,支持sd卡固件的制作
+3.升级securetool和avb的文档
+4.增加rk3399 mcu相关文档
 
 kernel的更新:
 1. hdmiin功能的支持
 2. 修复isp1一些问题和增加imx323 camera
 3. 修复i2c irq问题
 4. 修复devfreq cooling问题
+5. 解决bt的Power设置处理，解决debian上blueman使用引起的问题
 
 recovery/rkupdate的更新:
 1. 主要支持sd卡启动和升级固件功能
