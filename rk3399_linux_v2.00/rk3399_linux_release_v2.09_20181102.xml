@@ -26,6 +26,7 @@
   <project name="linux/external/camera_engine_rkisp" path="external/camera_engine_rkisp" revision="3d8170fd872a1fbb748b92f2e4ea4569df261468" upstream="master"/>
   <project name="linux/external/ffmpeg" path="external/ffmpeg" revision="7231725b63ddaf41adf6c89a34f2333e72c29709" upstream="rockchip/release/4.0"/>
   <project name="linux/external/gstreamer-camera" path="external/gstreamer-camera" revision="7b8a9b33f95a0a7c65fd76d4f4e3f6778fce8ea7" upstream="master"/>
+  <project name="linux/external/minigui" path="external/minigui" remote="rk" revision="5b5ca3f75646c8754d442c3c779f9b2a8273dd0b" upstream="master"/>
   <project name="linux/external/mpv" path="external/mpv" revision="2739ea80b7137daf3f9a39fd3a2ddfd787a6b964" upstream="rockchip/release/0.9"/>
   <project name="linux/external/powermanager" path="external/powermanager" revision="17921d6b75395df5478613973e58916a6cf7c7ad" upstream="master"/>
   <project name="linux/external/rk_pcba_test" path="external/rk_pcba_test" revision="25643cf5f522a71ed2a918b0abe15e363a893504" upstream="master"/>
