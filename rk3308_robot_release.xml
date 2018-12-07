@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="ssh://git@www.rockchip.com.cn/linux/" name="rk"/> 
+  <default remote="rk" sync-j="4"/>
+  
+  <project name="android/rk/u-boot-stable" path="u-boot" revision="9865ecfee869f3d1d7167f24df1f4633f3da218d" upstream="stable-4.4-rk3308-linux"/>
+  <project name="linux/buildroot/dl" path="buildroot/dl" revision="9706155226abf00e9cba5bf600fdd98c5daf9eef" upstream="master"/>
+  <project name="linux/device/rockchip" path="device/rockchip" revision="ed126fd0909126a62f60c7c0fa121c09413d0deb" upstream="stable-rk3308-v1.2.2-20180929">
+    <linkfile dest="mkfirmware.sh" src="common/mkfirmware.sh"/>
+    <linkfile dest="build.sh" src="common/build.sh"/>
+    <linkfile dest="rkflash.sh" src="common/rkflash.sh"/>
+    <linkfile dest="device/rockchip/.BoardConfig.mk" src="rk3308/BoardConfig.mk"/>
+  </project>
+  <project name="linux/docs" path="docs" revision="ed6f724378cd8137b8f84397511342141d6ac4e9" upstream="master"/>
+  <project name="linux/external/alsa-config" path="external/alsa-config" revision="b6977f95687d724837a1210ce108c5830a63a3c4" upstream="master"/>
+  <project name="linux/external/rk_pcba_test" path="external/rk_pcba_test" revision="14507fb936c0498f598df167dfac7cf518ec35c7" upstream="rk3308"/>
+  <project name="linux/external/rkupdate" path="external/rkupdate" revision="22e96f050b9f0b834a09a6e372ec709a688b5316" upstream="master"/>
+  <project name="linux/external/rkwifibt" path="external/rkwifibt" revision="b5030536b6df9a019c9a46f7a4c8dcd44239c251" upstream="master"/>
+  <project name="linux/external/softapDemo" path="external/softapDemo" revision="b3fc180b0dde46f56af2706615f53a3cc516189b" upstream="master"/>
+  <project name="linux/external/softapServer" path="external/softapServer" revision="9158517316a050190273c6809ea88467a4276e16" upstream="master"/>
+  <project name="linux/recovery" path="external/recovery" revision="8d004833b17ccb64df5f508129c49a512aa08ad0" upstream="develop"/>
+  <project name="linux/tools" path="tools" revision="7621eb9739c265868968a340b5ab099477488b0c" upstream="master">
+    <linkfile dest="tools/windows/AndroidTool/AndroidTool_Release/config.cfg" src="windows/AndroidTool/AndroidTool_Release/rk3308-config.cfg"/>
+    <linkfile dest="tools/windows/AndroidTool/rockdev/package-file" src="windows/AndroidTool/rockdev/rk3308-package-file"/>
+    <linkfile dest="tools/windows/AndroidTool/rockdev/mkupdate.bat" src="windows/AndroidTool/rockdev/rk3308-mkupdate.bat"/>
+    <linkfile dest="tools/linux/Linux_Pack_Firmware/rockdev/mkupdate.sh" src="linux/Linux_Pack_Firmware/rockdev/rk3308-mkupdate.sh"/>
+    <linkfile dest="tools/linux/Linux_Pack_Firmware/rockdev/package-file" src="linux/Linux_Pack_Firmware/rockdev/rk3308-package-file"/>
+  </project>
+  <project name="rk/kernel-stable" path="kernel" revision="4f025afdc9e94ce21b70abf97db43cb246d296b7" upstream="stable-4.4-rk3308-linux"/>
+  <project name="rk/prebuilts/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" path="prebuilts/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" revision="f96f76d6be89a6e28d4dac1f233f9aca9921f69b" upstream="master"/>
+  <project name="rk/prebuilts/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" path="prebuilts/gcc/linux-x86/arm/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" revision="dd4df7dff4f1df65d78939a958b760a79e3650a1" upstream="master"/>
+  <project name="rk/rk1108/buildroot" path="buildroot" revision="5032f22426f2647a65e854d7d8426e59e9ab0ce9" upstream="rockchip/2018.02-rc3">
+    <linkfile dest="Makefile" src="build/Makefile"/>
+    <linkfile dest="envsetup.sh" src="build/envsetup.sh"/>
+  </project>
+  <project name="rk/rkbin" path="rkbin" revision="323ec3b55f84836ba105e131365c4da27ad68f44" upstream="master"/>
+</manifest>
