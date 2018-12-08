@@ -28,7 +28,7 @@
     <linkfile dest="npu/device/rockchip/.BoardConfig.mk" src="rk3399pro-npu/BoardConfig.mk"/>
   </project>
   <project name="linux/distro" path="distro" revision="c6505a4841cfb349b947a224d6ecb0e93346bd43" upstream="master"/>
-  <project name="linux/docs" path="docs" revision="d739eaad1f8e938f4aea40cdee1823fe3d1e406a" upstream="master"/>
+  <project name="linux/docs" path="docs" revision="fd8e4bc2724dbd0e46c9ddc2d7517b05f4e10b23" upstream="master"/>
   <project name="linux/external/alsa-config" path="external/alsa-config" revision="7dce63af6a4e24c0154f70de6d96dfc17aa38ddc" upstream="master"/>
   <project name="linux/external/audioservice" path="external/audioservice" revision="ec7efbf4cbb023a655228a1260fb83258fd667c1" upstream="master"/>
   <project name="linux/external/camera_engine_cifisp" path="external/camera_engine_cifisp" revision="ae1a9dffc54c798b62e29f5948d9f4b33170dd38" upstream="master"/>
@@ -59,11 +59,11 @@
     <linkfile dest="tools/linux/Linux_Pack_Firmware/rockdev/package-file" src="linux/Linux_Pack_Firmware/rockdev/rk3399-package-file"/>
   </project>
   <project name="rk/kernel" path="npu/kernel" revision="0d6bd51f378af3d1b05a684d74371d7741e43fe4" upstream="develop-4.4"/>
-  <project name="rk/kernel-stable" path="kernel" revision="65dee9ad774b4a299f01ca9c43b9895e8ea9d7c9" upstream="stable-4.4-rk3399pro-linux"/>
+  <project name="rk/kernel-stable" path="kernel" revision="6ed1307ab983f550247d47d7a9969f63c1065789" upstream="stable-4.4-rk3399pro-linux"/>
   <project name="rk/mpp" path="external/mpp" revision="b4199f0c84da7dd8d97b9f7a26bcce597cd3b1e3" upstream="develop"/>
   <project name="rk/prebuilts/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" path="prebuilts/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" revision="f96f76d6be89a6e28d4dac1f233f9aca9921f69b" upstream="master"/>
   <project name="rk/prebuilts/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" path="npu/prebuilts/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" revision="f96f76d6be89a6e28d4dac1f233f9aca9921f69b" upstream="master"/>
-  <project name="rk/rk1108/buildroot" path="buildroot" revision="b560ff5a10686e83c7381135dd4602bcde050c07" upstream="rockchip/rk3399pro-2018.02-rc3">
+  <project name="rk/rk1108/buildroot" path="buildroot" revision="288d5b96f0d14a5a1ec04ee77b067f0494f8d78e" upstream="rockchip/rk3399pro-2018.02-rc3">
     <linkfile dest="Makefile" src="build/Makefile"/>
     <linkfile dest="envsetup.sh" src="build/envsetup.sh"/>
   </project>
