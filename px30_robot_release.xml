@@ -5,7 +5,7 @@
   
   <project name="android/rk/u-boot-stable" path="u-boot" revision="620ea1c8a88c91fdfc8e1e1aa7afe65433348453" upstream="stable-4.4-px30-linux"/>
   <project name="linux/buildroot/dl" path="buildroot/dl" revision="9706155226abf00e9cba5bf600fdd98c5daf9eef" upstream="master"/>
-  <project name="linux/device/rockchip" path="device/rockchip" revision="30d54dd667d0de3faed0dfa13d7b45904b7f8a3d" upstream="master">
+  <project name="linux/device/rockchip" path="device/rockchip" revision="ad5f5bcc0e5cfef40a7c8f96e55766cd38c50674" upstream="master">
     <linkfile dest="mkfirmware.sh" src="common/mkfirmware.sh"/>
     <linkfile dest="build.sh" src="common/build.sh"/>
     <linkfile dest="rkflash.sh" src="common/rkflash.sh"/>
