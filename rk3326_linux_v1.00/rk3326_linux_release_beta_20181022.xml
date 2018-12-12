@@ -51,5 +51,5 @@
     <linkfile dest="Makefile" src="build/Makefile"/>
     <linkfile dest="envsetup.sh" src="build/envsetup.sh"/>
   </project>
-  <project name="rk/rkbin" path="rkbin" revision="7089bbf4ab5ec39e7c1124917ed9781e783562f4" upstream="master"/>
+  <project name="rk/rkbin" path="rkbin" revision="bb3087fcffcb251567af1f56395ce828dc8ce873" upstream="master"/>
 </manifest>
