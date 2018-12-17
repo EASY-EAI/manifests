@@ -36,7 +36,7 @@
   <project name="linux/linux-rga" path="external/linux-rga" revision="eb14310e72e2f76eb78c0d6dafc350af8a25c3d8" upstream="master"/>
   <project name="linux/recovery" path="external/recovery" revision="7477e27f9795f09520cc5db1faeaf85efc64e1de" upstream="develop"/>
   <project name="linux/rk-rootfs-build" path="rootfs" revision="f788d8eb06b1aab5d8c3207d901afb500f2e01ba" upstream="master"/>
-  <project name="linux/tools" path="tools" revision="7621eb9739c265868968a340b5ab099477488b0c" upstream="master">
+  <project name="linux/tools" path="tools" revision="1db67f7d493837953da41857c62069660751e182" upstream="master">
     <linkfile dest="tools/windows/AndroidTool/AndroidTool_Release/config.cfg" src="windows/AndroidTool/AndroidTool_Release/rk3288-config.cfg"/>
     <linkfile dest="tools/windows/AndroidTool/rockdev/package-file" src="windows/AndroidTool/rockdev/rk3288-package-file"/>
     <linkfile dest="tools/windows/AndroidTool/rockdev/mkupdate.bat" src="windows/AndroidTool/rockdev/rk3288-mkupdate.bat"/>
