@@ -19,7 +19,7 @@
     <linkfile dest="rkflash.sh" src="common/rkflash.sh"/>
     <linkfile dest="device/rockchip/.BoardConfig.mk" src="rk3399/BoardConfig.mk"/>
   </project>
-  <project name="linux/distro" path="distro" revision="c6505a4841cfb349b947a224d6ecb0e9334ibd43" upstream="master"/>
+  <project name="linux/distro" path="distro" revision="c6505a4841cfb349b947a224d6ecb0e93346bd43" upstream="master"/>
   <project name="linux/docs" path="docs" revision="644bfaeff0f12bc2f6e757f57817c1d873879411" upstream="master"/>
   <project name="linux/external/alsa-config" path="external/alsa-config" revision="7dce63af6a4e24c0154f70de6d96dfc17aa38ddc" upstream="master"/>
   <project name="linux/external/audioservice" path="external/audioservice" revision="ec7efbf4cbb023a655228a1260fb83258fd667c1" upstream="master"/>
