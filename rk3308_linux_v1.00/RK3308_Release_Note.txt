@@ -1,4 +1,27 @@
 ===========RK3308 Linux SDK Release Note===========
+【rk3308_linux_release_v1.2.3_20181218.xml 更新日志】
+rkbin更新：
+1.rk3308支持optee(bl32)，可在rk3308TRUST.ini文件中选择是否开启optee功能
+2.miniloader :
+        新增支持spi nand flash 颗粒：DS35Q2GA-1B, EM73C044SNC-G, EM73D044SNB-G
+        支持4KB page size的SLC Nand flash
+        添加atag支持
+
+uboot更新：
+1. rk3308-aarch32_defconfig、rk3308_defconfig 使能了uboot宽温功能、支持u-boot充电 
+2. evb-rk3308_defconfig进行裁剪，去掉不必要模块
+3. 使能GIC中断功能
+4. 增加preloader serial功能
+
+Kernel更新：
+1：添加并使能宽温的支持
+
+Buildroot更新：
+1.partinit 修复oem 分区挂载失败
+2.新增设备开发接口API，externel/deviceio/, 如：WiFi、BT控制，配网，播放器等接口
+3.更新思必驰离在线语音算法
+4.更新32位默认的uboot配置: (BoardConfig_32bit.mk) 由evb-aarch32-rk3308 改成rk3308-aarch32
+5.更新64位默认的uboot配置: (BoardConfig.mk) 由evb-rk3308 改成 rk3308
 
 【rk3308_linux_release_v1.2.2_20181009.xml 更新日志】
 
