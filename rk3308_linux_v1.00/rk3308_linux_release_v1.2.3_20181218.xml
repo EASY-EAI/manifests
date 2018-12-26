@@ -5,7 +5,7 @@
   <default remote="rk" sync-j="4"/>
   
   <project name="android/rk/platform/system/rk_tee_user" path="external/security/rk_tee_user" revision="1e3bdb582c52707d71e5cbe29ca1064d7c04b696" upstream="develop-next"/>
-  <project name="android/rk/u-boot-stable" path="u-boot" revision="4585497ae778ba28aa945dcea664311e06d2e631" upstream="stable-4.4-rk3308-linux-1.2.3"/>
+  <project name="android/rk/u-boot-stable" path="u-boot" revision="da21cd730e47a3f5f6a9512b26c1459cc55123f9" upstream="stable-4.4-rk3308-linux-1.2.3"/>
   <project name="linux/buildroot/dl" path="buildroot/dl" revision="ca0e1ad453dac20329a564f2c2a6222738bc80fd" upstream="master"/>
   <project name="linux/device/rockchip" path="device/rockchip" revision="cb115a6512249ccbd629dede61d110a4ae70548e" upstream="stable-rk3308-v1.2.3-20181218">
     <linkfile dest="mkfirmware.sh" src="rk3308/mkfirmware.sh"/>
@@ -46,7 +46,7 @@
     <linkfile dest="tools/linux/Linux_Pack_Firmware/rockdev/mkupdate.sh" src="linux/Linux_Pack_Firmware/rockdev/rk3308-mkupdate.sh"/>
     <linkfile dest="tools/linux/Linux_Pack_Firmware/rockdev/package-file" src="linux/Linux_Pack_Firmware/rockdev/rk3308-package-file"/>
   </project>
-  <project name="rk/kernel-stable" path="kernel" revision="9dffc018c7a8c7ade8cd73d15665970db420d3ec" upstream="stable-4.4-rk3308-linux"/>
+  <project name="rk/kernel-stable" path="kernel" revision="11fce5d643385c6da2dbbf4a79345c9ac8e96db2" upstream="stable-4.4-rk3308-linux"/>
   <project name="rk/prebuilts/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" path="prebuilts/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" revision="f96f76d6be89a6e28d4dac1f233f9aca9921f69b" upstream="master"/>
   <project name="rk/prebuilts/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" path="prebuilts/gcc/linux-x86/arm/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" revision="dd4df7dff4f1df65d78939a958b760a79e3650a1" upstream="master"/>
   <project name="rk/rk1108/buildroot" path="buildroot" revision="a9fb104230d51751ac192424ea0e2d18e4285be3" upstream="rockchip/2018.02-rc3">
