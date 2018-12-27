@@ -23,7 +23,7 @@
   <project name="linux/external/mpv" path="external/mpv" revision="2739ea80b7137daf3f9a39fd3a2ddfd787a6b964" upstream="rockchip/release/0.9"/>
   <project name="linux/external/powermanager" path="external/powermanager" revision="17921d6b75395df5478613973e58916a6cf7c7ad" upstream="master"/>
   <project name="linux/external/rk_pcba_test" path="external/rk_pcba_test" revision="25643cf5f522a71ed2a918b0abe15e363a893504" upstream="master"/>
-  <project name="linux/external/rknpu" path="external/rknpu" revision="19f8a1a88e7a4de6f5ff23b955504aa72917b9b1" upstream="master"/>
+  <project name="linux/external/rknpu" path="external/rknpu" revision="57602c1a65cb6c0c19641d2ca67ce29036311ecc" upstream="master"/>
   <project name="linux/external/rknn_demo" path="external/rknn_demo" revision="b37be9743b2b75c3f9f9a22953b9aac57b7c62b2" upstream="master"/>
   <project name="linux/external/rkupdate" path="external/rkupdate" revision="000bc14833c2fa12ba45e9f87e0775977485b4f1" upstream="master"/>
   <project name="linux/external/rkwifibt" path="external/rkwifibt" revision="4e4c31e8964e0c56a57dfc99081fd6929c49437e" upstream="master"/>
