@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote fetch="../../" name="rk" review="https://10.10.10.29"/>
-  
+  <remote fetch="ssh://git@www.rockchip.com.cn/linux/" name="rk"/> 
   <default remote="rk" sync-j="4"/>
   
   <project name="android/rk/u-boot-stable" path="u-boot" revision="53f6d13c25b2d18244720453e052476b95a1f75f" upstream="stable-4.4-px3se-linux"/>
