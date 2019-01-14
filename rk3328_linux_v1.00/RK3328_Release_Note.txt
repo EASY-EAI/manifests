@@ -1,0 +1,12 @@
+===========RK3328 Linux SDK Release Note===========
+【rk3326_linux_release_beta_20180531.xml 更新日志】
+Buildroot更新：
+1. update gallery/music/video.
+   Don't fix the same file twice
+2. update docs
+3. update recovery
+4. update buildroot
+   Fix usb storage write/read too slow.
+   And other misc issue.
+5. update tools
+   Fix update.img download failed issue.
