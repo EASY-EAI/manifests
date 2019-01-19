@@ -29,7 +29,7 @@
   <project name="linux/external/powermanager" path="external/powermanager" revision="17921d6b75395df5478613973e58916a6cf7c7ad" upstream="master"/>
   <project name="linux/external/rk_pcba_test" path="external/rk_pcba_test" revision="25643cf5f522a71ed2a918b0abe15e363a893504" upstream="master"/>
   <project name="linux/external/rkupdate" path="external/rkupdate" revision="000bc14833c2fa12ba45e9f87e0775977485b4f1" upstream="master"/>
-  <project name="linux/external/rkwifibt" path="external/rkwifibt" revision="4e4c31e8964e0c56a57dfc99081fd6929c49437e" upstream="master"/>
+  <project name="linux/external/rkwifibt" path="external/rkwifibt" revision="4b63d595202fa28f497f5b6fbf534809aee15a6e" upstream="master"/>
   <project name="linux/external/softapDemo" path="external/softapDemo" revision="b3fc180b0dde46f56af2706615f53a3cc516189b" upstream="master"/>
   <project name="linux/external/softapServer" path="external/softapServer" revision="9158517316a050190273c6809ea88467a4276e16" upstream="master"/>
   <project name="linux/gstreamer-rockchip" path="external/gstreamer-rockchip" revision="aadf6ab77c53055f8be85c18bace6918e04e3f9c" upstream="master"/>
