@@ -1,0 +1,30 @@
+===========RK3399PRO Linux SDK Release Note===========
+
+【rk3399pro_linux_beta_v0.01_20190124.xml 更新日志】
+
+1. v0.01 beta version
+
+    Working and tested (to some extent):
+        * cluster cpu/gpu support -- including frequency, performance
+        * UART / console
+        * Thermal
+        * Touchscreen
+        * EDP
+        * Wifi
+        * Bluetooth / Webcam
+        * eMMC
+        * USB2/USB3
+        * Backlight
+        * DVFS: included cpu/gpu/ddr
+        * CAMERA: had tested the ov13850 camera
+        * VIDEO: tested the h264 video source
+        * AUDIO: play and mic music
+        * NPU
+        * HDMI
+        * GMAC
+    Not tested:
+        * Pcie
+        * MIPI
+    Not working:
+        * SD CARD: no sure, maybe the board sd card is broken by hardware.
+
