@@ -19,7 +19,7 @@
     <linkfile dest="device/rockchip/.BoardConfig.mk" src="px30/BoardConfig.mk"/>
   </project>
   <project name="linux/distro" path="distro" revision="4f4b59edfee59e6fc7985f0b4c59fb50bed0f279" upstream="master"/>
-  <project name="linux/docs" path="docs" revision="eab59985ea895b6626e666506e8f8d89de0e20d9" upstream="master"/>
+  <project name="linux/docs" path="docs" revision="1b32cefe881ed425b41ea1443f0da493ad040792" upstream="master"/>
   <project name="linux/external/alsa-config" path="external/alsa-config" revision="7dce63af6a4e24c0154f70de6d96dfc17aa38ddc" upstream="master"/>
   <project name="linux/external/audioservice" path="external/audioservice" revision="ec7efbf4cbb023a655228a1260fb83258fd667c1" upstream="master"/>
   <project name="linux/external/camera_engine_rkisp" path="external/camera_engine_rkisp" revision="a9cb2ce10b51e107aefb1d72277ca71171a0c5cc" upstream="master"/>
