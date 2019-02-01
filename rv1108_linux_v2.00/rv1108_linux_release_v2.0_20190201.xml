@@ -51,6 +51,6 @@
   <project name="rk/rk1108/loader" path="loader" revision="6a74ac41d75dcc95ae65d0e115e781d8ce49e086" upstream="loader-emmc"/>
   <project name="rk/rk1108/prebuild-images" path="image/prebuild" revision="9870da7020409134958b4b9c2d2cd267849b14f8" upstream="master"/>
   <project name="rk/rk1108/prebuilds" path="prebuilts" revision="66de1b279541c104b947ec8c1fd9ceaf53350a18" upstream="master"/>
-  <project name="rk/rk1108/tools" path="tools" revision="9a74ba50b43db68d4f0787a494a8fe37807928ae" upstream="master"/>
+  <project name="rk/rk1108/tools" path="tools" revision="0183ff192233e1d675e191dba224733b24ab0042" upstream="master"/>
   <project name="rkmedia" path="frameworks/media" revision="ff29e7489698cea957e2439ea3aea96abe9e39a4" upstream="master"/>
 </manifest>
