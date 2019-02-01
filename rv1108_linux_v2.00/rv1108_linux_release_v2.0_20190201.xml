@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="ssh://git@www.rockchip.com.cn/linux/" name="rk"/>
+
+  <default remote="rk" sync-j="4"/>
+  
+  <project name="linux/external/adb" path="external/adb" revision="5c57a1f9145eef7c0265b0a9bbc2379a377391c6" upstream="master"/>
+  <project name="linux/external/alsa-lib" path="external/alsa-lib" revision="4341cc727680d565a8bebc7ef6f9013a64f1fcc4" upstream="master"/>
+  <project name="linux/external/alsa-plugins" path="external/alsa-plugins" revision="becb2a4b8f8b107fbc13ec610dc63b9d960abb36" upstream="master"/>
+  <project name="linux/external/alsa-utils" path="external/alsa-utils" revision="a7c6afebd94bec1eeab0a34f97e99df7e0521e3c" upstream="master"/>
+  <project name="linux/external/ffmpeg" path="external/ffmpeg" revision="589de66a0b50c43b93f511361275d9ff86da21dd" upstream="rockchip/release/4.0"/>
+  <project name="linux/external/libcutils" path="external/libcutils" revision="973b41906854a32379809b11138afbf7016563a0" upstream="master"/>
+  <project name="linux/external/liblog" path="external/liblog" revision="3867fe3c8f20f46d7109c2779ac48af2f16d6ea8" upstream="master"/>
+  <project name="rk/mpp" path="external/rockchip-mpp" revision="056e17df923ced58fa0c0b9e0f6ef14cbc640c8d" upstream="develop"/>
+  <project name="rk/rk1108/apps/face" path="app/face" revision="4e2d0104a14f519709f87ccb206c7772e8cd8c2e" upstream="master"/>
+  <project name="rk/rk1108/apps/lock" path="app/lock" revision="d24f0062fe93661e5cae70ab1b54bfd1a22685f9" upstream="master"/>
+  <project name="rk/rk1108/apps/uvc_app" path="app/uvc_app" revision="38b6a4a521e22cee90036f2332c9f7be59e83fa0" upstream="master"/>
+  <project name="rk/rk1108/build" path="build" revision="ff6e9333a19b4e83f96f8f9ef0bb5b4165dc14df" upstream="master">
+    <copyfile dest="Makefile" src="Makefile.hertz"/>
+  </project>
+  <project name="rk/rk1108/buildroot-2016" path="buildroot" revision="a7723737de65778eeb7ea845848f827fe3dcbe04" upstream="master"/>
+  <project name="rk/rk1108/common" path="common" revision="8a0483b9fca77e4026b4fe26a467fec075b68b49" upstream="master"/>
+  <project name="rk/rk1108/config" path="config" revision="b20af2bb5857da0e6b41b5a72f6acbfb58e0d939" upstream="master"/>
+  <project name="rk/rk1108/docs" path="docs" revision="b8299afe989d01d231c29979cbce9f086410ce9a" upstream="master"/>
+  <project name="rk/rk1108/external/cjson" path="external/cjson" revision="5d58a33073fa1be2e9cb01fe085f27b6a1cba81c" upstream="master"/>
+  <project name="rk/rk1108/external/dnsmasq" path="external/dnsmasq" revision="aae2cf9a7e83748058d39a15d414c947a435ae24" upstream="master"/>
+  <project name="rk/rk1108/external/freetype" path="external/freetype" revision="a6ea6dc976d4edbcb4d3455519dd95ec7b7e3ff6" upstream="master"/>
+  <project name="rk/rk1108/external/io" path="external/io" revision="44e3fedfc60721d879e0aa130106baac600aa80f" upstream="master"/>
+  <project name="rk/rk1108/external/libcamerahal" path="external/libcamerahal" revision="b047f4618665e954014cc711940372c7c3a077f3" upstream="master"/>
+  <project name="rk/rk1108/external/libion" path="external/libion" revision="632219362c31df1ebc47ba5fc2cb241c3d08b80d" upstream="master"/>
+  <project name="rk/rk1108/external/libjpeg" path="external/libjpeg" revision="f7e244a9a49ed452621015cbd85b5d4d84e63d86" upstream="master"/>
+  <project name="rk/rk1108/external/libminigui" path="external/libminigui" revision="0431ac172a91be9d2502730404fbdff02abfd3e4" upstream="master"/>
+  <project name="rk/rk1108/external/libnl" path="external/libnl" revision="0fa49e40cd417314e82133ffe3693f15e8e61f6f" upstream="master"/>
+  <project name="rk/rk1108/external/libpng" path="external/libpng" revision="974bd812504b7185996c23b8fc29ba08c7a33e0a" upstream="master"/>
+  <project name="rk/rk1108/external/librkfb" path="external/librkfb" revision="653ea6b1808f7f8f8f81d272550e4bd3e30a7956" upstream="master"/>
+  <project name="rk/rk1108/external/librkrga" path="external/librkrga" revision="bd376e47b6103f38f80aa980b8f34d31006ed5b3" upstream="master"/>
+  <project name="rk/rk1108/external/libts" path="external/libts" revision="f0fbd2eb53f56379c601b649ec142b0c02d3f61a" upstream="master"/>
+  <project name="rk/rk1108/external/libvpu" path="external/libvpu" revision="4f040368d17401de7bee6a79ca68777e8778d2bd" upstream="master"/>
+  <project name="rk/rk1108/external/nanomsg" path="external/nanomsg" revision="54c9e37065bb88a586b596992a47bbd84087bbc2" upstream="master"/>
+  <project name="rk/rk1108/external/openssl" path="external/openssl" revision="f8744c1aa85518d6808af09f7db3125e6f351fcd" upstream="master"/>
+  <project name="rk/rk1108/external/softapdemo" path="external/softapdemo" revision="26182ff60142951a0c18377e38824cd1172564e6" upstream="master"/>
+  <project name="rk/rk1108/external/softapserver" path="external/softapserver" revision="159d6a3dfda401770df1dee636586b847c1954dc" upstream="master"/>
+  <project name="rk/rk1108/external/sqlite" path="external/sqlite" revision="206e6ed8063cf11421cfa753ee903c4a1c3c8067" upstream="master"/>
+  <project name="rk/rk1108/external/wpa_supplicant" path="external/wpa_supplicant" revision="a5c529b57f7884621dccc87e73c89ce66c06adae" upstream="master"/>
+  <project name="rk/rk1108/external/zlib" path="external/zlib" revision="2eb8c706821963c079b69d09493d823a0f8efb22" upstream="master"/>
+  <project name="rk/rk1108/framework/adk" path="frameworks/adk" revision="6f1240c4dc1ea040557bed19f9593e23453219ee" upstream="master"/>
+  <project name="rk/rk1108/framework/database" path="frameworks/database" revision="f992a0e70af44bd92cbe7f96a758f9714b3d72ea" upstream="master"/>
+  <project name="rk/rk1108/framework/model_loader" path="frameworks/model_loader" revision="720c4dfe2b60cea9bd8133138055156ec407556c" upstream="master"/>
+  <project name="rk/rk1108/framework/rkface" path="frameworks/rkface" revision="130c953cfc0da8d18e1b7e504b433410df6116e4" upstream="master"/>
+  <project name="rk/rk1108/kernel" path="kernel" revision="e85a0722613b5f1a2eb63ba0b0d089d09c2694cd" upstream="fastboot"/>
+  <project name="rk/rk1108/loader" path="loader" revision="6a74ac41d75dcc95ae65d0e115e781d8ce49e086" upstream="loader-emmc"/>
+  <project name="rk/rk1108/prebuild-images" path="image/prebuild" revision="9870da7020409134958b4b9c2d2cd267849b14f8" upstream="master"/>
+  <project name="rk/rk1108/prebuilds" path="prebuilts" revision="66de1b279541c104b947ec8c1fd9ceaf53350a18" upstream="master"/>
+  <project name="rk/rk1108/tools" path="tools" revision="9a74ba50b43db68d4f0787a494a8fe37807928ae" upstream="master"/>
+  <project name="rkmedia" path="frameworks/media" revision="ff29e7489698cea957e2439ea3aea96abe9e39a4" upstream="master"/>
+</manifest>
