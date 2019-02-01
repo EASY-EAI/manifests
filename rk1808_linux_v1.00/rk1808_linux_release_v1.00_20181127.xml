@@ -23,8 +23,8 @@
   <project name="linux/external/mpv" path="external/mpv" revision="2739ea80b7137daf3f9a39fd3a2ddfd787a6b964" upstream="rockchip/release/0.9"/>
   <project name="linux/external/powermanager" path="external/powermanager" revision="17921d6b75395df5478613973e58916a6cf7c7ad" upstream="master"/>
   <project name="linux/external/rk_pcba_test" path="external/rk_pcba_test" revision="25643cf5f522a71ed2a918b0abe15e363a893504" upstream="master"/>
-  <project name="linux/external/rknpu" path="external/rknpu" revision="c783056afffc0bbdcd1009b1b421c77f38981695" upstream="master"/>
-  <project name="linux/external/rknn_demo" path="external/rknn_demo" revision="b37be9743b2b75c3f9f9a22953b9aac57b7c62b2" upstream="master"/>
+  <project name="linux/external/rknpu" path="external/rknpu" revision="c0f3b78ebf4fe7793dfee6b83952e661f94bf445" upstream="master"/>
+  <project name="linux/external/rknn_demo" path="external/rknn_demo" revision="6297b1557d625d4fc98ef3b11dbcdcc49fc4a1ac" upstream="master"/>
   <project name="linux/external/rkupdate" path="external/rkupdate" revision="000bc14833c2fa12ba45e9f87e0775977485b4f1" upstream="master"/>
   <project name="linux/external/rkwifibt" path="external/rkwifibt" revision="4e4c31e8964e0c56a57dfc99081fd6929c49437e" upstream="master"/>
   <project name="linux/gstreamer-rockchip" path="external/gstreamer-rockchip" revision="aadf6ab77c53055f8be85c18bace6918e04e3f9c" upstream="master"/>
@@ -38,10 +38,10 @@
     <linkfile dest="tools/linux/Linux_Pack_Firmware/rockdev/mkupdate.sh" src="linux/Linux_Pack_Firmware/rockdev/rk3399-mkupdate.sh"/>
     <linkfile dest="tools/linux/Linux_Pack_Firmware/rockdev/package-file" src="linux/Linux_Pack_Firmware/rockdev/rk3399-package-file"/>
   </project>
-  <project name="linux/kernel_rk1808" path="kernel" revision="50816642a7e42eaa2e1d3fd210170b26635d14aa" upstream="master"/>
+  <project name="linux/kernel_rk1808" path="kernel" revision="bc4c7f125e28633f8df23e66ba65fe90811d0d13" upstream="develop-4.4"/>
   <project name="rk/mpp" path="external/mpp" revision="50d2179ff5d271c591f87082ad757aa99ee6501d" upstream="develop"/>
   <project name="rk/prebuilts/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" path="prebuilts/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" revision="f96f76d6be89a6e28d4dac1f233f9aca9921f69b" upstream="master"/>
-  <project name="rk/rk1108/buildroot" path="buildroot" revision="a9fb104230d51751ac192424ea0e2d18e4285be3" upstream="rockchip/2018.02-rc3">
+  <project name="rk/rk1108/buildroot" path="buildroot" revision="251862f7657c07ad2e247ac755d8e937e4bff23d" upstream="rockchip/2018.02-rc3">
     <linkfile dest="Makefile" src="build/Makefile"/>
     <linkfile dest="envsetup.sh" src="build/envsetup.sh"/>
   </project>
