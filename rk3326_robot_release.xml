@@ -3,9 +3,9 @@
   <remote fetch="ssh://git@www.rockchip.com.cn/linux/" name="rk"/> 
   <default remote="rk" sync-j="4"/>
   
-  <project name="android/rk/u-boot-stable" path="u-boot" revision="cfe92bd1653e59173fd66e379d38cae915b6743b" upstream="stable-4.4-rk3326-linux"/>
+  <project name="android/rk/u-boot-stable" path="u-boot" revision="dfe5c45f059d9454c2dc7c91e14935446ade2505" upstream="stable-4.4-rk3326-linux"/>
   <project name="linux/buildroot/dl" path="buildroot/dl" revision="6c5a3c60b6fee1a7a78c83d20ca3f51329801665" upstream="master"/>
-  <project name="linux/device/rockchip" path="device/rockchip" revision="b8c6f2e3e91a5402438f8425e196febb364cc96b" upstream="master">
+  <project name="linux/device/rockchip" path="device/rockchip" revision="a5221df9933f8746a33f3d6647b54c95e6e67dc6" upstream="master">
     <linkfile dest="mkfirmware.sh" src="common/mkfirmware.sh"/>
     <linkfile dest="build.sh" src="common/build.sh"/>
     <linkfile dest="rkflash.sh" src="common/rkflash.sh"/>
@@ -44,5 +44,5 @@
     <linkfile dest="Makefile" src="build/Makefile"/>
     <linkfile dest="envsetup.sh" src="build/envsetup.sh"/>
   </project>
-  <project name="rk/rkbin" path="rkbin" revision="5f7f6102ba1ccf7c100ba30207caeab2e864649d" upstream="master"/>
+  <project name="rk/rkbin" path="rkbin" revision="cae50f5fccc78475ff581c639e4ecd11b9643ce9" upstream="master"/>
 </manifest>
