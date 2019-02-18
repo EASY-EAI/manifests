@@ -3,7 +3,7 @@
   <remote fetch="ssh://git@www.rockchip.com.cn/linux/" name="rk"/>
 
   <default remote="rk" sync-j="4"/>
-  
+
   <project name="android/platform/external/libdrm" path="external/libdrm" revision="696a303b72faf2dd9a0850aa31e678b29e3aec08" upstream="rk33/mid/9.0/develop"/>
   <project name="android/rk/u-boot" path="u-boot" revision="4faa6c1a351356fc6229b2c2cef9f572a73110e8" upstream="next-dev"/>
   <project name="android/rk/u-boot" path="npu/u-boot" revision="4faa6c1a351356fc6229b2c2cef9f572a73110e8" upstream="next-dev"/>
@@ -41,7 +41,7 @@
   <project name="linux/external/powermanager" path="external/powermanager" revision="17921d6b75395df5478613973e58916a6cf7c7ad" upstream="master"/>
   <project name="linux/external/powermanager" path="npu/external/powermanager" revision="17921d6b75395df5478613973e58916a6cf7c7ad" upstream="master"/>
   <project name="linux/external/rk_pcba_test" path="external/rk_pcba_test" revision="25643cf5f522a71ed2a918b0abe15e363a893504" upstream="master"/>
-  <project name="linux/external/rknn_demo" path="external/rknn_demo" revision="6297b1557d625d4fc98ef3b11dbcdcc49fc4a1ac" upstream="master"/>
+  <project name="linux/external/rknn_demo" path="external/rknn_demo" revision="1e9f99a48baac6c029eb52fb78a1ba48d0a29dae" upstream="master"/>
   <project name="linux/external/rknpu" path="npu/external/rknpu" revision="6e1ac27b629f122785cad0d436aa28ea41c6734d" upstream="master"/>
   <project name="linux/external/rknpu" path="external/rknpu" revision="6e1ac27b629f122785cad0d436aa28ea41c6734d" upstream="master"/>
   <project name="linux/external/rkssd" path="external/rkssd" revision="1c50d336e770a8ce09ae33b3e09d2783d5b4c2d9" upstream="master"/>
@@ -60,12 +60,12 @@
     <linkfile dest="tools/linux/Linux_Pack_Firmware/rockdev/mkupdate.sh" src="linux/Linux_Pack_Firmware/rockdev/rk3399-mkupdate.sh"/>
     <linkfile dest="tools/linux/Linux_Pack_Firmware/rockdev/package-file" src="linux/Linux_Pack_Firmware/rockdev/rk3399-package-file"/>
   </project>
-  <project name="rk/kernel" path="kernel" revision="83ad402c207fe60349cab32df17f4136c03cec5f" upstream="develop-4.4"/>
+  <project name="rk/kernel" path="kernel" revision="f611ec6c1c667e557e4be127f20fd58de03074c7" upstream="develop-4.4"/>
   <project name="rk/kernel" path="npu/kernel" revision="7be8a2eb28f016874386c7bd8570640a768dad2a" upstream="develop-4.4"/>
   <project name="rk/mpp" path="external/mpp" revision="2dc830f0715bd256fc262ec41b008ee9c8b07b52" upstream="develop"/>
   <project name="rk/prebuilts/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" path="prebuilts/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" revision="f96f76d6be89a6e28d4dac1f233f9aca9921f69b" upstream="master"/>
   <project name="rk/prebuilts/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" path="npu/prebuilts/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" revision="f96f76d6be89a6e28d4dac1f233f9aca9921f69b" upstream="master"/>
-  <project name="rk/rk1108/buildroot" path="buildroot" revision="86bc75d6fa1e4ce09aba4a37d6a897db9ce76609" upstream="rockchip/2018.02-rc3">
+  <project name="rk/rk1108/buildroot" path="buildroot" revision="9ed1f6f74d4f2024e4ade082dd9afa70315c4bc0" upstream="rockchip/2018.02-rc3">
     <linkfile dest="Makefile" src="build/Makefile"/>
     <linkfile dest="envsetup.sh" src="build/envsetup.sh"/>
   </project>

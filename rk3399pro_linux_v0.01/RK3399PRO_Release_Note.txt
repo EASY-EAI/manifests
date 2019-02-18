@@ -1,8 +1,8 @@
 ===========RK3399PRO Linux SDK Release Note===========
 
-【rk3399pro_linux_beta_v0.02_20190217.xml 更新日志】
+【rk3399pro_linux_beta_v0.01_20190217.xml 更新日志】
 
-2. v0.02 beta version
+2. v0.01 beta version
 
 buildroot:
     * 分支从原来rk3399pro-2018.02-rc3切换到2018.02-rc3
