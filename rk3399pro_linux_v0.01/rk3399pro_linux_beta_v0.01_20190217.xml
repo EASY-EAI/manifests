@@ -29,7 +29,7 @@
     <linkfile dest="npu/device/rockchip/.BoardConfig.mk" src="rk3399pro-npu/BoardConfig.mk"/>
   </project>
   <project name="linux/distro" path="distro" revision="24fd5536ff493ba4637757b38bb4841717fce58c" upstream="master"/>
-  <project name="linux/docs" path="docs" revision="ac505f8e907d7b989b45ec571dc1dbfbefabed65" upstream="master"/>
+  <project name="linux/docs" path="docs" revision="c3ffdb754dccc64e9f19adc22013466674e997ac" upstream="master"/>
   <project name="linux/external/alsa-config" path="external/alsa-config" revision="7dce63af6a4e24c0154f70de6d96dfc17aa38ddc" upstream="master"/>
   <project name="linux/external/audioservice" path="external/audioservice" revision="ec7efbf4cbb023a655228a1260fb83258fd667c1" upstream="master"/>
   <project name="linux/external/camera_engine_cifisp" path="external/camera_engine_cifisp" revision="ae1a9dffc54c798b62e29f5948d9f4b33170dd38" upstream="master"/>
