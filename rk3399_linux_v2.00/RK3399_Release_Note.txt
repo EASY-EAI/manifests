@@ -1,4 +1,45 @@
 ===========RK3399 Linux SDK Release Note===========
+【rk3399_linux_release_v2.10_20190222.xml 更新日志】
+
+Buildroot更新：
+1.修复qt5.6编译问题
+2.修复qt5wayland random xdg_shell error
+3.修复rockchip_test一些问题,主要是多路视频和app demo的添加
+4.支持mount resizing read-only ext2 rootfs
+5.增加gst-plugins-rockchip，解决usb camera和mipi camera不能共存问题
+
+Debian更新:
+1.blueman问题
+scripts: fixes blueman error
+    
+    dpkg: error processing package blueman (--configure):
+     subprocess installed post-installation script returned error exit status 1
+
+文档和工具的更新:
+更新uboot/dvfs/mmc/rkisp drive user manual
+
+kernel的更新:
+1. 修复Pmic regulator每次启动出错警告问题
+2. 修复recovery按键进入loader无效问题
+3. 默认开启rk rga
+4. 修复PCCI失败进入L2 link state
+5. 开启ramoops
+6. 修复rk3399 dwc3 host power on fail
+7. rockchip isp1一些bug修复
+
+uboot/rkbin的更新:
+1.ddr bin升级到v1.18
+rk3399: ddr: update version to v1.18
+
+built from ddr init project commit:
+d91c3eb Version: DDR Version 1.18 20190218
+Update feature:
+d91c3eb Version: DDR Version 1.18 20190218
+9eae850 rk3399: using unify global argument for uart, dram info config
+
+Change-Id: Iefbc3b5f5276e531a84257107f04317b89c38ffc
+Signed-off-by: Tang Yun ping <typ@rock-chips.com>
+
 
 【rk3399_linux_release_v2.10_20190124.xml 更新日志】
 
