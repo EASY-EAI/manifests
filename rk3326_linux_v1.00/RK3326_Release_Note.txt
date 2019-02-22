@@ -1,4 +1,35 @@
 ===========RK3326 Linux SDK Release Note===========
+【rk3326_linux_release_1v0_20190215.xml 更新日志】
+rkbin 更新：
+1.修正OPTEE的问题，解决可能会引起系统死机。
+
+Uboot更新：
+1.默认使用kernel中dts配置；
+2.关闭OEM_UNLOCK，解决trust关闭BL32，引起系统卡死在uboot的问题；
+3.添加BL32添加到TRUST的控制宏，通过BoardConfig的环境变量设置。
+
+Kernel更新：
+1. 更新isp1驱动，支持黑白摄像头；
+2. kernel中添加PVTM的支持，可以根据pvtm的值，调整DVFS电压，降低功耗；
+3. 更新camera驱动支持，OV7750、OV7251、OV7725等等；
+4. RK817-codec加入 S32_LE的支持。
+
+Buildroot更新：
+1. 添加Robot BoardConfig，请参考文档《RK3326_LINUX_SDK_RELEASE_20190215发布说明.pdf》进行配置；
+2. 修正squansh系统下ssh不可使用问题；
+3. camera_engine_rkisp升级到V1.6版本，增加如下新功能以及解决一些bug；
+    3.1 修复对于BW sensor，BDM不能被bypass；
+    3.2 移除RKISP_V12宏编译，可以通过ISP driver动态获取；
+    3.3 修复hist/dpcc检查错误，并可以在xml文件定义dpcc模式；
+    3.4 添加3A用户控制接口，可以参考rkisp_demo中的用法；
+    3.5 添加一些调试好的IQ文件。
+4. 修正音频测试脚本，解决音频不能测试的问题；
+5. 添加camera测试脚本。
+
+Docs更新：
+1.添加文档《RKISP_Driver_User_Manual_v1.0_20181113.pdf》；
+2.添加文档《camera_engine_rkisp_user_manual_v1.0.pdf》。
+
 【rk3326_linux_release_beta_20181022.xml 更新日志】
 1. buildroot加入camera_engine_rkisp等更新
 2. rootfs压缩格式从原来squashfs改为ext4
