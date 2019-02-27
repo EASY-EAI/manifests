@@ -13,9 +13,9 @@
   <project name="linux/app/demo" path="app/demo" revision="7b0adedacfe6c5d4100a24ca2eb4a7972b72fa94" upstream="master"/>
   <project name="linux/app/gallery" path="app/gallery" revision="127e3538535650180eddb273da92695e3dacd423" upstream="master"/>
   <project name="linux/app/music" path="app/music" revision="5899bbeb6f6d4b40ede66d943e06ac52a16a0326" upstream="master"/>
-  <project name="linux/app/settings" path="app/settings" revision="ec4f67a2df498893539eb2435d14348d97ecc462" upstream="master"/>
+  <project name="linux/app/settings" path="app/settings" revision="1db6ca8d4d8464fe9476c1b66711d37de7515497" upstream="master"/>
   <project name="linux/app/video" path="app/video" revision="bce3634025425d4464bb1ff906bf04df4d5aa418" upstream="master"/>
-  <project name="linux/buildroot/dl" path="buildroot/dl" revision="a4de0a0a8d517628d8592642d3f03c9f11f52f33" upstream="master"/>
+  <project name="linux/buildroot/dl" path="buildroot/dl" revision="fb6239e0f5c0172f8874edaf9a273af0fd1a78a6" upstream="master"/>
   <project name="linux/buildroot/dl" path="npu/buildroot/dl" revision="a4de0a0a8d517628d8592642d3f03c9f11f52f33" upstream="master"/>
   <project name="linux/device/rockchip" path="device/rockchip" revision="8a8ed01db0db96ed1ab9f85459d9aab4b94294e0" upstream="master">
     <linkfile dest="mkfirmware.sh" src="common/mkfirmware.sh"/>
@@ -30,7 +30,7 @@
     <linkfile dest="npu/device/rockchip/.BoardConfig.mk" src="rk3399pro-npu/BoardConfig.mk"/>
   </project>
   <project name="linux/distro" path="distro" revision="9b7b0f291e21f0e482f7f775754ea71696e91d78" upstream="master"/>
-  <project name="linux/docs" path="docs" revision="8a5e5f4de04c41279127ea2c2614bad112cccaff" upstream="master"/>
+  <project name="linux/docs" path="docs" revision="079ab7f3812d496d6bf6866a4a4f5831adb7f904" upstream="master"/>
   <project name="linux/external/alsa-config" path="external/alsa-config" revision="7dce63af6a4e24c0154f70de6d96dfc17aa38ddc" upstream="master"/>
   <project name="linux/external/audioservice" path="external/audioservice" revision="ec7efbf4cbb023a655228a1260fb83258fd667c1" upstream="master"/>
   <project name="linux/external/camera_engine_cifisp" path="external/camera_engine_cifisp" revision="ae1a9dffc54c798b62e29f5948d9f4b33170dd38" upstream="master"/>
@@ -71,7 +71,7 @@
   <project name="rk/mpp" path="external/mpp" revision="2dc830f0715bd256fc262ec41b008ee9c8b07b52" upstream="develop"/>
   <project name="rk/prebuilts/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" path="prebuilts/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" revision="f96f76d6be89a6e28d4dac1f233f9aca9921f69b" upstream="master"/>
   <project name="rk/prebuilts/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" path="npu/prebuilts/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" revision="f96f76d6be89a6e28d4dac1f233f9aca9921f69b" upstream="master"/>
-  <project name="rk/rk1108/buildroot" path="buildroot" revision="d7691bdb61497dd762c2d139c07b439eb09baae4" upstream="rockchip/2018.02-rc3">
+  <project name="rk/rk1108/buildroot" path="buildroot" revision="67fdb468983d79b9b38aa1b7e5509d91fb87f991" upstream="stable-rk3399pro-v0.01-20190217">
     <linkfile dest="Makefile" src="build/Makefile"/>
     <linkfile dest="envsetup.sh" src="build/envsetup.sh"/>
   </project>

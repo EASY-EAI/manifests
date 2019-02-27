@@ -5,10 +5,13 @@
 2. v0.01 beta version
 
 buildroot:
-    * 分支从原来rk3399pro-2018.02-rc3切换到2018.02-rc3
+    * 增加npu-powerctrl源码
     * npu_fw的升级
     * rknn_demo添加
     * usb camera bug的修复
+    * 修复wifi settings，密码框退出问题
+    * gcc升级到6.5版本
+    * 修复rk3399pro待机唤醒问题
 
 uboot/docs/kernel/mpp 升级至内部最新code.
 
