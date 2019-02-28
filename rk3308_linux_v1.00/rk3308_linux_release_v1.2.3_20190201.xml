@@ -5,7 +5,7 @@
   <default remote="rk" sync-j="4"/>
   
   <project name="android/rk/platform/system/rk_tee_user" path="external/security/rk_tee_user" revision="1e3bdb582c52707d71e5cbe29ca1064d7c04b696" upstream="develop-next"/>
-  <project name="android/rk/u-boot-stable" path="u-boot" revision="375a3ace50fe9b06ad9fc4614c525bf02ccb6269" upstream="stable-4.4-rk3308-linux-1.2.3"/>
+  <project name="android/rk/u-boot-stable" path="u-boot" revision="10cac907ca60dbeaff4d5b03f2bce3558978839a" upstream="stable-4.4-rk3308-linux-1.2.3"/>
   <project name="linux/buildroot/dl" path="buildroot/dl" revision="ca0e1ad453dac20329a564f2c2a6222738bc80fd" upstream="master"/>
   <project name="linux/device/rockchip" path="device/rockchip" revision="cb115a6512249ccbd629dede61d110a4ae70548e" upstream="stable-rk3308-v1.2.3-20181218">
     <linkfile dest="mkfirmware.sh" src="rk3308/mkfirmware.sh"/>
@@ -53,5 +53,5 @@
     <linkfile dest="Makefile" src="build/Makefile"/>
     <linkfile dest="envsetup.sh" src="build/envsetup.sh"/>
   </project>
-  <project name="rk/rkbin-stable" path="rkbin" revision="e863242263046928d683bc563577ee805df3c7e6" upstream="stable-4.4-rk3308-linux-1.2.3"/>
+  <project name="rk/rkbin-stable" path="rkbin" revision="9540b8483fad07dd0244da7d3c4f78fddd2913a0" upstream="stable-4.4-rk3308-linux-1.2.3"/>
 </manifest>
