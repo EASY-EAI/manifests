@@ -1,4 +1,35 @@
 ===========RK3399 Linux SDK Release Note===========
+【rk3399_linux_release_v2.10_20190308.xml 更新日志】
+
+Buildroot更新：
+1.优化rockchip_test
+2.优化input-event-daemon和power按键的待机唤醒
+3.qt5wayland的功能添加
+Debian更新:
+1.debian64硬解的支持
+2.debian64 glmark2没使用gpu的问题
+3.增加ffmpeg/mpv的跑支持
+
+文档和工具的更新:
+更新pcba
+
+kernel的更新:
+1. 修复lpddr4 burst计算错误
+2. 更新isp1驱动到v0.1.1
+3. 开启rga
+
+uboot/rkbin的更新:
+1.ddr bin升级到v1.19
+rk3399: ddr: update version to v1.19
+    
+    built from ddr init project commit:
+        8aa7e79: DDR Version 1.19 20190305
+    Update feature:
+        8aa7e79: DDR Version 1.19 20190305
+        0c6787a: rk3399: clear interrupt before data training
+
+2. avb功能的支持
+
 【rk3399_linux_release_v2.10_20190222.xml 更新日志】
 
 Buildroot更新：
