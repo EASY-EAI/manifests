@@ -43,7 +43,7 @@
   <project name="linux/external/powermanager" path="external/powermanager" revision="17921d6b75395df5478613973e58916a6cf7c7ad" upstream="master"/>
   <project name="linux/external/powermanager" path="npu/external/powermanager" revision="17921d6b75395df5478613973e58916a6cf7c7ad" upstream="master"/>
   <project name="linux/external/rk_pcba_test" path="external/rk_pcba_test" revision="25643cf5f522a71ed2a918b0abe15e363a893504" upstream="master"/>
-  <project name="linux/external/rknn_demo" path="external/rknn_demo" revision="5e06f8697149beecd8315de042e3fc08f54ca9ad" upstream="master"/>
+  <project name="linux/external/rknn_demo" path="external/rknn_demo" revision="860a3c1074c8f11b003040989329e6ecc7c41a3d" upstream="master"/>
   <project name="linux/external/rknpu" path="npu/external/rknpu" revision="6e1ac27b629f122785cad0d436aa28ea41c6734d" upstream="master"/>
   <project name="linux/external/rknpu" path="external/rknpu" revision="6e1ac27b629f122785cad0d436aa28ea41c6734d" upstream="master"/>
   <project name="linux/external/rkscript" path="external/rkscript" revision="6a600fce1167e423e0834a068103be47f3e41e46" upstream="master"/>
