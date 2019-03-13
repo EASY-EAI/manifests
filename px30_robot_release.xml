@@ -5,7 +5,7 @@
   
   <project name="android/rk/u-boot-stable" path="u-boot" revision="dfe5c45f059d9454c2dc7c91e14935446ade2505" upstream="stable-4.4-px30-linux"/>
   <project name="linux/buildroot/dl" path="buildroot/dl" revision="6c5a3c60b6fee1a7a78c83d20ca3f51329801665" upstream="master"/>
-  <project name="linux/device/rockchip" path="device/rockchip" revision="d4f490a57008dcd6731fcd86df79b5d686fd6808" upstream="master">
+  <project name="linux/device/rockchip" path="device/rockchip" revision="3d15f80757c1bd938b93cbd6da6d5c5ae3cc3778" upstream="master">
     <linkfile dest="mkfirmware.sh" src="common/mkfirmware.sh"/>
     <linkfile dest="build.sh" src="common/build.sh"/>
     <linkfile dest="rkflash.sh" src="common/rkflash.sh"/>
@@ -41,7 +41,7 @@
   <project name="rk/mpp" path="external/mpp" revision="ed43d014bed70913757bd52618c40a3fef6458d4" upstream="develop"/>
   <project name="rk/prebuilts/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" path="prebuilts/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" revision="f96f76d6be89a6e28d4dac1f233f9aca9921f69b" upstream="master"/>
   <project name="rk/prebuilts/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" path="prebuilts/gcc/linux-x86/arm/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" revision="dd4df7dff4f1df65d78939a958b760a79e3650a1" upstream="master"/>
-  <project name="rk/rk1108/buildroot" path="buildroot" revision="ffa679422f3f798ea57fa37030a68f5c85c47646" upstream="rockchip/2018.02-rc3">
+  <project name="rk/rk1108/buildroot" path="buildroot" revision="655112f4571c1c3c05d95f1ecf7d75b1ecabf679" upstream="rockchip/2018.02-rc3">
     <linkfile dest="Makefile" src="build/Makefile"/>
     <linkfile dest="envsetup.sh" src="build/envsetup.sh"/>
   </project>
