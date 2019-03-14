@@ -12,7 +12,7 @@
   <project name="linux/app/settings" path="app/settings" revision="ec4f67a2df498893539eb2435d14348d97ecc462" upstream="master"/>
   <project name="linux/app/video" path="app/video" revision="261d3fd7780ccc105eb99ae86694ae219d05ef8e" upstream="master"/>
   <project name="linux/buildroot/dl" path="buildroot/dl" revision="6c5a3c60b6fee1a7a78c83d20ca3f51329801665" upstream="master"/>
-  <project name="linux/device/rockchip" path="device/rockchip" revision="3d15f80757c1bd938b93cbd6da6d5c5ae3cc3778" upstream="master">
+  <project name="linux/device/rockchip" path="device/rockchip" revision="56b6e1cf45e11f57e1397bb488199a8e1b37f154" upstream="master">
     <linkfile dest="mkfirmware.sh" src="common/mkfirmware.sh"/>
     <linkfile dest="build.sh" src="common/build.sh"/>
     <linkfile dest="rkflash.sh" src="common/rkflash.sh"/>
@@ -38,14 +38,14 @@
   <project name="linux/libmali" path="external/libmali" revision="95c3cee3b78725833e6e7d6f933f397ed86d32b5" upstream="master"/>
   <project name="linux/linux-rga" path="external/linux-rga" revision="646e78b4ac9333b418abb0101b297b9275f567cb" upstream="master"/>
   <project name="linux/recovery" path="external/recovery" revision="3436415366128cbe3c8f698cb23c5808b2191405" upstream="develop"/>
-  <project name="linux/tools" path="tools" revision="34cc12e7fa6bc20197cc318f1ed32e74db19a7cf" upstream="master">
+  <project name="linux/tools" path="tools" revision="56b6e1cf45e11f57e1397bb488199a8e1b37f154" upstream="master">
     <linkfile dest="tools/windows/AndroidTool/AndroidTool_Release/config.cfg" src="windows/AndroidTool/AndroidTool_Release/rk3326-config.cfg"/>
     <linkfile dest="tools/windows/AndroidTool/rockdev/package-file" src="windows/AndroidTool/rockdev/rk3326-package-file"/>
     <linkfile dest="tools/windows/AndroidTool/rockdev/mkupdate.bat" src="windows/AndroidTool/rockdev/rk3326-mkupdate.bat"/>
     <linkfile dest="tools/linux/Linux_Pack_Firmware/rockdev/mkupdate.sh" src="linux/Linux_Pack_Firmware/rockdev/rk3326-mkupdate.sh"/>
     <linkfile dest="tools/linux/Linux_Pack_Firmware/rockdev/package-file" src="linux/Linux_Pack_Firmware/rockdev/rk3326-package-file"/>
   </project>
-  <project name="rk/kernel-stable" path="kernel" revision="125f22f578f4eddf43359b6f6696c3fe481df91d" upstream="stable-4.4-rk3326-linux"/>
+  <project name="rk/kernel-stable" path="kernel" revision="e2a01fa26608d3aa57aee6497ded7f4a4bb76635" upstream="stable-4.4-rk3326-linux"/>
   <project name="rk/mpp" path="external/mpp" revision="ed43d014bed70913757bd52618c40a3fef6458d4" upstream="develop"/>
   <project name="rk/prebuilts/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" path="prebuilts/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" revision="f96f76d6be89a6e28d4dac1f233f9aca9921f69b" upstream="master"/>
   <project name="rk/prebuilts/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" path="prebuilts/gcc/linux-x86/arm/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" revision="dd4df7dff4f1df65d78939a958b760a79e3650a1" upstream="master"/>
