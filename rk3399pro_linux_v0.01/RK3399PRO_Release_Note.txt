@@ -1,6 +1,25 @@
 ===========RK3399PRO Linux SDK Release Note===========
 
 【rk3399pro_linux_beta_v0.01_20190217.xml 更新日志】
+3. v0.02 beta version
+
+buildroot:
+    * npu_fw 升级0.9.4
+
+Debian:
+    * npu_fw 升级到0.9.4
+    * libmali&&qt的升级
+    * 修复ffmpeg的bug
+
+Loader:
+rk3399pro:npuloader: Add hash for rk atags
+rk3399pro: npu: ddr: update to v1.02 20190312
+
+Kernel:
+    kernel升级较多部分，同步内部最新20190321.
+
+
+【rk3399pro_linux_beta_v0.01_20190217.xml 更新日志】
 
 2. v0.01 beta version
 
