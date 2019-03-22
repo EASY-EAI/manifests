@@ -8,7 +8,7 @@
   <project name="android/rk/platform/system/rk_tee_user" path="external/security/rk_tee_user" revision="e1aa9109bdfa53ee0e331eea07ee8ad360d97706" upstream="master"/>
   <project name="android/rk/u-boot" path="u-boot" revision="a0f7ba0595aae57a2ab9266cecc69952e57739f1" upstream="next-dev"/>
   <project name="android/rk/u-boot" path="npu/u-boot" revision="a0f7ba0595aae57a2ab9266cecc69952e57739f1" upstream="next-dev"/>
-  <project name="linux/app/QLauncher" path="app/QLauncher" revision="0dd9497ec64309b4512f07e01c92723c60927d88" upstream="master"/>
+  <project name="linux/app/QLauncher" path="app/QLauncher" revision="0a0bb3aa1ce08b1c4b5a36e4b930223f2f80e9dd" upstream="master"/>
   <project name="linux/app/camera" path="app/camera" revision="b037fffb85ce59fefad19846f9d2df9258742fc2" upstream="master"/>
   <project name="linux/app/demo" path="app/demo" revision="7b0adedacfe6c5d4100a24ca2eb4a7972b72fa94" upstream="master"/>
   <project name="linux/app/gallery" path="app/gallery" revision="5eee813bdf54c908e56a4f2fdf757d657ebbd593" upstream="master"/>
@@ -71,7 +71,7 @@
   <project name="rk/mpp" path="external/mpp" revision="fecf31621c89240bf6cd736a358e645ef3efacd7" upstream="develop"/>
   <project name="rk/prebuilts/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" path="prebuilts/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" revision="f96f76d6be89a6e28d4dac1f233f9aca9921f69b" upstream="master"/>
   <project name="rk/prebuilts/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" path="npu/prebuilts/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" revision="f96f76d6be89a6e28d4dac1f233f9aca9921f69b" upstream="master"/>
-  <project name="rk/rk1108/buildroot" path="buildroot" revision="ce0ca734df44fb88eda936f21704b22f1190c55e" upstream="stable-rk3399pro-v0.02-20190321">
+  <project name="rk/rk1108/buildroot" path="buildroot" revision="ad19cab21e0f42059be21b0c59549daf325f7b9b" upstream="stable-rk3399pro-v0.02-20190321">
     <linkfile dest="Makefile" src="build/Makefile"/>
     <linkfile dest="envsetup.sh" src="build/envsetup.sh"/>
   </project>

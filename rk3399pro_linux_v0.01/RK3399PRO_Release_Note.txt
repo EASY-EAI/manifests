@@ -5,6 +5,7 @@
 
 buildroot:
     * npu_fw Éý¼¶0.9.4
+    * fixes dual panel with hdmi display is abnormal.
 
 Debian:
     * npu_fw Éý¼¶µ½0.9.4
