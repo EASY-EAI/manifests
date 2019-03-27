@@ -57,7 +57,7 @@
   <project name="linux/libmali" path="external/libmali" revision="95c3cee3b78725833e6e7d6f933f397ed86d32b5" upstream="master"/>
   <project name="linux/linux-rga" path="external/linux-rga" revision="d4155b84a6a285c3f25f32143eae66530dccf351" upstream="master"/>
   <project name="linux/recovery" path="external/recovery" revision="349d290f82d12ef820cb5f076ee30c3546821af1" upstream="develop"/>
-  <project name="linux/rk-rootfs-build" path="debian" revision="5ea18a6f638c559b1f15ade9c6ccea61a33be6fc" upstream="master"/>
+  <project name="linux/rk-rootfs-build" path="debian" revision="d024f647399c83635517b14189a48edb94a61357" upstream="master"/>
   <project name="linux/security/bin" path="external/security/bin" revision="63458426583c44369ba4eee8dd3721a8d9d62aff" upstream="master"/>
   <project name="linux/tools" path="tools" revision="56b6e1cf45e11f57e1397bb488199a8e1b37f154" upstream="master">
     <linkfile dest="tools/windows/AndroidTool/AndroidTool_Release/config.cfg" src="windows/AndroidTool/AndroidTool_Release/rk3399-config.cfg"/>
