@@ -1,4 +1,46 @@
 ===========RK3308 Linux SDK Release Note===========
+【rk3308_linux_release_v1.2.4_20190327.xml 更新日志】
+Kernel更新：
+1. 增加EVB V13 板级配置：rk3308-evb-amic-v13.dts、rk3308-evb-dmic-i2s-v13.dts、rk3308-evb-dmic-pdm-v13.dts
+2. 增加红外功能
+3. 重要bug修正：修正如下板级 SLC NAND Flash的电源域配置错误，从1.8V更正为3.3V（注：参考以下设计的产品，必须修改）
+	rk3308b-evb-v10.dtsi
+	rk3308-evb-v11.dtsi
+	rk3308-ai-va-v10.dts
+4. 增加dot-rk816 64bit 的板级配置：rk3308-dot-rk816-v10.dts
+
+rkbin更新：
+1. 修复MaskROM 无法识别SN特殊字符问题
+	
+uboot更新：
+1. 增加Linux A/B 引导功能
+2. 解决SN特殊字符无法识别问题
+3. 增加充电显示红灯，充满显示蓝灯功能
+
+Buildroot更新：
+1. 增加Linux A/B 升级方案
+2. 修复adb shell ctrl-c 无法退出程序
+3. 解决 rkwifibt 编译错误
+
+device更新：
+1. 新增Linux A/B 升级方案修改
+2. 解决第一次开机异常掉电，导致oem分区异常
+3. 解决pcba 编译错误处理
+
+tools更新：
+1. 新增Linux A/B 固件自动生成
+
+doc更新：
+1. 新增<Rockchip_Developer_Guide_Linux4.4_AB_upgrade_CN>
+2. 新增<Rockchip_Developer_Guide_Rk3308_DeviceIo_Bluetooth_CN>
+3. 新增<Rockchip_Developer_Guide_Linux4.4_Infrared_CN>
+
+external更新：
+1. 新增update_engine 代码，即Linux A/B 引导和升级代码。
+2. bluetooth_bsa 适配deviceio
+3. eq_drc_process 解决dueros 编译不过的问题
+4. deviceio 提供接口: 蓝牙、音频、按键、灯效、wifi连接、log管理、shell 及系统常用接口
+
 【rk3308_linux_release_v1.2.3_20181218.xml 更新日志】
 rkbin更新：
 1.rk3308支持optee(bl32)，可在rk3308TRUST.ini文件中选择是否开启optee功能
