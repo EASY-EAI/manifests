@@ -1,16 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote fetch="../../" name="rk" review="https://10.10.10.29"/>
-  <remote fetch="ssh://git@10.10.10.78:2222" name="rk-argus"/>
-  <remote fetch="ssh://git@10.10.10.29/" name="rk_legacy"/>
   
   <default remote="rk" sync-j="4"/>
   
   <project name="android/rk/platform/system/rk_tee_user" path="external/security/rk_tee_user" revision="51b312b55a57aeb81be64fe10fb6055b222b84e0" upstream="develop-next"/>
   <project name="android/rk/u-boot-stable" path="u-boot" revision="10cac907ca60dbeaff4d5b03f2bce3558978839a" upstream="stable-4.4-rk3308-linux-1.2.3"/>
-  <project name="argus/externals/adb" path="external/adb" remote="rk-argus" revision="0ee8df4b6d6e429663a1733491308950290f090e" upstream="master"/>
-  <project name="argus/externals/libcutils" path="external/libcutils" remote="rk-argus" revision="1f5ab8e6301221721344f4014bbf6e965c7a5d8b" upstream="arm64"/>
-  <project name="argus/externals/liblog" path="external/liblog" remote="rk-argus" revision="3867fe3c8f20f46d7109c2779ac48af2f16d6ea8" upstream="master"/>
+  <project name="argus/externals/adb" path="external/adb"  revision="0ee8df4b6d6e429663a1733491308950290f090e" upstream="master"/>
+  <project name="argus/externals/libcutils" path="external/libcutils"  revision="1f5ab8e6301221721344f4014bbf6e965c7a5d8b" upstream="arm64"/>
+  <project name="argus/externals/liblog" path="external/liblog"  revision="3867fe3c8f20f46d7109c2779ac48af2f16d6ea8" upstream="master"/>
   <project name="linux/buildroot/dl" path="buildroot/dl" revision="410c649b6c9af74e51aa7f9aefc08af0f265fc01" upstream="master"/>
   <project name="linux/device/rockchip" path="device/rockchip" revision="5c307e316c2893f2e710bc16962d3871f731fd2b" upstream="cmcc_soundai">
     <linkfile dest="mkfirmware.sh" src="rk3308/mkfirmware.sh"/>
@@ -55,7 +53,7 @@
     <linkfile dest="tools/linux/Linux_Pack_Firmware/rockdev/mkupdate.sh" src="linux/Linux_Pack_Firmware/rockdev/rk3308-mkupdate.sh"/>
     <linkfile dest="tools/linux/Linux_Pack_Firmware/rockdev/package-file" src="linux/Linux_Pack_Firmware/rockdev/rk3308-package-file"/>
   </project>
-  <project name="rk/kernel" path="kernel" remote="rk_legacy" revision="a53063528d22d64e842946a7eed84877ad61fb1c" upstream="stable-4.4-rk3308-echo-cmcc"/>
+  <project name="rk/kernel" path="kernel"  revision="a53063528d22d64e842946a7eed84877ad61fb1c" upstream="stable-4.4-rk3308-echo-cmcc"/>
   <project name="rk/prebuilts/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" path="prebuilts/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" revision="f96f76d6be89a6e28d4dac1f233f9aca9921f69b" upstream="master"/>
   <project name="rk/prebuilts/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" path="prebuilts/gcc/linux-x86/arm/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" revision="dd4df7dff4f1df65d78939a958b760a79e3650a1" upstream="master"/>
   <project name="rk/rk1108/buildroot" path="buildroot" revision="8b9582f3aa94d91316cdc0d35d7d5bae5ce20a7f" upstream="cmcc_soundai">
