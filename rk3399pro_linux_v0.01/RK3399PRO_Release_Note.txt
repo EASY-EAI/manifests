@@ -4,13 +4,17 @@
 3. v0.02 beta version
 
 buildroot:
-    * npu_fw 升级0.9.4
+    * npu_fw （版本升级: rknn 0.9.4, ddr v1.20, bl31: v1.04）
     * fixes dual panel with hdmi display is abnormal.
+    * 优化Glmark2
+    * 默认双屏同显的支持
+    * 修复wifi密码无法保存问题，蓝牙音箱无法链接问题
 
 Debian:
     * npu_fw 升级到0.9.4
     * libmali&&qt的升级
     * 修复ffmpeg的bug
+    * 优化Glmark2
 
 Loader:
 rk3399pro:npuloader: Add hash for rk atags
@@ -18,6 +22,7 @@ rk3399pro: npu: ddr: update to v1.02 20190312
 
 Kernel:
     kernel升级较多部分，同步内部最新20190321.
+   主要修复hdmi无声音问题。BT异常中断等
 
 
 【rk3399pro_linux_beta_v0.01_20190217.xml 更新日志】
