@@ -9,15 +9,15 @@
   <project name="argus/externals/adb" path="external/adb"  revision="0ee8df4b6d6e429663a1733491308950290f090e" upstream="master"/>
   <project name="argus/externals/libcutils" path="external/libcutils"  revision="1f5ab8e6301221721344f4014bbf6e965c7a5d8b" upstream="arm64"/>
   <project name="argus/externals/liblog" path="external/liblog"  revision="3867fe3c8f20f46d7109c2779ac48af2f16d6ea8" upstream="master"/>
-  <project name="linux/buildroot/dl" path="buildroot/dl" revision="410c649b6c9af74e51aa7f9aefc08af0f265fc01" upstream="master"/>
-  <project name="linux/device/rockchip" path="device/rockchip" revision="5c307e316c2893f2e710bc16962d3871f731fd2b" upstream="cmcc_soundai">
+  <project name="linux/buildroot/dl" path="buildroot/dl" revision="27acabf63f8f1140e67ae7de95f304ab732714a8" upstream="master"/>
+  <project name="linux/device/rockchip" path="device/rockchip" revision="c41bb9634faaf8e1d4695d9ac6c38adc556e6a9d" upstream="cmcc_soundai">
     <linkfile dest="mkfirmware.sh" src="rk3308/mkfirmware.sh"/>
     <linkfile dest="build.sh" src="common/build.sh"/>
     <linkfile dest="rkflash.sh" src="common/rkflash.sh"/>
     <linkfile dest="device/rockchip/.BoardConfig.mk" src="rk3308/BoardConfig_soundai_cmcc.mk"/>
     <linkfile dest="device/rockchip/rk3308_soundai_release_BoardConfig.mk" src="rk3308/BoardConfig_soundai_cmcc.mk"/>
   </project>
-  <project name="linux/docs" path="docs" revision="bd4ef8ec9c2bdd18d5bc29a288170816b8b7b68c" upstream="master"/>
+  <project name="linux/docs" path="docs" revision="0113cf2026ef8b8a8bae9ea8eefe6b7736458302" upstream="master"/>
   <project name="linux/external/DuerClientSDK" path="external/DuerClientSDK" revision="e366033a83adb6187ee765915696d70cd36b4231" upstream="master_64bit"/>
   <project name="linux/external/LocalPlayer" path="external/LocalPlayer" revision="e7d5cc72e5f0da13f2765aa02bd22d03ebc82750" upstream="master"/>
   <project name="linux/external/WakeWordAgent" path="external/wakeWordAgent" revision="4a5a3c2d9d991e392894d1e5345b7487655d3cc6" upstream="master"/>
@@ -25,9 +25,9 @@
   <project name="linux/external/app" path="external/app" revision="27e2ca175a81ec6097098bd5da741c7071b490d4" upstream="master"/>
   <project name="linux/external/avb" path="external/avb" revision="b18c9afdb7d02e1249cee5cb430dc9f15a3ccc27" upstream="master"/>
   <project name="linux/external/ble_wificonfig" path="external/ble_wificonfig" revision="9baf99a11f120aa0ada627e8e1ff3712f4721f43" upstream="master"/>
-  <project name="linux/external/bluetooth_bsa" path="external/bluetooth_bsa" revision="cc4da1659e18fea3e3c9824b2c41a40d05aed851" upstream="master"/>
+  <project name="linux/external/bluetooth_bsa" path="external/bluetooth_bsa" revision="8d8f0c25c6780e18fc68cc927e4c494502d9699c" upstream="master"/>
   <project name="linux/external/bluez-alsa" path="external/bluez-alsa" revision="38c52f0860e45aef83fdf746347b464093873762" upstream="master"/>
-  <project name="linux/external/broadcom_bsa" path="external/broadcom_bsa" revision="0429455442d255231046d6931d08c8f13a6a9d40" upstream="master"/>
+  <project name="linux/external/broadcom_bsa" path="external/broadcom_bsa" revision="06033d3d78e08bcb91d4250fc4a11461c95249fb" upstream="master"/>
   <project name="linux/external/cae_vad" path="external/cae_vad" revision="86f5f3d4616888feea0c3916a9663f29a3af28ba" upstream="master"/>
   <project name="linux/external/deviceio_release" path="external/deviceio" revision="890480c0d37e3c869cfacf220e43dee5801ed47d" upstream="master"/>
   <project name="linux/external/eq_drc_process" path="external/eq_drc_process" revision="d8af99a3f7121f3a89d3694655eb4a95ec84b238" upstream="cmcc"/>
@@ -56,7 +56,7 @@
   <project name="rk/kernel" path="kernel"  revision="a53063528d22d64e842946a7eed84877ad61fb1c" upstream="stable-4.4-rk3308-echo-cmcc"/>
   <project name="rk/prebuilts/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" path="prebuilts/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" revision="f96f76d6be89a6e28d4dac1f233f9aca9921f69b" upstream="master"/>
   <project name="rk/prebuilts/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" path="prebuilts/gcc/linux-x86/arm/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" revision="dd4df7dff4f1df65d78939a958b760a79e3650a1" upstream="master"/>
-  <project name="rk/rk1108/buildroot" path="buildroot" revision="8b9582f3aa94d91316cdc0d35d7d5bae5ce20a7f" upstream="cmcc_soundai">
+  <project name="rk/rk1108/buildroot" path="buildroot" revision="6abe9a7f6216562a382301cb47254939642d317c" upstream="cmcc_soundai">
     <linkfile dest="Makefile" src="build/Makefile"/>
     <linkfile dest="envsetup.sh" src="build/envsetup.sh"/>
   </project>
