@@ -56,7 +56,7 @@
   <project name="rk/kernel" path="kernel"  revision="a53063528d22d64e842946a7eed84877ad61fb1c" upstream="stable-4.4-rk3308-echo-cmcc"/>
   <project name="rk/prebuilts/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" path="prebuilts/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" revision="f96f76d6be89a6e28d4dac1f233f9aca9921f69b" upstream="master"/>
   <project name="rk/prebuilts/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" path="prebuilts/gcc/linux-x86/arm/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" revision="dd4df7dff4f1df65d78939a958b760a79e3650a1" upstream="master"/>
-  <project name="rk/rk1108/buildroot" path="buildroot" revision="6abe9a7f6216562a382301cb47254939642d317c" upstream="cmcc_soundai">
+  <project name="rk/rk1108/buildroot" path="buildroot" revision="c6e724ec9978d6e41999a0fa60b223cef484f4f1" upstream="cmcc_soundai">
     <linkfile dest="Makefile" src="build/Makefile"/>
     <linkfile dest="envsetup.sh" src="build/envsetup.sh"/>
   </project>
