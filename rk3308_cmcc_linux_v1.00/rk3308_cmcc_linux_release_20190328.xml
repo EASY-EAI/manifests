@@ -10,7 +10,7 @@
   <project name="argus/externals/libcutils" path="external/libcutils"  revision="1f5ab8e6301221721344f4014bbf6e965c7a5d8b" upstream="arm64"/>
   <project name="argus/externals/liblog" path="external/liblog"  revision="3867fe3c8f20f46d7109c2779ac48af2f16d6ea8" upstream="master"/>
   <project name="linux/buildroot/dl" path="buildroot/dl" revision="27acabf63f8f1140e67ae7de95f304ab732714a8" upstream="master"/>
-  <project name="linux/device/rockchip" path="device/rockchip" revision="c41bb9634faaf8e1d4695d9ac6c38adc556e6a9d" upstream="cmcc_soundai">
+  <project name="linux/device/rockchip" path="device/rockchip" revision="30c9dfb5a72819555f03a77ff7de873cfb745594" upstream="cmcc_soundai">
     <linkfile dest="mkfirmware.sh" src="rk3308/mkfirmware.sh"/>
     <linkfile dest="build.sh" src="common/build.sh"/>
     <linkfile dest="rkflash.sh" src="common/rkflash.sh"/>
@@ -56,7 +56,7 @@
   <project name="rk/kernel" path="kernel"  revision="a53063528d22d64e842946a7eed84877ad61fb1c" upstream="stable-4.4-rk3308-echo-cmcc"/>
   <project name="rk/prebuilts/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" path="prebuilts/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" revision="f96f76d6be89a6e28d4dac1f233f9aca9921f69b" upstream="master"/>
   <project name="rk/prebuilts/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" path="prebuilts/gcc/linux-x86/arm/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" revision="dd4df7dff4f1df65d78939a958b760a79e3650a1" upstream="master"/>
-  <project name="rk/rk1108/buildroot" path="buildroot" revision="6abe9a7f6216562a382301cb47254939642d317c" upstream="cmcc_soundai">
+  <project name="rk/rk1108/buildroot" path="buildroot" revision="c6e724ec9978d6e41999a0fa60b223cef484f4f1" upstream="cmcc_soundai">
     <linkfile dest="Makefile" src="build/Makefile"/>
     <linkfile dest="envsetup.sh" src="build/envsetup.sh"/>
   </project>
