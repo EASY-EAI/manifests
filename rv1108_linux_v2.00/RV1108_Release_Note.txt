@@ -1,0 +1,43 @@
+===========RV1108 Linux SDK Release Note===========
+【rv1108_linux_release_v2.1_20190329.xml 更新日志】
+
+app更新:
+1、添加at_server
+2、添加hello
+3、添加pcba_test
+4、添加system_manager
+5、添加updater
+6、优化lock app与face server间的耦合，加强ipc间通讯。
+
+doc更新:
+1、更新《RV1108_Linux_SDK软件开发指南_V2.1_20190329.pdf》;
+2、添加rv1108/index.html文档索引
+
+common更新
+1、添加更多板级资源文件
+
+config更新:
+1、添加更多可配置选项
+
+exteranl更新:
+1、添加bsdiff
+2、添加bzip2
+3、添加libcurl
+4、添加libogg
+5、添加libvorbis
+6、添加live555
+
+frameworks更新:
+1、添加framework/hal
+2、添加framework/librkuvc
+3、添加framework/messenger
+4、添加framework/settings
+
+Kernel更新:
+1、更新bcmdhd驱动
+2、添加网络相关配置
+3、默认开启adb功能所依赖的配置
+
+
+
+
