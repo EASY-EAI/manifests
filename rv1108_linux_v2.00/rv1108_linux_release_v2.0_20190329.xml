@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote fetch="ssh://10.10.10.29:29418" name="gerrit" review="https://10.10.10.29"/>
-  <remote fetch=".." name="rk"/>
-  
-  <default remote="gerrit" revision="master" sync-j="4"/>
+  <remote fetch="ssh://git@www.rockchip.com.cn/linux/" name="rk"/>
+
+  <default remote="rk" sync-j="4"/>
   
   <project name="linux/external/adb" path="external/adb" revision="5c57a1f9145eef7c0265b0a9bbc2379a377391c6" upstream="master"/>
   <project name="linux/external/alsa-lib" path="external/alsa-lib" revision="069ca2393cda576753cb2c9a17102d0cb5ae3290" upstream="master"/>
