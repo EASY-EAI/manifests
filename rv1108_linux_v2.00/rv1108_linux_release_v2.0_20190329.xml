@@ -11,7 +11,6 @@
   <project name="linux/external/ffmpeg" path="external/ffmpeg" revision="589de66a0b50c43b93f511361275d9ff86da21dd" upstream="rockchip/release/4.0"/>
   <project name="linux/external/libcutils" path="external/libcutils" revision="973b41906854a32379809b11138afbf7016563a0" upstream="master"/>
   <project name="linux/external/liblog" path="external/liblog" revision="3867fe3c8f20f46d7109c2779ac48af2f16d6ea8" upstream="master"/>
-  <project name="linux/internal_md_doc" path="internal_develop_docs" revision="66e0f0ca69345ec707621b820960ce289783c6ec" upstream="master"/>
   <project name="rk/mpp" path="external/rockchip-mpp" revision="ef5c4bc19202beb5db2d39432927ece1ed0bdb6b" upstream="develop"/>
   <project name="rk/rk1108/apps/at_server" path="app/at_server" revision="0f6c699bbf3b73671af770d75023714b53650ae3" upstream="master"/>
   <project name="rk/rk1108/apps/face" path="app/face" revision="1994fe0b178996ddd9654ae7a3a8acea548410fa" upstream="master"/>
