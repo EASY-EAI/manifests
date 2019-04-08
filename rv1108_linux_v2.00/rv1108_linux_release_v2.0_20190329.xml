@@ -11,14 +11,15 @@
   <project name="linux/external/ffmpeg" path="external/ffmpeg" revision="589de66a0b50c43b93f511361275d9ff86da21dd" upstream="rockchip/release/4.0"/>
   <project name="linux/external/libcutils" path="external/libcutils" revision="973b41906854a32379809b11138afbf7016563a0" upstream="master"/>
   <project name="linux/external/liblog" path="external/liblog" revision="3867fe3c8f20f46d7109c2779ac48af2f16d6ea8" upstream="master"/>
+  <project name="linux/internal_md_doc" path="internal_develop_docs" revision="66e0f0ca69345ec707621b820960ce289783c6ec" upstream="master"/>
   <project name="rk/mpp" path="external/rockchip-mpp" revision="ef5c4bc19202beb5db2d39432927ece1ed0bdb6b" upstream="develop"/>
   <project name="rk/rk1108/apps/at_server" path="app/at_server" revision="0f6c699bbf3b73671af770d75023714b53650ae3" upstream="master"/>
-  <project name="rk/rk1108/apps/face" path="app/face" revision="d9866da02e895306b986a6296043c5f058199486" upstream="master"/>
+  <project name="rk/rk1108/apps/face" path="app/face" revision="1994fe0b178996ddd9654ae7a3a8acea548410fa" upstream="master"/>
   <project name="rk/rk1108/apps/hello" path="app/hello" revision="42fb57442945537c204d402ce1e22d1226ac9221" upstream="master"/>
   <project name="rk/rk1108/apps/hello_rv" path="app/hello_rv" revision="8109caaa49cc2004b3ac7a87eb6e92ffd1ab993e" upstream="master"/>
   <project name="rk/rk1108/apps/lock" path="app/lock" revision="c54728a5a81d7e86a952e14797eff1c1ffcd207f" upstream="master"/>
   <project name="rk/rk1108/apps/pcba_test" path="app/pcba_test" revision="3ce7216a67ccce53b05d4be6893d56ca9e93fa53" upstream="master"/>
-  <project name="rk/rk1108/apps/system_manager" path="app/system_manager" revision="8e4b95f32712ed5c56e9272e36626ec73ecd4ab0" upstream="master"/>
+  <project name="rk/rk1108/apps/system_manager" path="app/system_manager" revision="f85d8cc183a8bc7806c852b9204a44abb730fbf2" upstream="master"/>
   <project name="rk/rk1108/apps/updater" path="app/updater" revision="9c7226d5038326346174f6f1592c49a58ed2a30f" upstream="master"/>
   <project name="rk/rk1108/apps/uvc_app" path="app/uvc_app" revision="3ac397c5fc8c1827ed27b6e012485bd7587c0cd0" upstream="master"/>
   <project name="rk/rk1108/build" path="build" revision="581455ae47c7259d2c89e08e8b595e7713d3485b" upstream="master">
@@ -27,7 +28,7 @@
   <project name="rk/rk1108/buildroot-2016" path="buildroot" revision="a7723737de65778eeb7ea845848f827fe3dcbe04" upstream="master"/>
   <project name="rk/rk1108/common" path="common" revision="456b6bd3ff03bb63c584433f20e798fe258cbd7c" upstream="master"/>
   <project name="rk/rk1108/config" path="config" revision="7c7de740ebbcc7c6e74a504e95eedec9a46dd095" upstream="master"/>
-  <project name="rk/rk1108/docs" path="docs" revision="fd28aa5d4b9efb3a610f0d631080667a0fbf4945" upstream="master"/>
+  <project name="rk/rk1108/docs" path="docs" revision="318e08a2f26a1c65272b2fa9d7a9bfc296bcbbd3" upstream="master"/>
   <project name="rk/rk1108/external/bsdiff" path="external/bsdiff" revision="767a226f6358a6535866ac02c3aa6a6c5360cb7c" upstream="master"/>
   <project name="rk/rk1108/external/bzip2" path="external/bzip2" revision="efb684deff0df65d606ca45accb136b0f69be2e7" upstream="master"/>
   <project name="rk/rk1108/external/cjson" path="external/cjson" revision="5d58a33073fa1be2e9cb01fe085f27b6a1cba81c" upstream="master"/>
@@ -64,7 +65,7 @@
   <project name="rk/rk1108/framework/model_loader" path="frameworks/model_loader" revision="720c4dfe2b60cea9bd8133138055156ec407556c" upstream="master"/>
   <project name="rk/rk1108/framework/rkface" path="frameworks/rkface" revision="a46d95ec608a09b42427427060c39b23471c9b08" upstream="master"/>
   <project name="rk/rk1108/framework/settings" path="frameworks/settings" revision="3c3e5c096ba663e080f0391a7377253bf51ad36b" upstream="master"/>
-  <project name="rk/rk1108/kernel" path="kernel" revision="fbcee245328e19004080c6af530f69c84dad7af4" upstream="fastboot"/>
+  <project name="rk/rk1108/kernel" path="kernel" revision="1f17b7bc611f79fe5c0f4d7ac3f8f40f87495c91" upstream="fastboot"/>
   <project name="rk/rk1108/loader" path="loader" revision="020c68a179bc3fbf371b3f3b082585fd881dbd76" upstream="loader"/>
   <project name="rk/rk1108/prebuild-images" path="image/prebuild" revision="b64bca84ccac4956f36842a05d698d8095f7c2b2" upstream="master"/>
   <project name="rk/rk1108/prebuilds" path="prebuilts" revision="66de1b279541c104b947ec8c1fd9ceaf53350a18" upstream="master"/>
