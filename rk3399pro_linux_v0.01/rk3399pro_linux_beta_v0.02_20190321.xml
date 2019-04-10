@@ -17,7 +17,7 @@
   <project name="linux/app/video" path="app/video" revision="bce3634025425d4464bb1ff906bf04df4d5aa418" upstream="master"/>
   <project name="linux/buildroot/dl" path="buildroot/dl" revision="27acabf63f8f1140e67ae7de95f304ab732714a8" upstream="master"/>
   <project name="linux/buildroot/dl" path="npu/buildroot/dl" revision="27acabf63f8f1140e67ae7de95f304ab732714a8" upstream="master"/>
-  <project name="linux/device/rockchip" path="device/rockchip" revision="e4d198f9ed686e4dceef84995cb8a7cf0ecb4c9e" upstream="master">
+  <project name="linux/device/rockchip" path="device/rockchip" revision="d585daa50f197ef69fb16a079da3b12209569b80" upstream="master">
     <linkfile dest="mkfirmware.sh" src="common/mkfirmware.sh"/>
     <linkfile dest="build.sh" src="common/build.sh"/>
     <linkfile dest="rkflash.sh" src="common/rkflash.sh"/>
