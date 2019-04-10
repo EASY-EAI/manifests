@@ -13,7 +13,7 @@
   <project name="linux/external/liblog" path="external/liblog" revision="3867fe3c8f20f46d7109c2779ac48af2f16d6ea8" upstream="master"/>
   <project name="rk/mpp" path="external/rockchip-mpp" revision="ef5c4bc19202beb5db2d39432927ece1ed0bdb6b" upstream="develop"/>
   <project name="rk/rk1108/apps/at_server" path="app/at_server" revision="0f6c699bbf3b73671af770d75023714b53650ae3" upstream="master"/>
-  <project name="rk/rk1108/apps/face" path="app/face" revision="1994fe0b178996ddd9654ae7a3a8acea548410fa" upstream="master"/>
+  <project name="rk/rk1108/apps/face" path="app/face" revision="3650acaaf05b2279c4045c8f2111bd45c799d088" upstream="master"/>
   <project name="rk/rk1108/apps/hello" path="app/hello" revision="42fb57442945537c204d402ce1e22d1226ac9221" upstream="master"/>
   <project name="rk/rk1108/apps/hello_rv" path="app/hello_rv" revision="8109caaa49cc2004b3ac7a87eb6e92ffd1ab993e" upstream="master"/>
   <project name="rk/rk1108/apps/lock" path="app/lock" revision="c54728a5a81d7e86a952e14797eff1c1ffcd207f" upstream="master"/>
@@ -27,7 +27,7 @@
   <project name="rk/rk1108/buildroot-2016" path="buildroot" revision="a7723737de65778eeb7ea845848f827fe3dcbe04" upstream="master"/>
   <project name="rk/rk1108/common" path="common" revision="456b6bd3ff03bb63c584433f20e798fe258cbd7c" upstream="master"/>
   <project name="rk/rk1108/config" path="config" revision="7c7de740ebbcc7c6e74a504e95eedec9a46dd095" upstream="master"/>
-  <project name="rk/rk1108/docs" path="docs" revision="318e08a2f26a1c65272b2fa9d7a9bfc296bcbbd3" upstream="master"/>
+  <project name="rk/rk1108/docs" path="docs" revision="57ed65b2c6e08b2f3b771d03f159f9dad65832bb" upstream="master"/>
   <project name="rk/rk1108/external/bsdiff" path="external/bsdiff" revision="767a226f6358a6535866ac02c3aa6a6c5360cb7c" upstream="master"/>
   <project name="rk/rk1108/external/bzip2" path="external/bzip2" revision="efb684deff0df65d606ca45accb136b0f69be2e7" upstream="master"/>
   <project name="rk/rk1108/external/cjson" path="external/cjson" revision="5d58a33073fa1be2e9cb01fe085f27b6a1cba81c" upstream="master"/>
