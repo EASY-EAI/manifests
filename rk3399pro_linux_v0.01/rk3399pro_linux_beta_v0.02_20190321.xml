@@ -44,7 +44,7 @@
   <project name="linux/external/powermanager" path="external/powermanager" revision="17921d6b75395df5478613973e58916a6cf7c7ad" upstream="master"/>
   <project name="linux/external/powermanager" path="npu/external/powermanager" revision="17921d6b75395df5478613973e58916a6cf7c7ad" upstream="master"/>
   <project name="linux/external/rk_pcba_test" path="external/rk_pcba_test" revision="25643cf5f522a71ed2a918b0abe15e363a893504" upstream="master"/>
-  <project name="linux/external/rknn_demo" path="external/rknn_demo" revision="9a29537015e53b5bef15a0d2b46b543157a5ad18" upstream="master"/>
+  <project name="linux/external/rknn_demo" path="external/rknn_demo" revision="c4b22acc31bb2d345c299800594b7974a26435c3" upstream="master"/>
   <project name="linux/external/rknpu" path="npu/external/rknpu" revision="190de36a8ed76eecd623f8929f84f1d09a440b9a" upstream="master"/>
   <project name="linux/external/rknpu" path="external/rknpu" revision="190de36a8ed76eecd623f8929f84f1d09a440b9a" upstream="master"/>
   <project name="linux/external/rkscript" path="external/rkscript" revision="04f5b713e2ebe47d9d852aea70e371e9c8f8b2eb" upstream="master"/>
@@ -58,7 +58,7 @@
   <project name="linux/libmali" path="external/libmali" revision="915d6a13561e640fd9ff0984209632f027365a0d" upstream="master"/>
   <project name="linux/linux-rga" path="external/linux-rga" revision="d4155b84a6a285c3f25f32143eae66530dccf351" upstream="master"/>
   <project name="linux/recovery" path="external/recovery" revision="349d290f82d12ef820cb5f076ee30c3546821af1" upstream="develop"/>
-  <project name="linux/rk-rootfs-build" path="debian" revision="c96bfdf02b6cdf41d684a691a93fa98c44a75b11" upstream="master"/>
+  <project name="linux/rk-rootfs-build" path="debian" revision="1816508f1773730f20a07b17e0bb382e5060e22d" upstream="master"/>
   <project name="linux/security/bin" path="external/security/bin" revision="63458426583c44369ba4eee8dd3721a8d9d62aff" upstream="master"/>
   <project name="linux/tools" path="tools" revision="b68f00edf78d34592631ec4b04fc771f7e657c13" upstream="master">
     <linkfile dest="tools/windows/AndroidTool/AndroidTool_Release/config.cfg" src="windows/AndroidTool/AndroidTool_Release/rk3399-config.cfg"/>
@@ -69,7 +69,7 @@
   </project>
   <project name="rk/kernel-stable" path="kernel" revision="0605b6a0ede131048798c337db7d965572b709ad" upstream="stable-4.4-rk3399pro-linux"/>
   <project name="rk/kernel" path="npu/kernel" revision="c76939e892efae26ac11e0e739ef3721f09d7535" upstream="develop-4.4"/>
-  <project name="rk/mpp" path="external/mpp" revision="35019b7d3766e1a59f356862043ad90d6deaea6e" upstream="develop"/>
+  <project name="rk/mpp" path="external/mpp" revision="869ff4498055b5f66e260f25cc3422acb618e1ec" upstream="develop"/>
   <project name="rk/prebuilts/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" path="prebuilts/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" revision="f96f76d6be89a6e28d4dac1f233f9aca9921f69b" upstream="master"/>
   <project name="rk/prebuilts/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" path="npu/prebuilts/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" revision="f96f76d6be89a6e28d4dac1f233f9aca9921f69b" upstream="master"/>
   <project name="rk/rk1108/buildroot" path="buildroot" revision="bf8b56f298987d74840d7e7b28c1c0d6dc0a4d6c" upstream="stable-rk3399pro-v0.02-20190321">
