@@ -16,6 +16,25 @@ Debian:
     * 修复ffmpeg的bug
     * 优化Glmark2
 
+Camera:
+camera_engine_rkisp 和 gst-plugins-rockchip的更新，更新rkisp到v1.9版本
+librkisp.so:      v1.9.0
+librkisp_aec.so:  v0.0.9
+librkisp_awb.so:  v0.0.9
+librkisp_af.so:	  v0.2.10
+iq xml:           v0.2.5
+Camera HAL3:      v1.9.0
+rkisp1 driver:    v0.1.1
+版本主要更新点如下:
+1）修复以下重要 bug：
+	×初始化ISP参数未在数据流输出前设置导致的 死机， 采不到数据等问题
+	×拍照拷机，拍照按钮变灰，预览正常
+2) AE平滑收敛
+3）ISPv12(rk3326) 特性全功能支持
+4）自动匹配 iq 文件
+5）支持 sensor OTP
+6）支持自定义 metadata
+
 Loader:
 rk3399pro:npuloader: Add hash for rk atags
 rk3399pro: npu: ddr: update to v1.02 20190312

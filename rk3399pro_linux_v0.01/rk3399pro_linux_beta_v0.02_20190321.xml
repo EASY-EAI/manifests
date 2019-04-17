@@ -35,9 +35,9 @@
   <project name="linux/external/audioservice" path="external/audioservice" revision="ec7efbf4cbb023a655228a1260fb83258fd667c1" upstream="master"/>
   <project name="linux/external/bluez-alsa" path="external/bluez-alsa" revision="38c52f0860e45aef83fdf746347b464093873762" upstream="master"/>
   <project name="linux/external/camera_engine_cifisp" path="external/camera_engine_cifisp" revision="dff8b97d58507c9fd74082880ae4ab068ba6b88d" upstream="master"/>
-  <project name="linux/external/camera_engine_rkisp" path="external/camera_engine_rkisp" revision="041edb59255a643315ca5d229dee2724678984b6" upstream="master"/>
+  <project name="linux/external/camera_engine_rkisp" path="external/camera_engine_rkisp" revision="6fa9fb4e1012d5b5fe703e31b54bf453ccf402af" upstream="master"/>
   <project name="linux/external/ffmpeg" path="external/ffmpeg" revision="589de66a0b50c43b93f511361275d9ff86da21dd" upstream="rockchip/release/4.0"/>
-  <project name="linux/external/gst-plugins-rockchip" path="external/gst-plugins-rockchip" revision="1e0c3194e6ceec38196ad9d6cbc4c5093bc308f5" upstream="master"/>
+  <project name="linux/external/gst-plugins-rockchip" path="external/gst-plugins-rockchip" revision="c5934d1b83427a476fdc3d909de4dad9109951e8" upstream="master"/>
   <project name="linux/external/gstreamer-camera" path="external/gstreamer-camera" revision="7b8a9b33f95a0a7c65fd76d4f4e3f6778fce8ea7" upstream="master"/>
   <project name="linux/external/minigui" path="external/minigui" revision="935476e2917c31cb861baf14e98ada313be64e14" upstream="master"/>
   <project name="linux/external/mpv" path="external/mpv" revision="2739ea80b7137daf3f9a39fd3a2ddfd787a6b964" upstream="rockchip/release/0.9"/>
@@ -58,7 +58,7 @@
   <project name="linux/libmali" path="external/libmali" revision="915d6a13561e640fd9ff0984209632f027365a0d" upstream="master"/>
   <project name="linux/linux-rga" path="external/linux-rga" revision="d4155b84a6a285c3f25f32143eae66530dccf351" upstream="master"/>
   <project name="linux/recovery" path="external/recovery" revision="349d290f82d12ef820cb5f076ee30c3546821af1" upstream="develop"/>
-  <project name="linux/rk-rootfs-build" path="debian" revision="1816508f1773730f20a07b17e0bb382e5060e22d" upstream="master"/>
+  <project name="linux/rk-rootfs-build" path="debian" revision="c1795380a68eb870808fa1edc9dad4ab4d81ef27" upstream="master"/>
   <project name="linux/security/bin" path="external/security/bin" revision="63458426583c44369ba4eee8dd3721a8d9d62aff" upstream="master"/>
   <project name="linux/tools" path="tools" revision="b68f00edf78d34592631ec4b04fc771f7e657c13" upstream="master">
     <linkfile dest="tools/windows/AndroidTool/AndroidTool_Release/config.cfg" src="windows/AndroidTool/AndroidTool_Release/rk3399-config.cfg"/>
@@ -67,7 +67,7 @@
     <linkfile dest="tools/linux/Linux_Pack_Firmware/rockdev/mkupdate.sh" src="linux/Linux_Pack_Firmware/rockdev/rk3399-mkupdate.sh"/>
     <linkfile dest="tools/linux/Linux_Pack_Firmware/rockdev/package-file" src="linux/Linux_Pack_Firmware/rockdev/rk3399-package-file"/>
   </project>
-  <project name="rk/kernel-stable" path="kernel" revision="0605b6a0ede131048798c337db7d965572b709ad" upstream="stable-4.4-rk3399pro-linux"/>
+  <project name="rk/kernel-stable" path="kernel" revision="6a0dbee0237294b4f7d87b0b7f6d6bfc9739ffd0" upstream="stable-4.4-rk3399pro-linux"/>
   <project name="rk/kernel" path="npu/kernel" revision="c76939e892efae26ac11e0e739ef3721f09d7535" upstream="develop-4.4"/>
   <project name="rk/mpp" path="external/mpp" revision="869ff4498055b5f66e260f25cc3422acb618e1ec" upstream="develop"/>
   <project name="rk/prebuilts/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" path="prebuilts/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" revision="f96f76d6be89a6e28d4dac1f233f9aca9921f69b" upstream="master"/>
