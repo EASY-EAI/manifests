@@ -14,7 +14,7 @@
   <project name="linux/app/gallery" path="app/gallery" revision="5eee813bdf54c908e56a4f2fdf757d657ebbd593" upstream="master"/>
   <project name="linux/app/music" path="app/music" revision="5899bbeb6f6d4b40ede66d943e06ac52a16a0326" upstream="master"/>
   <project name="linux/app/settings" path="app/settings" revision="8a834d76b5b058ca239c4022fe387264c6ef4c5b" upstream="master"/>
-  <project name="linux/app/video" path="app/video" revision="bce3634025425d4464bb1ff906bf04df4d5aa418" upstream="master"/>
+  <project name="linux/app/video" path="app/video" revision="01feccb7501b92dd65bae788ce733044079e5cf6" upstream="master"/>
   <project name="linux/buildroot/dl" path="buildroot/dl" revision="27acabf63f8f1140e67ae7de95f304ab732714a8" upstream="master"/>
   <project name="linux/buildroot/dl" path="npu/buildroot/dl" revision="27acabf63f8f1140e67ae7de95f304ab732714a8" upstream="master"/>
   <project name="linux/device/rockchip" path="device/rockchip" revision="d585daa50f197ef69fb16a079da3b12209569b80" upstream="master">
@@ -72,7 +72,7 @@
   <project name="rk/mpp" path="external/mpp" revision="869ff4498055b5f66e260f25cc3422acb618e1ec" upstream="develop"/>
   <project name="rk/prebuilts/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" path="prebuilts/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" revision="f96f76d6be89a6e28d4dac1f233f9aca9921f69b" upstream="master"/>
   <project name="rk/prebuilts/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" path="npu/prebuilts/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" revision="f96f76d6be89a6e28d4dac1f233f9aca9921f69b" upstream="master"/>
-  <project name="rk/rk1108/buildroot" path="buildroot" revision="bf8b56f298987d74840d7e7b28c1c0d6dc0a4d6c" upstream="stable-rk3399pro-v0.02-20190321">
+  <project name="rk/rk1108/buildroot" path="buildroot" revision="50a3f90fb4a5f375153a7ddd2e0a41ff26ef895c" upstream="stable-rk3399pro-v0.02-20190321">
     <linkfile dest="Makefile" src="build/Makefile"/>
     <linkfile dest="envsetup.sh" src="build/envsetup.sh"/>
   </project>

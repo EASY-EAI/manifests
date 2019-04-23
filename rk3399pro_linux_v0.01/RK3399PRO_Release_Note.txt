@@ -9,6 +9,7 @@ buildroot:
     * 优化Glmark2
     * 默认双屏同显的支持
     * 修复wifi密码无法保存问题，蓝牙音箱无法链接问题
+    * 增加gstreamer1.一些音视频格式的支持，比如Mpeg2/Dvd
 
 Debian:
     * npu_fw 升级到0.9.4
