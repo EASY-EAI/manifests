@@ -1,4 +1,37 @@
 ===========RK3308 Linux SDK Release Note===========
+【rk3308_linux_release_v1.2.5_20190430.xml 更新日志】
+u-boot更新：
+1. 修复开启op-tee后不断重启错误
+2. 修复开机logo显示
+
+Kernel更新：
+1. 新增USB 声卡功能，支持UAC1/UAC2协议，参考Rockchip-Developer-Guide-Linux4.4-USB-Gadget-UAC-CN.pdf
+
+docs更新：
+1. 新增RK816 带电池音箱开发指导文档，Rockchip_Developer_Guide_RK3308_RK816_CN.pdf
+2. 新增RK3308 显示方案开发指导文档，Rockchip_Developer_Guide_RK3308_DISPLAY_CN.pdf
+3. 新增 deviceio/doc文档说明：
+	蓝牙接口说明：Rockchip_Developer_Guide_DeviceIo_Bluetooth_CN.pdf
+	Led接口说明：Rockchip_Developer_Guide_DeviceIo_Led_CN.pdf
+	按键接口说明：Rockchip_Developer_Guide_DeviceIo_Key_CN.pdf
+	Wifi接口说明：Rockchip_Developer_Guide_DeviceIo_WIFI_CN.pdf
+
+external更新：
+1. 更新 bluetooth_bsa 
+2. 更新 broadcom_bsa 
+3. 更新 eq_drc_process 
+4. 更新 security/bin 修复 op-tee 错误
+5. deviceio
+	新增BLE配网Demo
+	修复BtSource接口
+	新增BSA库的支持
+	修复BSA分支deviceio_test测试失败
+	修复BLUEZ初始化失败程序卡住的BUG
+	修改A2DP SOURCE 获取playrole方法
+	
+Buildroot更新：
+1. 修复 QT linuxfb(DRM) backend 显示卡顿的问题
+
 【rk3308_linux_release_v1.2.4_20190327.xml 更新日志】
 Kernel更新：
 1. 增加EVB V13 板级配置：rk3308-evb-amic-v13.dts、rk3308-evb-dmic-i2s-v13.dts、rk3308-evb-dmic-pdm-v13.dts
