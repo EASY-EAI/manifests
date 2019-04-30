@@ -24,7 +24,7 @@
   <project name="linux/external/bluez-alsa" path="external/bluez-alsa" revision="38c52f0860e45aef83fdf746347b464093873762" upstream="master"/>
   <project name="linux/external/broadcom_bsa" path="external/broadcom_bsa" revision="6e0885c2a939304cba0a9f1593edeb894b2105f7" upstream="master"/>
   <project name="linux/external/cae_vad" path="external/cae_vad" revision="86f5f3d4616888feea0c3916a9663f29a3af28ba" upstream="master"/>
-  <project name="linux/external/deviceio_release" path="external/deviceio" revision="c71fa9cd8a9c719f925f701fc08d61c1aad1423e" upstream="master"/>
+  <project name="linux/external/deviceio_release" path="external/deviceio" revision="14c73c13618e20d8fb66bf2c35748a7476686df6" upstream="master"/>
   <project name="linux/external/eq_drc_process" path="external/eq_drc_process" revision="6948c0cf63550297767cbdd164fdba3bce6390a6" upstream="master"/>
   <project name="linux/external/iflytekSDK" path="external/iflytekSDK" revision="cb2d4b5b6cc3bc4122fefb19fdf84db751ea09f1" upstream="master_64bit"/>
   <project name="linux/external/ipc_share_memory" path="external/ipc_share_memory" revision="7e7c3de48f72f55d184e3705ab5a170ce815756a" upstream="master"/>
