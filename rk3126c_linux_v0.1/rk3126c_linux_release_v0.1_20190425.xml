@@ -14,7 +14,7 @@
   <project name="linux/app/settings" path="app/settings" revision="8a834d76b5b058ca239c4022fe387264c6ef4c5b" upstream="master"/>
   <project name="linux/app/video" path="app/video" revision="bce3634025425d4464bb1ff906bf04df4d5aa418" upstream="master"/>
   <project name="linux/buildroot/dl" path="buildroot/dl" revision="27acabf63f8f1140e67ae7de95f304ab732714a8" upstream="master"/>
-  <project name="linux/device/rockchip" path="device/rockchip" revision="30e09bb1737bfe8ed87d651014321be099635f5f" upstream="master">
+  <project name="linux/device/rockchip" path="device/rockchip" revision="6b8105c4bcaa254589215446786b64bf4ae530ae" upstream="master">
     <linkfile dest="mkfirmware.sh" src="common/mkfirmware.sh"/>
     <linkfile dest="build.sh" src="common/build.sh"/>
     <linkfile dest="rkflash.sh" src="common/rkflash.sh"/>
@@ -50,7 +50,7 @@
     <linkfile dest="tools/linux/Linux_Pack_Firmware/rockdev/mkupdate.sh" src="linux/Linux_Pack_Firmware/rockdev/rk3126c-mkupdate.sh"/>
     <linkfile dest="tools/linux/Linux_Pack_Firmware/rockdev/package-file" src="linux/Linux_Pack_Firmware/rockdev/rk3126c-package-file"/>
   </project>
-  <project name="rk/kernel" path="kernel" revision="0d519f5b5cefe7bc4d858244a2d5eb08e0afd2cf" upstream="develop-4.4"/>
+  <project name="rk/kernel" path="kernel" revision="c8f542ad44848f6c7f7c28efaa886c83d3538f02" upstream="develop-4.4"/>
   <project name="rk/mpp" path="external/mpp" revision="131e76f7afb385cc71b4ced908a0132644c2e339" upstream="develop"/>
   <project name="rk/prebuilts/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" path="prebuilts/gcc/linux-x86/arm/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" revision="dd4df7dff4f1df65d78939a958b760a79e3650a1" upstream="master"/>
   <project name="rk/rk1108/buildroot" path="buildroot" revision="a3dfea3a993cc3ad0eed4f6363ba404722778711" upstream="rockchip/2018.02-rc3">
