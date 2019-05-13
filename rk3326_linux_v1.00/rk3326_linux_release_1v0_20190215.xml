@@ -3,7 +3,8 @@
   <remote fetch="ssh://git@www.rockchip.com.cn/linux/" name="rk"/>
   
   <default remote="rk" sync-j="4"/>
-  
+
+  <project name="android/rk/platform/system/rk_tee_user" path="external/security/rk_tee_user" revision="1e3bdb582c52707d71e5cbe29ca1064d7c04b696" upstream="develop-next"/>
   <project name="android/rk/u-boot-stable" path="u-boot" revision="dfe5c45f059d9454c2dc7c91e14935446ade2505" upstream="stable-4.4-rk3326-linux"/>
   <project name="linux/app/QLauncher" path="app/QLauncher" revision="0dd9497ec64309b4512f07e01c92723c60927d88" upstream="master"/>
   <project name="linux/app/camera" path="app/camera" revision="24f5f7d14eadd237e97012d6b41e766d2a61313d" upstream="master"/>
@@ -38,6 +39,7 @@
   <project name="linux/libmali" path="external/libmali" revision="95c3cee3b78725833e6e7d6f933f397ed86d32b5" upstream="master"/>
   <project name="linux/linux-rga" path="external/linux-rga" revision="646e78b4ac9333b418abb0101b297b9275f567cb" upstream="master"/>
   <project name="linux/recovery" path="external/recovery" revision="3436415366128cbe3c8f698cb23c5808b2191405" upstream="develop"/>
+  <project name="linux/security/bin" path="external/security/bin" revision="63458426583c44369ba4eee8dd3721a8d9d62aff" upstream="master"/>
   <project name="linux/tools" path="tools" revision="56b6e1cf45e11f57e1397bb488199a8e1b37f154" upstream="master">
     <linkfile dest="tools/windows/AndroidTool/AndroidTool_Release/config.cfg" src="windows/AndroidTool/AndroidTool_Release/rk3326-config.cfg"/>
     <linkfile dest="tools/windows/AndroidTool/rockdev/package-file" src="windows/AndroidTool/rockdev/rk3326-package-file"/>
