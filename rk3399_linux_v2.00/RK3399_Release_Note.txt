@@ -1,4 +1,50 @@
 ===========RK3399 Linux SDK Release Note===========
+【rk3399_linux_release_v2.11_20190508.xml 更新日志】
+
+Buildroot更新：
+1.双屏同显示或异显的支持
+2.修复待机唤醒input-event-daemo引起异常
+3.修复gstreamer播放视频异常和更多格式片源的支持
+4.优化wifi/bt和更多兼容性的支持
+5.camera 3a库升级到v2.0.0
+ 3A lib version:
+       af:  v0.2.14
+       awb: v0.0.b
+       aec: v0.0.9
+
+Debian更新:
+1.adb/glmark2的优化
+2.gstreamer/mpp/qt等更新同步buildroot
+
+Yocto系统的支持。
+
+文档和工具的更新:
+1.AndroidTool更新到v2.67
+2.DriverAssitantg更新到v4.8
+3.FactoryTool更新到v1.66
+
+kernel的更新:
+1. 修复lpddr4计算错误
+2. 更新isp1驱动到v0.1.3
+3. 挖掘机linux dts的优化，以及概率无显示问题的解决
+
+uboot/rkbin的更新:
+1.ddr bin升级到v1.22，bl31升级到v1.288。解决lpddr4异常问题的修复
+rk3399: ddr: update ddr version to v1.22 20190506
+
+    build from:
+        8132b62 Version: DDR Version 1.22 20190506
+    update feature:
+        ce4c893 lpddr4: fix lpddr4 some timing error
+
+rk3399: bl31: update version to 1.28
+
+    Build from ATF commit:
+        51f2096 plat: rk3399: ddr: fix lpddr4 some timing error
+
+    update feature:
+        this bl31 is match ddr bin Version "DDR Version 1.22 20190506"
+
 【rk3399_linux_release_v2.10_20190308.xml 更新日志】
 
 Buildroot更新：
@@ -21,7 +67,7 @@ kernel的更新:
 uboot/rkbin的更新:
 1.ddr bin升级到v1.19
 rk3399: ddr: update version to v1.19
-    
+
     built from ddr init project commit:
         8aa7e79: DDR Version 1.19 20190305
     Update feature:
@@ -42,7 +88,7 @@ Buildroot更新：
 Debian更新:
 1.blueman问题
 scripts: fixes blueman error
-    
+
     dpkg: error processing package blueman (--configure):
      subprocess installed post-installation script returned error exit status 1
 
