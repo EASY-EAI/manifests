@@ -1,4 +1,9 @@
 ===========RK3399 Linux SDK Release Note===========
+【rk3399_linux_release_v2.11_2019611.xml 更新日志】
+1. Glibc、libv4l等库升级，适配Yocto的浏览器用于Buildroot中
+2. video默认使用waylandsink
+3. rockchhip_test中camera测试更新
+
 【rk3399_linux_release_v2.11_20190508.xml 更新日志】
 
 Buildroot更新：
