@@ -33,7 +33,7 @@
     <linkfile dest="npu/device/rockchip/.BoardConfig.mk" src="rk3399pro-npu/BoardConfig.mk"/>
   </project>
   <project name="linux/distro" path="distro" revision="1755221b0ca0dcb063b811b91b34e3df635a8218" upstream="master"/>
-  <project name="linux/docs" path="docs" revision="d623c4bd19dd834cfb11b65dcc5d345c534c19ee" upstream="master"/>
+  <project name="linux/docs" path="docs" revision="7a51703fd2c41378308bb6da09141d33f3a3c87e" upstream="master"/>
   <project name="linux/external/alsa-config" path="external/alsa-config" revision="5a80dbcff93b5db40310910835649277f60048c4" upstream="master"/>
   <project name="linux/external/audioservice" path="external/audioservice" revision="ec7efbf4cbb023a655228a1260fb83258fd667c1" upstream="master"/>
   <project name="linux/external/bluez-alsa" path="external/bluez-alsa" revision="231252d7ee885a7521393e9db1e510b1166443b8" upstream="master"/>
