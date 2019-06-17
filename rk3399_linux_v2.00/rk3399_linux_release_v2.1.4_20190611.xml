@@ -6,7 +6,7 @@
 
   <project name="android/platform/external/libdrm" path="external/libdrm" revision="696a303b72faf2dd9a0850aa31e678b29e3aec08" upstream="rk33/mid/9.0/develop"/>
   <project name="android/rk/platform/system/rk_tee_user" path="external/security/rk_tee_user" revision="dd23392ad8ee8e0e7bee81030270b33a31adbc25" upstream="master"/>
-  <project name="android/rk/u-boot-stable" path="u-boot" revision="fd847db42aafdec0dc350e221c197da3034714e7" upstream="stable-4.4-rk3399-linux-v2.1x"/>
+  <project name="android/rk/u-boot-stable" path="u-boot" revision="272fdf68ed75c15079fff8123974ecda6545eb3b" upstream="stable-4.4-rk3399-linux-v2.1x"/>
   <project name="linux/app/QLauncher" path="app/QLauncher" revision="dbd9b7562253c277e5010e1df0ed2dcc4fca4a21" upstream="master"/>
   <project name="linux/app/camera" path="app/camera" revision="68c892e8affb6d70b36fd86f2da535f53415a61c" upstream="master"/>
   <project name="linux/app/demo" path="app/demo" revision="61c8371134674e116cb06e9b5945320a5bcd7fd2" upstream="master"/>
@@ -68,7 +68,7 @@
   <project name="linux/yocto/meta-openembedded" path="yocto/meta-openembedded" revision="4cd3a39f22a2712bfa8fc657d09fe2c7765a4005" upstream="thud"/>
   <project name="linux/yocto/meta-rockchip" path="yocto/meta-rockchip" revision="2a7a972fbaccc8ae64f0f9fd3198333fff4d9bde" upstream="yocto-next"/>
   <project name="meta-qt5" path="yocto/meta-qt5" remote="qt5" revision="1520d5b2b2beec5e1c3209d3178219e93ef08bca" upstream="thud"/>
-  <project name="rk/kernel-stable" path="kernel" revision="8da2ce08e7e51311530913fca6cd40b4f670f482" upstream="stable-4.4-rk3399-linux-v2.1x"/>
+  <project name="rk/kernel-stable" path="kernel" revision="5b593bbc066d120756971bad12ad3cfdb57e075a" upstream="stable-4.4-rk3399-linux-v2.1x"/>
   <project name="rk/mpp" path="external/mpp" revision="a711528671a842cf998573ed3eb33cc9575002d4" upstream="develop"/>
   <project name="rk/prebuilts/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" path="prebuilts/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" revision="f96f76d6be89a6e28d4dac1f233f9aca9921f69b" upstream="master"/>
   <project name="rk/rk1108/buildroot" path="buildroot" revision="23b47e357d797c58d447e42bce7a4f57575ac2c8" upstream="stable-rk3399-v2.11-20190611">
