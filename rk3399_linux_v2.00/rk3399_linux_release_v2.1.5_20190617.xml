@@ -66,7 +66,7 @@
     <linkfile dest="tools/linux/Linux_Pack_Firmware/rockdev/package-file" src="linux/Linux_Pack_Firmware/rockdev/rk3399-package-file"/>
   </project>
   <project name="linux/yocto/meta-openembedded" path="yocto/meta-openembedded" revision="4cd3a39f22a2712bfa8fc657d09fe2c7765a4005" upstream="thud"/>
-  <project name="linux/yocto/meta-rockchip" path="yocto/meta-rockchip" revision="bd3019cffeabcce5067653a100a598145fc43d5d" upstream="yocto-next"/>
+  <project name="linux/yocto/meta-rockchip" path="yocto/meta-rockchip" revision="0e81847325d6cc8229848f8972463c83d442e8dd" upstream="yocto-next"/>
   <project name="meta-qt5" path="yocto/meta-qt5" remote="qt5" revision="1520d5b2b2beec5e1c3209d3178219e93ef08bca" upstream="thud"/>
   <project name="rk/kernel-stable" path="kernel" revision="ce7645427e68824b9eecff3e54d329d5d335e79d" upstream="stable-4.4-rk3399-linux-v2.1x"/>
   <project name="rk/mpp" path="external/mpp" revision="66b140eed828391994c04b8c53b1c1864c386576" upstream="develop"/>
