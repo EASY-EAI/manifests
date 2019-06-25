@@ -14,7 +14,7 @@
   <project name="linux/app/music" path="app/music" revision="057a31b47de52b02a3b95dc482b494dd3542b214" upstream="master"/>
   <project name="linux/app/settings" path="app/settings" revision="6060c42812a206d03972b99adc2ddb2ee248acf4" upstream="master"/>
   <project name="linux/app/video" path="app/video" revision="b52211fe8d0d91b2210cfab757885277cae1211c" upstream="master"/>
-  <project name="linux/build" path="yocto/build/conf" revision="0b64e797397b6bf732073fc8a769398de5b74123" upstream="yocto-next"/>
+  <project name="linux/build" path="yocto/build/conf" revision="b450f953b9a8c7d80804889acfecce13164aa5fb" upstream="yocto-next"/>
   <project name="linux/buildroot/dl" path="buildroot/dl" revision="e8d2181121d16cf6eac1a2119d952a2afcdfbb91" upstream="master"/>
   <project name="linux/device/rockchip" path="device/rockchip" revision="a12ac885d55e8e360ec7d6eca28dbd6db22a9097" upstream="master">
     <linkfile dest="mkfirmware.sh" src="common/mkfirmware.sh"/>
