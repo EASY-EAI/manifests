@@ -1,4 +1,10 @@
 ===========RK3399 Linux SDK Release Note===========
+【rk3399_linux_release_v2.2.0_20190628.xml 更新日志】
+1. Changed the EDP/MIPI/.. Monitor display in VOPL, and HDMI monitor
+   display put in VOPB.
+2. Support audio/headphone jack in debian os.
+3. fix host mode resume fail for rk3399's usb3
+
 【rk3399_linux_release_v2.1.5_20190617.xml 更新日志】
 1. ntfs格式支持
 2. 解决codec声卡注册顺序不对导致音乐播放异常问题
