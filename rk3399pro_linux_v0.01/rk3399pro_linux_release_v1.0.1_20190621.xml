@@ -17,7 +17,7 @@
   <project name="linux/app/music" path="app/music" revision="057a31b47de52b02a3b95dc482b494dd3542b214" upstream="master"/>
   <project name="linux/app/settings" path="app/settings" revision="5b345beabd03e5d0aa5d6251b19c52a8230e6694" upstream="master"/>
   <project name="linux/app/video" path="app/video" revision="b52211fe8d0d91b2210cfab757885277cae1211c" upstream="master"/>
-  <project name="linux/build" path="yocto/build/conf" revision="3782b0a29848b74551866ecf229c119836c42733" upstream="yocto-next"/>
+  <project name="linux/build" path="yocto/build/conf" revision="yocto-next"/>
   <project name="linux/buildroot/dl" path="buildroot/dl" revision="8ff89187627615be855a76f9a35673860810eb2e" upstream="master"/>
   <project name="linux/buildroot/dl" path="npu/buildroot/dl" revision="8ff89187627615be855a76f9a35673860810eb2e" upstream="master"/>
   <project name="linux/device/rockchip" path="device/rockchip" revision="a7a8f711a9812a5c0f26b3db1ae146909d84851e" upstream="master">
@@ -62,7 +62,7 @@
   <project name="linux/gstreamer-rockchip" path="external/gstreamer-rockchip" revision="c766879e0b750233b197a2dd495e562d64498244" upstream="master"/>
   <project name="linux/libmali" path="external/libmali" revision="b81d886f3e3fba47040565ec2fcb44b765f4a3b0" upstream="master"/>
   <project name="linux/linux-rga" path="external/linux-rga" revision="d4155b84a6a285c3f25f32143eae66530dccf351" upstream="master"/>
-  <project name="linux/poky" path="yocto/poky" revision="faeb366bc3eb322f5f203cfe08dc4cf529a822e9" upstream="thud">
+  <project name="linux/poky" path="yocto/poky" revision="thud">
     <linkfile dest="yocto/scripts" src="scripts"/>
     <linkfile dest="yocto/bitbake" src="bitbake"/>
     <linkfile dest="yocto/meta-poky" src="meta-poky"/>
@@ -80,8 +80,8 @@
     <linkfile dest="tools/linux/Linux_Pack_Firmware/rockdev/mkupdate.sh" src="linux/Linux_Pack_Firmware/rockdev/rk3399-mkupdate.sh"/>
     <linkfile dest="tools/linux/Linux_Pack_Firmware/rockdev/package-file" src="linux/Linux_Pack_Firmware/rockdev/rk3399-package-file"/>
   </project>
-  <project name="linux/yocto/meta-openembedded" path="yocto/meta-openembedded" revision="4cd3a39f22a2712bfa8fc657d09fe2c7765a4005" upstream="thud"/>
-  <project name="linux/yocto/meta-rockchip" path="yocto/meta-rockchip" revision="cafe6bdb8c657e1d81ff8f8d8b8aedeb4d329f38" upstream="yocto-next"/>
+  <project name="linux/yocto/meta-openembedded" path="yocto/meta-openembedded" revision="thud"/>
+  <project name="linux/yocto/meta-rockchip" path="yocto/meta-rockchip" revision="yocto-next"/>
   <project name="meta-qt5" path="yocto/meta-qt5" remote="qt5" revision="1520d5b2b2beec5e1c3209d3178219e93ef08bca" upstream="thud"/>
   <project name="rk/kernel-stable" path="kernel" revision="6d5e4b3c6dfb9ab4d7c86b49682a6a0fb9b02baa" upstream="stable-4.4-rk3399pro-linux"/>
   <project name="rk/kernel" path="npu/kernel" revision="675523fe4ea1d62205bbc29e208f889c6c962385" upstream="develop-4.4"/>
