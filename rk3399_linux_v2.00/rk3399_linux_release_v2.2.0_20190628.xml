@@ -23,7 +23,7 @@
     <linkfile dest="device/rockchip/.BoardConfig.mk" src="rk3399/BoardConfig.mk"/>
   </project>
   <project name="linux/distro" path="distro" revision="85c31c4cb996e06f5f1d82c04d7744bc072f9a23" upstream="master"/>
-  <project name="linux/docs" path="docs" revision="55d90868f9bf60b447a4ad77a058021a542906bf" upstream="master"/>
+  <project name="linux/docs" path="docs" revision="b726a315462d288631b6d30877db09271538a4c4" upstream="master"/>
   <project name="linux/external/alsa-config" path="external/alsa-config" revision="5a80dbcff93b5db40310910835649277f60048c4" upstream="master"/>
   <project name="linux/external/audioservice" path="external/audioservice" revision="ec7efbf4cbb023a655228a1260fb83258fd667c1" upstream="master"/>
   <project name="linux/external/bluez-alsa" path="external/bluez-alsa" revision="06defedfb76083c198eeea9323315f2e5d2dc3b1" upstream="master"/>
@@ -68,7 +68,7 @@
   <project name="linux/yocto/meta-openembedded" path="yocto/meta-openembedded" revision="thud"/>
   <project name="linux/yocto/meta-rockchip" path="yocto/meta-rockchip" revision="yocto-next"/>
   <project name="meta-qt5" path="yocto/meta-qt5" remote="qt5" revision="thud"/>
-  <project name="rk/kernel-stable" path="kernel" revision="951cd817a4bbcbcc5a2ef2b61590d8d0045ed18e" upstream="stable-4.4-rk3399-linux-v2.1x"/>
+  <project name="rk/kernel-stable" path="kernel" revision="24d866d654ed06d9b518bc58b9823c7f535f8d49" upstream="stable-4.4-rk3399-linux-v2.1x"/>
   <project name="rk/mpp" path="external/mpp" revision="bdcd66b9c42af0a3fee5c6ea7b759fc88685bf34" upstream="develop"/>
   <project name="rk/prebuilts/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" path="prebuilts/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" revision="f96f76d6be89a6e28d4dac1f233f9aca9921f69b" upstream="master"/>
   <project name="rk/rk1108/buildroot" path="buildroot" revision="ed1ba576e33a5425eb15b5f22425e32f75134423" upstream="stable-rk3399-v2.2.0-20190628">
