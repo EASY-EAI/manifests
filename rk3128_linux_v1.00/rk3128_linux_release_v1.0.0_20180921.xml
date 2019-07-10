@@ -6,11 +6,11 @@
   
   <project name="android/rk/u-boot" path="u-boot" revision="7632e2a18bc0d016bd1b951a5909c0d4919f969f" upstream="release"/>
   <project name="linux/app/QLauncher" path="app/QLauncher" revision="0dd9497ec64309b4512f07e01c92723c60927d88" upstream="master"/>
-  <project name="linux/app/camera" path="app/camera" revision="291866bcbabb706f48398883fbcc16d9808f7ef0" upstream="master"/>
-  <project name="linux/app/gallery" path="app/gallery" revision="8cdb4c492c7e0be5803675409958f816bcd56cc3" upstream="master"/>
-  <project name="linux/app/music" path="app/music" revision="40a4da13e82f32d83369f7777479a196d9f58576" upstream="master"/>
-  <project name="linux/app/settings" path="app/settings" revision="ec4f67a2df498893539eb2435d14348d97ecc462" upstream="master"/>
-  <project name="linux/app/video" path="app/video" revision="4ce9c5ae8094ff0bc30f9ac6ec9c5c5173f69dd9" upstream="master"/>
+  <project name="linux/app/camera" path="app/camera" revision="68c892e8affb6d70b36fd86f2da535f53415a61c" upstream="master"/>
+  <project name="linux/app/gallery" path="app/gallery" revision="67850ebbbc400b0a46968fb99bdd60c86358cc49" upstream="master"/>
+  <project name="linux/app/music" path="app/music" revision="057a31b47de52b02a3b95dc482b494dd3542b214" upstream="master"/>
+  <project name="linux/app/settings" path="app/settings" revision="d0cc205538c5da8b48817fbdb3aae403d21129e5" upstream="master"/>
+  <project name="linux/app/video" path="app/video" revision="b52211fe8d0d91b2210cfab757885277cae1211c" upstream="master"/>
   <project name="linux/buildroot/dl" path="buildroot/dl" revision="2578fa47996cdf0dce91f7396f990df79d6dfa0d" upstream="master"/>
   <project name="linux/device/rockchip" path="device/rockchip" revision="dc84b1b0946788f79d0ac37aff93839c5b4e8d14" upstream="master">
     <linkfile dest="mkfirmware.sh" src="common/mkfirmware.sh"/>
