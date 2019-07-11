@@ -1,4 +1,61 @@
 ===========RK3308 Linux SDK Release Note===========
+【rk3308_linux_release_v1.3.0_20190709.xml 更新日志】
+u-boot 更新：
+1. 新增开源SPL方案，支持EMMC 和SLC NAND存储器，暂不支持SPI NAND存储器
+2. 新增MTD方案，支持SLC NAND存储器，暂不支持SPI NAND存储器
+
+Kernel 更新：
+1. 新增MTD方案，支持SLC NAND存储器，暂不支持SPI NAND存储器
+2. 更新 RTL8723DS/8189FS WIFI驱动
+3. 更新海华 AWCM256/AWNB197 WIFI驱动
+4. 更新rkflash 驱动
+5. 修复低温下RK3308 ACODEC概率播放无声问题
+
+doc 更新：
+1. 调整目录
+2. 新增配网文档 <Rockchip_Developer_Guide_Network_Config_CN.pdf>
+3. 新增minigui开发指南 <Rockchip_Developer_Guide_Linux_Minigui_CN.pdf>
+4. 新增SPL、MTD开发指南<Rockchip_Developer_Guide_Linux_SPL_MTD_CN.pdf>
+5. 新增升级开发指南 <Rockchip_Developer_Guide_Linux_Upgrade_CN.pdf>
+6. 新增RK3308 Linux 快速入门指南<Rockchip_RK3308_Quick_Start_Linux_SDK_CN.pdf>
+7. 更新RK3308 Datasheet <Rockchip_RK3308_Datasheet_V1.5.0_20190121_EN.pdf>
+8. 新增RK3308B Datasheet <Rockchip_RK3308B_Datasheet_V1.2.0_20190509_EN.pdf>
+9. 新增<Rockchip_Developer_Guide_Linux_RK816_RTC.pdf>
+
+external 更新：
+1. wifi/bt 具体详见<Rockchip Linux WIFI BT 开发指南 V6.0.pdf>
+	更新 bluethooth_bsa
+	更新 broadcom_bsa
+	app 新增 RkEcho、RockHome应用的源码
+	更新 bluez-alsa
+	更新 deviceio
+	更新 rkwifibt
+	新增 rk_webui，用于网页配网
+2. 更新 eq_drc_process、ladspaSDK，增加三段drc，解决fd泄露问题
+3. 更新 DuerClientSDK
+4. 更新 alsa-config
+5. 更新 minigui
+6. 更新 rk_pcba_test
+7. 更新 recovery，升级方式支持MTD和BLOCK，详见文档<Rockchip_Developer_Guide_Linux_Upgrade_CN.pdf>
+8. 新增 minigui_desktop，minigui桌面demo，详见文档<Rockchip_Developer_Guide_Linux_Minigui_CN.pdf>
+9. 新增 rkscript，原本位于buildroot下的一些启动脚本迁移到该目录
+10. 新增 rtc_demo，参考Rockchip_RK816_Developer_Guide_Linux_Rtc_CN.pdf
+
+Buildroot 目录：
+1. 新增QT显示方案，支持旋转
+2. 升级程序默认切换使用新的升级方案，即updateEngine
+
+device 更新：
+1. 支持编译ubifs文件系统
+2. BoardConfig 默认配置修改为RK_EVB_RK3308_DDR3P116SD4_V13
+
+rkbin 更新：
+1. 新增没有FTL的usbplug.bin 和miniloader.bin 
+2. 更新miniloader.bin 文件
+
+tools 更新：
+1. AndroidTools 更新到2.6.9版本，支持MTD 烧写
+
 【rk3308_linux_release_v1.2.5_20190430.xml 更新日志】
 u-boot更新：
 1. 修复开启op-tee后不断重启错误
