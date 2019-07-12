@@ -35,7 +35,7 @@
   <project name="linux/external/rk_webui" path="external/rk_webui" revision="23d1035aede0b74ae119b8bd65cf0ed93c4100a6" upstream="master"/>
   <project name="linux/external/rkscript" path="external/rkscript" revision="8bb6180dfff6850b783ca8ff33a274e2ac328e59" upstream="master"/>
   <project name="linux/external/rkupdate" path="external/rkupdate" revision="000bc14833c2fa12ba45e9f87e0775977485b4f1" upstream="master"/>
-  <project name="linux/external/rkwifibt" path="external/rkwifibt" revision="816e700b95f1abb54448d4af935cbe67965fdd9b" upstream="master"/>
+  <project name="linux/external/rkwifibt" path="external/rkwifibt" revision="429b6868e58a59abee6b84a78e81ffc5c502d7fd" upstream="master"/>
   <project name="linux/external/rtc_demo" path="external/rtc_demo" revision="e1e8f6704a31b36982745f7627bc9b8959f54157" upstream="master"/>
   <project name="linux/external/softapDemo" path="external/softapDemo" revision="4c7d1bd3d28df276d263f49324b022b44b3a1c85" upstream="master"/>
   <project name="linux/external/softapServer" path="external/softapServer" revision="9158517316a050190273c6809ea88467a4276e16" upstream="master"/>
@@ -53,7 +53,7 @@
   <project name="rk/kernel-stable" path="kernel" revision="5b9a9f0355c4958c6775c6d9821a77c076e10d59" upstream="stable-4.4-rk3308-linux"/>
   <project name="rk/prebuilts/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" path="prebuilts/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" revision="f96f76d6be89a6e28d4dac1f233f9aca9921f69b" upstream="master"/>
   <project name="rk/prebuilts/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" path="prebuilts/gcc/linux-x86/arm/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" revision="dd4df7dff4f1df65d78939a958b760a79e3650a1" upstream="master"/>
-  <project name="rk/rk1108/buildroot" path="buildroot" revision="74a963b8b5779fbd1e35d4897fe3b6b2796c0fdb" upstream="stable-rk3308-v1.2.3-20190108">
+  <project name="rk/rk1108/buildroot" path="buildroot" revision="25b8264ece5a18b2223148e2355dc51e4ae2c634" upstream="stable-rk3308-v1.2.3-20190108">
     <linkfile dest="Makefile" src="build/Makefile"/>
     <linkfile dest="envsetup.sh" src="build/envsetup.sh"/>
   </project>
