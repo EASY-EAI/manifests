@@ -4,6 +4,8 @@
   <remote fetch="ssh://git@www.rockchip.com.cn/linux/" name="rk"/>
   <default remote="rk" sync-j="4"/>
   
+  <project name="linux/app/rkffplay" path="app/rkffplay" revision="0b119571fb553eec8cdfe1237072aa81eea1d66d" upstream="master"/>
+  <project name="linux/external/SDL2" path="external/SDL2" revision="f1ea27c0895a8463187a814882693a942b509743" upstream="master"/>
   <project name="linux/external/adb" path="external/adb" revision="5c57a1f9145eef7c0265b0a9bbc2379a377391c6" upstream="master"/>
   <project name="linux/external/alsa-lib" path="external/alsa-lib" revision="069ca2393cda576753cb2c9a17102d0cb5ae3290" upstream="master"/>
   <project name="linux/external/alsa-plugins" path="external/alsa-plugins" revision="becb2a4b8f8b107fbc13ec610dc63b9d960abb36" upstream="master"/>
@@ -28,8 +30,8 @@
   </project>
   <project name="rk/rk1108/buildroot-2016" path="buildroot" revision="6597af7e379795590aaea0ce9b16011654e464bf" upstream="master"/>
   <project name="rk/rk1108/common" path="common" revision="e647185bae8e0a9713422ac8eb836b2e29858ef2" upstream="master"/>
-  <project name="rk/rk1108/config" path="config" revision="4fe84db855016c854f3c6e86450630548039a803" upstream="master"/>
-  <project name="rk/rk1108/docs" path="docs" revision="a31adf017c47b74ee92df3e1ef9f599b7f6bf7b8" upstream="master"/>
+  <project name="rk/rk1108/config" path="config" revision="00817f20b38f9dfce4149dbef5f2992b8c3d697d" upstream="master"/>
+  <project name="rk/rk1108/docs" path="docs" revision="4367ff6fac245e2f8c80f8e217c292b21915a1b5" upstream="master"/>
   <project name="rk/rk1108/external/bsdiff" path="external/bsdiff" revision="767a226f6358a6535866ac02c3aa6a6c5360cb7c" upstream="master"/>
   <project name="rk/rk1108/external/bzip2" path="external/bzip2" revision="efb684deff0df65d606ca45accb136b0f69be2e7" upstream="master"/>
   <project name="rk/rk1108/external/cjson" path="external/cjson" revision="5d58a33073fa1be2e9cb01fe085f27b6a1cba81c" upstream="master"/>
