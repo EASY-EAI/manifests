@@ -38,7 +38,7 @@
   <project name="linux/external/powermanager" path="external/powermanager" revision="17921d6b75395df5478613973e58916a6cf7c7ad" upstream="master"/>
   <project name="linux/external/rk_pcba_test" path="external/rk_pcba_test" revision="25643cf5f522a71ed2a918b0abe15e363a893504" upstream="master"/>
   <project name="linux/external/rkscript" path="external/rkscript" revision="8bb6180dfff6850b783ca8ff33a274e2ac328e59" upstream="master"/>
-  <project name="linux/external/rkupdate" path="external/rkupdate" revision="94fd1cc76a3ff5a754c3c7f5c6d91322c02e8960" upstream="master"/>
+  <project name="linux/external/rkupdate" path="external/rkupdate" revision="40b9c1ed1f69b90e97986d41b8270dc3c8042479" upstream="master"/>
   <project name="linux/external/rkwifibt" path="external/rkwifibt" revision="429b6868e58a59abee6b84a78e81ffc5c502d7fd" upstream="master"/>
   <project name="linux/external/rtc_demo" path="external/rtc_demo" revision="e1e8f6704a31b36982745f7627bc9b8959f54157" upstream="master"/>
   <project name="linux/external/softapDemo" path="external/softapDemo" revision="4c7d1bd3d28df276d263f49324b022b44b3a1c85" upstream="master"/>
@@ -59,7 +59,7 @@
   <project name="rk/kernel" path="kernel" revision="916e282891ff2a3e1bf18f5f2d96c2ad881e7290" upstream="develop-4.4"/>
   <project name="rk/mpp" path="external/mpp" revision="3d35398706b23b885ed89eebc49955e6c78f74c6" upstream="develop"/>
   <project name="rk/prebuilts/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" path="prebuilts/gcc/linux-x86/arm/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" revision="dd4df7dff4f1df65d78939a958b760a79e3650a1" upstream="master"/>
-  <project name="rk/rk1108/buildroot" path="buildroot" revision="509c640b356860c8c61c7b3275bd0d5915dfc7b1" upstream="rockchip/2018.02-rc3">
+  <project name="rk/rk1108/buildroot" path="buildroot" revision="99e144394f152cd417c53f7ed6c2c5158ab6ba19" upstream="rockchip/2018.02-rc3">
     <linkfile dest="Makefile" src="build/Makefile"/>
     <linkfile dest="envsetup.sh" src="build/envsetup.sh"/>
   </project>
