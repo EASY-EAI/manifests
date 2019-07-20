@@ -33,7 +33,7 @@
   <project name="linux/external/gst-plugins-rockchip" path="external/gst-plugins-rockchip" revision="0b606f9c64e18634c349717c60f50b6921e4e774" upstream="master"/>
   <project name="linux/external/gstreamer-camera" path="external/gstreamer-camera" revision="7b8a9b33f95a0a7c65fd76d4f4e3f6778fce8ea7" upstream="master"/>
   <project name="linux/external/minigui" path="external/minigui" revision="caa4832ab2a4eb8e88e30b7a07efb4ce308cedba" upstream="master"/>
-  <project name="linux/external/minigui_desktop" path="external/minigui_desktop" revision="f64dc4e04e7d460df1677284cdc4086aac400c95" upstream="master"/>
+  <project name="linux/external/minigui_desktop" path="external/minigui_desktop" revision="ac29bbd82e3ab8cafda860b5943af40f2e314b04" upstream="master"/>
   <project name="linux/external/mpv" path="external/mpv" revision="2739ea80b7137daf3f9a39fd3a2ddfd787a6b964" upstream="rockchip/release/0.9"/>
   <project name="linux/external/powermanager" path="external/powermanager" revision="17921d6b75395df5478613973e58916a6cf7c7ad" upstream="master"/>
   <project name="linux/external/rk_pcba_test" path="external/rk_pcba_test" revision="25643cf5f522a71ed2a918b0abe15e363a893504" upstream="master"/>
