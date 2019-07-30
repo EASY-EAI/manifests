@@ -29,7 +29,6 @@
   <project name="linux/external/bluez-alsa" path="external/bluez-alsa" revision="06defedfb76083c198eeea9323315f2e5d2dc3b1" upstream="master"/>
   <project name="linux/external/camera_engine_cifisp" path="external/camera_engine_cifisp" revision="1ca397689e2803445326dcddea49fa6b0757a416" upstream="master"/>
   <project name="linux/external/camera_engine_rkisp" path="external/camera_engine_rkisp" revision="fe8e1563c787d607b6bf4dea0d5f32a8662d9445" upstream="master"/>
-  <project name="linux/external/ffmpeg" path="external/ffmpeg" revision="226e514675a10e583d2af123b2b6960043da1dca" upstream="rockchip/release/4.1"/>
   <project name="linux/external/gst-plugins-rockchip" path="external/gst-plugins-rockchip" revision="0b606f9c64e18634c349717c60f50b6921e4e774" upstream="master"/>
   <project name="linux/external/gstreamer-camera" path="external/gstreamer-camera" revision="7b8a9b33f95a0a7c65fd76d4f4e3f6778fce8ea7" upstream="master"/>
   <project name="linux/external/mpv" path="external/mpv" revision="2739ea80b7137daf3f9a39fd3a2ddfd787a6b964" upstream="rockchip/release/0.9"/>
@@ -71,7 +70,7 @@
   <project name="rk/kernel-stable" path="kernel" revision="24d866d654ed06d9b518bc58b9823c7f535f8d49" upstream="stable-4.4-rk3399-linux-v2.1x"/>
   <project name="rk/mpp" path="external/mpp" revision="bdcd66b9c42af0a3fee5c6ea7b759fc88685bf34" upstream="develop"/>
   <project name="rk/prebuilts/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" path="prebuilts/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" revision="f96f76d6be89a6e28d4dac1f233f9aca9921f69b" upstream="master"/>
-  <project name="rk/rk1108/buildroot" path="buildroot" revision="ed1ba576e33a5425eb15b5f22425e32f75134423" upstream="stable-rk3399-v2.2.0-20190628">
+  <project name="rk/rk1108/buildroot" path="buildroot" revision="b031d64e89cf7c1ae7866ef4981fc8a1e8bdb578" upstream="stable-rk3399-v2.2.0-20190628">
     <linkfile dest="Makefile" src="build/Makefile"/>
     <linkfile dest="envsetup.sh" src="build/envsetup.sh"/>
   </project>
