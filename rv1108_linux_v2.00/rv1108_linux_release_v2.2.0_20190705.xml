@@ -14,14 +14,14 @@
   <project name="linux/external/libcutils" path="external/libcutils" revision="973b41906854a32379809b11138afbf7016563a0" upstream="master"/>
   <project name="linux/external/liblog" path="external/liblog" revision="3867fe3c8f20f46d7109c2779ac48af2f16d6ea8" upstream="master"/>
   <project name="rk/mpp" path="external/rockchip-mpp" revision="3d35398706b23b885ed89eebc49955e6c78f74c6" upstream="develop"/>
-  <project name="rk/rk1108/apps/at_server" path="app/at_server" revision="902c11f4a49b353430ed40f46d21ed24bf047342" upstream="master"/>
+  <project name="rk/rk1108/apps/at_server" path="app/at_server" revision="ed0d3e8ce340bbfddfbec79f80fa6b4702d0fcdd" upstream="master"/>
   <project name="rk/rk1108/apps/face" path="app/face" revision="d193a32a6a94861ca247531bedd1ec468eb9c1b8" upstream="master"/>
   <project name="rk/rk1108/apps/hello" path="app/hello" revision="42fb57442945537c204d402ce1e22d1226ac9221" upstream="master"/>
   <project name="rk/rk1108/apps/hello_rv" path="app/hello_rv" revision="8109caaa49cc2004b3ac7a87eb6e92ffd1ab993e" upstream="master"/>
   <project name="rk/rk1108/apps/lock" path="app/lock" revision="a97496e929533aaeaf1fbbb623821fd383562e5f" upstream="master"/>
   <project name="rk/rk1108/apps/pcba_test" path="app/pcba_test" revision="6569a515b666efc84849ad499044f9fa36a675c6" upstream="master"/>
   <project name="rk/rk1108/apps/peephole" path="app/peephole" revision="2bfe8ddbaaa53d5d35010d5bbe4bcdf94935eb1e" upstream="master"/>
-  <project name="rk/rk1108/apps/system_manager" path="app/system_manager" revision="7b57304007409398355a4f13faa749522b9edb96" upstream="master"/>
+  <project name="rk/rk1108/apps/system_manager" path="app/system_manager" revision="f5e31d02f4ed30c7a9eaa9287683a0d012a9b37e" upstream="master"/>
   <project name="rk/rk1108/apps/updater" path="app/updater" revision="c7af333818d4058bdf3d68678a48aa457a593171" upstream="master"/>
   <project name="rk/rk1108/apps/uvc_app" path="app/uvc_app" revision="838b353d173c339e803ca1b818ebce0d9c347dc1" upstream="master"/>
   <project name="rk/rk1108/build" path="build" revision="3dca60774ac2e70ea80de9221a0bec8f8cc51f22" upstream="master">
@@ -65,8 +65,8 @@
   <project name="rk/rk1108/framework/database" path="frameworks/database" revision="b6fe5994730b179b5b203bdc797bf5976e98febe" upstream="master"/>
   <project name="rk/rk1108/framework/hal" path="frameworks/hal" revision="ce0461541c9cce19f89189bfe6eeb9d2b15c5c94" upstream="master"/>
   <project name="rk/rk1108/framework/librkuvc" path="frameworks/librkuvc" revision="a45d95318bae3b2bb39d3a683241dbd769d8b87a" upstream="master"/>
-  <project name="rk/rk1108/framework/messenger" path="frameworks/messenger" revision="2db85834bf0a09183246c7af45dbb2efd13d6c86" upstream="master"/>
-  <project name="rk/rk1108/framework/model_loader" path="frameworks/model_loader" revision="42a2da6a04e0c5b403381bffeb5436d41b43ebc7" upstream="master"/>
+  <project name="rk/rk1108/framework/messenger" path="frameworks/messenger" revision="43573d01d4ecfe298b68887f0ae8ef1d0da5c13a" upstream="master"/>
+  <project name="rk/rk1108/framework/model_loader" path="frameworks/model_loader" revision="11127944b589fc263955444093844f2931c3752e" upstream="master"/>
   <project name="rk/rk1108/framework/preisp" path="frameworks/preisp" revision="f26f3e7fcf5c22afa9f414f66b5ba3f83c8c5cb5" upstream="master"/>
   <project name="rk/rk1108/framework/rkface" path="frameworks/rkface" revision="1156c300e2eb0b3a021197dce43831c3a648a6c8" upstream="master"/>
   <project name="rk/rk1108/framework/settings" path="frameworks/settings" revision="26d3c99dff2ddc918791344dfef9a9db03396f43" upstream="master"/>
