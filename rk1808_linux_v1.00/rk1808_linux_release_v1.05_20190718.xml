@@ -6,7 +6,7 @@
 
   <project name="android/RKNPUTool" path="external/RKNPUTools" revision="213308659be4c23ca09f1a57e5ffcdb7c50fbd5c" upstream="rk33/mid/8.1/develop"/>
   <project name="android/rk/u-boot" path="u-boot" revision="af4fa707937dec40b4068ab4d8ccfc8768f7362d" upstream="next-dev"/>
-  <project name="linux/buildroot/dl" path="buildroot/dl" revision="8ff89187627615be855a76f9a35673860810eb2e" upstream="master"/>
+  <project name="linux/buildroot/dl" path="buildroot/dl" revision="ddfbe30ea232f63b2080e85907ec308ad913e43e" upstream="master"/>
   <project name="linux/device/rockchip" path="device/rockchip" revision="56412e7d2beb8ee2c4dccc054046662663f9fb9a" upstream="master">
     <linkfile dest="mkfirmware.sh" src="common/mkfirmware.sh"/>
     <linkfile dest="build.sh" src="common/build.sh"/>

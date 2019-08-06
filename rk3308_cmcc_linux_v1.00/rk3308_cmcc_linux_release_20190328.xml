@@ -9,7 +9,7 @@
   <project name="argus/externals/adb" path="external/adb"  revision="0ee8df4b6d6e429663a1733491308950290f090e" upstream="master"/>
   <project name="argus/externals/libcutils" path="external/libcutils"  revision="1f5ab8e6301221721344f4014bbf6e965c7a5d8b" upstream="arm64"/>
   <project name="argus/externals/liblog" path="external/liblog"  revision="3867fe3c8f20f46d7109c2779ac48af2f16d6ea8" upstream="master"/>
-  <project name="linux/buildroot/dl" path="buildroot/dl" revision="27acabf63f8f1140e67ae7de95f304ab732714a8" upstream="master"/>
+  <project name="linux/buildroot/dl" path="buildroot/dl" revision="ddfbe30ea232f63b2080e85907ec308ad913e43e" upstream="master"/>
   <project name="linux/device/rockchip" path="device/rockchip" revision="30c9dfb5a72819555f03a77ff7de873cfb745594" upstream="cmcc_soundai">
     <linkfile dest="mkfirmware.sh" src="rk3308/mkfirmware.sh"/>
     <linkfile dest="build.sh" src="common/build.sh"/>

@@ -13,7 +13,7 @@
   <project name="linux/app/music" path="app/music" revision="5899bbeb6f6d4b40ede66d943e06ac52a16a0326" upstream="master"/>
   <project name="linux/app/settings" path="app/settings" revision="8a834d76b5b058ca239c4022fe387264c6ef4c5b" upstream="master"/>
   <project name="linux/app/video" path="app/video" revision="01feccb7501b92dd65bae788ce733044079e5cf6" upstream="master"/>
-  <project name="linux/buildroot/dl" path="buildroot/dl" revision="27acabf63f8f1140e67ae7de95f304ab732714a8" upstream="master"/>
+  <project name="linux/buildroot/dl" path="buildroot/dl" revision="ddfbe30ea232f63b2080e85907ec308ad913e43e" upstream="master"/>
   <project name="linux/device/rockchip" path="device/rockchip" revision="3019ae4196583849a25736978c88e8f94166c4e7" upstream="master">
     <linkfile dest="mkfirmware.sh" src="common/mkfirmware.sh"/>
     <linkfile dest="build.sh" src="common/build.sh"/>

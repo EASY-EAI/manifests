@@ -6,7 +6,7 @@
   
   <project name="android/rk/platform/system/rk_tee_user" path="external/security/rk_tee_user" revision="44def95246908e23c1f415f3a25520308beb8ccf" upstream="develop-next"/>
   <project name="android/rk/u-boot-stable" path="u-boot" revision="41fad755507c0ac59ed3b56d0721a03a82221182" upstream="stable-4.4-rk3308-linux-1.2.3"/>
-  <project name="linux/buildroot/dl" path="buildroot/dl" revision="ca0e1ad453dac20329a564f2c2a6222738bc80fd" upstream="master"/>
+  <project name="linux/buildroot/dl" path="buildroot/dl" revision="ddfbe30ea232f63b2080e85907ec308ad913e43e" upstream="master"/>
   <project name="linux/device/rockchip" path="device/rockchip" revision="1c1c862772a66d3a201fe3a4d5bc97cf8f23e8f5" upstream="stable-rk3308-v1.2.3-20181218">
     <linkfile dest="mkfirmware.sh" src="rk3308/mkfirmware.sh"/>
     <linkfile dest="build.sh" src="common/build.sh"/>

@@ -4,7 +4,7 @@
   <default remote="rk" sync-j="4"/>
   
   <project name="android/rk/u-boot" path="u-boot" revision="1927b5fd8af799f416122226fd14bad06e15f2a2" upstream="next-dev"/>
-  <project name="linux/buildroot/dl" path="buildroot/dl" revision="ca0e1ad453dac20329a564f2c2a6222738bc80fd" upstream="master"/>
+  <project name="linux/buildroot/dl" path="buildroot/dl" revision="ddfbe30ea232f63b2080e85907ec308ad913e43e" upstream="master"/>
   <project name="linux/device/rockchip" path="device/rockchip" revision="5caa72a5e412060ed642385cb5372e954cd53919" upstream="master">
     <linkfile dest="mkfirmware.sh" src="common/mkfirmware.sh"/>
     <linkfile dest="build.sh" src="common/build.sh"/>

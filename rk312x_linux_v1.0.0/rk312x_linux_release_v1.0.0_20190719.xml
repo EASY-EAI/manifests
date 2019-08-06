@@ -13,7 +13,7 @@
   <project name="linux/app/rkffplay" path="app/rkffplay" revision="8d7ee1dd76a4dfe0fc8937d38f2c98bc3691f22b" upstream="master"/>
   <project name="linux/app/settings" path="app/settings" revision="d0cc205538c5da8b48817fbdb3aae403d21129e5" upstream="master"/>
   <project name="linux/app/video" path="app/video" revision="b52211fe8d0d91b2210cfab757885277cae1211c" upstream="master"/>
-  <project name="linux/buildroot/dl" path="buildroot/dl" revision="e7f0107304d8a61433fb040da4dcef7ce34f5af0" upstream="master"/>
+  <project name="linux/buildroot/dl" path="buildroot/dl" revision="ddfbe30ea232f63b2080e85907ec308ad913e43e" upstream="master"/>
   <project name="linux/device/rockchip" path="device/rockchip" revision="30ae79f14ac0daca656d8a2a583f325fc28ffdc6" upstream="master">
     <linkfile dest="mkfirmware.sh" src="common/mkfirmware.sh"/>
     <linkfile dest="build.sh" src="common/build.sh"/>

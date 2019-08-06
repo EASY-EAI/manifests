@@ -5,7 +5,7 @@
   <default remote="rk" sync-j="4"/>
 
   <project name="linux/uboot_rk1808" path="u-boot" revision="28e9b49d47835df7cbf23b10c90cd05a90d56bc1" upstream="master"/>
-  <project name="linux/buildroot/dl" path="buildroot/dl" revision="6c5a3c60b6fee1a7a78c83d20ca3f51329801665" upstream="master"/>
+  <project name="linux/buildroot/dl" path="buildroot/dl" revision="ddfbe30ea232f63b2080e85907ec308ad913e43e" upstream="master"/>
   <project name="linux/device/rockchip" path="device/rockchip" revision="d4f490a57008dcd6731fcd86df79b5d686fd6808" upstream="master">
     <linkfile dest="mkfirmware.sh" src="common/mkfirmware.sh"/>
     <linkfile dest="build.sh" src="common/build.sh"/>

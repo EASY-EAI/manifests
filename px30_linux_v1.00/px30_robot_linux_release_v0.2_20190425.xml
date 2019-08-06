@@ -6,7 +6,7 @@
   
   <project name="android/rk/platform/system/rk_tee_user" path="external/security/rk_tee_user" revision="51b312b55a57aeb81be64fe10fb6055b222b84e0" upstream="develop-next"/>
   <project name="android/rk/u-boot-stable" path="u-boot" revision="12bc9cd8e1c8f306b494aca0859d4ab9cfd98216" upstream="stable-4.4-px30-linux-v2.0"/>
-  <project name="linux/buildroot/dl" path="buildroot/dl" revision="7c6a693996781d9abeec1487472d4222b1821a80" upstream="master"/>
+  <project name="linux/buildroot/dl" path="buildroot/dl" revision="ddfbe30ea232f63b2080e85907ec308ad913e43e" upstream="master"/>
   <project name="linux/device/rockchip" path="device/rockchip" revision="60751ba5f6850ac47979f97da356d8651e365c17" upstream="master">
     <linkfile dest="mkfirmware.sh" src="common/mkfirmware.sh"/>
     <linkfile dest="build.sh" src="common/build.sh"/>

@@ -7,7 +7,7 @@
   <project name="android/platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" revision="4b341df712969ca2ac0c3cf6294260d406b9d9be" upstream="refs/tags/android-6.0.1_r63"/>
   <project name="android/rk/platform/system/rk_tee_user" path="external/security/rk_tee_user" revision="6dd34b4e60e26e69073c5f836c9ffe338c3bd7d2" upstream="develop-next"/>
   <project name="android/rk/u-boot-stable" path="u-boot" revision="77fd3cfa00d7538c79e8dcf6bbd83321da8fef10" upstream="stable-4.4-rk3308-linux"/>
-  <project name="linux/buildroot/dl" path="buildroot/dl" revision="b5fff633f344f4cd37bbfaa04d288e4ca9e8d96f" upstream="master"/>
+  <project name="linux/buildroot/dl" path="buildroot/dl" revision="ddfbe30ea232f63b2080e85907ec308ad913e43e" upstream="master"/>
   <project name="linux/device/rockchip" path="device/rockchip" revision="c3c2e9b95eb1c08293f3eb5667a04c0831809cae" upstream="stable-rk3308">
     <linkfile dest="mkfirmware.sh" src="rk3308/mkfirmware.sh"/>
     <linkfile dest="build.sh" src="common/build.sh"/>
