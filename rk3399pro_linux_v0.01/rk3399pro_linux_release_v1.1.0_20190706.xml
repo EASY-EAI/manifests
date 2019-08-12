@@ -18,8 +18,8 @@
   <project name="linux/app/settings" path="app/settings" revision="5b345beabd03e5d0aa5d6251b19c52a8230e6694" upstream="master"/>
   <project name="linux/app/video" path="app/video" revision="b52211fe8d0d91b2210cfab757885277cae1211c" upstream="master"/>
   <project name="linux/build" path="yocto/build/conf" revision="yocto-next"/>
-  <project name="linux/buildroot/dl" path="buildroot/dl" revision="ddfbe30ea232f63b2080e85907ec308ad913e43e" upstream="master"/>
-  <project name="linux/buildroot/dl" path="npu/buildroot/dl" revision="ddfbe30ea232f63b2080e85907ec308ad913e43e" upstream="master"/>
+  <project name="linux/buildroot/dl" path="buildroot/dl" revision="master"/>
+  <project name="linux/buildroot/dl" path="npu/buildroot/dl" revision="master"/>
   <project name="linux/device/rockchip" path="device/rockchip" revision="a7a8f711a9812a5c0f26b3db1ae146909d84851e" upstream="master">
     <linkfile dest="mkfirmware.sh" src="common/mkfirmware.sh"/>
     <linkfile dest="build.sh" src="common/build.sh"/>
@@ -33,7 +33,7 @@
     <linkfile dest="npu/device/rockchip/.BoardConfig.mk" src="rk3399pro-npu/BoardConfig.mk"/>
   </project>
   <project name="linux/distro" path="distro" revision="1755221b0ca0dcb063b811b91b34e3df635a8218" upstream="master"/>
-  <project name="linux/docs" path="docs" revision="55d90868f9bf60b447a4ad77a058021a542906bf" upstream="master"/>
+  <project name="linux/docs" path="docs" revision="af0e69acb1138702b9de3352c8391d06524fb7ce" upstream="master"/>
   <project name="linux/external/alsa-config" path="external/alsa-config" revision="5a80dbcff93b5db40310910835649277f60048c4" upstream="master"/>
   <project name="linux/external/audioservice" path="external/audioservice" revision="ec7efbf4cbb023a655228a1260fb83258fd667c1" upstream="master"/>
   <project name="linux/external/bluez-alsa" path="external/bluez-alsa" revision="231252d7ee885a7521393e9db1e510b1166443b8" upstream="master"/>
@@ -72,7 +72,7 @@
   <project name="linux/recovery" path="external/recovery" revision="349d290f82d12ef820cb5f076ee30c3546821af1" upstream="develop"/>
   <project name="linux/rk-rootfs-build" path="debian" revision="8ef6e7a86e2a7f1eb3af18b5b47b59258a09b22b" upstream="master"/>
   <project name="linux/security/bin" path="external/security/bin" revision="d6676eb02c8a1b4966df7d8c4bb203ea25fc98b2" upstream="master"/>
-  <project name="linux/tools" path="tools" revision="6f4769ba7eb1a8fce87583ce05073ffd704c091d" upstream="master">
+  <project name="linux/tools" path="tools" revision="4c417796e3d45b926124cdf4613ba25f1ee25832" upstream="master">
     <linkfile dest="tools/windows/AndroidTool/AndroidTool_Release/config.cfg" src="windows/AndroidTool/AndroidTool_Release/rk3399-config.cfg"/>
     <linkfile dest="tools/windows/AndroidTool/rockdev/package-file" src="windows/AndroidTool/rockdev/rk3399-package-file"/>
     <linkfile dest="tools/windows/AndroidTool/rockdev/mkupdate.bat" src="windows/AndroidTool/rockdev/rk3399-mkupdate.bat"/>
