@@ -58,7 +58,7 @@
   <project name="linux/external/softapServer" path="external/softapServer" revision="9158517316a050190273c6809ea88467a4276e16" upstream="master"/>
   <project name="linux/external/tensorflow" path="external/tensorflow" revision="e1877bb157a775d76ec8c0b68467aef6d053bbb2" upstream="master"/>
   <project name="linux/external/uvc_app" path="external/uvc_app" revision="dfbe0a0a7af3d8ca8a67099bdb1bd931f2e43367" upstream="master"/>
-  <project name="linux/gstreamer-rockchip" path="external/gstreamer-rockchip" revision="c766879e0b750233b197a2dd495e562d64498244" upstream="master"/>
+  <project name="linux/gstreamer-rockchip" path="external/gstreamer-rockchip" revision="c927a1d1d7cf4e6a0becbbc1a2b7b593b0c07396" upstream="master"/>
   <project name="linux/libmali" path="external/libmali" revision="b81d886f3e3fba47040565ec2fcb44b765f4a3b0" upstream="master"/>
   <project name="linux/linux-rga" path="external/linux-rga" revision="d4155b84a6a285c3f25f32143eae66530dccf351" upstream="master"/>
   <project name="linux/poky" path="yocto/poky" revision="thud">
@@ -87,7 +87,7 @@
   <project name="rk/mpp" path="external/mpp" revision="a711528671a842cf998573ed3eb33cc9575002d4" upstream="develop"/>
   <project name="rk/prebuilts/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" path="prebuilts/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" revision="f96f76d6be89a6e28d4dac1f233f9aca9921f69b" upstream="master"/>
   <project name="rk/prebuilts/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" path="npu/prebuilts/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" revision="f96f76d6be89a6e28d4dac1f233f9aca9921f69b" upstream="master"/>
-  <project name="rk/rk1108/buildroot" path="buildroot" revision="026dd51242a88941cb3762fe937475f74130f8b2" upstream="stable-rk3399pro-v1.0.0-20190604">
+  <project name="rk/rk1108/buildroot" path="buildroot" revision="924d5ee1c2889295fc6288926d899ba35a1c757e" upstream="stable-rk3399pro-v1.0.0-20190604">
     <linkfile dest="Makefile" src="build/Makefile"/>
     <linkfile dest="envsetup.sh" src="build/envsetup.sh"/>
   </project>

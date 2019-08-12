@@ -43,7 +43,7 @@
   <project name="linux/external/tensorflow" path="external/tensorflow" revision="e1877bb157a775d76ec8c0b68467aef6d053bbb2" upstream="master"/>
   <project name="linux/external/update_engine" path="external/update_engine" revision="047d95d37b628563389eb397f19fe5f1c0c8eb05" upstream="master"/>
   <project name="linux/external/uvc_app" path="external/uvc_app" revision="28e4ee7e811704da1e621187b541e7c1ab2493f5" upstream="master"/>
-  <project name="linux/gstreamer-rockchip" path="external/gstreamer-rockchip" revision="c766879e0b750233b197a2dd495e562d64498244" upstream="master"/>
+  <project name="linux/gstreamer-rockchip" path="external/gstreamer-rockchip" revision="c927a1d1d7cf4e6a0becbbc1a2b7b593b0c07396" upstream="master"/>
   <project name="linux/libmali" path="external/libmali" revision="b81d886f3e3fba47040565ec2fcb44b765f4a3b0" upstream="master"/>
   <project name="linux/linux-rga" path="external/linux-rga" revision="d4155b84a6a285c3f25f32143eae66530dccf351" upstream="master"/>
   <project name="linux/poky" path="yocto/poky" revision="thud">
@@ -70,7 +70,7 @@
   <project name="rk/kernel-stable" path="kernel" revision="24d866d654ed06d9b518bc58b9823c7f535f8d49" upstream="stable-4.4-rk3399-linux-v2.1x"/>
   <project name="rk/mpp" path="external/mpp" revision="bdcd66b9c42af0a3fee5c6ea7b759fc88685bf34" upstream="develop"/>
   <project name="rk/prebuilts/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" path="prebuilts/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" revision="f96f76d6be89a6e28d4dac1f233f9aca9921f69b" upstream="master"/>
-  <project name="rk/rk1108/buildroot" path="buildroot" revision="b031d64e89cf7c1ae7866ef4981fc8a1e8bdb578" upstream="stable-rk3399-v2.2.0-20190628">
+  <project name="rk/rk1108/buildroot" path="buildroot" revision="45115e7b551e210b17977b6c552ae78dbf8a87f3" upstream="stable-rk3399-v2.2.0-20190628">
     <linkfile dest="Makefile" src="build/Makefile"/>
     <linkfile dest="envsetup.sh" src="build/envsetup.sh"/>
   </project>
