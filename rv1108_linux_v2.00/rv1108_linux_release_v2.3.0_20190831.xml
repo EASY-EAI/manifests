@@ -59,14 +59,14 @@
   <project name="rk/rk1108/external/tools" path="external/tools" revision="9bf28e1ebf13ef763c0377ce6df8a9d0709722c5" upstream="master"/>
   <project name="rk/rk1108/external/wpa_supplicant" path="external/wpa_supplicant" revision="a5c529b57f7884621dccc87e73c89ce66c06adae" upstream="master"/>
   <project name="rk/rk1108/external/zlib" path="external/zlib" revision="2eb8c706821963c079b69d09493d823a0f8efb22" upstream="master"/>
-  <project name="rk/rk1108/framework/adk" path="frameworks/adk" revision="c5c939b607a518a7d69a3beab2e41fa1bd6356ee" upstream="sdk_v220"/>
+  <project name="rk/rk1108/framework/adk" path="frameworks/adk" revision="c5c939b607a518a7d69a3beab2e41fa1bd6356ee" upstream="master"/>
   <project name="rk/rk1108/framework/database" path="frameworks/database" revision="b6fe5994730b179b5b203bdc797bf5976e98febe" upstream="master"/>
   <project name="rk/rk1108/framework/hal" path="frameworks/hal" revision="ce0461541c9cce19f89189bfe6eeb9d2b15c5c94" upstream="master"/>
   <project name="rk/rk1108/framework/librkuvc" path="frameworks/librkuvc" revision="a45d95318bae3b2bb39d3a683241dbd769d8b87a" upstream="master"/>
   <project name="rk/rk1108/framework/messenger" path="frameworks/messenger" revision="43573d01d4ecfe298b68887f0ae8ef1d0da5c13a" upstream="master"/>
   <project name="rk/rk1108/framework/model_loader" path="frameworks/model_loader" revision="11127944b589fc263955444093844f2931c3752e" upstream="master"/>
   <project name="rk/rk1108/framework/preisp" path="frameworks/preisp" revision="f26f3e7fcf5c22afa9f414f66b5ba3f83c8c5cb5" upstream="master"/>
-  <project name="rk/rk1108/framework/rkface" path="frameworks/rkface" revision="345a0aa518707f1fec7256a6f70566dfb92f16a7" upstream="sdk_v220"/>
+  <project name="rk/rk1108/framework/rkface" path="frameworks/rkface" revision="345a0aa518707f1fec7256a6f70566dfb92f16a7" upstream="master"/>
   <project name="rk/rk1108/framework/settings" path="frameworks/settings" revision="26d3c99dff2ddc918791344dfef9a9db03396f43" upstream="master"/>
   <project name="rk/rk1108/framework/vendor_storage" path="frameworks/vendor_storage" revision="07968e67f5950f103fd5ddae3534a6ad39412d38" upstream="master"/>
   <project name="rk/rk1108/kernel" path="kernel" revision="d885cbe3b0bbc6dfc92deb3ad314ae3af31d583c" upstream="sdk_v220"/>

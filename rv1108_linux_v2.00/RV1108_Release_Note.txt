@@ -1,4 +1,12 @@
 ===========RV1108 Linux SDK Release Note===========
+【rv1108_linux_release_v2.3.0_20190831.xml 更新日志】
+
+    1.人脸检测加入跟踪算法和授权机制。
+    2.修复人脸识别时会卡显示的问题。
+    3.更新人脸抓拍和视频流截取的功能。
+
+
+===========RV1108 Linux SDK Release Note===========
 【rv1108_linux_release_v2.2_20190705.xml 更新日志】
 
 1、支持Vendor Storage；
