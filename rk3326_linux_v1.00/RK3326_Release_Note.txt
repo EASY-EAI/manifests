@@ -4,16 +4,15 @@
 Buildroot(2018.02-rc3):
 1,support up to Qt 5.12.2
 2,support chromium brower
-3,weston support dual panel same display and dual panel different display
-4,weston suoport rotate and scale
-5,support x11 packages
-6,mali support x11
-7,provide a mali that has only opencl feature
-8,add a customized configuration for robot product
-9,enable ccahe to improve compile speed
-10,fix compile error on ubuntu 19.04
-11,support zstd compression algorithm for squashfs
-12,upgrade glibc to 2.29
+3,weston suoport rotate and scale
+4,support x11 packages
+5,mali support x11
+6,provide a mali that has only opencl feature
+7,add a customized configuration for robot product
+8,enable ccahe to improve compile speed
+9,fix compile error on ubuntu 19.04
+10,support zstd compression algorithm for squashfs
+11,upgrade glibc to 2.29
 
 kernel
 1,upgrade to 4.4.189
