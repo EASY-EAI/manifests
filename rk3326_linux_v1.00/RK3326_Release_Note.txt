@@ -1,5 +1,6 @@
 ===========RK3326 Linux SDK Release Note===========
-¡¾px30_linux_release_v1.20.xml change log¡¿
+
+¡¾rk3326_linux_release_v1.20.xml change log¡¿
 
 Buildroot(2018.02-rc3):
 1,support up to Qt 5.12.2
