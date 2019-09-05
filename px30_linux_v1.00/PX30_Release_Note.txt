@@ -1,5 +1,51 @@
 ===========PX30 Linux SDK Release Note===========
 
+【px30_linux_release_v1.20.xml change log】
+
+Buildroot(2018.02-rc3):
+1,support up to Qt 5.12.2
+2,support chromium brower
+3,weston support dual panel same display and dual panel different display
+4,weston suoport rotate and scale
+5,support x11 packages
+6,mali support x11
+7,provide a mali that has only opencl feature
+8,add a customized configuration for robot product
+9,enable ccahe to improve compile speed
+10,fix compile error on ubuntu 19.04
+11,support zstd compression algorithm for squashfs
+12,upgrade glibc to 2.29
+
+kernel
+1,upgrade to 4.4.189
+2,fix logo blink issue
+3,fix some power regulators can't turn off while suspending
+4,add a customized configuration for robot product
+
+rkisp upgrade to v2.2.0
+1,support blink light control
+2,optimize capture process
+
+rkbin
+1,ddr.bin upgrade to v1.13
+2,bl32 upgrade to v1.12
+    fix ota upgrade failure
+3,bl31 upgrade to v1.16
+    support uart0 wakeup
+    support atags
+    support boot from secondary cpu
+4,miniloder upgrade to v1.15
+
+tools
+1,Androidtool upgrade to v2.69
+
+applications
+1,remove the original gallery,video,music applications, provide the new application to replace
+2,use the new camera application, that is compatible with the usb camera, and support the differents camera switching
+3,add the 'qfm' as a file manager application
+4,add the 'qplayer' for video, music, picture playing
+5,various fix
+
 【px30_linux_release_v1.10_20190425.xml 更新日志】
 
 Buildroot的更新:
