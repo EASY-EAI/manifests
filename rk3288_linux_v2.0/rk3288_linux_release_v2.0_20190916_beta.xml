@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="ssh://git@www.rockchip.com.cn/linux/" name="rk"/> 
+  <default remote="rk" sync-j="4"/>
+  
+  <project name="android/rk/u-boot-stable" path="u-boot" revision="ff75b3a87cc230f823abaa0ebf11ef52ed5750d4" upstream="stable-4.4-rk3288-linux"/>
+  <project name="linux/app/QLauncher" path="app/QLauncher" revision="0dd9497ec64309b4512f07e01c92723c60927d88" upstream="master"/>
+  <project name="linux/app/camera" path="app/camera" revision="b037fffb85ce59fefad19846f9d2df9258742fc2" upstream="master"/>
+  <project name="linux/app/gallery" path="app/gallery" revision="5eee813bdf54c908e56a4f2fdf757d657ebbd593" upstream="master"/>
+  <project name="linux/app/music" path="app/music" revision="5899bbeb6f6d4b40ede66d943e06ac52a16a0326" upstream="master"/>
+  <project name="linux/app/settings" path="app/settings" revision="1db6ca8d4d8464fe9476c1b66711d37de7515497" upstream="master"/>
+  <project name="linux/app/video" path="app/video" revision="bce3634025425d4464bb1ff906bf04df4d5aa418" upstream="master"/>
+  <project name="linux/buildroot/dl" path="buildroot/dl" revision="ddfbe30ea232f63b2080e85907ec308ad913e43e" upstream="master"/>
+  <project name="linux/device/rockchip" path="device/rockchip" revision="277df052d6a5ff02d1d030349586c0efd65a9024" upstream="master">
+    <linkfile dest="mkfirmware.sh" src="common/mkfirmware.sh"/>
+    <linkfile dest="build.sh" src="common/build.sh"/>
+    <linkfile dest="rkflash.sh" src="common/rkflash.sh"/>
+    <linkfile dest="device/rockchip/.BoardConfig.mk" src="rk3288/BoardConfig.mk"/>
+  </project>
+  <project name="linux/docs" path="docs" revision="3bf52f914a53f819837957ab691bb9225926bc98" upstream="master"/>
+  <project name="linux/external/alsa-config" path="external/alsa-config" revision="7dce63af6a4e24c0154f70de6d96dfc17aa38ddc" upstream="master"/>
+  <project name="linux/external/audioservice" path="external/audioservice" revision="ec7efbf4cbb023a655228a1260fb83258fd667c1" upstream="master"/>
+  <project name="linux/external/camera_engine_cifisp" path="external/camera_engine_cifisp" revision="ae1a9dffc54c798b62e29f5948d9f4b33170dd38" upstream="master"/>
+  <project name="linux/external/camera_engine_rkisp" path="external/camera_engine_rkisp" revision="cfe846d785d6af1198d8fbc0e85182f716a21119" upstream="master"/>
+  <project name="linux/external/ffmpeg" path="external/ffmpeg" revision="589de66a0b50c43b93f511361275d9ff86da21dd" upstream="rockchip/release/4.0"/>
+  <project name="linux/external/gstreamer-camera" path="external/gstreamer-camera" revision="7b8a9b33f95a0a7c65fd76d4f4e3f6778fce8ea7" upstream="master"/>
+  <project name="linux/external/gst-plugins-rockchip" path="external/gst-plugins-rockchip" revision="1e0c3194e6ceec38196ad9d6cbc4c5093bc308f5" upstream="master"/>
+  <project name="linux/external/minigui" path="external/minigui" remote="rk" revision="5b5ca3f75646c8754d442c3c779f9b2a8273dd0b" upstream="master"/>
+  <project name="linux/external/mpv" path="external/mpv" revision="2739ea80b7137daf3f9a39fd3a2ddfd787a6b964" upstream="rockchip/release/0.9"/>
+  <project name="linux/external/rk_pcba_test" path="external/rk_pcba_test" revision="25643cf5f522a71ed2a918b0abe15e363a893504" upstream="master"/>
+  <project name="linux/external/rkupdate" path="external/rkupdate" revision="96606720c1cf07c9fbf48e115e064e65188544ce" upstream="master"/>
+  <project name="linux/external/rkwifibt" path="external/rkwifibt" revision="b67a4c25f9acc4e7b646b23cb3a1a5ac3f994ec5" upstream="master"/>
+  <project name="linux/gstreamer-rockchip" path="external/gstreamer-rockchip" revision="aadf6ab77c53055f8be85c18bace6918e04e3f9c" upstream="master"/>
+  <project name="linux/libmali" path="external/libmali" revision="915d6a13561e640fd9ff0984209632f027365a0d" upstream="master"/>
+  <project name="linux/linux-rga" path="external/linux-rga" revision="eb14310e72e2f76eb78c0d6dafc350af8a25c3d8" upstream="master"/>
+  <project name="linux/recovery" path="external/recovery" revision="7477e27f9795f09520cc5db1faeaf85efc64e1de" upstream="develop"/>
+  <project name="linux/rk-rootfs-build" path="debian" revision="f361565f84c0e3a21dd91426ff23f756d92ecf87" upstream="master"/>
+  <project name="linux/tools" path="tools" revision="88803e5d5f7941e6a6cb2d08fc7791fada7edf86" upstream="master">
+    <linkfile dest="tools/windows/AndroidTool/AndroidTool_Release/config.cfg" src="windows/AndroidTool/AndroidTool_Release/rk3288-config.cfg"/>
+    <linkfile dest="tools/windows/AndroidTool/rockdev/package-file" src="windows/AndroidTool/rockdev/rk3288-package-file"/>
+    <linkfile dest="tools/windows/AndroidTool/rockdev/mkupdate.bat" src="windows/AndroidTool/rockdev/rk3288-mkupdate.bat"/>
+    <linkfile dest="tools/linux/Linux_Pack_Firmware/rockdev/mkupdate.sh" src="linux/Linux_Pack_Firmware/rockdev/rk3288-mkupdate.sh"/>
+    <linkfile dest="tools/linux/Linux_Pack_Firmware/rockdev/package-file" src="linux/Linux_Pack_Firmware/rockdev/rk3288-package-file"/>
+  </project>
+  <project name="linux/external/softapDemo" path="external/softapDemo" revision="b3fc180b0dde46f56af2706615f53a3cc516189b" upstream="master"/>
+  <project name="linux/external/softapServer" path="external/softapServer" revision="9158517316a050190273c6809ea88467a4276e16" upstream="master"/>
+  <project name="rk/kernel-stable" path="kernel" revision="28c018740a5b4eea52017150363d747dd09bd008" upstream="stable-4.4-rk3288-linux"/>
+  <project name="rk/mpp" path="external/mpp" revision="7a21a6a0454f604fdf752a1d45be6e2c954cc6de" upstream="develop"/>
+  <project name="rk/prebuilts/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" path="prebuilts/gcc/linux-x86/arm/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" upstream="master" revision="dd4df7dff4f1df65d78939a958b760a79e3650a1"/>
+  <project name="rk/rk1108/buildroot" path="buildroot" revision="23833230f4ac30c4102ce570a7e3b9e253241fc7" upstream="rockchip/2018.02-rc3">
+    <linkfile dest="Makefile" src="build/Makefile"/>
+    <linkfile dest="envsetup.sh" src="build/envsetup.sh"/>
+  </project>
+  <project name="rk/rkbin" path="rkbin" revision="9e7dcd3fdd709cfea98db03be818c0dfc217f376" upstream="master"/>
+</manifest>
