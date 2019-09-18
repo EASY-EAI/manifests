@@ -20,8 +20,11 @@
   </project>
   <project name="linux/docs" path="docs" revision="cda87670b36813a5f99137361934a1df64458dd0" upstream="master"/>
   <project name="linux/external/alsa-config" path="external/alsa-config" revision="30d750e5dc846d15d1a5159e47bf3e1121953eb3" upstream="master"/>
+  <project name="linux/external/bluetooth_bsa" path="external/bluetooth_bsa" revision="c1bc27bf435715541b1f9a76de2a5adcb79ef0eb" upstream="master"/>
   <project name="linux/external/bluez-alsa" path="external/bluez-alsa" revision="beec0074dec60a0b031e0b36321139da69788774" upstream="master"/>
+  <project name="linux/external/broadcom_bsa" path="external/broadcom_bsa" revision="ff4832228850eec323db28c6271c21893d6f078c" upstream="master"/>
   <project name="linux/external/camera_engine_rkisp" path="external/camera_engine_rkisp" revision="fd10af717ebe693e83282a065ecd436cc0042c52" upstream="master"/>
+  <project name="linux/external/deviceio_release" path="external/deviceio" revision="bf0c87d144448d721064ffe82b33a2ba82731a3c" upstream="master"/>
   <project name="linux/external/rkupdate" path="external/rkupdate" revision="40b9c1ed1f69b90e97986d41b8270dc3c8042479" upstream="master"/>
   <project name="linux/external/rkscript" path="external/rkscript" revision="8975bd3dcf8adf815e28dc96b7aa5b753d14ad84" upstream="master"/>
   <project name="linux/external/rkwifibt" path="external/rkwifibt" revision="f80bd6e8e1a18d453b7c14d6b4cf1434d5b3c51a" upstream="master"/>
