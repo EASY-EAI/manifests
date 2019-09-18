@@ -1,5 +1,81 @@
 ===========RK3399 Linux SDK Release Note===========
 
+¡¾rk3399_linux_release_v2.3.0_20190930.xml change log¡¿
+
+ Buildroot (2018.02-rc3):
+    - Support the freerdp with X11
+    - Upgrade QT verison from 5.9.4 to 5.12.2
+    - Support Chromium Browser (74.0.3729.157)
+    - Upgrade Xserver-xorg to v1.20.4
+    - change the new qt app to instead the old apps
+        new apps: qcamera  qfm  QLauncher+  qplayer  qsetting
+        old apps: camera gallery  music  QLauncher  settings  video
+    - Add the missing license/copyright with legal-info
+    - Support x11 packages
+    - Support weston rotate and scale
+    - Upgrade camera_engine_rksip
+        librkisp: v2.2.0
+        3A lib version:
+        af:  v0.2.17
+        wb: v0.0.e
+        aec: v0.0.e
+        iq version: v1.5.0
+        iq magic version code: 706729
+        matched rkisp1 driver version: v0.1.5
+    - Upgrade Linux NN to v1.3
+
+ Kernel (4.4):
+    - Upgrade to 4.4.189
+        In order to more stable, increase the minimum voltage to from 800mv to 825mv.
+        Fixes the HDMI status in resume
+        Add the rk3399 lpddr4 dts for reference
+        Fixes nvme/p-cie interface sdd
+        camera stuff update...etc
+
+ rkbin (Rockchip binary):
+    - rk3399: bl32: update version to 1.20
+        Update feature:
+        19950c70 rk3399: fix secure ddr region setting error
+        da2bcfdc sta: rk_os_service: add permission check
+        64eedbd9 ree fs: recreate file if open meta file fail
+    - rk3399: bl31: update version to 1.29
+        22b599a plat: rk3399: ddr: fix lpddr4 read write-only register bit
+        eb0e92c plat: rk3399: ddr: lpddr4 increase 50MHz PLL FOUTVCO
+    - rk3399: ddr: update ddr version to v1.23 20190709
+        13a0b3f lpddr4: fix v1.22 block when advanced training done
+        cba7a71 lpddr4: fix read write-only register bit
+        7d1b640 lpddr4: fix dma sw training last delay pass bug
+        70c60fa lpddr4: fix tCKELCMD to max(7.5ns, 5nCK)
+
+ docs/tools:
+    - Add Docker document
+    - update PWM document
+    - remove internal docs
+    - add Rockchip SDK Kit document
+    - update avb tool to v2.6
+    - add window/linux secure sign tool
+    - add DM tools
+    - Upgrade AndroidTool from v2.67 to v2.69, support for ubifs
+    - Update rk_provision_tool to RKDevInfoWriteTool_V1.0.4
+        V1.0.4:
+        1.add two custom id
+        2.the rk_provision_tool rename to RKDevInfoWriteTool
+    - upgrade SDDiskTool to v1.59
+
+Debian (stretch-9.9):
+    - support exa/glamor hw acceleration on xserver
+    - update camera_engine_rksip to v2.2.0
+    - add LICENSE.txt
+    - QT upgraded to v5.11
+    - fixes system suspend/resume for rk3399pro Socs
+    - Add glmark2 normal mode
+    - add video hardware acceleration for chromium
+
+Yocto (thud 2.6.2):
+    - gstreamer-rockchip: Update source and patches
+    - gstreamer1.0-plugins-base: xvimagesink: Support dma buffer rendering
+    - xserver-xorg: glamor: Update patches
+
 ¡¾rk3399_linux_release_v2.2.0_20190628.xml change log¡¿
 
     - Changed the EDP/MIPI/.. Monitor display in VOPL, and HDMI monitor
