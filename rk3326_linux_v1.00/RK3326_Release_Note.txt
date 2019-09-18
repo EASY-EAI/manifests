@@ -1,6 +1,6 @@
 ===========RK3326 Linux SDK Release Note===========
 
-¡¾rk3326_linux_release_v1.20.xml change log¡¿
+[ rk3326_linux_release_v1.2.0_20190916.xml change log ]
 
 Buildroot(2018.02-rc3):
 1,support up to Qt 5.12.2
@@ -33,7 +33,7 @@ rkbin
     support uart0 wakeup
     support atags
     support boot from secondary cpu
-4,miniloder upgrade to v1.15
+4,miniloder upgrade to v1.18
 
 tools
 1,Androidtool upgrade to v2.69
