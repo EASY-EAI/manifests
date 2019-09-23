@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  <remote fetch="https://github.com/meta-qt5" name="qt5"/>
   <remote fetch="ssh://git@www.rockchip.com.cn/linux/" name="rk"/>
   <default remote="rk" sync-j="4"/>
 
