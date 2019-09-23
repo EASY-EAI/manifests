@@ -45,6 +45,7 @@
   <project name="linux/external/softapServer" path="external/softapServer" revision="9158517316a050190273c6809ea88467a4276e16" upstream="master"/>
   <project name="linux/external/update_engine" path="external/update_engine" revision="047d95d37b628563389eb397f19fe5f1c0c8eb05" upstream="master"/>
   <project name="linux/external/wifiAutoSetup" path="external/wifiAutoSetup" revision="d2cfc6b2ca9754311542f91e481e8576fd4ecbc0" upstream="master"/>
+  <project name="linux/gstreamer-rockchip" path="external/gstreamer-rockchip" revision="670bd7e2b5921d2580dcd48a3ff8b69748ef24e7" upstream="master"/>
   <project name="linux/libmali" path="external/libmali" revision="41a1cf80804839137dd2941514df09a2fb69efb1" upstream="master"/>
   <project name="linux/linux-rga" path="external/linux-rga" revision="29235b16ed7f94a8b4c754fe083782121d350799" upstream="master"/>
   <project name="linux/poky" path="yocto/poky" revision="faeb366bc3eb322f5f203cfe08dc4cf529a822e9" upstream="thud">
