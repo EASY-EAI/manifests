@@ -26,13 +26,12 @@
   <project name="linux/external/app" path="external/app" revision="1cfad9fbba2dfaeaf941e8094cbc91bd539f1e15" upstream="master"/>
   <project name="linux/external/audioservice" path="external/audioservice" revision="68fa86817d762d4b761add42dcd03abe746bea61" upstream="master"/>
   <project name="linux/external/avb" path="external/avb" revision="64b5ea0130d7440084796f6a23d7cd91fac988b8" upstream="master"/>
-  <project name="linux/external/ble_wificonfig" path="external/ble_wificonfig" revision="3b56e0e268634216df1f992d944bb30158e86786" upstream="master"/>
+  <project name="linux/external/ble_wificonfig" path="external/ble_wificonfig" revision="5c3e546b75cc311b56eeeadb8034e9cc894928dd" upstream="master"/>
   <project name="linux/external/bluetooth_bsa" path="external/bluetooth_bsa" revision="357c73583f374d4d97e3b2949b13791989240358" upstream="master"/>
   <project name="linux/external/bluez-alsa" path="external/bluez-alsa" revision="51a82b9152184f678772f13785c182a3b08a8fd3" upstream="master"/>
   <project name="linux/external/broadcom_bsa" path="external/broadcom_bsa" revision="9cd208a2d6a2e2e5d7414f625bcd655819e20e29" upstream="master"/>
   <project name="linux/external/camera_engine_rkisp" path="external/camera_engine_rkisp" revision="c12554f972b33ab36d27e263e98abd129d2e6643" upstream="master"/>
-  <project name="linux/external/chromium" path="external/chromium" revision="da1e188076a27d8c5f37c5ed253b013d1e59e61c" upstream="master"/>
-  <project name="linux/external/deviceio" path="external/deviceio" revision="a1971c2933345196300c4550f7d2175cb7337505" upstream="master"/>
+  <project name="linux/external/deviceio_release" path="external/deviceio" revision="427148db8d290f35ec7398ddfcde614edb7bcb03" upstream="master"/>
   <project name="linux/external/gst-plugins-rockchip" path="external/gst-plugins-rockchip" revision="0b606f9c64e18634c349717c60f50b6921e4e774" upstream="master"/>
   <project name="linux/external/gstreamer-camera" path="external/gstreamer-camera" revision="7b8a9b33f95a0a7c65fd76d4f4e3f6778fce8ea7" upstream="master"/>
   <project name="linux/external/mpv" path="external/mpv" revision="2739ea80b7137daf3f9a39fd3a2ddfd787a6b964" upstream="rockchip/release/0.9"/>
