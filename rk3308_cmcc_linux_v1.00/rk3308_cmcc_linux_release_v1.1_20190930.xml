@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="../../" name="rk" review="https://10.10.10.29"/>
+  <remote name="rk_legacy" fetch="ssh://git@10.10.10.29/"/>
+
+  <default remote="rk" sync-j="4"/>
+  
+  <project name="android/rk/platform/system/rk_tee_user" path="external/security/rk_tee_user" revision="44def95246908e23c1f415f3a25520308beb8ccf" upstream="develop-next"/>
+  <project name="argus/externals/adb" path="external/adb"  revision="0ee8df4b6d6e429663a1733491308950290f090e" upstream="master"/>
+  <project name="argus/externals/liblog" path="external/liblog"  revision="3867fe3c8f20f46d7109c2779ac48af2f16d6ea8" upstream="master"/>
+  <project name="linux/buildroot/dl" path="buildroot/dl" revision="74bc0446d1e0a477b77bb6a097b1850f44d0e33b" upstream="master"/>
+  <project name="linux/device/rockchip" path="device/rockchip" revision="786e704378ded442825c0c6b1e15b522544678a1" upstream="cmcc_soundai">
+    <linkfile dest="mkfirmware.sh" src="rk3308/mkfirmware.sh"/>
+    <linkfile dest="build.sh" src="common/build.sh"/>
+    <linkfile dest="rkflash.sh" src="common/rkflash.sh"/>
+    <linkfile dest="device/rockchip/.BoardConfig.mk" src="rk3308/BoardConfig_soundai_cmcc.mk"/>
+    <linkfile dest="device/rockchip/rk3308_soundai_release_BoardConfig.mk" src="rk3308/BoardConfig_soundai_cmcc.mk"/>
+  </project>
+  <project name="linux/docs" path="docs" revision="b402c1695a989c13880bf3116190931c0c120c51" upstream="master"/>
+  <project name="linux/external/DuerClientSDK" path="external/DuerClientSDK" revision="e366033a83adb6187ee765915696d70cd36b4231" upstream="master_64bit"/>
+  <project name="linux/external/LocalPlayer" path="external/LocalPlayer" revision="e7d5cc72e5f0da13f2765aa02bd22d03ebc82750" upstream="master"/>
+  <project name="linux/external/WakeWordAgent" path="external/wakeWordAgent" revision="4a5a3c2d9d991e392894d1e5345b7487655d3cc6" upstream="master"/>
+  <project name="linux/external/alsa-config" path="external/alsa-config" revision="30d750e5dc846d15d1a5159e47bf3e1121953eb3" upstream="master"/>
+  <project name="linux/external/app" path="external/app" revision="1cfad9fbba2dfaeaf941e8094cbc91bd539f1e15" upstream="master"/>
+  <project name="linux/external/avb" path="external/avb" revision="64b5ea0130d7440084796f6a23d7cd91fac988b8" upstream="master"/>
+  <project name="linux/external/ble_wificonfig" path="external/ble_wificonfig" revision="3b56e0e268634216df1f992d944bb30158e86786" upstream="master"/>
+  <project name="linux/external/bluetooth_bsa" path="external/bluetooth_bsa" revision="357c73583f374d4d97e3b2949b13791989240358" upstream="master"/>
+  <project name="linux/external/bluez-alsa" path="external/bluez-alsa" revision="51a82b9152184f678772f13785c182a3b08a8fd3" upstream="master"/>
+  <project name="linux/external/broadcom_bsa" path="external/broadcom_bsa" revision="9cd208a2d6a2e2e5d7414f625bcd655819e20e29" upstream="master"/>
+  <project name="linux/external/cae_vad" path="external/cae_vad" revision="86f5f3d4616888feea0c3916a9663f29a3af28ba" upstream="master"/>
+    <project name="linux/external/deviceio_release" path="external/deviceio" revision="890480c0d37e3c869cfacf220e43dee5801ed47d" upstream="master"/>
+  <project name="linux/external/eq_drc_process" path="external/eq_drc_process" revision="361141f98f85273469843076317a99b46f6fb81c" upstream="cmcc"/>
+  <project name="linux/external/iflytekSDK" path="external/iflytekSDK" revision="cb2d4b5b6cc3bc4122fefb19fdf84db751ea09f1" upstream="master_64bit"/>
+  <project name="linux/external/ipc_share_memory" path="external/ipc_share_memory" revision="7e7c3de48f72f55d184e3705ab5a170ce815756a" upstream="master"/>
+  <project name="linux/external/ladspaSDK" path="external/ladspaSDK" revision="b62a07b367691a6cc589c23fb36c4ffec99836b7" upstream="master"/>
+  <project name="linux/external/libcutils" path="external/libcutils" revision="dec0cddc22eb46b48d1ed338ada6f9eeb4446c51" upstream="arm64"/>
+  <project name="linux/external/minigui" path="external/minigui" revision="caa4832ab2a4eb8e88e30b7a07efb4ce308cedba" upstream="master"/>
+  <project name="linux/external/recoverySystem" path="external/recoverySystem" revision="cbf989df4f9019413219a8028698c199d4b0e44e" upstream="master"/>
+  <project name="linux/external/rk_hw_vad" path="external/rk_hw_vad" revision="2fa6aaf920a6e8a9912b0407ba4f50b9c6e96b10" upstream="master"/>
+  <project name="linux/external/rk_pcba_test" path="external/rk_pcba_test" revision="177d3b6c3522e88065d718e666ca8f58a7f48058" upstream="cmcc_soundai"/>
+  <project name="linux/external/rkupdate" path="external/rkupdate" revision="40b9c1ed1f69b90e97986d41b8270dc3c8042479" upstream="master"/>
+  <project name="linux/external/rkwifibt" path="external/rkwifibt" revision="cf1b28d0df2ada41ef6a6d3a4e3abcc365e839aa" upstream="cmcc_soundai"/>
+  <project name="linux/external/softapDemo" path="external/softapDemo" revision="4c7d1bd3d28df276d263f49324b022b44b3a1c85" upstream="master"/>
+  <project name="linux/external/softapServer" path="external/softapServer" revision="9158517316a050190273c6809ea88467a4276e16" upstream="master"/>
+  <project name="linux/external/update_engine" path="external/update_engine" revision="047d95d37b628563389eb397f19fe5f1c0c8eb05" upstream="master"/>
+  <project name="linux/external/wifiAutoSetup" path="external/wifiAutoSetup" revision="d2cfc6b2ca9754311542f91e481e8576fd4ecbc0" upstream="master"/>
+  <project name="linux/recovery" path="external/recovery" revision="7c59c8cdce56ada105fa4bbd4d59bf2518e61848" upstream="cmcc_soundai"/>
+  <project name="linux/security/bin" path="external/security/bin" revision="1045db0528dc6d797edd5b4c3f48cf21f73ec5da" upstream="master"/>
+  <project name="linux/tools" path="tools" revision="4c417796e3d45b926124cdf4613ba25f1ee25832" upstream="master">
+    <linkfile dest="tools/windows/AndroidTool/AndroidTool_Release/config.cfg" src="windows/AndroidTool/AndroidTool_Release/rk3308-config.cfg"/>
+    <linkfile dest="tools/windows/AndroidTool/rockdev/package-file" src="windows/AndroidTool/rockdev/rk3308-package-file"/>
+    <linkfile dest="tools/windows/AndroidTool/rockdev/mkupdate.bat" src="windows/AndroidTool/rockdev/rk3308-mkupdate.bat"/>
+    <linkfile dest="tools/linux/Linux_Pack_Firmware/rockdev/mkupdate.sh" src="linux/Linux_Pack_Firmware/rockdev/rk3308-mkupdate.sh"/>
+    <linkfile dest="tools/linux/Linux_Pack_Firmware/rockdev/package-file" src="linux/Linux_Pack_Firmware/rockdev/rk3308-package-file"/>
+  </project>
+  <project name="rk/kernel" path="kernel" remote="rk_legacy" revision="f5b507735aa563b6889860f8b8946441578cc92a" upstream="stable-4.4-rk3308-echo-cmcc"/>
+  <project name="rk/prebuilts/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" path="prebuilts/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" revision="f96f76d6be89a6e28d4dac1f233f9aca9921f69b" upstream="master"/>
+  <project name="rk/prebuilts/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" path="prebuilts/gcc/linux-x86/arm/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" revision="dd4df7dff4f1df65d78939a958b760a79e3650a1" upstream="master"/>
+  <project name="rk/rk1108/buildroot" path="buildroot" revision="adcd3058ef41db167236c09038c2972b1b293365" upstream="cmcc_soundai">
+    <linkfile dest="Makefile" src="build/Makefile"/>
+    <linkfile dest="envsetup.sh" src="build/envsetup.sh"/>
+  </project>
+  <project name="rk/rkbin" path="rkbin" remote="rk_legacy" revision="d148b8355bef7a68c9c9b2a25139064e8e4b4267" upstream="stable-4.4-rk3308-echo-cmcc"/>
+  <project name="rk/u-boot" path="u-boot" remote="rk_legacy" revision="19cb0ab5d7d09d1c30d9be2b45208d7700d83b87" upstream="stable-4.4-rk3308-echo-cmcc"/>
+</manifest>
