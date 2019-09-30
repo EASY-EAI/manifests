@@ -11,7 +11,7 @@
   <project name="linux/app/music" path="app/music" revision="40a4da13e82f32d83369f7777479a196d9f58576" upstream="master"/>
   <project name="linux/app/settings" path="app/settings" revision="ec4f67a2df498893539eb2435d14348d97ecc462" upstream="master"/>
   <project name="linux/app/video" path="app/video" revision="4ce9c5ae8094ff0bc30f9ac6ec9c5c5173f69dd9" upstream="master"/>
-  <project name="linux/buildroot/dl" path="buildroot/dl" revision="ddfbe30ea232f63b2080e85907ec308ad913e43e" upstream="master"/>
+  <project name="linux/buildroot/dl" path="buildroot/dl" revision="master"/>
   <project name="linux/device/rockchip" path="device/rockchip" revision="90d464bcd4ed138698eb792bc455f8e00677e35c" upstream="master">
     <linkfile dest="mkfirmware.sh" src="common/mkfirmware.sh"/>
     <linkfile dest="build.sh" src="common/build.sh"/>
@@ -52,7 +52,7 @@
   <project name="rk/kernel-stable" path="kernel" revision="cd6a295959e9ffa64a9eb721f2f859cc89bad27b" upstream="stable-4.4-rk3399-linux"/>
   <project name="rk/mpp" path="external/mpp" revision="7a21a6a0454f604fdf752a1d45be6e2c954cc6de" upstream="develop"/>
   <project name="rk/prebuilts/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" path="prebuilts/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" revision="f96f76d6be89a6e28d4dac1f233f9aca9921f69b" upstream="master"/>
-  <project name="rk/rk1108/buildroot" path="buildroot" revision="4f000a079765bd255123061ab054b5e44cf86139" upstream="stable-rk3399-v2.09-20181102">
+  <project name="rk/rk1108/buildroot" path="buildroot" revision="4f000a079765bd255123061ab054b5e44cf86139" upstream="stable-rk3399-v2.0.9-20181102">
     <linkfile dest="Makefile" src="build/Makefile"/>
     <linkfile dest="envsetup.sh" src="build/envsetup.sh"/>
   </project>

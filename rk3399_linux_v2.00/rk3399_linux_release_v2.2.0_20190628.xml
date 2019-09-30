@@ -6,7 +6,7 @@
 
   <project name="android/platform/external/libdrm" path="external/libdrm" revision="696a303b72faf2dd9a0850aa31e678b29e3aec08" upstream="rk33/mid/9.0/develop"/>
   <project name="android/rk/platform/system/rk_tee_user" path="external/security/rk_tee_user" revision="dd23392ad8ee8e0e7bee81030270b33a31adbc25" upstream="master"/>
-  <project name="android/rk/u-boot-stable" path="u-boot" revision="06c1e1b3ae61762c1e2da34cd2bd92dd8234af3f" upstream="stable-4.4-rk3399-linux-v2.1x"/>
+  <project name="android/rk/u-boot-stable" path="u-boot" revision="06c1e1b3ae61762c1e2da34cd2bd92dd8234af3f" upstream="stable-4.4-rk3399-linux"/>
   <project name="linux/app/QLauncher" path="app/QLauncher" revision="dbd9b7562253c277e5010e1df0ed2dcc4fca4a21" upstream="master"/>
   <project name="linux/app/camera" path="app/camera" revision="68c892e8affb6d70b36fd86f2da535f53415a61c" upstream="master"/>
   <project name="linux/app/demo" path="app/demo" revision="9c70bb34443f8a8c7b5987baf4b47dbb29d0a0c2" upstream="master"/>
@@ -67,12 +67,12 @@
   <project name="linux/yocto/meta-openembedded" path="yocto/meta-openembedded" revision="thud"/>
   <project name="linux/yocto/meta-rockchip" path="yocto/meta-rockchip" revision="yocto-next"/>
   <project name="meta-qt5" path="yocto/meta-qt5" remote="qt5" revision="thud"/>
-  <project name="rk/kernel-stable" path="kernel" revision="24d866d654ed06d9b518bc58b9823c7f535f8d49" upstream="stable-4.4-rk3399-linux-v2.1x"/>
+  <project name="rk/kernel-stable" path="kernel" revision="225ab9d405805eb0fff22cebc4fcbe4a6aba929e" upstream="stable-4.4-rk3399-linux"/>
   <project name="rk/mpp" path="external/mpp" revision="bdcd66b9c42af0a3fee5c6ea7b759fc88685bf34" upstream="develop"/>
   <project name="rk/prebuilts/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" path="prebuilts/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" revision="f96f76d6be89a6e28d4dac1f233f9aca9921f69b" upstream="master"/>
   <project name="rk/rk1108/buildroot" path="buildroot" revision="45115e7b551e210b17977b6c552ae78dbf8a87f3" upstream="stable-rk3399-v2.2.0-20190628">
     <linkfile dest="Makefile" src="build/Makefile"/>
     <linkfile dest="envsetup.sh" src="build/envsetup.sh"/>
   </project>
-  <project name="rk/rkbin-stable" path="rkbin" revision="18cd9b732e7c90cf1bb653a36d707ae629b3a791" upstream="stable-4.4-rk3399-linux-v2.1x"/>
+  <project name="rk/rkbin-stable" path="rkbin" revision="18cd9b732e7c90cf1bb653a36d707ae629b3a791" upstream="stable-4.4-rk3399-linux"/>
 </manifest>
