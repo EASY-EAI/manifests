@@ -11,6 +11,7 @@
   <project name="linux/external/ffmpeg" path="external/ffmpeg" revision="589de66a0b50c43b93f511361275d9ff86da21dd" upstream="rockchip/release/4.0"/>
   <project name="linux/external/libcutils" path="external/libcutils" revision="973b41906854a32379809b11138afbf7016563a0" upstream="master"/>
   <project name="linux/external/liblog" path="external/liblog" revision="3867fe3c8f20f46d7109c2779ac48af2f16d6ea8" upstream="master"/>
+  <project name="linux/rkmedia" path="frameworks/media" revision="ff29e7489698cea957e2439ea3aea96abe9e39a4" upstream="master"/>
   <project name="rk/mpp" path="external/rockchip-mpp" revision="056e17df923ced58fa0c0b9e0f6ef14cbc640c8d" upstream="develop"/>
   <project name="rk/rk1108/apps/face" path="app/face" revision="4e2d0104a14f519709f87ccb206c7772e8cd8c2e" upstream="master"/>
   <project name="rk/rk1108/apps/lock" path="app/lock" revision="d24f0062fe93661e5cae70ab1b54bfd1a22685f9" upstream="master"/>
@@ -52,5 +53,4 @@
   <project name="rk/rk1108/prebuild-images" path="image/prebuild" revision="9870da7020409134958b4b9c2d2cd267849b14f8" upstream="master"/>
   <project name="rk/rk1108/prebuilds" path="prebuilts" revision="66de1b279541c104b947ec8c1fd9ceaf53350a18" upstream="master"/>
   <project name="rk/rk1108/tools" path="tools" revision="0183ff192233e1d675e191dba224733b24ab0042" upstream="master"/>
-  <project name="rkmedia" path="frameworks/media" revision="ff29e7489698cea957e2439ea3aea96abe9e39a4" upstream="master"/>
 </manifest>
