@@ -1,5 +1,11 @@
 ===========RK3326 Linux SDK Release Note===========
 
+[ rk3326_linux_release_v1.2.1_20191012.xml change log ]
+
+kernel
+1,Fix the low-propability crash whilst high cpu frequency and low ddr frequency at the same time
+
+
 [ rk3326_linux_release_v1.2.0_20190916.xml change log ]
 
 Buildroot(2018.02-rc3):
