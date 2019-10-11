@@ -28,7 +28,7 @@
   </project>
   <project name="rk/rk1108/buildroot-2016" path="buildroot" revision="6597af7e379795590aaea0ce9b16011654e464bf" upstream="master"/>
   <project name="rk/rk1108/common" path="common" revision="85d9519b64638255783d9f743a207c5cea16926d" upstream="sdk_v2xx"/>
-  <project name="rk/rk1108/config" path="config" revision="8d55bc24098b1724eab1b98238a47e12899f5531" upstream="master"/>
+  <project name="rk/rk1108/config" path="config" revision="7198acd65d165e795a73928f820913535f320e65" upstream="sdk_v2xx"/>
   <project name="rk/rk1108/docs" path="docs" revision="4367ff6fac245e2f8c80f8e217c292b21915a1b5" upstream="master"/>
   <project name="rk/rk1108/external/bsdiff" path="external/bsdiff" revision="767a226f6358a6535866ac02c3aa6a6c5360cb7c" upstream="master"/>
   <project name="rk/rk1108/external/bzip2" path="external/bzip2" revision="efb684deff0df65d606ca45accb136b0f69be2e7" upstream="master"/>
