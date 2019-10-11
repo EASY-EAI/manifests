@@ -1,80 +1,85 @@
 ===========RV1108 Linux SDK Release Note===========
-¡¾rv1108_linux_release_v2.2.1_20190912.xml ¸üÐÂÈÕÖ¾¡¿
+ã€rv1108_linux_release_v2.2.2_20191011.xml æ›´æ–°æ—¥å¿—ã€‘
 
-    1.ÐÞ¸´ÈËÁ³Ê¶±ðÊ±»á¿¨ÏÔÊ¾µÄÎÊÌâ¡£
+    1.å¢žåŠ 2Dæ´»ä½“æ£€æµ‹ç®—æ³•ã€‚
+
+
+ã€rv1108_linux_release_v2.2.1_20190912.xml æ›´æ–°æ—¥å¿—ã€‘
+
+    1.ä¿®å¤äººè„¸è¯†åˆ«æ—¶ä¼šå¡æ˜¾ç¤ºçš„é—®é¢˜ã€‚
 
 ===========RV1108 Linux SDK Release Note===========
-¡¾rv1108_linux_release_v2.2_20190705.xml ¸üÐÂÈÕÖ¾¡¿
+ã€rv1108_linux_release_v2.2_20190705.xml æ›´æ–°æ—¥å¿—ã€‘
 
-1¡¢Ö§³ÖVendor Storage£»
-2¡¢¸ü½øÒ»²½ÓÅ»¯»ùÓÚeMMC·½°¸µÄ¿ª»úËÙ¶È£»
-3¡¢Ö§³Ö3D½á¹¹¹âÄ£×é£»
-4¡¢Ö§³Ö»ùÓÚRK1608µÄHDRËã·¨£»
-5¡¢CamerahalÉý¼¶µ½V2.0.c.0£»
-6¡¢Ö§³ÖWiFiÔ¶³Ì»½ÐÑ£»
-7¡¢Ôö¼ÓÊÓÆµ½âÂë¡¢²¥·Å½Ó¿Ú£»
-8¡¢Ö§³ÖRV1108 Lock EVB V11°å×Ó£»
-9¡¢½â¾öat_server¸ÅÂÊÐÔ½âÎöÃüÁîÊ§°ÜµÄÎÊÌâ£»
-10¡¢ÎÄµµ¸üÐÂ£¬Í¬Ê±É¾³ý²»±ØÒªµÄÎÄµµ£»
-11¡¢rv1108ddr.binÉý¼¶µ½V1.07°æ±¾£»
+1ã€æ”¯æŒVendor Storageï¼›
+2ã€æ›´è¿›ä¸€æ­¥ä¼˜åŒ–åŸºäºŽeMMCæ–¹æ¡ˆçš„å¼€æœºé€Ÿåº¦ï¼›
+3ã€æ”¯æŒ3Dç»“æž„å…‰æ¨¡ç»„ï¼›
+4ã€æ”¯æŒåŸºäºŽRK1608çš„HDRç®—æ³•ï¼›
+5ã€Camerahalå‡çº§åˆ°V2.0.c.0ï¼›
+6ã€æ”¯æŒWiFiè¿œç¨‹å”¤é†’ï¼›
+7ã€å¢žåŠ è§†é¢‘è§£ç ã€æ’­æ”¾æŽ¥å£ï¼›
+8ã€æ”¯æŒRV1108 Lock EVB V11æ¿å­ï¼›
+9ã€è§£å†³at_serveræ¦‚çŽ‡æ€§è§£æžå‘½ä»¤å¤±è´¥çš„é—®é¢˜ï¼›
+10ã€æ–‡æ¡£æ›´æ–°ï¼ŒåŒæ—¶åˆ é™¤ä¸å¿…è¦çš„æ–‡æ¡£ï¼›
+11ã€rv1108ddr.binå‡çº§åˆ°V1.07ç‰ˆæœ¬ï¼›
 
-12¡¢Ëã·¨Ïà¹Ø¸üÐÂ£º    
-    (1) ÈËÁ³Ê¶±ð¸üÐÂ£¬µ±Ç°°æ±¾£º20190625£»
-	(2) Ôö¼Ó3D»îÌå¼ì²âËã·¨¿â£¬°æ±¾ºÅ£º20190625£»
-	(3)	ÈËÁ³¼ì²âËã·¨¸üÐÂ£¬µ±Ç°°æ±¾£ºV7.1.3, 20190528£»
-	(4) Ôö¼ÓWindows¶ËËã·¨ÊÚÈ¨ÃüÁîÐÐ¹¤¾ß£»
-    (5) Ëã·¨ÊÚÈ¨·½Ê½¸üÐÂ£¬½«LicenseÐ´Èëvendor_storage£¬´Ë·½Ê½²»»áÒòÉÕÐ´¹Ì¼þ¶ø²Á³ý£»
+12ã€ç®—æ³•ç›¸å…³æ›´æ–°ï¼š    
+    (1) äººè„¸è¯†åˆ«æ›´æ–°ï¼Œå½“å‰ç‰ˆæœ¬ï¼š20190625ï¼›
+	(2) å¢žåŠ 3Dæ´»ä½“æ£€æµ‹ç®—æ³•åº“ï¼Œç‰ˆæœ¬å·ï¼š20190625ï¼›
+	(3)	äººè„¸æ£€æµ‹ç®—æ³•æ›´æ–°ï¼Œå½“å‰ç‰ˆæœ¬ï¼šV7.1.3, 20190528ï¼›
+	(4) å¢žåŠ Windowsç«¯ç®—æ³•æŽˆæƒå‘½ä»¤è¡Œå·¥å…·ï¼›
+    (5) ç®—æ³•æŽˆæƒæ–¹å¼æ›´æ–°ï¼Œå°†Licenseå†™å…¥vendor_storageï¼Œæ­¤æ–¹å¼ä¸ä¼šå› çƒ§å†™å›ºä»¶è€Œæ“¦é™¤ï¼›
 
-13¡¢face_serviceÏà¹Ø¸üÐÂ£º
-	(1) ¼ÓÈë3D»îÌå¼ì²â£»
-	(2) ×¢²áÈËÁ³Ê±£¬¿ÉÒÔ×¢²á¶àÕÅ²»Í¬½Ç¶ÈµÄÈËÁ³ÌØÕ÷£»
+13ã€face_serviceç›¸å…³æ›´æ–°ï¼š
+	(1) åŠ å…¥3Dæ´»ä½“æ£€æµ‹ï¼›
+	(2) æ³¨å†Œäººè„¸æ—¶ï¼Œå¯ä»¥æ³¨å†Œå¤šå¼ ä¸åŒè§’åº¦çš„äººè„¸ç‰¹å¾ï¼›
 	   
-14¡¢ÄÚºËÏà¹Ø¸üÐÂ£º
-	(1) ½â¾öAPPÆµ·±¿ª¹ØÊ±£¬CIF±¨DMAFIFOÖÐ¶Ï´íÎó£»
-	(2) ½â¾öSensor¼Ä´æÆ÷ÁÐ±í¹ý¶àÊ±³öÏÖÄÚºË³åÊý¾ÝµÄÎÊÌâ£»
-	(3) DSPÇý¶¯ÖÐÍâ²¿MemoryµÄ´óÐ¡¿ÉÒÔÍ¨¹ýdtsÅäÖÃ£»
-	(4) ¼õÉÙsram stack´óÐ¡£¬½â¾ösramÔ½½çµÄÎÊÌâ£»
+14ã€å†…æ ¸ç›¸å…³æ›´æ–°ï¼š
+	(1) è§£å†³APPé¢‘ç¹å¼€å…³æ—¶ï¼ŒCIFæŠ¥DMAFIFOä¸­æ–­é”™è¯¯ï¼›
+	(2) è§£å†³Sensorå¯„å­˜å™¨åˆ—è¡¨è¿‡å¤šæ—¶å‡ºçŽ°å†…æ ¸å†²æ•°æ®çš„é—®é¢˜ï¼›
+	(3) DSPé©±åŠ¨ä¸­å¤–éƒ¨Memoryçš„å¤§å°å¯ä»¥é€šè¿‡dtsé…ç½®ï¼›
+	(4) å‡å°‘sram stackå¤§å°ï¼Œè§£å†³sramè¶Šç•Œçš„é—®é¢˜ï¼›
 
 
 ===========RV1108 Linux SDK Release Note===========
-¡¾rv1108_linux_release_v2.1_20190329.xml ¸üÐÂÈÕÖ¾¡¿
+ã€rv1108_linux_release_v2.1_20190329.xml æ›´æ–°æ—¥å¿—ã€‘
 
-app¸üÐÂ:
-1¡¢Ìí¼Óat_server
-2¡¢Ìí¼Óhello
-3¡¢Ìí¼Ópcba_test
-4¡¢Ìí¼Ósystem_manager
-5¡¢Ìí¼Óupdater
-6¡¢ÓÅ»¯lock appÓëface server¼äµÄñîºÏ£¬¼ÓÇ¿ipc¼äÍ¨Ñ¶¡£
+appæ›´æ–°:
+1ã€æ·»åŠ at_server
+2ã€æ·»åŠ hello
+3ã€æ·»åŠ pcba_test
+4ã€æ·»åŠ system_manager
+5ã€æ·»åŠ updater
+6ã€ä¼˜åŒ–lock appä¸Žface serveré—´çš„è€¦åˆï¼ŒåŠ å¼ºipcé—´é€šè®¯ã€‚
 
-doc¸üÐÂ:
-1¡¢¸üÐÂ¡¶RV1108_Linux_SDKÈí¼þ¿ª·¢Ö¸ÄÏ_V2.1_20190329.pdf¡·;
-2¡¢Ìí¼Órv1108/index.htmlÎÄµµË÷Òý
+docæ›´æ–°:
+1ã€æ›´æ–°ã€ŠRV1108_Linux_SDKè½¯ä»¶å¼€å‘æŒ‡å—_V2.1_20190329.pdfã€‹;
+2ã€æ·»åŠ rv1108/index.htmlæ–‡æ¡£ç´¢å¼•
 
-common¸üÐÂ
-1¡¢Ìí¼Ó¸ü¶à°å¼¶×ÊÔ´ÎÄ¼þ
+commonæ›´æ–°
+1ã€æ·»åŠ æ›´å¤šæ¿çº§èµ„æºæ–‡ä»¶
 
-config¸üÐÂ:
-1¡¢Ìí¼Ó¸ü¶à¿ÉÅäÖÃÑ¡Ïî
+configæ›´æ–°:
+1ã€æ·»åŠ æ›´å¤šå¯é…ç½®é€‰é¡¹
 
-exteranl¸üÐÂ:
-1¡¢Ìí¼Óbsdiff
-2¡¢Ìí¼Óbzip2
-3¡¢Ìí¼Ólibcurl
-4¡¢Ìí¼Ólibogg
-5¡¢Ìí¼Ólibvorbis
-6¡¢Ìí¼Ólive555
+exteranlæ›´æ–°:
+1ã€æ·»åŠ bsdiff
+2ã€æ·»åŠ bzip2
+3ã€æ·»åŠ libcurl
+4ã€æ·»åŠ libogg
+5ã€æ·»åŠ libvorbis
+6ã€æ·»åŠ live555
 
-frameworks¸üÐÂ:
-1¡¢Ìí¼Óframework/hal
-2¡¢Ìí¼Óframework/librkuvc
-3¡¢Ìí¼Óframework/messenger
-4¡¢Ìí¼Óframework/settings
+frameworksæ›´æ–°:
+1ã€æ·»åŠ framework/hal
+2ã€æ·»åŠ framework/librkuvc
+3ã€æ·»åŠ framework/messenger
+4ã€æ·»åŠ framework/settings
 
-Kernel¸üÐÂ:
-1¡¢¸üÐÂbcmdhdÇý¶¯
-2¡¢Ìí¼ÓÍøÂçÏà¹ØÅäÖÃ
-3¡¢Ä¬ÈÏ¿ªÆôadb¹¦ÄÜËùÒÀÀµµÄÅäÖÃ
+Kernelæ›´æ–°:
+1ã€æ›´æ–°bcmdhdé©±åŠ¨
+2ã€æ·»åŠ ç½‘ç»œç›¸å…³é…ç½®
+3ã€é»˜è®¤å¼€å¯adbåŠŸèƒ½æ‰€ä¾èµ–çš„é…ç½®
 
 
 

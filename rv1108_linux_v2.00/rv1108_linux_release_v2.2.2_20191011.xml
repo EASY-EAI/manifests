@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote fetch="ssh://git@www.rockchip.com.cn/linux/" name="rk"/>
+  <default remote="rk" sync-j="4"/>
+
+  <project name="linux/external/SDL2" path="external/SDL2" revision="f1ea27c0895a8463187a814882693a942b509743" upstream="master"/>
+  <project name="linux/external/adb" path="external/adb" revision="5c57a1f9145eef7c0265b0a9bbc2379a377391c6" upstream="master"/>
+  <project name="linux/external/alsa-lib" path="external/alsa-lib" revision="069ca2393cda576753cb2c9a17102d0cb5ae3290" upstream="master"/>
+  <project name="linux/external/alsa-plugins" path="external/alsa-plugins" revision="becb2a4b8f8b107fbc13ec610dc63b9d960abb36" upstream="master"/>
+  <project name="linux/external/alsa-utils" path="external/alsa-utils" revision="a7c6afebd94bec1eeab0a34f97e99df7e0521e3c" upstream="master"/>
+  <project name="linux/external/libcutils" path="external/libcutils" revision="973b41906854a32379809b11138afbf7016563a0" upstream="master"/>
+  <project name="linux/external/liblog" path="external/liblog" revision="3867fe3c8f20f46d7109c2779ac48af2f16d6ea8" upstream="master"/>
+  <project name="linux/rkmedia" path="frameworks/media" revision="cc090dbfb8d06a470a3851c07d30ecdd2bebf9d6" upstream="master"/>
+  <project name="rk/mpp" path="external/rockchip-mpp" revision="3d35398706b23b885ed89eebc49955e6c78f74c6" upstream="develop"/>
+  <project name="rk/rk1108/apps/at_server" path="app/at_server" revision="ed0d3e8ce340bbfddfbec79f80fa6b4702d0fcdd" upstream="master"/>
+  <project name="rk/rk1108/apps/face" path="app/face" revision="682ae01657a0c369f46dbfa678ef65a293c9cac4" upstream="sdk_v2xx"/>
+  <project name="rk/rk1108/apps/hello" path="app/hello" revision="42fb57442945537c204d402ce1e22d1226ac9221" upstream="master"/>
+  <project name="rk/rk1108/apps/hello_rv" path="app/hello_rv" revision="8109caaa49cc2004b3ac7a87eb6e92ffd1ab993e" upstream="master"/>
+  <project name="rk/rk1108/apps/lock" path="app/lock" revision="74d734a2c2a83be62d05ad56289d11bf972be696" upstream="sdk_v2xx"/>
+  <project name="rk/rk1108/apps/pcba_test" path="app/pcba_test" revision="6569a515b666efc84849ad499044f9fa36a675c6" upstream="master"/>
+  <project name="rk/rk1108/apps/peephole" path="app/peephole" revision="2bfe8ddbaaa53d5d35010d5bbe4bcdf94935eb1e" upstream="master"/>
+  <project name="rk/rk1108/apps/system_manager" path="app/system_manager" revision="f5e31d02f4ed30c7a9eaa9287683a0d012a9b37e" upstream="master"/>
+  <project name="rk/rk1108/apps/updater" path="app/updater" revision="c7af333818d4058bdf3d68678a48aa457a593171" upstream="master"/>
+  <project name="rk/rk1108/apps/uvc_app" path="app/uvc_app" revision="838b353d173c339e803ca1b818ebce0d9c347dc1" upstream="master"/>
+  <project name="rk/rk1108/build" path="build" revision="6b4c6900648e3dd1ef600d519026fd66ff97186a" upstream="sdk_v2xx">
+    <copyfile dest="Makefile" src="Makefile.hertz"/>
+  </project>
+  <project name="rk/rk1108/buildroot-2016" path="buildroot" revision="6597af7e379795590aaea0ce9b16011654e464bf" upstream="master"/>
+  <project name="rk/rk1108/common" path="common" revision="85d9519b64638255783d9f743a207c5cea16926d" upstream="sdk_v2xx"/>
+  <project name="rk/rk1108/config" path="config" revision="8d55bc24098b1724eab1b98238a47e12899f5531" upstream="master"/>
+  <project name="rk/rk1108/docs" path="docs" revision="4367ff6fac245e2f8c80f8e217c292b21915a1b5" upstream="master"/>
+  <project name="rk/rk1108/external/bsdiff" path="external/bsdiff" revision="767a226f6358a6535866ac02c3aa6a6c5360cb7c" upstream="master"/>
+  <project name="rk/rk1108/external/bzip2" path="external/bzip2" revision="efb684deff0df65d606ca45accb136b0f69be2e7" upstream="master"/>
+  <project name="rk/rk1108/external/cjson" path="external/cjson" revision="5d58a33073fa1be2e9cb01fe085f27b6a1cba81c" upstream="master"/>
+  <project name="rk/rk1108/external/dnsmasq" path="external/dnsmasq" revision="aae2cf9a7e83748058d39a15d414c947a435ae24" upstream="master"/>
+  <project name="rk/rk1108/external/freetype" path="external/freetype" revision="a6ea6dc976d4edbcb4d3455519dd95ec7b7e3ff6" upstream="master"/>
+  <project name="rk/rk1108/external/io" path="external/io" revision="44e3fedfc60721d879e0aa130106baac600aa80f" upstream="master"/>
+  <project name="rk/rk1108/external/jhead" path="external/jhead" revision="7add8735e169dc22fcf8eb070cf522c57ea7408f" upstream="master"/>
+  <project name="rk/rk1108/external/libcamerahal" path="external/libcamerahal" revision="dbd2fb6aee179494569889c7434a1462c28080d5" upstream="master"/>
+  <project name="rk/rk1108/external/libcurl" path="external/libcurl" revision="974232affeb1e8472ae958cfe53d06b43e0449e7" upstream="master"/>
+  <project name="rk/rk1108/external/libion" path="external/libion" revision="4874430690220a1c41d0abe6119a9f3d3135c658" upstream="master"/>
+  <project name="rk/rk1108/external/libjpeg" path="external/libjpeg" revision="f7e244a9a49ed452621015cbd85b5d4d84e63d86" upstream="master"/>
+  <project name="rk/rk1108/external/libminigui" path="external/libminigui" revision="0431ac172a91be9d2502730404fbdff02abfd3e4" upstream="master"/>
+  <project name="rk/rk1108/external/libnl" path="external/libnl" revision="0fa49e40cd417314e82133ffe3693f15e8e61f6f" upstream="master"/>
+  <project name="rk/rk1108/external/libogg" path="external/libogg" revision="4f389fee154855dc261c1e0b5064e5d59b11122e" upstream="master"/>
+  <project name="rk/rk1108/external/libpng" path="external/libpng" revision="974bd812504b7185996c23b8fc29ba08c7a33e0a" upstream="master"/>
+  <project name="rk/rk1108/external/librkfb" path="external/librkfb" revision="4fe716eaf11bf849f2df53333280035b252a3278" upstream="master"/>
+  <project name="rk/rk1108/external/librkrga" path="external/librkrga" revision="bd376e47b6103f38f80aa980b8f34d31006ed5b3" upstream="master"/>
+  <project name="rk/rk1108/external/libts" path="external/libts" revision="f0fbd2eb53f56379c601b649ec142b0c02d3f61a" upstream="master"/>
+  <project name="rk/rk1108/external/libvorbis" path="external/libvorbis" revision="ddb4a8aa3fc5b7032c6c12a603729d66f8b6be54" upstream="master"/>
+  <project name="rk/rk1108/external/libvpu" path="external/libvpu" revision="20a56d1acc2afd205251fb7fededce425108d397" upstream="master"/>
+  <project name="rk/rk1108/external/live555" path="external/live555" revision="c2fca9b7e22df9fcda409b2ac508d5c958d58f69" upstream="master"/>
+  <project name="rk/rk1108/external/nanomsg" path="external/nanomsg" revision="54c9e37065bb88a586b596992a47bbd84087bbc2" upstream="master"/>
+  <project name="rk/rk1108/external/openssl" path="external/openssl" revision="f8744c1aa85518d6808af09f7db3125e6f351fcd" upstream="master"/>
+  <project name="rk/rk1108/external/softapdemo" path="external/softapdemo" revision="26182ff60142951a0c18377e38824cd1172564e6" upstream="master"/>
+  <project name="rk/rk1108/external/softapserver" path="external/softapserver" revision="c2acb05b90d11943b2e5d976d34d2d0aad8475e7" upstream="master"/>
+  <project name="rk/rk1108/external/sqlite" path="external/sqlite" revision="206e6ed8063cf11421cfa753ee903c4a1c3c8067" upstream="master"/>
+  <project name="rk/rk1108/external/syslog-ng" path="external/syslog-ng" revision="ca8b1ea40b44ab7f04232332294a2192120320bb" upstream="master"/>
+  <project name="rk/rk1108/external/tools" path="external/tools" revision="9bf28e1ebf13ef763c0377ce6df8a9d0709722c5" upstream="master"/>
+  <project name="rk/rk1108/external/wpa_supplicant" path="external/wpa_supplicant" revision="a5c529b57f7884621dccc87e73c89ce66c06adae" upstream="master"/>
+  <project name="rk/rk1108/external/zlib" path="external/zlib" revision="2eb8c706821963c079b69d09493d823a0f8efb22" upstream="master"/>
+  <project name="rk/rk1108/framework/adk" path="frameworks/adk" revision="d0484009c3ef82a3b869711f7451badf15314ab5" upstream="master"/>
+  <project name="rk/rk1108/framework/database" path="frameworks/database" revision="b6fe5994730b179b5b203bdc797bf5976e98febe" upstream="master"/>
+  <project name="rk/rk1108/framework/hal" path="frameworks/hal" revision="ce0461541c9cce19f89189bfe6eeb9d2b15c5c94" upstream="master"/>
+  <project name="rk/rk1108/framework/librkuvc" path="frameworks/librkuvc" revision="a45d95318bae3b2bb39d3a683241dbd769d8b87a" upstream="master"/>
+  <project name="rk/rk1108/framework/messenger" path="frameworks/messenger" revision="43573d01d4ecfe298b68887f0ae8ef1d0da5c13a" upstream="master"/>
+  <project name="rk/rk1108/framework/model_loader" path="frameworks/model_loader" revision="fadf74fbf2e480c5ce141005650e2ba0b4152d3d" upstream="sdk_v2xx"/>
+  <project name="rk/rk1108/framework/preisp" path="frameworks/preisp" revision="f26f3e7fcf5c22afa9f414f66b5ba3f83c8c5cb5" upstream="master"/>
+  <project name="rk/rk1108/framework/rkface" path="frameworks/rkface" revision="10292d412823ddf9dd341dfb8e5fa0008baf0777" upstream="sdk_v2xx"/>
+  <project name="rk/rk1108/framework/settings" path="frameworks/settings" revision="26d3c99dff2ddc918791344dfef9a9db03396f43" upstream="master"/>
+  <project name="rk/rk1108/framework/vendor_storage" path="frameworks/vendor_storage" revision="07968e67f5950f103fd5ddae3534a6ad39412d38" upstream="master"/>
+  <project name="rk/rk1108/kernel" path="kernel" revision="d885cbe3b0bbc6dfc92deb3ad314ae3af31d583c" upstream="sdk_v2xx"/>
+  <project name="rk/rk1108/loader" path="loader" revision="cf5f780675ef0816dec9e8cb0ac04bc4d40c3d1b" upstream="loader"/>
+  <project name="rk/rk1108/prebuild-images" path="image/prebuild" revision="7058a432a02e106575bcdc3d9e910d79ffa65095" upstream="master"/>
+  <project name="rk/rk1108/prebuilds" path="prebuilts" revision="229dd8363013731be437e39388a60672253eff55" upstream="master"/>
+  <project name="rk/rk1108/tools" path="tools" revision="11e7954486619e6724f3f6a9aff7cc432f95e51f" upstream="master"/>
+
+</manifest>
