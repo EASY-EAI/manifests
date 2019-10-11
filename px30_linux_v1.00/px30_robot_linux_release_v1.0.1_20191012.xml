@@ -12,11 +12,11 @@
   <project name="linux/app/QLauncher" path="app/QLauncher" revision="182e9fdf8e049a97d41c18e22a449f75507a3b9a" upstream="develop"/>
   <project name="linux/app/settings" path="app/settings" revision="9025de129227145549a5a8239df321bd6f5a0847" upstream="master"/>
   <project name="linux/buildroot/dl" path="buildroot/dl" revision="ddfbe30ea232f63b2080e85907ec308ad913e43e" upstream="master"/>
-  <project name="linux/device/rockchip" path="device/rockchip" revision="b328d2ac5514dea11985bfe6f296511d896d0875" upstream="master">
+  <project name="linux/device/rockchip" path="device/rockchip" revision="5191c4a14a634efd69308210e4e4aae1d8400422" upstream="master">
     <linkfile dest="mkfirmware.sh" src="common/mkfirmware.sh"/>
     <linkfile dest="build.sh" src="common/build.sh"/>
     <linkfile dest="rkflash.sh" src="common/rkflash.sh"/>
-    <linkfile dest="device/rockchip/.BoardConfig.mk" src="px30/BoardConfig.mk"/>
+    <linkfile dest="device/rockchip/.BoardConfig.mk" src="px30/BoardConfig_robot64.mk"/>
   </project>
   <project name="linux/docs" path="docs" revision="b402c1695a989c13880bf3116190931c0c120c51" upstream="master"/>
   <project name="linux/external/alsa-config" path="external/alsa-config" revision="30d750e5dc846d15d1a5159e47bf3e1121953eb3" upstream="master"/>
@@ -44,10 +44,10 @@
     <linkfile dest="tools/linux/Linux_Pack_Firmware/rockdev/mkupdate.sh" src="linux/Linux_Pack_Firmware/rockdev/px30-mkupdate.sh"/>
     <linkfile dest="tools/linux/Linux_Pack_Firmware/rockdev/package-file" src="linux/Linux_Pack_Firmware/rockdev/px30-package-file"/>
   </project>
-  <project name="rk/kernel-stable" path="kernel" revision="299e2834d62e0d99b181157e157305b513cc5251" upstream="stable-4.4-px30-linux-v2.0"/>
+  <project name="rk/kernel-stable" path="kernel" revision="54999bb92b62243ef1f4c36fef8596f20a6b0f11" upstream="stable-4.4-px30-linux-v2.0"/>
   <project name="rk/mpp" path="external/mpp" revision="60c82d6d7bdd7c5b4eadb056c4d89c049eb7c6c0" upstream="develop"/>
   <project name="rk/prebuilts/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" path="prebuilts/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" revision="f96f76d6be89a6e28d4dac1f233f9aca9921f69b" upstream="master"/>
-  <project name="rk/rk1108/buildroot" path="buildroot" revision="3e89e6fe1b40bd52d484f7ebbe3c867cc608ce90" upstream="rockchip/2018.02-rc3">
+  <project name="rk/rk1108/buildroot" path="buildroot" revision="7cab20e1f4dff0a7855fcb887b0079be614f274d" upstream="rockchip/2018.02-rc3">
     <linkfile dest="Makefile" src="build/Makefile"/>
     <linkfile dest="envsetup.sh" src="build/envsetup.sh"/>
   </project>
