@@ -1,6 +1,6 @@
 ===========RK3399 Linux SDK Release Note===========
 
-¡¾rk3399_linux_release_v2.3.0_20190930.xml change log¡¿
+¡¾rk3399_linux_release_v2.2.1_20191014.xml change log¡¿
 
  Buildroot (2018.02-rc3):
     - Support the freerdp with X11
@@ -62,7 +62,7 @@
         2.the rk_provision_tool rename to RKDevInfoWriteTool
     - upgrade SDDiskTool to v1.59
 
-Debian (stretch-9.9):
+Debian (stretch-9.11):
     - support exa/glamor hw acceleration on xserver
     - update camera_engine_rksip to v2.2.0
     - add LICENSE.txt
