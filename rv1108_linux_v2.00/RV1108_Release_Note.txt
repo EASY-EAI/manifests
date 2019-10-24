@@ -1,14 +1,52 @@
 ===========RV1108 Linux SDK Release Note===========
-【rv1108_linux_release_v2.2.2_20191011.xml 更新日志】
+【rv1108_linux_release_v2.3.0_20191009.xml 更新日志】
 
-    1.增加2D活体检测算法。
+1. 编译环境更新：
+	(1) 移除rvmk编译规则，导入所有软件包到Buildroot;
+	(2) 添加更多旧编译环境命令，编译规则尽可能与老版本保持一致;
+
+2. Buildroot更新：
+	(1) 添加rkcamera模块来初始化camera;
+	(2) 添加process_units模块，用来存放app共享的处理单元;
+	(3) face_service代码优化，体验优化，bug修复;
+	(4) camerahal升级IQ bin到v2.0.c.0;
+	(5) 添加easymedia 多媒体封装库;
+	(6) 添加device_manager服务;
+	(7) 更新updater，支持远程/本地方式升级;
+	(8) 更新pcba，支持客户自定义配置测试向量;
+
+3. Kernel更新：
+	(1) DSP CLK 提到480M;
+	(2) ramdisk 采用无压缩打包，提升开机速度可优化空间;
+	(3) RKFlash 添加XMC系列颗粒支持;
+	(4) 更新ftl算法，添加discard机制，解决flash坏快问题，支持OTA IDBlock;
+	(5) 修复perf工具编译问题;
+
+4. Loader更新：
+	(1) 更新ftl算法，version: 5.0.50 20190215;
+
+5. 快速开机更新：
+	(1) 加入算法模型内核预加载机;
+	(2) 在Loader预加载RK1608固件;
+	(3) RK1608 IR提前输出;
+
+6. 算法更新：
+	(1) 2D活体检测算法更新, v1.0.1_20191015;
+	(2) 3D活体检测算法更新，v1.0.2_20191012;
+	(3) 在V2.3 SDK新增3DNR和畸变矫正算法支持;
+
+7. Tool更新
+	(1) 更新PCBATool_Setup_V1.0.9_0904_1108.exe;
+
+8. Docs更新
+	(1) 添加更多的文档说明支持;
 
 
 【rv1108_linux_release_v2.2.1_20190912.xml 更新日志】
 
-    1.修复人脸识别时会卡显示的问题。
+    1.修复人脸识别时会卡显示的问题;
 
-===========RV1108 Linux SDK Release Note===========
+
 【rv1108_linux_release_v2.2_20190705.xml 更新日志】
 
 1、支持Vendor Storage；
@@ -41,7 +79,6 @@
 	(4) 减少sram stack大小，解决sram越界的问题；
 
 
-===========RV1108 Linux SDK Release Note===========
 【rv1108_linux_release_v2.1_20190329.xml 更新日志】
 
 app更新:
