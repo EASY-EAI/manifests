@@ -70,7 +70,7 @@
   <project name="rk/rk1108/framework/rkface" path="frameworks/rkface" revision="10292d412823ddf9dd341dfb8e5fa0008baf0777" upstream="v2.2"/>
   <project name="rk/rk1108/framework/settings" path="frameworks/settings" revision="26d3c99dff2ddc918791344dfef9a9db03396f43" upstream="master"/>
   <project name="rk/rk1108/framework/vendor_storage" path="frameworks/vendor_storage" revision="07968e67f5950f103fd5ddae3534a6ad39412d38" upstream="master"/>
-  <project name="rk/rk1108/kernel" path="kernel" revision="d885cbe3b0bbc6dfc92deb3ad314ae3af31d583c" upstream="v2.2"/>
+  <project name="rk/rk1108/kernel" path="kernel" revision="dcc94d3f7cbef09466ccb25d28c569d5cf3ec0c0" upstream="v2.2"/>
   <project name="rk/rk1108/loader" path="loader" revision="cf5f780675ef0816dec9e8cb0ac04bc4d40c3d1b" upstream="loader"/>
   <project name="rk/rk1108/prebuild-images" path="image/prebuild" revision="7058a432a02e106575bcdc3d9e910d79ffa65095" upstream="master"/>
   <project name="rk/rk1108/prebuilds" path="prebuilts" revision="229dd8363013731be437e39388a60672253eff55" upstream="master"/>
