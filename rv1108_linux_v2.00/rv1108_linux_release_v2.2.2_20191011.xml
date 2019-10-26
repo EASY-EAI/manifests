@@ -14,7 +14,7 @@
   <project name="linux/rkmedia" path="frameworks/media" revision="cc090dbfb8d06a470a3851c07d30ecdd2bebf9d6" upstream="master"/>
   <project name="rk/mpp" path="external/rockchip-mpp" revision="3d35398706b23b885ed89eebc49955e6c78f74c6" upstream="develop"/>
   <project name="rk/rk1108/apps/at_server" path="app/at_server" revision="ed0d3e8ce340bbfddfbec79f80fa6b4702d0fcdd" upstream="master"/>
-  <project name="rk/rk1108/apps/face" path="app/face" revision="ace3d6879469f6d1f813b51aae4ec7e4888b06eb" upstream="v2.2"/>
+  <project name="rk/rk1108/apps/face" path="app/face" revision="9b5f40e04084873473cb26e148b737bf816dab60" upstream="v2.2"/>
   <project name="rk/rk1108/apps/hello" path="app/hello" revision="42fb57442945537c204d402ce1e22d1226ac9221" upstream="master"/>
   <project name="rk/rk1108/apps/hello_rv" path="app/hello_rv" revision="8109caaa49cc2004b3ac7a87eb6e92ffd1ab993e" upstream="master"/>
   <project name="rk/rk1108/apps/lock" path="app/lock" revision="74d734a2c2a83be62d05ad56289d11bf972be696" upstream="v2.2"/>
@@ -27,8 +27,8 @@
     <copyfile dest="Makefile" src="Makefile.hertz"/>
   </project>
   <project name="rk/rk1108/buildroot-2016" path="buildroot" revision="6597af7e379795590aaea0ce9b16011654e464bf" upstream="master"/>
-  <project name="rk/rk1108/common" path="common" revision="85d9519b64638255783d9f743a207c5cea16926d" upstream="v2.2"/>
-  <project name="rk/rk1108/config" path="config" revision="7198acd65d165e795a73928f820913535f320e65" upstream="v2.2"/>
+  <project name="rk/rk1108/common" path="common" revision="e647185bae8e0a9713422ac8eb836b2e29858ef2" upstream="v2.2"/>
+  <project name="rk/rk1108/config" path="config" revision="4e798a4f3ddc3955b041a9854d41e450f27a0708" upstream="v2.2"/>
   <project name="rk/rk1108/docs" path="docs" revision="4367ff6fac245e2f8c80f8e217c292b21915a1b5" upstream="master"/>
   <project name="rk/rk1108/external/bsdiff" path="external/bsdiff" revision="767a226f6358a6535866ac02c3aa6a6c5360cb7c" upstream="master"/>
   <project name="rk/rk1108/external/bzip2" path="external/bzip2" revision="efb684deff0df65d606ca45accb136b0f69be2e7" upstream="master"/>
