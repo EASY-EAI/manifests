@@ -14,7 +14,7 @@
   <project name="linux/rkmedia" path="frameworks/media" revision="cc090dbfb8d06a470a3851c07d30ecdd2bebf9d6" upstream="master"/>
   <project name="rk/mpp" path="external/rockchip-mpp" revision="3d35398706b23b885ed89eebc49955e6c78f74c6" upstream="develop"/>
   <project name="rk/rk1108/apps/at_server" path="app/at_server" revision="ed0d3e8ce340bbfddfbec79f80fa6b4702d0fcdd" upstream="master"/>
-  <project name="rk/rk1108/apps/face" path="app/face" revision="682ae01657a0c369f46dbfa678ef65a293c9cac4" upstream="v2.2"/>
+  <project name="rk/rk1108/apps/face" path="app/face" revision="ace3d6879469f6d1f813b51aae4ec7e4888b06eb" upstream="v2.2"/>
   <project name="rk/rk1108/apps/hello" path="app/hello" revision="42fb57442945537c204d402ce1e22d1226ac9221" upstream="master"/>
   <project name="rk/rk1108/apps/hello_rv" path="app/hello_rv" revision="8109caaa49cc2004b3ac7a87eb6e92ffd1ab993e" upstream="master"/>
   <project name="rk/rk1108/apps/lock" path="app/lock" revision="74d734a2c2a83be62d05ad56289d11bf972be696" upstream="v2.2"/>
@@ -67,10 +67,10 @@
   <project name="rk/rk1108/framework/messenger" path="frameworks/messenger" revision="43573d01d4ecfe298b68887f0ae8ef1d0da5c13a" upstream="master"/>
   <project name="rk/rk1108/framework/model_loader" path="frameworks/model_loader" revision="fadf74fbf2e480c5ce141005650e2ba0b4152d3d" upstream="v2.2"/>
   <project name="rk/rk1108/framework/preisp" path="frameworks/preisp" revision="f26f3e7fcf5c22afa9f414f66b5ba3f83c8c5cb5" upstream="master"/>
-  <project name="rk/rk1108/framework/rkface" path="frameworks/rkface" revision="10292d412823ddf9dd341dfb8e5fa0008baf0777" upstream="v2.2"/>
+  <project name="rk/rk1108/framework/rkface" path="frameworks/rkface" revision="c4eec32e8357e5a2b42a4d1bb5f045cad3bd6b04" upstream="v2.2"/>
   <project name="rk/rk1108/framework/settings" path="frameworks/settings" revision="26d3c99dff2ddc918791344dfef9a9db03396f43" upstream="master"/>
   <project name="rk/rk1108/framework/vendor_storage" path="frameworks/vendor_storage" revision="07968e67f5950f103fd5ddae3534a6ad39412d38" upstream="master"/>
-  <project name="rk/rk1108/kernel" path="kernel" revision="dcc94d3f7cbef09466ccb25d28c569d5cf3ec0c0" upstream="v2.2"/>
+  <project name="rk/rk1108/kernel" path="kernel" revision="4bbecfddc46936475909b859f1644bcb3b374165" upstream="v2.2"/>
   <project name="rk/rk1108/loader" path="loader" revision="cf5f780675ef0816dec9e8cb0ac04bc4d40c3d1b" upstream="loader"/>
   <project name="rk/rk1108/prebuild-images" path="image/prebuild" revision="7058a432a02e106575bcdc3d9e910d79ffa65095" upstream="master"/>
   <project name="rk/rk1108/prebuilds" path="prebuilts" revision="229dd8363013731be437e39388a60672253eff55" upstream="master"/>
