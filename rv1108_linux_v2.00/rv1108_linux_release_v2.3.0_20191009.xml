@@ -30,7 +30,7 @@
     <linkfile dest="Makefile" src="Makefile"/>
   </project>
   <project name="rk/rk1108/buildroot" path="buildroot" revision="5a49d70578da21c475b82acd62ec2e8b904e0629" upstream="rockchip/2018.02-rc3"/>
-  <project name="rk/rk1108/docs" path="docs" revision="15379d3483e19b6a94f9c101eba50989f805491f" upstream="master"/>
+  <project name="rk/rk1108/docs" path="docs" revision="fe4741cbf48b9c2d9c85cb6cec3bcf9cddf9b51b" upstream="master"/>
   <project name="rk/rk1108/external/libcamerahal" path="framework/camerahal" revision="a2f32b72eddfe4497ad7603896a7120f973c811f" upstream="master"/>
   <project name="rk/rk1108/external/libion" path="framework/libion" revision="a277cf95defa65b2d994fa8cb22e9d2a883d1552" upstream="master"/>
   <project name="rk/rk1108/external/libminigui" path="external/libminigui" revision="69069e0c6d01a6e9c4c7cf3da2164245fce68545" upstream="master"/>
