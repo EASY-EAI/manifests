@@ -1,4 +1,49 @@
 ===========RK3308 Linux SDK Release Note===========
+【rk3308_linux_release_v1.3.2_20191031.xml 更新日志】
+rkbin 更新：
+1. 更新 ddr.bin 到v1.2.9
+2. 更新 miniloader.bin 到v1.19
+
+u-boot 更新:
+1. 开源SPL 方案支持spi-nand
+
+Kernel 更新:
+1. 开源SPL 方案支持spi-nand
+2. 新增RK618 RGB转MIPI显示配置
+
+Buildroot 更新：
+1. 完善MTP 功能
+2. 添加开机无法挂载userdata，自动格式化功能
+3. bluez5_utils
+  新增 GetPlayStatus api：主动获取远端设备的播放状态、播放进度
+  新增 PosChange api：远程设备是否支持主动上报播放进度
+  新增蓝牙电话簿权限支持
+  修正32bit 系统，解析D-Bus uint64、int64类型数据内存越界
+  修正重复注册media player导致的D-Bus failed
+
+external 更新
+1. app 更新 RockHome.apk
+2. bluetooth_bsa 打印日志到syslog
+3. bluez-alsa:
+  更新bluez-alsa版本到 commit 22ffb（官网版本）
+  新增蓝牙通话16K 采样率支持（以前只支持8K）
+  新增发送hfp BCS msg到libDeviceio库，用于蓝牙通话8K和16K采样率自适应
+  新增发送hfp CIEV msg到libDeviceio库，用于蓝牙通话状态控制
+  新增发送underrun信息到libDeviceio库
+4. broadcom_bsa 打印日志到syslog
+5. deviceio 更新版本到v1.3.0
+6. ladspaSDK 优化CPU使用效率
+7. minigui_desktop 减少固件和内存占用
+8. rkscript 新增UAC、UVC、UMC，修复MTP热插拔错误
+9. rkwifibt 更新rtl8723ds，支持hfp 16K 采样
+10. recovery 新增sdboot
+
+docs 更新；
+1. 更新<Rockchip_RK3308_Quick _Start_Linux_SDK_CN.pdf>
+2. 更新<Rockchip_Developer_Guide_Linux_SPL_MTD_CN.pdf>
+3. 更新<Rockchip_RK3308_Linux_SDK_Release_V1.3.2_20191031_CN.pdf>
+4. 新增<Rockchip_Developer_Guide_DeviceIo_Bluetooth_CN.pdf>
+
 【rk3308_linux_release_v1.3.0_20190709.xml 更新日志】
 u-boot 更新：
 1. 新增开源SPL方案，支持EMMC 和SLC NAND存储器，暂不支持SPI NAND存储器
