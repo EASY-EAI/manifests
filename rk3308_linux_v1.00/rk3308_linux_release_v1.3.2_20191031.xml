@@ -5,7 +5,7 @@
   <default remote="rk" sync-j="4"/>
   
   <project name="android/rk/platform/system/rk_tee_user" path="external/security/rk_tee_user" revision="44def95246908e23c1f415f3a25520308beb8ccf" upstream="develop-next"/>
-  <project name="android/rk/u-boot-stable" path="u-boot" revision="c02c08ab76bacba4530e37bee71f4f2be8ed7672" upstream="stable-4.4-rk3308-linux-1.2.3"/>
+  <project name="android/rk/u-boot-stable" path="u-boot" revision="571063b3532d039386509f42db6e75c51fc294f3" upstream="stable-4.4-rk3308-linux-1.2.3"/>
   <project name="linux/buildroot/dl" path="buildroot/dl" revision="74bc0446d1e0a477b77bb6a097b1850f44d0e33b" upstream="master"/>
   <project name="linux/device/rockchip" path="device/rockchip" revision="1c383753d95b568a818d1181904932b7a3c4e587" upstream="stable-rk3308-v1.2.3-20181218">
     <linkfile dest="mkfirmware.sh" src="rk3308/mkfirmware.sh"/>
@@ -13,7 +13,7 @@
     <linkfile dest="rkflash.sh" src="common/rkflash.sh"/>
     <linkfile dest="device/rockchip/.BoardConfig.mk" src="rk3308/BoardConfig.mk"/>
   </project>
-  <project name="linux/docs" path="docs" revision="c71ec032be9c6096f0818b5065d610500914c760" upstream="master"/>
+  <project name="linux/docs" path="docs" revision="f46f5e7487f7685009f823e1f765a0233bb33052" upstream="master"/>
   <project name="linux/external/DuerClientSDK" path="external/DuerClientSDK" revision="e366033a83adb6187ee765915696d70cd36b4231" upstream="master_64bit"/>
   <project name="linux/external/LocalPlayer" path="external/LocalPlayer" revision="e7d5cc72e5f0da13f2765aa02bd22d03ebc82750" upstream="master"/>
   <project name="linux/external/WakeWordAgent" path="external/wakeWordAgent" revision="4a5a3c2d9d991e392894d1e5345b7487655d3cc6" upstream="master"/>
@@ -51,12 +51,12 @@
     <linkfile dest="tools/linux/Linux_Pack_Firmware/rockdev/mkupdate.sh" src="linux/Linux_Pack_Firmware/rockdev/rk3308-mkupdate.sh"/>
     <linkfile dest="tools/linux/Linux_Pack_Firmware/rockdev/package-file" src="linux/Linux_Pack_Firmware/rockdev/rk3308-package-file"/>
   </project>
-  <project name="rk/kernel-stable" path="kernel" revision="c6f36f504379a51ba53ccd30b85019337e1715c1" upstream="stable-4.4-rk3308-linux"/>
+  <project name="rk/kernel-stable" path="kernel" revision="b47bda0fc9dd12c65219c827d4f2517a5e7a5434" upstream="stable-4.4-rk3308-linux"/>
   <project name="rk/prebuilts/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" path="prebuilts/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" revision="f96f76d6be89a6e28d4dac1f233f9aca9921f69b" upstream="master"/>
   <project name="rk/prebuilts/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" path="prebuilts/gcc/linux-x86/arm/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" revision="dd4df7dff4f1df65d78939a958b760a79e3650a1" upstream="master"/>
-  <project name="rk/rk1108/buildroot" path="buildroot" revision="61014ab6e698c5664eece24a384256c68ac37787" upstream="stable-rk3308-v1.2.3-20190108">
+  <project name="rk/rk1108/buildroot" path="buildroot" revision="c6ec5321d75215fd6114cf3a5aa17c53dce23b3c" upstream="stable-rk3308-v1.2.3-20190108">
     <linkfile dest="Makefile" src="build/Makefile"/>
     <linkfile dest="envsetup.sh" src="build/envsetup.sh"/>
   </project>
-  <project name="rk/rkbin-stable" path="rkbin" revision="c5ddef1569b0b2e4c3d32cc50196085e78ee5f3b" upstream="stable-4.4-rk3308-linux-1.2.3"/>
+  <project name="rk/rkbin-stable" path="rkbin" revision="864654a0849fa1facd8f53eb7509620a232d3c07" upstream="stable-4.4-rk3308-linux-1.2.3"/>
 </manifest>
