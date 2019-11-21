@@ -1,0 +1,70 @@
+===========RV1108 Linux SDK Release Note===========
+
+[rv1108_linux_release_v2.3.2_20191120.xml change log]
+
+1. Buildroot updates:
+        (1) deprecat librkrga, use the interface of linux-rga;
+        (2) rkcamera: support reload configure file;
+        (3) optimize the image quality of OV5695;
+        (4) process_units: add H264EncodeProcess;
+        (5) support sdcard auto mount by eudev;
+        (6) support Face AE function;
+
+2. Kernel updates:
+        (1) update RGA2 driver;
+        (2) fix ov4689 power up failed randomly;
+        (3) fix RK1608 hangup randomly；
+
+3. Loader updates:
+        (1) move loader to 48M address;
+
+4. Docs updates:
+        (1) add English version of RV1108 Developer Guide;
+
+[rv1108_linux_release_v2.3.0_20191009.xml change log]
+
+1. build enviornment updates:
+	(1) use the original build system of buildroot;
+
+2. Buildroot updates:
+	(1) add rkcamera package;
+	(2) add process_units package;
+	(3) fix bugs of face_service;
+	(4) camerahal update to v2.0.c.0;
+	(6) add device_manager package;
+	(7) updater: support remote firmware update;
+	(8) pcba: support user defined test case;
+
+3. Kernel updates:
+	(1) set DSP clock to 480M;
+	(2) make power on more faster;
+	(3) support XMC series flash;
+	(4) update ftl algorithm to support discard mechanism;
+	(5) fix perf tool compile problem;
+
+4. Loader updates:
+	(1) update ftl algorithm to version: 5.0.50 20190215;
+
+5. Fast Boot updates:
+	(1) add model preload mechanism in kernel;
+	(2) preload RK1608 firmware in loader;
+	(3) make IR image output as fast as possible of RK1608;
+
+6. Algorithm updates:
+	(1) 2D live detection update to v1.0.1_20191015;
+	(2) 3D live detection update to v1.0.2_20191012;
+	(3) resupport 3DNR algorithm in V2.3 SDK;
+
+7. Tool updates:
+	(1) update PCBATool_Setup_V1.0.9_0904_1108.exe;
+
+8. Docs updates:
+	(1) update documents;
+
+
+[rv1108_linux_release_v2.2.1_20190912.xml change log]
+
+    1. optimize face detection algorithm;
+
+
+

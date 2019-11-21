@@ -1,5 +1,26 @@
 ===========RV1108 Linux SDK Release Note===========
-【rv1108_linux_release_v2.3.0_20191009.xml 更新日志】
+
+[rv1108_linux_release_v2.3.2_20191120.xml 更新日志]
+1. Buildroot更新：
+        (1) 采用与其他平台一致的linux-rga包，弃用librkrga包；
+        (2) rkcamera支持配置文件重新加载，支持摄像头切换；
+        (3) 优化OV5695摄像头效果；
+        (4) process_units增加编码录像功能PU；
+        (5) 支持基于eudev的SD卡自动挂载；
+        (6) 支持Face AE功能；
+
+2. Kernel更新：
+        (1) 升级RGA2驱动；
+        (2) 解决一些Camera概率性启动失败问题；
+        (3) 解决RK1608概率性死机问题；
+
+3. Loader更新：
+        (1) 标准化loader加载运行地址，目前运行在48M；
+
+4. Docs更新：
+        (1) 增加英文版开发指南；
+
+[rv1108_linux_release_v2.3.0_20191009.xml 更新日志]
 
 1. 编译环境更新：
 	(1) 移除rvmk编译规则，导入所有软件包到Buildroot;
@@ -42,12 +63,12 @@
 	(1) 添加更多的文档说明支持;
 
 
-【rv1108_linux_release_v2.2.1_20190912.xml 更新日志】
+[rv1108_linux_release_v2.2.1_20190912.xml 更新日志]
 
     1.修复人脸识别时会卡显示的问题;
 
 
-【rv1108_linux_release_v2.2_20190705.xml 更新日志】
+[rv1108_linux_release_v2.2_20190705.xml 更新日志]
 
 1、支持Vendor Storage；
 2、更进一步优化基于eMMC方案的开机速度；
@@ -79,7 +100,7 @@
 	(4) 减少sram stack大小，解决sram越界的问题；
 
 
-【rv1108_linux_release_v2.1_20190329.xml 更新日志】
+[rv1108_linux_release_v2.1_20190329.xml 更新日志]
 
 app更新:
 1、添加at_server
