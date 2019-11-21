@@ -43,7 +43,7 @@
   <project name="rk/rk1108/framework/messenger" path="framework/messenger" revision="dfe88b57ce2b09cef3df4d75bac52900b937b753" upstream="master"/>
   <project name="rk/rk1108/framework/model_loader" path="framework/model_loader" revision="f466d415d9c003b39c97ea16378d58ee2108cc19" upstream="master"/>
   <project name="rk/rk1108/framework/preisp" path="framework/preisp" revision="f26f3e7fcf5c22afa9f414f66b5ba3f83c8c5cb5" upstream="master"/>
-  <project name="rk/rk1108/framework/process_units" path="framework/process_units" revision="7575f9606f168a9a6686c6cc73a8917ddb9cc6e4" upstream="master"/>
+  <project name="rk/rk1108/framework/process_units" path="framework/process_units" revision="d41a1241def853c1eb07b2435488585cefc4ee65" upstream="master"/>
   <project name="rk/rk1108/framework/rkcamera" path="framework/rkcamera" revision="c3db37584fdeed6e319a726269c79bf5345c748d" upstream="master"/>
   <project name="rk/rk1108/framework/rkface" path="framework/rkface" revision="73581ce3719c19c9fb70565da1d40790d9bf3410" upstream="master"/>
   <project name="rk/rk1108/framework/rknr" path="framework/rknr" revision="6ed7866277202278b0b5531dc83a8c59b43818ab" upstream="master"/>
