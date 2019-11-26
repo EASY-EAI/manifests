@@ -6,7 +6,7 @@
 
   <project name="android/platform/external/libdrm" path="external/libdrm" revision="696a303b72faf2dd9a0850aa31e678b29e3aec08" upstream="rk33/mid/9.0/develop"/>
   <project name="android/rk/platform/system/rk_tee_user" path="external/security/rk_tee_user" revision="dd23392ad8ee8e0e7bee81030270b33a31adbc25" upstream="master"/>
-  <project name="android/rk/u-boot-stable" path="u-boot" revision="b1758edae0a58989b9763cb34aae09211a6db8a7" upstream="stable-4.4-rk3288-linux-v2.x"/>
+  <project name="android/rk/u-boot-stable" path="u-boot" revision="d65bf0c630844cddb5105ca99ad00ca6dd50bbc3" upstream="stable-4.4-rk3288-linux-v2.x"/>
   <project name="linux/app/QLauncher" path="app/QLauncher" revision="c45f4a2f479e0d18a0f7593970902197808d8c1f" upstream="develop"/>
   <project name="linux/app/qcamera" path="app/qcamera" revision="04bec094ca7a26a4284d09641775394a0e4e3e50" upstream="master"/>
   <project name="linux/app/qfm" path="app/qfm" revision="ddb6afcb9a48846d7590281339016d7a7894a51a" upstream="master"/>
