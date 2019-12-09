@@ -1,5 +1,19 @@
 ===========RK3326 Linux SDK Release Note===========
 
+[ rk3326_linux_release_v1.2.2_20191205.xml change log ]
+
+kernel
+1, fixes upgrade issue for nand flash
+
+rkbin
+1,fixes IDB backup regions break up the FTL data region
+
+u-boot
+1,fixes IDB backup regions break up the FTL data region
+
+camera_engine_rkisp
+1, remove dependancy with libdrm that fixes the crash whitout the display system
+
 [ rk3326_linux_release_v1.2.1_20191012.xml change log ]
 
 kernel
