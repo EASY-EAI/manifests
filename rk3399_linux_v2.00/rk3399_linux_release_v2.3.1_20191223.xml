@@ -83,7 +83,7 @@
   <project name="rk/mpp" path="external/mpp" revision="a9d6b3a994662411d1ac4cad1fbbd6e4a0831fec" upstream="develop"/>
   <project name="rk/prebuilts/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" path="prebuilts/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" revision="f96f76d6be89a6e28d4dac1f233f9aca9921f69b" upstream="master"/>
   <project name="rk/prebuilts/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" path="prebuilts/gcc/linux-x86/arm/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" revision="dd4df7dff4f1df65d78939a958b760a79e3650a1" upstream="master"/>
-  <project name="rk/rk1108/buildroot" path="buildroot" revision="b84c199f44621ef4877c32ff8b398f5d2058b7eb" upstream="stable-rk3399-v2.3.0-20191203">
+  <project name="rk/rk1108/buildroot" path="buildroot" revision="c81ae7a66f84518d67d33c859ba0fc3c2daf24e2" upstream="stable-rk3399-v2.3.0-20191203">
     <linkfile dest="Makefile" src="build/Makefile"/>
     <linkfile dest="envsetup.sh" src="build/envsetup.sh"/>
   </project>
