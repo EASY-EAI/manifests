@@ -13,7 +13,7 @@
   <project name="linux/external/libcutils" path="external/libcutils" revision="973b41906854a32379809b11138afbf7016563a0" upstream="master"/>
   <project name="linux/external/liblog" path="external/liblog" revision="3867fe3c8f20f46d7109c2779ac48af2f16d6ea8" upstream="master"/>
   <project name="linux/linux-rga" path="external/linux-rga" revision="98fe2301f14302aea1efaaf3954db31e2a849335" upstream="master"/>
-  <project name="linux/rkmedia" path="framework/media" revision="85ab29ade58e5de72246eb8e18d38f32e19acdb0" upstream="master"/>
+  <project name="linux/external/rkmedia" path="framework/media" revision="85ab29ade58e5de72246eb8e18d38f32e19acdb0" upstream="master"/>
   <project name="rk/mpp" path="external/mpp" revision="8ca9d3cec79b610d35b463e760702c3d9aa58c55" upstream="develop"/>
   <project name="rk/rk1108/apps/at_server" path="app/at_server" revision="f38dace44357bcb4ccc8bdbdf2096bfb5646b7c7" upstream="master"/>
   <project name="rk/rk1108/apps/cvr" path="app/cvr" revision="36ed275c99f86c2138c8c0646192ec1aaf29a065" upstream="master"/>

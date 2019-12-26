@@ -75,7 +75,7 @@
   </project>
   <project name="linux/recovery" path="external/recovery" revision="f149c1603c9c8348d44f2cb560440d7c68f5c77d" upstream="develop"/>
   <project name="linux/rk-rootfs-build" path="debian" revision="d57c696d0e74e1b57988b5371b949fd3e51f58cb" upstream="master"/>
-  <project name="linux/rkmedia" path="external/rkmedia" revision="fbe078dd27059733466a48ccc62cd26488121252" upstream="master"/>
+  <project name="linux/external/rkmedia" path="external/rkmedia" revision="fbe078dd27059733466a48ccc62cd26488121252" upstream="master"/>
   <project name="linux/security/bin" path="external/security/bin" revision="1045db0528dc6d797edd5b4c3f48cf21f73ec5da" upstream="master"/>
   <project name="linux/tools" path="tools" revision="c0fb32bfb7ba065eb3f77778a379606e6e154c44" upstream="master">
     <linkfile dest="tools/windows/AndroidTool/AndroidTool_Release/config.cfg" src="windows/AndroidTool/AndroidTool_Release/rk3399-config.cfg"/>

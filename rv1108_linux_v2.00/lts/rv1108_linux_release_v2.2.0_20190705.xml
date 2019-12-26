@@ -11,7 +11,7 @@
   <project name="linux/external/alsa-utils" path="external/alsa-utils" revision="a7c6afebd94bec1eeab0a34f97e99df7e0521e3c" upstream="master"/>
   <project name="linux/external/libcutils" path="external/libcutils" revision="973b41906854a32379809b11138afbf7016563a0" upstream="master"/>
   <project name="linux/external/liblog" path="external/liblog" revision="3867fe3c8f20f46d7109c2779ac48af2f16d6ea8" upstream="master"/>
-  <project name="linux/rkmedia" path="frameworks/media" revision="cc090dbfb8d06a470a3851c07d30ecdd2bebf9d6" upstream="master"/>
+  <project name="linux/external/rkmedia" path="frameworks/media" revision="cc090dbfb8d06a470a3851c07d30ecdd2bebf9d6" upstream="master"/>
   <project name="rk/mpp" path="external/rockchip-mpp" revision="3d35398706b23b885ed89eebc49955e6c78f74c6" upstream="develop"/>
   <project name="rk/rk1108/apps/at_server" path="app/at_server" revision="ed0d3e8ce340bbfddfbec79f80fa6b4702d0fcdd" upstream="master"/>
   <project name="rk/rk1108/apps/face" path="app/face" revision="d193a32a6a94861ca247531bedd1ec468eb9c1b8" upstream="master"/>

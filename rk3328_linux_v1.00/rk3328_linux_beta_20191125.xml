@@ -67,7 +67,7 @@
   <project name="linux/linux-rga" path="external/linux-rga" revision="72e7764a9fe358e6ad50eb1b21176cc95802c7fb" upstream="master"/>
   <project name="linux/recovery" path="external/recovery" revision="c36e724936464867f470c86135f436e80a9f57a1" upstream="develop"/>
   <project name="linux/rk-rootfs-build" path="debian" revision="bd15a9dd1616d135a2334cb46b26efee4d2bc8e8" upstream="master"/>
-  <project name="linux/rkmedia" path="external/rkmedia" revision="648b35733464e43ccde5d48817aa54b80dc0c02b" upstream="master"/>
+  <project name="linux/external/rkmedia" path="external/rkmedia" revision="648b35733464e43ccde5d48817aa54b80dc0c02b" upstream="master"/>
   <project name="linux/security/bin" path="external/security/bin" revision="c9857d10000038872858ebe1d6c8ee63d544178c" upstream="master"/>
   <project name="linux/tools" path="tools" revision="c0fb32bfb7ba065eb3f77778a379606e6e154c44" upstream="master">
     <linkfile dest="tools/windows/AndroidTool/AndroidTool_Release/config.cfg" src="windows/AndroidTool/AndroidTool_Release/rk3328-config.cfg"/>
