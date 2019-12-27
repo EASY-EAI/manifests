@@ -72,7 +72,7 @@
   <project name="linux/recovery" path="external/recovery" revision="349d290f82d12ef820cb5f076ee30c3546821af1" upstream="develop"/>
   <project name="linux/rk-rootfs-build" path="debian" revision="91a4ae0b273326c6fb467954178b965da5eef99d" upstream="master"/>
   <project name="linux/security/bin" path="external/security/bin" revision="b4fc7a80722e1daed614a94a5de3da65879868a2" upstream="master"/>
-  <project name="linux/tools" path="tools" revision="4c417796e3d45b926124cdf4613ba25f1ee25832" upstream="master">
+  <project name="linux/tools" path="tools" revision="285c22fbec060ddf979c46530b8153d8f3d51331" upstream="master">
     <linkfile dest="tools/windows/AndroidTool/AndroidTool_Release/config.cfg" src="windows/AndroidTool/AndroidTool_Release/rk3399-config.cfg"/>
     <linkfile dest="tools/windows/AndroidTool/rockdev/package-file" src="windows/AndroidTool/rockdev/rk3399-package-file"/>
     <linkfile dest="tools/windows/AndroidTool/rockdev/mkupdate.bat" src="windows/AndroidTool/rockdev/rk3399-mkupdate.bat"/>

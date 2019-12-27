@@ -49,7 +49,7 @@
   <project name="linux/linux-rga" path="external/linux-rga" revision="87bc5bc1053f4b9127fb252134cef8afb26c9a9c" upstream="master"/>
   <project name="linux/recovery" path="external/recovery" revision="1aaf48aa6512ff7c988bed6493c7526adabd9169" upstream="develop"/>
   <project name="linux/security/bin" path="external/security/bin" revision="d6676eb02c8a1b4966df7d8c4bb203ea25fc98b2" upstream="master"/>
-  <project name="linux/tools" path="tools" revision="be5e30128c75cd2f1e5b587c622f4e71789cdeaa" upstream="master">
+  <project name="linux/tools" path="tools" revision="376143e0ea7f9544477750256ee6bdbbb06c1ec8" upstream="master">
     <linkfile dest="tools/windows/AndroidTool/AndroidTool_Release/config.cfg" src="windows/AndroidTool/AndroidTool_Release/rk312x-config.cfg"/>
     <linkfile dest="tools/windows/AndroidTool/rockdev/package-file" src="windows/AndroidTool/rockdev/rk312x-package-file"/>
     <linkfile dest="tools/windows/AndroidTool/rockdev/mkupdate.bat" src="windows/AndroidTool/rockdev/rk312x-mkupdate.bat"/>

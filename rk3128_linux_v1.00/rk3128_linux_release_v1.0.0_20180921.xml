@@ -35,7 +35,7 @@
   <project name="linux/libmali" path="external/libmali" revision="b5b0669b904494ccb23fcf5bbd139cf559a3e822" upstream="master"/>
   <project name="linux/linux-rga" path="external/linux-rga" revision="eb14310e72e2f76eb78c0d6dafc350af8a25c3d8" upstream="master"/>
   <project name="linux/recovery" path="external/recovery" revision="7477e27f9795f09520cc5db1faeaf85efc64e1de" upstream="develop"/>
-  <project name="linux/tools" path="tools" revision="ca6f2276623af8cefac4b382fe643aa43aa896bf" upstream="master">
+  <project name="linux/tools" path="tools" revision="376143e0ea7f9544477750256ee6bdbbb06c1ec8" upstream="master">
     <linkfile dest="tools/windows/AndroidTool/AndroidTool_Release/config.cfg" src="windows/AndroidTool/AndroidTool_Release/px3se-config.cfg"/>
     <linkfile dest="tools/windows/AndroidTool/rockdev/package-file" src="windows/AndroidTool/rockdev/px3se-package-file"/>
     <linkfile dest="tools/windows/AndroidTool/rockdev/mkupdate.bat" src="windows/AndroidTool/rockdev/px3se-mkupdate.bat"/>

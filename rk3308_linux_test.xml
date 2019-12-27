@@ -46,7 +46,7 @@
   <project name="linux/recovery" path="external/recovery" revision="8d004833b17ccb64df5f508129c49a512aa08ad0" upstream="develop"/>
   <project name="linux/security/bin" path="external/security/bin" revision="63458426583c44369ba4eee8dd3721a8d9d62aff" upstream="master"/>
   <project name="linux/tiny-bootloader" path="tiny-bootloader" revision="master"/>
-  <project name="linux/tools" path="tools" revision="7621eb9739c265868968a340b5ab099477488b0c" upstream="master">
+  <project name="linux/tools" path="tools" revision="376143e0ea7f9544477750256ee6bdbbb06c1ec8" upstream="master">
     <linkfile dest="tools/windows/AndroidTool/AndroidTool_Release/config.cfg" src="windows/AndroidTool/AndroidTool_Release/rk3308-config.cfg"/>
     <linkfile dest="tools/windows/AndroidTool/rockdev/package-file" src="windows/AndroidTool/rockdev/rk3308-package-file"/>
     <linkfile dest="tools/windows/AndroidTool/rockdev/mkupdate.bat" src="windows/AndroidTool/rockdev/rk3308-mkupdate.bat"/>
