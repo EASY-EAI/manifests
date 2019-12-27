@@ -39,7 +39,7 @@
   <project name="linux/gstreamer-rockchip" path="external/gstreamer-rockchip" revision="c927a1d1d7cf4e6a0becbbc1a2b7b593b0c07396" upstream="master"/>
   <project name="linux/linux-rga" path="external/linux-rga" revision="72e7764a9fe358e6ad50eb1b21176cc95802c7fb" upstream="master"/>
   <project name="linux/recovery" path="external/recovery" revision="c36e724936464867f470c86135f436e80a9f57a1" upstream="develop"/>
-  <project name="linux/tools" path="tools" revision="c0fb32bfb7ba065eb3f77778a379606e6e154c44" upstream="master">
+  <project name="linux/tools" path="tools" revision="376143e0ea7f9544477750256ee6bdbbb06c1ec8" upstream="master">
     <linkfile dest="tools/windows/AndroidTool/AndroidTool_Release/config.cfg" src="windows/AndroidTool/AndroidTool_Release/rk1808-config.cfg"/>
     <linkfile dest="tools/windows/AndroidTool/rockdev/package-file" src="windows/AndroidTool/rockdev/rk1808-package-file"/>
     <linkfile dest="tools/windows/AndroidTool/rockdev/mkupdate.bat" src="windows/AndroidTool/rockdev/rk1808-mkupdate.bat"/>
