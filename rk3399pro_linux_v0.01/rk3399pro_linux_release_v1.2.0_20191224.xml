@@ -36,7 +36,7 @@
   </project>
   <project name="linux/distro" path="distro" revision="5d71d4468bd592adb39e1cf5f053ba023beac9b2" upstream="master"/>
   <project name="linux/distro/download" path="distro/download" revision="83788d77516e2f669e0718ff85585f49cbe4caf8" upstream="master"/>
-  <project name="linux/docs" path="docs" revision="7cf06158b0a5f6c692839c7efdfe372f73653c92" upstream="master"/>
+  <project name="linux/docs" path="docs" revision="e456b0b3cfa8710035f836887d3b681177055e5a" upstream="master"/>
   <project name="linux/external/DuerClientSDK" path="external/DuerClientSDK" revision="e366033a83adb6187ee765915696d70cd36b4231" upstream="master_64bit"/>
   <project name="linux/external/LocalPlayer" path="external/LocalPlayer" revision="e7d5cc72e5f0da13f2765aa02bd22d03ebc82750" upstream="master"/>
   <project name="linux/external/WakeWordAgent" path="external/wakeWordAgent" revision="4a5a3c2d9d991e392894d1e5345b7487655d3cc6" upstream="master"/>
