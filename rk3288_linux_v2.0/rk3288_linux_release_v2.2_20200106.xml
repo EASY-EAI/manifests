@@ -54,14 +54,6 @@
   <project name="linux/gstreamer-rockchip" path="external/gstreamer-rockchip" revision="9987a660d6f53553f9c74c042888eb417833c932" upstream="master"/>
   <project name="linux/libmali" path="external/libmali" revision="67a812cfe7b47826a2a718ef09c87adef8e19874" upstream="master"/>
   <project name="linux/linux-rga" path="external/linux-rga" revision="72e7764a9fe358e6ad50eb1b21176cc95802c7fb" upstream="master"/>
-  <project name="linux/poky" path="yocto/poky" revision="faeb366bc3eb322f5f203cfe08dc4cf529a822e9" upstream="thud">
-    <linkfile dest="yocto/scripts" src="scripts"/>
-    <linkfile dest="yocto/bitbake" src="bitbake"/>
-    <linkfile dest="yocto/meta-poky" src="meta-poky"/>
-    <linkfile dest="yocto/.templateconf" src=".templateconf"/>
-    <linkfile dest="yocto/oe-init-build-env" src="oe-init-build-env"/>
-    <linkfile dest="yocto/README.md" src="../../.repo/manifests/README_yocto.md"/>
-  </project>
   <project name="linux/recovery" path="external/recovery" revision="fb73491961a1b902310f1dd0cbfb0b0281f01363" upstream="develop"/>
   <project name="linux/rk-rootfs-build" path="debian" revision="d33ac4a299e9319967c755ced510a37b54c9ae5a" upstream="master"/>
   <project name="linux/security/bin" path="external/security/bin" revision="c9857d10000038872858ebe1d6c8ee63d544178c" upstream="master"/>
