@@ -26,7 +26,7 @@
   <project name="linux/external/bluez-alsa" path="external/bluez-alsa" revision="514a57b440a9467400e3c5fd164df719f2fc79ee" upstream="master"/>
   <project name="linux/external/broadcom_bsa" path="external/broadcom_bsa" revision="9cd208a2d6a2e2e5d7414f625bcd655819e20e29" upstream="master"/>
   <project name="linux/external/camera_engine_rkisp" path="external/camera_engine_rkisp" revision="948c954f9c1d89ce963a07d500d3eda4d8171984" upstream="master"/>
-  <project name="linux/external/minigui" path="external/minigui" remote="rk" revision="d0b695bf83e1746d5566924e2056444eecd02314" upstream="master"/>
+  <project name="linux/external/minigui" path="external/minigui" remote="rk" revision="291de87c94b40a66ffa562c522ec3a99e96e5fc7" upstream="master"/>
   <project name="linux/external/mpv" path="external/mpv" revision="851e19b414e6d01f8200d04d9cf79741ffc93090" upstream="rockchip/release/0.9"/>
   <project name="linux/external/rk_pcba_test" path="external/rk_pcba_test" revision="25643cf5f522a71ed2a918b0abe15e363a893504" upstream="master"/>
   <project name="linux/external/rkmedia" path="external/rkmedia" revision="14240b3ee093e737a8e0d5481787a44af30055eb" upstream="master"/>
@@ -47,7 +47,7 @@
     <linkfile dest="tools/linux/Linux_Pack_Firmware/rockdev/mkupdate.sh" src="linux/Linux_Pack_Firmware/rockdev/rk1808-mkupdate.sh"/>
     <linkfile dest="tools/linux/Linux_Pack_Firmware/rockdev/package-file" src="linux/Linux_Pack_Firmware/rockdev/rk1808-package-file"/>
   </project>
-  <project name="linux/kernel_rk1808" path="kernel" revision="b667cb81a13095efa7e6c1b7d0d1ea93ffb9fba5" upstream="rk1808_release"/>
+  <project name="linux/kernel_rk1808" path="kernel" revision="cdac6dd3bdb6dcad88cbc810cac246971c017915" upstream="rk1808_release"/>
   <project name="rk/mpp" path="external/mpp" revision="7c26b23bac7737d62631077748bf19bf78bad9e6" upstream="develop"/>
   <project name="rk/prebuilts/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" path="prebuilts/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" revision="f96f76d6be89a6e28d4dac1f233f9aca9921f69b" upstream="master"/>
   <project name="rk/rockx" path="external/rockx" revision="b4a9ae839cafb502ab6b739f1497fe0d696bad91" upstream="master"/>
