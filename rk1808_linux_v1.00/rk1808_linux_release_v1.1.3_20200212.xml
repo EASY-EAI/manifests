@@ -26,7 +26,7 @@
   <project name="linux/external/bluez-alsa" path="external/bluez-alsa" revision="514a57b440a9467400e3c5fd164df719f2fc79ee" upstream="master"/>
   <project name="linux/external/broadcom_bsa" path="external/broadcom_bsa" revision="9cd208a2d6a2e2e5d7414f625bcd655819e20e29" upstream="master"/>
   <project name="linux/external/camera_engine_rkisp" path="external/camera_engine_rkisp" revision="948c954f9c1d89ce963a07d500d3eda4d8171984" upstream="master"/>
-  <project name="linux/external/minigui" path="external/minigui" remote="rk" revision="291de87c94b40a66ffa562c522ec3a99e96e5fc7" upstream="master"/>
+  <project name="linux/external/minigui" path="external/minigui" remote="rk" revision="cda3af8062fa6ed9903a40ca61c088278708966f" upstream="master"/>
   <project name="linux/external/mpv" path="external/mpv" revision="851e19b414e6d01f8200d04d9cf79741ffc93090" upstream="rockchip/release/0.9"/>
   <project name="linux/external/rk_pcba_test" path="external/rk_pcba_test" revision="25643cf5f522a71ed2a918b0abe15e363a893504" upstream="master"/>
   <project name="linux/external/rkmedia" path="external/rkmedia" revision="14240b3ee093e737a8e0d5481787a44af30055eb" upstream="master"/>
