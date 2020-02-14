@@ -20,7 +20,7 @@
   <project name="linux/app/qplayer" path="app/qplayer" revision="eb806f4d2da10181d177483f441a51f8488a957a" upstream="master"/>
   <project name="linux/app/settings" path="app/qsetting" revision="5bc5db6ba0b231718603860fa7bc803c9bbcf155" upstream="develop"/>
   <project name="linux/app/demo" path="app/demo" revision="d931cd410c047bea5738adb6fb36f48d7e2182c4" upstream="master"/>
-  <project name="linux/app/ficial_gate" path="app/ficial_gate" revision="d5c5d9b60a9061529c88a19d6614c23ad27cd63a" upstream="master"/>
+  <project name="linux/app/ficial_gate" path="app/ficial_gate" revision="ca2679e785116dcf033571855665ff50219727a6" upstream="master"/>
   <project name="linux/external/alsa-config" path="external/alsa-config" revision="30d750e5dc846d15d1a5159e47bf3e1121953eb3" upstream="master"/>
   <project name="linux/external/audioservice" path="external/audioservice" revision="68fa86817d762d4b761add42dcd03abe746bea61" upstream="master"/>
   <project name="linux/external/bluez-alsa" path="external/bluez-alsa" revision="514a57b440a9467400e3c5fd164df719f2fc79ee" upstream="master"/>
