@@ -92,7 +92,6 @@
     <linkfile dest="yocto/meta-poky" src="meta-poky"/>
     <linkfile dest="yocto/.templateconf" src=".templateconf"/>
     <linkfile dest="yocto/oe-init-build-env" src="oe-init-build-env"/>
-    <linkfile dest="yocto/README.md" src="../../.repo/manifests/README_yocto.md"/>
   </project>
   <project name="linux/recovery" path="external/recovery" revision="f149c1603c9c8348d44f2cb560440d7c68f5c77d" upstream="develop"/>
   <project name="linux/rk-rootfs-build" path="debian" revision="61fee89571170fc62ca4083e9cb7334831eab26b" upstream="master"/>
