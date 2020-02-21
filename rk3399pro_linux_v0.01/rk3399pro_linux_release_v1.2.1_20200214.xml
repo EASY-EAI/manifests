@@ -100,7 +100,7 @@
     <linkfile dest="tools/linux/Linux_Pack_Firmware/rockdev/mkupdate.sh" src="linux/Linux_Pack_Firmware/rockdev/rk3399-mkupdate.sh"/>
     <linkfile dest="tools/linux/Linux_Pack_Firmware/rockdev/package-file" src="linux/Linux_Pack_Firmware/rockdev/rk3399-package-file"/>
   </project>
-  <project name="rk/kernel-stable" path="kernel" revision="4336055326f671bd057fc6823564fb92aa458c1b" upstream="stable-4.4-rk3399pro-linux"/>
+  <project name="rk/kernel-stable" path="kernel" revision="4ead1ae5f2cac3a178f61b887961a6c698f7d9a4" upstream="stable-4.4-rk3399pro-linux"/>
   <project name="rk/kernel-stable" path="npu/kernel" revision="c633a8f44b8eded2547577b78da69416de22d601" upstream="stable-4.4-rk3399pro_npu-linux"/>
   <project name="rk/mpp" path="external/mpp" revision="a8ef9864c12a31a2cb7778a86aed698faea3627a" upstream="develop"/>
   <project name="rk/prebuilts/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" path="prebuilts/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" revision="f96f76d6be89a6e28d4dac1f233f9aca9921f69b" upstream="master"/>
