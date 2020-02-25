@@ -89,7 +89,7 @@
   <project name="linux/linux-rga" path="external/linux-rga" revision="72e7764a9fe358e6ad50eb1b21176cc95802c7fb" upstream="master"/>
   <project name="linux/linux-rga" path="npu/external/linux-rga" revision="72e7764a9fe358e6ad50eb1b21176cc95802c7fb" upstream="master"/>
   <project name="linux/recovery" path="external/recovery" revision="fb73491961a1b902310f1dd0cbfb0b0281f01363" upstream="develop"/>
-  <project name="linux/rk-rootfs-build" path="debian" revision="e8f1a483b20876aea1a42d8d15a023d43d0b32a3" upstream="master"/>
+  <project name="linux/rk-rootfs-build" path="debian" revision="0f1646c4d3c0fb47af823cf8352888e16e4bd890" upstream="master"/>
   <project name="linux/external/rkmedia" path="external/rkmedia" revision="6c796505c1d327f06ec6ade0df697ff84bfe75b1" upstream="master"/>
   <project name="linux/external/rkmedia" path="npu/external/rkmedia" revision="6c796505c1d327f06ec6ade0df697ff84bfe75b1" upstream="master"/>
   <project name="linux/security/bin" path="external/security/bin" revision="c9857d10000038872858ebe1d6c8ee63d544178c" upstream="master"/>
