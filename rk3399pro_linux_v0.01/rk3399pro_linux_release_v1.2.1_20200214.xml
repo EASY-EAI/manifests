@@ -68,7 +68,7 @@
   <project name="linux/external/rknn_demo" path="external/rknn_demo" revision="9a9b7e428a96405c027a85510b1520d581fdce95" upstream="master"/>
   <project name="linux/external/rknpu" path="external/rknpu" revision="fae5532786bf2c094cae0221f88c28bd339bb76c" upstream="master"/>
   <project name="linux/external/rknpu" path="npu/external/rknpu" revision="fae5532786bf2c094cae0221f88c28bd339bb76c" upstream="master"/>
-  <project name="linux/external/rknpu-fw" path="external/rknpu-fw" revision="23d2a0b92d5484b8d6a0618e7b32aa39e7c171f2" upstream="master"/>
+  <project name="linux/external/rknpu-fw" path="external/rknpu-fw" revision="809143a10ec566597a90a36258ade21b4dda95ee" upstream="master"/>
   <project name="linux/external/rkscript" path="external/rkscript" revision="67f6ef4e95ade68313b744494fba473fcbcbaafc" upstream="master"/>
   <project name="linux/external/rkscript" path="npu/external/rkscript" revision="a2da3f30146442dd4f8c415cf90b0c14dd294e31" upstream="master"/>
   <project name="linux/external/rkssd" path="external/rkssd" revision="1c50d336e770a8ce09ae33b3e09d2783d5b4c2d9" upstream="master"/>
