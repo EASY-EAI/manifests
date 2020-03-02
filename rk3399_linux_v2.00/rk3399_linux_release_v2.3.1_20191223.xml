@@ -65,7 +65,6 @@
   <project name="linux/external/uvc_app" path="external/uvc_app" revision="225dca3e52bf70b5b217f0021e7501e4268e641b" upstream="master"/>
   <project name="linux/external/wifiAutoSetup" path="external/wifiAutoSetup" revision="d2cfc6b2ca9754311542f91e481e8576fd4ecbc0" upstream="master"/>
   <project name="linux/gstreamer-rockchip" path="external/gstreamer-rockchip" revision="9987a660d6f53553f9c74c042888eb417833c932" upstream="master"/>
-  <project name="linux/internal_doc" path="docs/Soc_internal" revision="e776a6939053b9122445ff102706def2254725fd" upstream="master"/>
   <project name="linux/libmali" path="external/libmali" revision="67a812cfe7b47826a2a718ef09c87adef8e19874" upstream="master"/>
   <project name="linux/linux-rga" path="external/linux-rga" revision="72e7764a9fe358e6ad50eb1b21176cc95802c7fb" upstream="master"/>
   <project name="linux/recovery" path="external/recovery" revision="fb73491961a1b902310f1dd0cbfb0b0281f01363" upstream="develop"/>
