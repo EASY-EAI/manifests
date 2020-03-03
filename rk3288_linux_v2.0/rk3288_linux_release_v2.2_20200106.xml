@@ -43,7 +43,7 @@
   <project name="linux/external/rk_pcba_test" path="external/rk_pcba_test" revision="25643cf5f522a71ed2a918b0abe15e363a893504" upstream="master"/>
   <project name="linux/external/rkscript" path="external/rkscript" revision="a2da3f30146442dd4f8c415cf90b0c14dd294e31" upstream="master"/>
   <project name="linux/external/rkssd" path="external/rkssd" revision="1c50d336e770a8ce09ae33b3e09d2783d5b4c2d9" upstream="master"/>
-  <project name="linux/external/rktoolkit" path="external/rktoolkit" revision="0f4211cd0b61c8eb7c9ebb34a1cee3377e4cff56" upstream="master"/>
+  <project name="linux/external/rktoolkit" path="external/rktoolkit" revision="fc1ddcf4f804d1dbb55e2695a32b2aabe6016e8e" upstream="master"/>
   <project name="linux/external/rkupdate" path="external/rkupdate" revision="40b9c1ed1f69b90e97986d41b8270dc3c8042479" upstream="master"/>
   <project name="linux/external/rkwifibt" path="external/rkwifibt" revision="58820c428d2ecae6aaf5e4f00997652b9479853a" upstream="master"/>
   <project name="linux/external/softapDemo" path="external/softapDemo" revision="4c7d1bd3d28df276d263f49324b022b44b3a1c85" upstream="master"/>
