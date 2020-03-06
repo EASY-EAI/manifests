@@ -16,7 +16,7 @@
   <project name="linux/app/qplayer" path="app/qplayer" revision="eb806f4d2da10181d177483f441a51f8488a957a" upstream="master"/>
   <project name="linux/app/settings" path="app/qsetting" revision="4247044a042bdc6ca2be0b60ac2a3ae3e015f9da" upstream="develop"/>
   <project name="linux/buildroot/dl" path="buildroot/dl" revision="master"/>
-  <project name="linux/device/rockchip" path="device/rockchip" revision="5191c4a14a634efd69308210e4e4aae1d8400422" upstream="master">
+  <project name="linux/device/rockchip" path="device/rockchip" revision="629e54a53f90b14c97bc82a4052f1082ff5b8659" upstream="master">
     <linkfile dest="mkfirmware.sh" src="common/mkfirmware.sh"/>
     <linkfile dest="build.sh" src="common/build.sh"/>
     <linkfile dest="rkflash.sh" src="common/rkflash.sh"/>
