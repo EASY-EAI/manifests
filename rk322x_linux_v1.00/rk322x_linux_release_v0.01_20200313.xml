@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="../../" name="aosp" review="https://10.10.10.29"/>
+  <remote fetch="../../" name="rk" review="https://10.10.10.29"/>
+  <remote fetch="../../" name="rk-argus" review="ssh://git@10.10.10.78:2222"/>
+  <default remote="aosp" revision="refs/tags/android-6.0.1_r63" sync-j="4"/>
+  
+  <project name="rk3036_linux_echo/RKDocs" path="RKDocs" remote="rk-argus" revision="4aa2273985fe61d072fc8f9d607686a1c57dd9da"/>
+  <project name="rk3036_linux_echo/RKTools" path="RKTools" remote="rk-argus" revision="039dc7004a71361cbd438cca83b960f07e14eab1" />
+  <project groups="pdk,linux,arm" name="android/platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" revision="4b341df712969ca2ac0c3cf6294260d406b9d9be" upstream="refs/tags/android-6.0.1_r63"/>
+  <project groups="pdk,linux,arm" name="android/platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" remote="rk" revision="d73a051b1fd1d98f5c2463354fb67898f0090bdb" upstream="refs/tags/android-4.4.4_r2"/>
+  <project name="android/rk/u-boot" path="u-boot" remote="rk" revision="0dab20b86588b3e515409f9f5fa034e5f966d066" upstream="rkdevelop"/>
+  <project name="linux/external/WakeWordAgent" path="external/wakeWordAgent" remote="rk" revision="4a5a3c2d9d991e392894d1e5345b7487655d3cc6"/> 
+  <project name="linux/device/rockchip/rk322x" path="device/rockchip/rk322x" remote="rk" revision="1b263ac60a4c8021e76372a34dc451007b33c690" upstream="master">
+    <copyfile dest="mkfirmware.sh" src="mkfirmware.sh"/>
+    <copyfile dest="build_all.sh" src="build_all.sh"/>
+    <copyfile dest="envsetup.sh" src="envsetup.sh"/>
+  </project>
+  <project name="rk/kernel" path="kernel" remote="rk" revision="49fad6b2e2cb839ae794d18b6c5467a7216f80d4" upstream="develop-3.10"/>
+  <project name="rk/rk1108/buildroot" path="buildroot" remote="rk" revision="3436eefa302e7e214e89384657e6e8d6dd198eb8" upstream="rockchip/rk322x/2016.08.x"/>
+  <project name="argus/externals/liblog" path="external/liblog" remote="rk-argus" revision="3867fe3c8f20f46d7109c2779ac48af2f16d6ea8"/>
+  <project name="argus/externals/libcutils" path="external/libcutils" remote="rk-argus" revision="973b41906854a32379809b11138afbf7016563a0"/>
+  <project name="argus/externals/adb" path="external/adb" remote="rk-argus" revision="6a0ea186430dc09e006bdae2a219a999f1c91e82"/>
+  <project name="linux/external/softapDemo" path="external/softapDemo" remote="rk" revision="82908629f77a0e493d9bc6d986182bafa28603b4"/>
+  <project name="linux/external/softapServer" path="external/softapServer" remote="rk" revision="35a0ff51b6ce37b54d3f1df2c441e3284cdc62fc"/>
+  <project name="linux/external/rk_pcba_test" path="external/rk_pcba_test" remote="rk" revision="d681b9edf7071b3ae1541e9f812a28c4162c37fa"/>
+</manifest>
