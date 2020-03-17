@@ -24,7 +24,7 @@
   </project>
   <project name="linux/distro" path="distro" revision="0ae5886613cfe61e380ede5e5aff107609b39427" upstream="master"/>
   <project name="linux/distro/download" path="distro/download" revision="83788d77516e2f669e0718ff85585f49cbe4caf8" upstream="master"/>
-  <project name="linux/docs" path="docs" revision="97d25006d57962188ad28907490428240e34c469" upstream="master"/>
+  <project name="linux/docs" path="docs" revision="b0f10a793f71971fcf812919158b6f90e025a128" upstream="master"/>
   <project name="linux/external/alsa-config" path="external/alsa-config" revision="30d750e5dc846d15d1a5159e47bf3e1121953eb3" upstream="master"/>
   <project name="linux/external/bluetooth_bsa" path="external/bluetooth_bsa" revision="c1bc27bf435715541b1f9a76de2a5adcb79ef0eb" upstream="master"/>
   <project name="linux/external/bluez-alsa" path="external/bluez-alsa" revision="beec0074dec60a0b031e0b36321139da69788774" upstream="master"/>
