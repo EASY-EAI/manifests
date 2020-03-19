@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="ssh://git@www.rockchip.com.cn/linux/" name="rk"/>
+
+  <default remote="rk" sync-j="4"/>
+
+  <project name="android/RKNPUTool" path="external/RKNPUTools" revision="9ecccf4123054ad23823f1ed7c2ba6e8ea65ed96" upstream="rk33/mid/8.1/develop"/>
+  <project name="android/rk/u-boot" path="u-boot" revision="f116e38908053e80551d5454b77c890469008adf" upstream="next-dev"/>
+  <project name="linux/buildroot/dl" path="buildroot/dl" revision="ddfbe30ea232f63b2080e85907ec308ad913e43e" upstream="master"/>
+  <project name="linux/device/rockchip" path="device/rockchip" revision="399ec9dafcfbe13a57e2e178735b8c80fe7fbb67" upstream="stable-rk1808-linux">
+    <linkfile dest="mkfirmware.sh" src="common/mkfirmware.sh"/>
+    <linkfile dest="build.sh" src="common/build.sh"/>
+    <linkfile dest="rkflash.sh" src="common/rkflash.sh"/>
+    <linkfile dest="device/rockchip/.BoardConfig.mk" src="rk1808/BoardConfig.mk"/>
+  </project>
+  <project name="linux/docs" path="docs" revision="4224417a08256cc97fb1e28c1ae1d35f8d55e89b" upstream="rk1808"/>
+  <project name="linux/app/QLauncher" path="app/QLauncher" revision="d131e2d41101d967bdd2c1bbb8d523073c4d3f02" upstream="develop"/>
+  <project name="linux/app/qcamera" path="app/qcamera" revision="fc17cb9ac199095303f45aa27c59b0c901c0478b" upstream="master"/>
+  <project name="linux/app/qfm" path="app/qfm" revision="cb38ba939c7ebdb1d205b68290754a115269c7e4" upstream="master"/>
+  <project name="linux/app/qplayer" path="app/qplayer" revision="eb806f4d2da10181d177483f441a51f8488a957a" upstream="master"/>
+  <project name="linux/app/settings" path="app/qsetting" revision="5bc5db6ba0b231718603860fa7bc803c9bbcf155" upstream="develop"/>
+  <project name="linux/app/demo" path="app/demo" revision="d931cd410c047bea5738adb6fb36f48d7e2182c4" upstream="master"/>
+  <project name="linux/app/ficial_gate" path="app/ficial_gate" revision="c70f22da5ee0f57cf1af95c5ba3e6d8b9e7e98a7" upstream="release"/>
+  <project name="linux/app/face_detect" path="app/face_detect" revision="6c5631e2d192ea0d9f60a16977923b26ad5c7b0d" upstream="master"/>
+  <project name="linux/app/pose_body" path="app/pose_body" revision="4666cd40f84c7d6b88ea1cb4edeb5c3d7c0388b4" upstream="master"/>
+  <project name="linux/external/alsa-config" path="external/alsa-config" revision="30d750e5dc846d15d1a5159e47bf3e1121953eb3" upstream="master"/>
+  <project name="linux/external/audioservice" path="external/audioservice" revision="68fa86817d762d4b761add42dcd03abe746bea61" upstream="master"/>
+  <project name="linux/external/bluez-alsa" path="external/bluez-alsa" revision="514a57b440a9467400e3c5fd164df719f2fc79ee" upstream="master"/>
+  <project name="linux/external/broadcom_bsa" path="external/broadcom_bsa" revision="9cd208a2d6a2e2e5d7414f625bcd655819e20e29" upstream="master"/>
+  <project name="linux/external/camera_engine_rkisp" path="external/camera_engine_rkisp" revision="3bd891845dc42c4afa31b135723a7f364a3765f8" upstream="master"/>
+  <project name="linux/external/minigui" path="external/minigui" remote="rk" revision="cda3af8062fa6ed9903a40ca61c088278708966f" upstream="master"/>
+  <project name="linux/external/mpv" path="external/mpv" revision="851e19b414e6d01f8200d04d9cf79741ffc93090" upstream="rockchip/release/0.9"/>
+  <project name="linux/external/rk_pcba_test" path="external/rk_pcba_test" revision="25643cf5f522a71ed2a918b0abe15e363a893504" upstream="master"/>
+  <project name="linux/external/rkmedia" path="external/rkmedia" revision="14240b3ee093e737a8e0d5481787a44af30055eb" upstream="master"/>
+  <project name="linux/external/rknpu" path="external/rknpu" revision="1121c481b6fcff3f5b9982259192089c03c63725" upstream="master"/>
+  <project name="linux/external/rknn_demo" path="external/rknn_demo" revision="8e904bb5f53100fba30de4bfe655e69c2f64eedb" upstream="master"/>
+  <project name="linux/external/rkupdate" path="external/rkupdate" revision="40b9c1ed1f69b90e97986d41b8270dc3c8042479" upstream="master"/>
+  <project name="linux/external/rkwifibt" path="external/rkwifibt" revision="5b8a34dcc21b465445a007ad4bc45c1770b73a1c" upstream="master"/>
+  <project name="linux/external/rkscript" path="external/rkscript" revision="323a1f19975536890f42b82847afdfabb3a9948b" upstream="master"/>
+  <project name="linux/external/update_engine" path="external/update_engine" revision="047d95d37b628563389eb397f19fe5f1c0c8eb05" upstream="master"/>
+  <project name="linux/external/uvc_app" path="external/uvc_app" revision="91789f67aa83a4be0d4b8f663159183ac8623337" upstream="master"/>
+  <project name="linux/gstreamer-rockchip" path="external/gstreamer-rockchip" revision="c927a1d1d7cf4e6a0becbbc1a2b7b593b0c07396" upstream="master"/>
+  <project name="linux/linux-rga" path="external/linux-rga" revision="72e7764a9fe358e6ad50eb1b21176cc95802c7fb" upstream="master"/>
+  <project name="linux/recovery" path="external/recovery" revision="c36e724936464867f470c86135f436e80a9f57a1" upstream="develop"/>
+  <project name="linux/tools" path="tools" revision="31fa5fd23eb4bc3c4ffe9ac55e49d50e541ab042" upstream="master">
+    <linkfile dest="tools/windows/AndroidTool/AndroidTool_Release/config.cfg" src="windows/AndroidTool/AndroidTool_Release/rk1808-config.cfg"/>
+    <linkfile dest="tools/windows/AndroidTool/rockdev/package-file" src="windows/AndroidTool/rockdev/rk1808-package-file"/>
+    <linkfile dest="tools/windows/AndroidTool/rockdev/mkupdate.bat" src="windows/AndroidTool/rockdev/rk1808-mkupdate.bat"/>
+    <linkfile dest="tools/linux/Linux_Pack_Firmware/rockdev/mkupdate.sh" src="linux/Linux_Pack_Firmware/rockdev/rk1808-mkupdate.sh"/>
+    <linkfile dest="tools/linux/Linux_Pack_Firmware/rockdev/package-file" src="linux/Linux_Pack_Firmware/rockdev/rk1808-package-file"/>
+  </project>
+  <project name="linux/kernel_rk1808" path="kernel" revision="7f9439184a0a5910dc062225f053d4411c1eb357" upstream="rk1808_release"/>
+  <project name="rk/mpp" path="external/mpp" revision="7c26b23bac7737d62631077748bf19bf78bad9e6" upstream="develop"/>
+  <project name="rk/prebuilts/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" path="prebuilts/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" revision="f96f76d6be89a6e28d4dac1f233f9aca9921f69b" upstream="master"/>
+  <project name="rk/rockx" path="external/rockx" revision="df53920c3f7143527f61d6784b960dd446286f9f" upstream="master"/>
+  <project name="rk/rockface" path="external/rockface" revision="a4ef58f3ee50985cdbb295d160f33f0688a459b0" upstream="release"/>
+  <project name="rk/rk1108/buildroot" path="buildroot" revision="cb39d197986bdc7fa31a6b110b6cd497b77cafbb" upstream="stable-rk1808-v1.1.5-20200320">
+    <linkfile dest="Makefile" src="build/Makefile"/>
+    <linkfile dest="envsetup.sh" src="build/envsetup.sh"/>
+  </project>
+  <project name="rk/rkbin" path="rkbin" revision="67a9f9603990b90492408f5319f637a4ede059b8" upstream="master"/>
+  <project name="rk/rknn-toolkit" path="external/rknn-toolkit" revision="290123ad2d1066a1a386f6aaf873d34a363e9d12" upstream="master"/>
+</manifest>
