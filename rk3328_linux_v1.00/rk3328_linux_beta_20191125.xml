@@ -23,7 +23,7 @@
   </project>
   <project name="linux/distro" path="distro" revision="14332b5ad596f5ef96c08e80cf39c65c4239ea3c" upstream="master"/>
   <project name="linux/distro/download" path="distro/download" revision="7495c8063df28b17caf586b98214c5c69e3912ef" upstream="master"/>
-  <project name="linux/docs" path="docs" revision="47272d7bbfd2bfa6970bc670ff57afd2a609141a" upstream="master"/>
+  <project name="linux/docs" path="docs" revision="b8c32622a1610f3852258b7c09efa60d25aa998a" upstream="rk3328-dept3"/>
   <project name="linux/external/LocalPlayer" path="external/LocalPlayer" revision="e7d5cc72e5f0da13f2765aa02bd22d03ebc82750" upstream="master"/>
   <project name="linux/external/WakeWordAgent" path="external/wakeWordAgent" revision="4a5a3c2d9d991e392894d1e5345b7487655d3cc6" upstream="master"/>
   <project name="linux/external/alsa-config" path="external/alsa-config" revision="30d750e5dc846d15d1a5159e47bf3e1121953eb3" upstream="master"/>
@@ -65,7 +65,6 @@
   <project name="linux/libmali" path="external/libmali" revision="67a812cfe7b47826a2a718ef09c87adef8e19874" upstream="master"/>
   <project name="linux/linux-rga" path="external/linux-rga" revision="72e7764a9fe358e6ad50eb1b21176cc95802c7fb" upstream="master"/>
   <project name="linux/recovery" path="external/recovery" revision="c36e724936464867f470c86135f436e80a9f57a1" upstream="develop"/>
-  <project name="linux/rk-rootfs-build" path="debian" revision="bd15a9dd1616d135a2334cb46b26efee4d2bc8e8" upstream="master"/>
   <project name="linux/external/rkmedia" path="external/rkmedia" revision="648b35733464e43ccde5d48817aa54b80dc0c02b" upstream="master"/>
   <project name="linux/security/bin" path="external/security/bin" revision="c9857d10000038872858ebe1d6c8ee63d544178c" upstream="master"/>
   <project name="linux/tools" path="tools" revision="376143e0ea7f9544477750256ee6bdbbb06c1ec8" upstream="master">
