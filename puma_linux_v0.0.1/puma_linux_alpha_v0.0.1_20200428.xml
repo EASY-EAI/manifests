@@ -39,7 +39,6 @@
   <project name="linux/external/broadcom_bsa" path="external/broadcom_bsa" revision="eb2891ea5122619d71aabdec22df7815b2c08153" upstream="master"/>
   <project name="linux/external/camera_engine_rkaiq" path="external/camera_engine_rkaiq" revision="889290d5a8181426aeb4e8921dec54aa8e50b859" upstream="master"/>
   <project name="linux/external/common_algorithm" path="external/common_algorithm" revision="037d70504b93a0bb4eda0aa63ca5dd6c4f7761cf" upstream="master"/>
-  <project name="linux/external/deviceio" path="external/deviceio" revision="4119e04cebbd88ebe374498f41cf4b7327ada313" upstream="master"/>
   <project name="linux/external/eq_drc_process" path="external/eq_drc_process" revision="f9db232e27eef12b4454673140f049c11ccc1a0a" upstream="master"/>
   <project name="linux/external/minigui" path="external/minigui" revision="b55f2d6f5e9ef135e16079e432819695ec29ead7" upstream="master"/>
   <project name="linux/external/minigui_desktop" path="external/minigui_desktop" revision="9fa64dabb6bae25c07c2fc6ed40de6123f71f493" upstream="master"/>
