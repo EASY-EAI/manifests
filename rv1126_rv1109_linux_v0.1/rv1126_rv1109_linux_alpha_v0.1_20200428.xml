@@ -23,13 +23,13 @@
   <project name="linux/app/web/ipcweb-backend" path="app/ipcweb-backend" revision="fc0ec1ba3d36063e9ea676f55d646d939da59ce8" upstream="master"/>
   <project name="linux/app/web/ipcweb-ng" path="app/ipcweb-ng" revision="2b615be6bf4a8bd5c3d97107c9239f93dfb0c4ab" upstream="master"/>
   <project name="linux/buildroot/dl" path="buildroot/dl" revision="8e64848908dcaf2f4b7dd65e852a75c49e26c677" upstream="master"/>
-  <project name="linux/device/rockchip" path="device/rockchip" revision="53e02effca2bcad448897293d62c3bd353a06988" upstream="master">
+  <project name="linux/device/rockchip" path="device/rockchip" revision="ba2990810c3cfc214993bcf5c5cb09e696b3090b" upstream="master">
     <linkfile dest="mkfirmware.sh" src="common/mkfirmware.sh"/>
     <linkfile dest="build.sh" src="common/build.sh"/>
     <linkfile dest="rkflash.sh" src="common/rkflash.sh"/>
-    <linkfile dest="device/rockchip/.BoardConfig.mk" src="puma/BoardConfig.mk"/>
+    <linkfile dest="device/rockchip/.BoardConfig.mk" src="rv1126_rv1109/BoardConfig.mk"/>
   </project>
-  <project name="linux/docs" path="docs" revision="0a3acf14f003247443abf9030a19e602430894c0" upstream="master"/>
+  <project name="linux/docs" path="docs" revision="d90865a0670002c7e8ac8e3d7fc7f7545f790eb2" upstream="master"/>
   <project name="linux/external/alsa-config" path="external/alsa-config" revision="540180c32dfbda57f26f0db16da38dad3b04609f" upstream="master"/>
   <project name="linux/external/app" path="external/app" revision="a8f24f905b4a13174ba5f63479c59a15f7ad6e69" upstream="master"/>
   <project name="linux/external/avb" path="external/avb" revision="64b5ea0130d7440084796f6a23d7cd91fac988b8" upstream="master"/>
@@ -58,21 +58,21 @@
   <project name="linux/external/wifiAutoSetup" path="external/wifiAutoSetup" revision="d2cfc6b2ca9754311542f91e481e8576fd4ecbc0" upstream="master"/>
   <project name="linux/linux-rga" path="external/linux-rga" revision="72e7764a9fe358e6ad50eb1b21176cc95802c7fb" upstream="master"/>
   <project name="linux/recovery" path="external/recovery" revision="6f39c929db0b05f6647cdaea18ef1d11b0d54e86" upstream="develop"/>
-  <project name="linux/rkmedia" path="external/rkmedia" revision="66060a3946a39a7a36542f8881e1f75d49eb64e7" upstream="master"/>
+  <project name="linux/rkmedia" path="external/rkmedia" revision="9c900369bb813286dec7478cb04ac91e8515b834" upstream="master"/>
   <project name="linux/security/bin" path="external/security/bin" revision="81c482428bdb01ba15b63bb2456ce95c12e3bd01" upstream="master"/>
-  <project name="linux/tools" path="tools" revision="5f8b43e4b4b968e058c1b6032c6b5ad9558e7939" upstream="master">
-    <linkfile dest="tools/windows/AndroidTool/AndroidTool_Release/config.cfg" src="windows/AndroidTool/AndroidTool_Release/puma-config.cfg"/>
-    <linkfile dest="tools/windows/AndroidTool/rockdev/package-file" src="windows/AndroidTool/rockdev/puma-package-file"/>
-    <linkfile dest="tools/windows/AndroidTool/rockdev/mkupdate.bat" src="windows/AndroidTool/rockdev/puma-mkupdate.bat"/>
-    <linkfile dest="tools/linux/Linux_Pack_Firmware/rockdev/mkupdate.sh" src="linux/Linux_Pack_Firmware/rockdev/puma-mkupdate.sh"/>
-    <linkfile dest="tools/linux/Linux_Pack_Firmware/rockdev/package-file" src="linux/Linux_Pack_Firmware/rockdev/puma-package-file"/>
+  <project name="linux/tools" path="tools" revision="e9eec6596bb98682330179b64335b462716cddf9" upstream="master">
+    <linkfile dest="tools/windows/AndroidTool/AndroidTool_Release/config.cfg" src="windows/AndroidTool/AndroidTool_Release/rv1126_rv1109-config.cfg"/>
+    <linkfile dest="tools/windows/AndroidTool/rockdev/package-file" src="windows/AndroidTool/rockdev/rv1126_rv1109-package-file"/>
+    <linkfile dest="tools/windows/AndroidTool/rockdev/mkupdate.bat" src="windows/AndroidTool/rockdev/rv1126_rv1109-mkupdate.bat"/>
+    <linkfile dest="tools/linux/Linux_Pack_Firmware/rockdev/mkupdate.sh" src="linux/Linux_Pack_Firmware/rockdev/rv1126_rv1109-mkupdate.sh"/>
+    <linkfile dest="tools/linux/Linux_Pack_Firmware/rockdev/package-file" src="linux/Linux_Pack_Firmware/rockdev/rv1126_rv1109-package-file"/>
   </project>
   <project name="rk/kernel" path="kernel" revision="30c81ef192572554fbef1184309da3ed1683d0ed" upstream="develop-4.19-rv1109"/>
   <project name="rk/mpp" path="external/mpp" revision="ed34cf2aca03a66309e0aee27c494f2e223bcca1" upstream="develop"/>
   <project name="rk/prebuilts/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf" path="prebuilts/gcc/linux-x86/arm/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf" revision="b69265a7bd71cc212764a7a223da9058d8fb9444" upstream="master"/>
   <project name="rk/prebuilts/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" path="prebuilts/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" revision="f96f76d6be89a6e28d4dac1f233f9aca9921f69b" upstream="master"/>
   <project name="rk/prebuilts/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" path="prebuilts/gcc/linux-x86/arm/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" revision="dd4df7dff4f1df65d78939a958b760a79e3650a1" upstream="master"/>
-  <project name="rk/rk1108/buildroot" path="buildroot" revision="faa40e06e0bc40c6242e8459d857809270e1b513" upstream="rockchip/2018.02-rc3">
+  <project name="rk/rk1108/buildroot" path="buildroot" revision="3d0b94ab1318fd5ac2b8ae4f132caffb10f9c9e7" upstream="rockchip/2018.02-rc3">
     <linkfile dest="Makefile" src="build/Makefile"/>
     <linkfile dest="envsetup.sh" src="build/envsetup.sh"/>
   </project>
