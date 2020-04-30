@@ -29,7 +29,7 @@
     <linkfile dest="rkflash.sh" src="common/rkflash.sh"/>
     <linkfile dest="device/rockchip/.BoardConfig.mk" src="puma/BoardConfig.mk"/>
   </project>
-  <project name="linux/docs" path="docs" revision="5a1ad471baefcc2986b7a54633b6837276bc4460" upstream="master"/>
+  <project name="linux/docs" path="docs" revision="0a3acf14f003247443abf9030a19e602430894c0" upstream="master"/>
   <project name="linux/external/alsa-config" path="external/alsa-config" revision="540180c32dfbda57f26f0db16da38dad3b04609f" upstream="master"/>
   <project name="linux/external/app" path="external/app" revision="a8f24f905b4a13174ba5f63479c59a15f7ad6e69" upstream="master"/>
   <project name="linux/external/avb" path="external/avb" revision="64b5ea0130d7440084796f6a23d7cd91fac988b8" upstream="master"/>
