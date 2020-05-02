@@ -1,5 +1,37 @@
 ===========RV1108 Linux SDK Release Note===========
 
+[rv1108_linux_release_v2.3.4_20200501.xml change log]
+
+1. Application updates:
+	(1) Add rkffplay to support video playback;
+        (2) Add demo application for CVR;
+	(3) device_manager support Sdcard management;
+	(4) Optimize face_service;
+	(5) Reconstruct lock APP;
+
+2. Buildroot updates:
+	(1) GCC version update to V7.5;
+	(2) Use adbd in android-tools package;
+	(3) Add rkwifibt related pacakges;
+	(4) Add sanitizer for checking code of application;
+
+3. Framework updates:
+	(1) Add switch camera function;
+	(2) Add change camera resolution function;
+	(3) Add RTSP function;
+	(4) Add audio playback function;
+	(5) Add sdcard format function;
+	(6) Add battery charge status function;
+
+4. Kernel updates:
+	(1) Uart RX is configured pull-up by default;
+	(2) DSP driver support reload firmware function;
+	(3) Fix DSP early mbox driver block when free irq;
+
+5. Loader updates:
+	(1) Enable cache of ARM A7;
+	(2) Verify kernel image by js_hash;
+
 [rv1108_linux_release_v2.3.2_20191120.xml change log]
 
 1. Buildroot updates:
@@ -13,7 +45,7 @@
 2. Kernel updates:
         (1) update RGA2 driver;
         (2) fix ov4689 power up failed randomly;
-        (3) fix RK1608 hangup randomly；
+        (3) fix RK1608 hangup randomly;
 
 3. Loader updates:
         (1) move loader to 48M address;

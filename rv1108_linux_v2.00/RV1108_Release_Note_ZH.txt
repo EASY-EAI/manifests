@@ -1,5 +1,36 @@
 ===========RV1108 Linux SDK Release Note===========
 
+[rv1108_linux_release_v2.3.4_20200501.xml 更新日志]
+1. App更新：
+	(1) 支持rkffplay播放视频文件；
+	(2) 新增CVR Demo应用；
+	(3) device_manager支持SD卡管理；
+	(4) 优化face_service；
+	(5) 重构lock应用；
+
+2. Buildroot更新：
+	(1) GCC版本升级到7.5；
+	(2) 使用andorid-tools中的adbd，移除liglog、ligcutils、adb；
+	(3) 新增rkwifibt相关软件包；
+	(4) 支持sanitizer工具，方便排查应用问题；
+
+3. Framework更新：
+	(1) 新增摄像头动态切换接口；
+	(2) 新增摄像头分辨率动态切换接口；
+	(3) 新增RTSP功能；
+	(4) 新增音频播放接口；
+	(5) 新增SD卡格式化接口；
+	(6) 新增获取电池电量、充电状态接口；
+
+4. Kernel更新：
+	(1) UART RX默认配置为上拉；
+	(2) DSP驱动支持重新加载DSP固件；
+	(3) 解决DSP early mbox释放irq卡死问题；
+
+5. Loader更新：
+	(1) 使能ARM Cache；
+	(2) 支持Kernel校验；
+
 [rv1108_linux_release_v2.3.2_20191120.xml 更新日志]
 1. Buildroot更新：
         (1) 采用与其他平台一致的linux-rga包，弃用librkrga包；
