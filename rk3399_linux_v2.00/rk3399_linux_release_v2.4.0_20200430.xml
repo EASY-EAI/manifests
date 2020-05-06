@@ -27,7 +27,7 @@
   </project>
   <project name="linux/distro" path="distro" revision="27a928d0c5f762f50bb15a4d95bf22ab55b0dac0" upstream="master"/>
   <project name="linux/distro/download" path="distro/download" revision="83788d77516e2f669e0718ff85585f49cbe4caf8" upstream="master"/>
-  <project name="linux/docs" path="docs" revision="7847220787ace437775b458abd68e22d8c2a315b" upstream="master"/>
+  <project name="linux/docs" path="docs" revision="ab5bc31a3d65fbc3abf586ed925944afa633dcf0" upstream="master"/>
   <project name="linux/external/LocalPlayer" path="external/LocalPlayer" revision="e7d5cc72e5f0da13f2765aa02bd22d03ebc82750" upstream="master"/>
   <project name="linux/external/WakeWordAgent" path="external/wakeWordAgent" revision="4a5a3c2d9d991e392894d1e5345b7487655d3cc6" upstream="master"/>
   <project name="linux/external/alsa-config" path="external/alsa-config" revision="540180c32dfbda57f26f0db16da38dad3b04609f" upstream="master"/>
@@ -66,7 +66,6 @@
   <project name="linux/external/uvc_app" path="external/uvc_app" revision="abd2b4402d69dd54f1a5e27885e1e82b2ea779fa" upstream="master"/>
   <project name="linux/external/wifiAutoSetup" path="external/wifiAutoSetup" revision="d2cfc6b2ca9754311542f91e481e8576fd4ecbc0" upstream="master"/>
   <project name="linux/gstreamer-rockchip" path="external/gstreamer-rockchip" revision="aea18d3f7d9417365f73f53f15953a6cc3fd2e9b" upstream="master"/>
-  <project name="linux/internal_doc" path="docs/Soc_internal" revision="e776a6939053b9122445ff102706def2254725fd" upstream="master"/>
   <project name="linux/libmali" path="external/libmali" revision="8867101e509ec9e99c2330b1dbd9830ec9350ffe" upstream="master"/>
   <project name="linux/linux-rga" path="external/linux-rga" revision="72e7764a9fe358e6ad50eb1b21176cc95802c7fb" upstream="master"/>
   <project name="linux/recovery" path="external/recovery" revision="fb73491961a1b902310f1dd0cbfb0b0281f01363" upstream="develop"/>
@@ -84,11 +83,11 @@
   <project name="rk/mpp" path="external/mpp" revision="50a9655531b65d54c070a4d721b9a3ca14537e43" upstream="develop"/>
   <project name="rk/prebuilts/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" path="prebuilts/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" revision="f96f76d6be89a6e28d4dac1f233f9aca9921f69b" upstream="master"/>
   <project name="rk/prebuilts/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" path="prebuilts/gcc/linux-x86/arm/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" revision="dd4df7dff4f1df65d78939a958b760a79e3650a1" upstream="master"/>
-  <project name="rk/rk1108/buildroot" path="buildroot" revision="0697eeec8fff8097ea9a03cd2c4e46046fbafd60" upstream="stable-rk3399-v2.4.0-20200430">
+  <project name="rk/rk1108/buildroot" path="buildroot" revision="b52539337cbc3fe2361bb1a93849547f45444b16" upstream="stable-rk3399-v2.4.0-20200430">
     <linkfile dest="Makefile" src="build/Makefile"/>
     <linkfile dest="envsetup.sh" src="build/envsetup.sh"/>
   </project>
-  <project name="rk/rkbin-stable" path="rkbin" revision="aae5f990fcf0dd604f7955cca7666b904d48ef09" upstream="stable-4.4-rk3399-linux"/>
+  <project name="rk/rkbin-stable" path="rkbin" revision="54401467b858de46201e9f944bc7302814339782" upstream="stable-4.4-rk3399-linux"/>
   <project name="rk/rknn-toolkit" path="external/rknn-toolkit" revision="290123ad2d1066a1a386f6aaf873d34a363e9d12" upstream="master"/>
   <project name="rk/rockx" path="external/rockx" revision="b33d3a8552029a6032b4b35d53aac8257c2c1f57" upstream="master"/>
 </manifest>
