@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote fetch="../../" name="rk" review="https://10.10.10.29"/>
+  <remote fetch="ssh://git@www.rockchip.com.cn/linux/" name="rk"/>
   
   <default remote="rk" sync-j="4"/>
   
@@ -29,7 +29,7 @@
     <linkfile dest="rkflash.sh" src="common/rkflash.sh"/>
     <linkfile dest="device/rockchip/.BoardConfig.mk" src="rv1126_rv1109/BoardConfig.mk"/>
   </project>
-  <project name="linux/docs" path="docs" revision="d90865a0670002c7e8ac8e3d7fc7f7545f790eb2" upstream="master"/>
+  <project name="linux/docs" path="docs" revision="2c0d7dcd7fde6098562d785bf2084aba55ef365c" upstream="master"/>
   <project name="linux/external/alsa-config" path="external/alsa-config" revision="540180c32dfbda57f26f0db16da38dad3b04609f" upstream="master"/>
   <project name="linux/external/app" path="external/app" revision="a8f24f905b4a13174ba5f63479c59a15f7ad6e69" upstream="master"/>
   <project name="linux/external/avb" path="external/avb" revision="64b5ea0130d7440084796f6a23d7cd91fac988b8" upstream="master"/>
