@@ -18,7 +18,7 @@
   <project name="linux/app/qfm" path="app/qfm" revision="cb38ba939c7ebdb1d205b68290754a115269c7e4" upstream="master"/>
   <project name="linux/app/qplayer" path="app/qplayer" revision="cf359f850956d7ac2c1679f0fb39cd52978593a1" upstream="master"/>
   <project name="linux/app/settings" path="app/qsetting" revision="76d0e36d73478b989da129051c61afe5dd7b22d8" upstream="develop"/>
-  <project name="linux/buildroot/dl" path="buildroot/dl" revision="bb94766e50eb04c566e583010aeae6e8c6f306a4" upstream="master"/>
+  <project name="linux/buildroot/dl" path="buildroot/dl" revision="master"/>
   <project name="linux/device/rockchip" path="device/rockchip" revision="90bec63256bae2e16a43580e576b5648d167e142" upstream="stable-rk3399-linux">
     <linkfile dest="mkfirmware.sh" src="common/mkfirmware.sh"/>
     <linkfile dest="build.sh" src="common/build.sh"/>
