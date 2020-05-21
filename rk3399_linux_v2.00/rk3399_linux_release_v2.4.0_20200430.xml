@@ -69,7 +69,7 @@
   <project name="linux/libmali" path="external/libmali" revision="8867101e509ec9e99c2330b1dbd9830ec9350ffe" upstream="master"/>
   <project name="linux/linux-rga" path="external/linux-rga" revision="72e7764a9fe358e6ad50eb1b21176cc95802c7fb" upstream="master"/>
   <project name="linux/recovery" path="external/recovery" revision="fb73491961a1b902310f1dd0cbfb0b0281f01363" upstream="develop"/>
-  <project name="linux/rk-rootfs-build" path="debian" revision="e67f7383fc8385e910f8c2ebc5cd41a6ddcb23ab" upstream="master"/>
+  <project name="linux/rk-rootfs-build" path="debian" revision="a268a21ec34c0f7de920b53f4a54eee434456e22" upstream="master"/>
   <project name="linux/rkmedia" path="external/rkmedia" revision="5fb4c3e01db0ae4895845d3ffe06ff7b1b87eb7b" upstream="master"/>
   <project name="linux/security/bin" path="external/security/bin" revision="81c482428bdb01ba15b63bb2456ce95c12e3bd01" upstream="master"/>
   <project name="linux/tools" path="tools" revision="88904715fe53dcab09a17f4547025f8825ea3cd0" upstream="master">
@@ -83,7 +83,7 @@
   <project name="rk/mpp" path="external/mpp" revision="50a9655531b65d54c070a4d721b9a3ca14537e43" upstream="develop"/>
   <project name="rk/prebuilts/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" path="prebuilts/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" revision="f96f76d6be89a6e28d4dac1f233f9aca9921f69b" upstream="master"/>
   <project name="rk/prebuilts/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" path="prebuilts/gcc/linux-x86/arm/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" revision="dd4df7dff4f1df65d78939a958b760a79e3650a1" upstream="master"/>
-  <project name="rk/rk1108/buildroot" path="buildroot" revision="b52539337cbc3fe2361bb1a93849547f45444b16" upstream="stable-rk3399-v2.4.0-20200430">
+  <project name="rk/rk1108/buildroot" path="buildroot" revision="ee6359a16d4768cc20a84620e7e9ace6c84fb024" upstream="stable-rk3399-v2.4.0-20200430">
     <linkfile dest="Makefile" src="build/Makefile"/>
     <linkfile dest="envsetup.sh" src="build/envsetup.sh"/>
   </project>
