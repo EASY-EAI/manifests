@@ -40,7 +40,7 @@
   <project name="linux/external/rkwifibt" path="external/rkwifibt" revision="bcfe5dc630ec1a0d129101bc3abae208ba848ccc" upstream="master"/>
   <project name="linux/external/rkscript" path="external/rkscript" revision="323a1f19975536890f42b82847afdfabb3a9948b" upstream="master"/>
   <project name="linux/external/update_engine" path="external/update_engine" revision="047d95d37b628563389eb397f19fe5f1c0c8eb05" upstream="master"/>
-  <project name="linux/external/uvc_app" path="external/uvc_app" revision="9727568cbfce2948b2dc1ab0adf22fc2464fde43" upstream="master"/>
+  <project name="linux/external/uvc_app" path="external/uvc_app" remote="rk" revision="rk1808_rk1608"/>
   <project name="linux/gstreamer-rockchip" path="external/gstreamer-rockchip" revision="c927a1d1d7cf4e6a0becbbc1a2b7b593b0c07396" upstream="master"/>
   <project name="linux/linux-rga" path="external/linux-rga" revision="72e7764a9fe358e6ad50eb1b21176cc95802c7fb" upstream="master"/>
   <project name="linux/recovery" path="external/recovery" revision="c36e724936464867f470c86135f436e80a9f57a1" upstream="develop"/>
@@ -51,12 +51,12 @@
     <linkfile dest="tools/linux/Linux_Pack_Firmware/rockdev/mkupdate.sh" src="linux/Linux_Pack_Firmware/rockdev/rk1808-mkupdate.sh"/>
     <linkfile dest="tools/linux/Linux_Pack_Firmware/rockdev/package-file" src="linux/Linux_Pack_Firmware/rockdev/rk1808-package-file"/>
   </project>
-  <project name="linux/kernel_rk1808" path="kernel" revision="3f005f346a82b689314233319b7fa9c9b9e66724" upstream="rk1808_rk1608_release"/>
+  <project name="linux/kernel_rk1808" path="kernel" remote="rk" revision="rk1808_rk1608_release"/>
   <project name="rk/mpp" path="external/mpp" revision="7c26b23bac7737d62631077748bf19bf78bad9e6" upstream="develop"/>
   <project name="rk/prebuilts/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" path="prebuilts/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" revision="f96f76d6be89a6e28d4dac1f233f9aca9921f69b" upstream="master"/>
   <project name="rk/rockx" path="external/rockx" revision="df53920c3f7143527f61d6784b960dd446286f9f" upstream="master"/>
   <project name="rk/rockface" path="external/rockface" revision="6153c323a47dd5aa215bf35fbc2c8f2d10af030d" upstream="release"/>
-  <project name="rk/rk1108/buildroot" path="buildroot" revision="fbcac44fa8909d31564e6d6db7f0c7cb8e21ef04" upstream="release_rk1808_rk1608">
+  <project name="rk/rk1108/buildroot" path="buildroot" remote="rk" revision="release_rk1808_rk1608">
     <linkfile dest="Makefile" src="build/Makefile"/>
     <linkfile dest="envsetup.sh" src="build/envsetup.sh"/>
   </project>
