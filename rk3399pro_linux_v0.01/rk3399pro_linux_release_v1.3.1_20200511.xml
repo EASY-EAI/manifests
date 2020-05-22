@@ -36,7 +36,7 @@
   </project>
   <project name="linux/distro" path="distro" revision="cad1fcd74aef2214a715047cd3ac74fedbb664be" upstream="master"/>
   <project name="linux/distro/download" path="distro/download" revision="83788d77516e2f669e0718ff85585f49cbe4caf8" upstream="master"/>
-  <project name="linux/docs" path="docs" revision="7d61cd3d77f5ea2ec5e04490bfcc8c1d76bc564e" upstream="master"/>
+  <project dest-branch="master" name="linux/docs" path="docs" revision="875a8958aa0e6e9c13e9303404023ca05235f45d" upstream="master"/>
   <project name="linux/external/DuerClientSDK" path="external/DuerClientSDK" revision="e366033a83adb6187ee765915696d70cd36b4231" upstream="master_64bit"/>
   <project name="linux/external/LocalPlayer" path="external/LocalPlayer" revision="e7d5cc72e5f0da13f2765aa02bd22d03ebc82750" upstream="master"/>
   <project name="linux/external/WakeWordAgent" path="external/wakeWordAgent" revision="4a5a3c2d9d991e392894d1e5345b7487655d3cc6" upstream="master"/>
@@ -84,6 +84,9 @@
   <project name="linux/external/uvc_app" path="external/uvc_app" revision="b46690942cf7f010bb9588d10b5eb469b82d023f" upstream="master"/>
   <project name="linux/external/wifiAutoSetup" path="external/wifiAutoSetup" revision="d2cfc6b2ca9754311542f91e481e8576fd4ecbc0" upstream="master"/>
   <project name="linux/gstreamer-rockchip" path="external/gstreamer-rockchip" revision="9603ff7dd02cd195a1581013fb9bca991b40fbb3" upstream="master"/>
+  <project dest-branch="master" name="linux/internal_doc" path="docs/.Socs" revision="30613fc038c1282bedfd617fc367aa0387555445" upstream="master">
+      <linkfile dest="docs/RK3399PRO" src="RK3399PRO"/>
+  </project>
   <project name="linux/libmali" path="external/libmali" revision="f226e982386287a4df669e2832d9ddd613d4153b" upstream="master"/>
   <project name="linux/linux-rga" path="external/linux-rga" revision="72e7764a9fe358e6ad50eb1b21176cc95802c7fb" upstream="master"/>
   <project name="linux/linux-rga" path="npu/external/linux-rga" revision="72e7764a9fe358e6ad50eb1b21176cc95802c7fb" upstream="master"/>

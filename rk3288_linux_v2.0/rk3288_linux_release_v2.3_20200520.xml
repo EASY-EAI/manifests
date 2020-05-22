@@ -5,7 +5,7 @@
   <default remote="rk" sync-j="4"/>
 
   <include name="yocto.xml" />
-  
+
   <project dest-branch="rk33/mid/8.1/develop" name="android/RKNPUTool" path="external/RKNPUTools" revision="55224d603007304694de0d754a2dc2b83de660df" upstream="rk33/mid/8.1/develop"/>
   <project dest-branch="rk33/mid/9.0/develop" name="android/platform/external/libdrm" path="external/libdrm" revision="696a303b72faf2dd9a0850aa31e678b29e3aec08" upstream="rk33/mid/9.0/develop"/>
   <project dest-branch="master" name="android/rk/platform/system/rk_tee_user" path="external/security/rk_tee_user" revision="985a45523e9e6f2f2006e9eaa178065a382a52f9" upstream="master"/>
@@ -66,7 +66,9 @@
   <project dest-branch="master" name="linux/external/uvc_app" path="external/uvc_app" revision="7905a9f812f3c6b14fabff0f5c04dfbfab298fed" upstream="master"/>
   <project dest-branch="master" name="linux/external/wifiAutoSetup" path="external/wifiAutoSetup" revision="d2cfc6b2ca9754311542f91e481e8576fd4ecbc0" upstream="master"/>
   <project dest-branch="master" name="linux/gstreamer-rockchip" path="external/gstreamer-rockchip" revision="d0ab7c2971569fff775657ead1eb68f25c7bfeed" upstream="master"/>
-  <project dest-branch="master" name="linux/internal_doc" path="docs/Socs" revision="30613fc038c1282bedfd617fc367aa0387555445" upstream="master"/>
+  <project dest-branch="master" name="linux/internal_doc" path="docs/.Socs" revision="30613fc038c1282bedfd617fc367aa0387555445" upstream="master">
+      <linkfile dest="docs/RK3288" src="RK3288"/>
+  </project>
   <project dest-branch="master" name="linux/libmali" path="external/libmali" revision="83f8b828ef2d4272fe7b2133d8da9cd7f554ed54" upstream="master"/>
   <project dest-branch="master" name="linux/linux-rga" path="external/linux-rga" revision="87737c0b4425e2372086385de7fe9c54b9dbbace" upstream="master"/>
   <project dest-branch="develop" name="linux/recovery" path="external/recovery" revision="c290f996bef9bc2cc3bde4ed12b1ed9188721f62" upstream="develop"/>
