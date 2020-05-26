@@ -1,5 +1,28 @@
 ===========RK3328 Linux SDK Release Note===========
-【rk3326_linux_release_beta_20180531.xml 更新日志】
+【rk3328_linux_release_v1.2.0_20200603.xml 更新日志】
+buildroot:
+  major changes for rk3328:
+- update gst-plugins-rockchip
+- update qt5 to 5.12.2
+- fix weston
+- usb gadget config scripts
+- change the new qt app to instead the old apps
+  new apps: qcamera  qfm  QLauncher+  qplayer  qsetting
+  old apps: camera gallery  music  QLauncher  settings  video
+- stable fixed
+
+kernel:
+  major changes for rk3328:
+- bt, mpp, usb and system stability
+
+debian:
+- add debian system for evaluation
+
+misc update
+- docs:
+- tools:
+
+【rk3328_linux_beta_20181125.xml 更新日志】
 Buildroot更新：
 1. update gallery/music/video.
    Don't fix the same file twice
