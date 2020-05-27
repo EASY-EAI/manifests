@@ -30,7 +30,7 @@
   <project name="linux/external/audioservice" path="external/audioservice" revision="68fa86817d762d4b761add42dcd03abe746bea61" upstream="master"/>
   <project name="linux/external/bluez-alsa" path="external/bluez-alsa" revision="514a57b440a9467400e3c5fd164df719f2fc79ee" upstream="master"/>
   <project name="linux/external/broadcom_bsa" path="external/broadcom_bsa" revision="9cd208a2d6a2e2e5d7414f625bcd655819e20e29" upstream="master"/>
-  <project name="linux/external/camera_engine_rkisp" path="external/camera_engine_rkisp" revision="b825572f7dd2566fb45b385e237d3754c44ea710" upstream="master"/>
+  <project name="linux/external/camera_engine_rkisp" path="external/camera_engine_rkisp" revision="24f52e9720656888af0142268da037a1ea8bd562" upstream="master"/>
   <project name="linux/external/deviceio_release" path="external/deviceio_release" revision="3c10cd8cc09400037c7371fd8c5008a301a8917a" upstream="master"/>
   <project name="linux/external/minigui" path="external/minigui" revision="b55f2d6f5e9ef135e16079e432819695ec29ead7" upstream="master"/>
   <project name="linux/external/mpv" path="external/mpv" revision="851e19b414e6d01f8200d04d9cf79741ffc93090" upstream="rockchip/release/0.9"/>
