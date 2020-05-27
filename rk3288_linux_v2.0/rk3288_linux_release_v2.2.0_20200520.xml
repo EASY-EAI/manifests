@@ -25,8 +25,8 @@
     <linkfile dest="rkflash.sh" src="common/rkflash.sh"/>
     <linkfile dest="device/rockchip/.BoardConfig.mk" src="rk3288/BoardConfig.mk"/>
   </project>
-  <project dest-branch="master" name="linux/distro" path="distro" revision="90a340f3b663b9a4aa028d62bb0a0aa8e1675154" upstream="master"/>
-  <project dest-branch="master" name="linux/distro/download" path="distro/download" revision="83788d77516e2f669e0718ff85585f49cbe4caf8" upstream="master"/>
+  <project dest-branch="master" name="linux/distro" path="distro" revision="9506cea5971b886e61f1bef57b77c1a08d30fead" upstream="master"/>
+  <project dest-branch="master" name="linux/distro/download" path="distro/download" revision="master"/>
   <project dest-branch="master" name="linux/docs" path="docs" revision="875a8958aa0e6e9c13e9303404023ca05235f45d" upstream="master"/>
   <project dest-branch="master" name="linux/external/LocalPlayer" path="external/LocalPlayer" revision="e7d5cc72e5f0da13f2765aa02bd22d03ebc82750" upstream="master"/>
   <project dest-branch="master" name="linux/external/WakeWordAgent" path="external/wakeWordAgent" revision="4a5a3c2d9d991e392894d1e5345b7487655d3cc6" upstream="master"/>
@@ -40,7 +40,7 @@
   <project dest-branch="master" name="linux/external/broadcom_bsa" path="external/broadcom_bsa" revision="bd3081549f98362a3f6fedd6e8b2e8001d17f656" upstream="master"/>
   <project dest-branch="master" name="linux/external/cae_vad" path="external/cae_vad" revision="86f5f3d4616888feea0c3916a9663f29a3af28ba" upstream="master"/>
   <project dest-branch="master" name="linux/external/camera_engine_rkisp" path="external/camera_engine_rkisp" revision="1bff0aeccc35fa9ca60cbbe89874220c3ecb34d2" upstream="master"/>
-  <project dest-branch="master" name="linux/external/chromium" path="external/chromium" revision="2c220d359650d4fbacc3129f9d9f62794995ffbb" upstream="master"/>
+  <project dest-branch="master" name="linux/external/chromium" path="external/chromium" revision="da1e188076a27d8c5f37c5ed253b013d1e59e61c" upstream="master"/>
   <project dest-branch="master" name="linux/external/deviceio_release" path="external/deviceio_release" revision="3c10cd8cc09400037c7371fd8c5008a301a8917a" upstream="master"/>
   <project dest-branch="master" name="linux/external/eq_drc_process" path="external/eq_drc_process" revision="f9db232e27eef12b4454673140f049c11ccc1a0a" upstream="master"/>
   <project dest-branch="master" name="linux/external/ipc_share_memory" path="external/ipc_share_memory" revision="7e7c3de48f72f55d184e3705ab5a170ce815756a" upstream="master"/>
@@ -86,7 +86,7 @@
   <project dest-branch="develop" name="rk/mpp" path="external/mpp" revision="761db8432185cb3a73f4448b1517f9259a18c568" upstream="develop"/>
   <project dest-branch="master" name="rk/prebuilts/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" path="prebuilts/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" revision="f96f76d6be89a6e28d4dac1f233f9aca9921f69b" upstream="master"/>
   <project dest-branch="master" name="rk/prebuilts/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" path="prebuilts/gcc/linux-x86/arm/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" revision="dd4df7dff4f1df65d78939a958b760a79e3650a1" upstream="master"/>
-  <project dest-branch="stable-rk3288-v2.3.0-20200520" name="rk/rk1108/buildroot" path="buildroot" revision="a3d3e23e2c258077c44d0465783f85dc93efbe25" upstream="stable-rk3288-v2.3.0-20200520">
+  <project dest-branch="stable-rk3288-v2.3.0-20200520" name="rk/rk1108/buildroot" path="buildroot" revision="ee6359a16d4768cc20a84620e7e9ace6c84fb024" upstream="stable-rk3288-v2.3.0-20200520">
     <linkfile dest="Makefile" src="build/Makefile"/>
     <linkfile dest="envsetup.sh" src="build/envsetup.sh"/>
   </project>
