@@ -1,5 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  <remote fetch="ssh://10.10.10.29:29418" name="origin" review="https://10.10.10.29"/>
   <remote fetch="ssh://git@www.rockchip.com.cn/linux/" name="rk"/>
 
   <default remote="rk" sync-j="4"/>
@@ -14,6 +15,7 @@
     <linkfile dest="device/rockchip/.BoardConfig.mk" src="rk1808/BoardConfig_rk1808_rk1608.mk"/>
   </project>
   <project name="linux/docs" path="docs" revision="2f5c7be4ebcde2341ffc196f0c2f2bd232a30834" upstream="rk1808"/>
+  <project name="linux/app/rksl" path="app/rksl" remote="origin" revision="master" />
   <project name="linux/app/QLauncher" path="app/QLauncher" revision="d131e2d41101d967bdd2c1bbb8d523073c4d3f02" upstream="develop"/>
   <project name="linux/app/qcamera" path="app/qcamera" revision="fc17cb9ac199095303f45aa27c59b0c901c0478b" upstream="master"/>
   <project name="linux/app/qfm" path="app/qfm" revision="cb38ba939c7ebdb1d205b68290754a115269c7e4" upstream="master"/>
@@ -30,7 +32,7 @@
   <project name="linux/external/broadcom_bsa" path="external/broadcom_bsa" revision="9cd208a2d6a2e2e5d7414f625bcd655819e20e29" upstream="master"/>
   <project name="linux/external/camera_engine_rkisp" path="external/camera_engine_rkisp" revision="b825572f7dd2566fb45b385e237d3754c44ea710" upstream="master"/>
   <project name="linux/external/deviceio_release" path="external/deviceio_release" revision="3c10cd8cc09400037c7371fd8c5008a301a8917a" upstream="master"/>
-  <project name="linux/external/minigui" path="external/minigui" remote="rk" revision="b55f2d6f5e9ef135e16079e432819695ec29ead7" upstream="master"/>
+  <project name="linux/external/minigui" path="external/minigui" revision="b55f2d6f5e9ef135e16079e432819695ec29ead7" upstream="master"/>
   <project name="linux/external/mpv" path="external/mpv" revision="851e19b414e6d01f8200d04d9cf79741ffc93090" upstream="rockchip/release/0.9"/>
   <project name="linux/external/rk_pcba_test" path="external/rk_pcba_test" revision="25643cf5f522a71ed2a918b0abe15e363a893504" upstream="master"/>
   <project name="linux/external/rkmedia" path="external/rkmedia" revision="14240b3ee093e737a8e0d5481787a44af30055eb" upstream="master"/>
@@ -40,7 +42,7 @@
   <project name="linux/external/rkwifibt" path="external/rkwifibt" revision="bcfe5dc630ec1a0d129101bc3abae208ba848ccc" upstream="master"/>
   <project name="linux/external/rkscript" path="external/rkscript" revision="323a1f19975536890f42b82847afdfabb3a9948b" upstream="master"/>
   <project name="linux/external/update_engine" path="external/update_engine" revision="047d95d37b628563389eb397f19fe5f1c0c8eb05" upstream="master"/>
-  <project name="linux/external/uvc_app" path="external/uvc_app" remote="rk" revision="rk1808_rk1608"/>
+  <project name="linux/external/uvc_app" path="external/uvc_app" revision="rk1808_rk1608"/>
   <project name="linux/gstreamer-rockchip" path="external/gstreamer-rockchip" revision="c927a1d1d7cf4e6a0becbbc1a2b7b593b0c07396" upstream="master"/>
   <project name="linux/linux-rga" path="external/linux-rga" revision="72e7764a9fe358e6ad50eb1b21176cc95802c7fb" upstream="master"/>
   <project name="linux/recovery" path="external/recovery" revision="c36e724936464867f470c86135f436e80a9f57a1" upstream="develop"/>
@@ -51,12 +53,12 @@
     <linkfile dest="tools/linux/Linux_Pack_Firmware/rockdev/mkupdate.sh" src="linux/Linux_Pack_Firmware/rockdev/rk1808-mkupdate.sh"/>
     <linkfile dest="tools/linux/Linux_Pack_Firmware/rockdev/package-file" src="linux/Linux_Pack_Firmware/rockdev/rk1808-package-file"/>
   </project>
-  <project name="linux/kernel_rk1808" path="kernel" remote="rk" revision="rk1808_rk1608_release"/>
+  <project name="linux/kernel_rk1808" path="kernel" revision="rk1808_rk1608_release"/>
   <project name="rk/mpp" path="external/mpp" revision="7c26b23bac7737d62631077748bf19bf78bad9e6" upstream="develop"/>
   <project name="rk/prebuilts/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" path="prebuilts/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" revision="f96f76d6be89a6e28d4dac1f233f9aca9921f69b" upstream="master"/>
   <project name="rk/rockx" path="external/rockx" revision="df53920c3f7143527f61d6784b960dd446286f9f" upstream="master"/>
   <project name="rk/rockface" path="external/rockface" revision="6153c323a47dd5aa215bf35fbc2c8f2d10af030d" upstream="release"/>
-  <project name="rk/rk1108/buildroot" path="buildroot" remote="rk" revision="release_rk1808_rk1608">
+  <project name="rk/rk1108/buildroot" path="buildroot" revision="release_rk1808_rk1608">
     <linkfile dest="Makefile" src="build/Makefile"/>
     <linkfile dest="envsetup.sh" src="build/envsetup.sh"/>
   </project>
