@@ -57,7 +57,7 @@
   <project name="rk/mpp" path="external/mpp" revision="7c26b23bac7737d62631077748bf19bf78bad9e6" upstream="develop"/>
   <project name="rk/prebuilts/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" path="prebuilts/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" revision="f96f76d6be89a6e28d4dac1f233f9aca9921f69b" upstream="master"/>
   <project name="rk/rockx" path="external/rockx" revision="df53920c3f7143527f61d6784b960dd446286f9f" upstream="master"/>
-  <project name="rk/rockface" path="external/rockface" revision="6153c323a47dd5aa215bf35fbc2c8f2d10af030d" upstream="release"/>
+  <project name="rk/rockface" path="external/rockface" remote="origin" revision="rksl"/>
   <project name="rk/rk1108/buildroot" path="buildroot" revision="release_rk1808_rk1608">
     <linkfile dest="Makefile" src="build/Makefile"/>
     <linkfile dest="envsetup.sh" src="build/envsetup.sh"/>
