@@ -51,8 +51,8 @@
   <project name="rk/rk1108/framework/rknr" path="framework/rknr" revision="a2a2fc241acefc72db58e630936db273588df3fc" upstream="master"/>
   <project name="rk/rk1108/framework/settings" path="framework/settings" revision="589345380c37d43a165ccae427abc71c4f9b38b4" upstream="master"/>
   <project name="rk/rk1108/framework/vendor_storage" path="framework/vendor_storage" revision="be4cbc03b29b04913d5f8d261785929dbc7217b4" upstream="master"/>
-  <project name="rk/rk1108/kernel" path="kernel" revision="741c3531941098f8056ab82b0c58b1c0582bdc32" upstream="fastboot"/>
-  <project name="rk/rk1108/loader" path="loader" revision="4ebce029305e8645fa6504d86e6c8c8ddf53dfc8" upstream="loader"/>
+  <project name="rk/rk1108/kernel" path="kernel" revision="ef2dd3fb8aef1690acec2a6a247cae15ba8101bf" upstream="fastboot"/>
+  <project name="rk/rk1108/loader" path="loader" revision="424a0ec93b4b036c15d9ecbda401a9bf95954601" upstream="loader"/>
   <project name="rk/rk1108/prebuilds" path="prebuilts" revision="229dd8363013731be437e39388a60672253eff55" upstream="master"/>
   <project name="rk/rk1108/tools" path="tools" revision="f4125faab1c713d146c6842ec7307f0f23332262" upstream="master"/>
 </manifest>
