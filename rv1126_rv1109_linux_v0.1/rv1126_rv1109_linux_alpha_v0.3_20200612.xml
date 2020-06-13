@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="ssh://git@www.rockchip.com.cn/linux/" name="rk"/>
+  
+  <default remote="rk" sync-j="4"/>
+  
+  <project name="android/RKNPUTool" path="external/RKNPUTools" revision="55224d603007304694de0d754a2dc2b83de660df" upstream="rk33/mid/8.1/develop"/>
+  <project name="android/platform/external/libdrm" path="external/libdrm" revision="9ff6fac378921effd60379629712edc439afd580" upstream="rk33/mid/9.0/develop"/>
+  <project name="android/rk/platform/system/rk_tee_user" path="external/security/rk_tee_user" revision="d39ab4944febd0fec39d2a796bbaf7e7d5f0cca6" upstream="develop-next"/>
+  <project name="android/rk/u-boot" path="u-boot" revision="05431850c7c266de175d629f3338c3a67f9acfbe" upstream="next-dev"/>
+  <project name="linux/app/LibIPCProtocol" path="app/libIPCProtocol" revision="3c6eb291bbdb8713bcfcad51a2ad2c39dee26fc8" upstream="master"/>
+  <project name="linux/app/QFacialGate" path="app/QFacialGate" revision="68c1d15b25b138b2f39d5f2f3ac31bfa10aa23ac" upstream="master"/>
+  <project name="linux/app/camera" path="app/camera" revision="44a961358dcf912504a951e7caf60c7d55ed999a" upstream="master"/>
+  <project name="linux/app/dbserver" path="app/dbserver" revision="1ffcb83231880b6250f4d64664268271c0f713aa" upstream="master"/>
+  <project name="linux/app/demo" path="app/demo" revision="db94c6389891aef75298bc98972dd4fcc82a4a10" upstream="master"/>
+  <project name="linux/app/eptz_demo" path="app/eptz_demo" revision="eefc46ba96e15e52d191b0db310cfb16ecfd7f40" upstream="master"/>
+  <project name="linux/app/ficial_gate" path="app/ficial_gate" revision="276eac0305cc03ad825278f3cfc74043e906dd13" upstream="master"/>
+  <project name="linux/app/ipc-daemon" path="app/ipc-daemon" revision="4bd21b4799ba85e6ec62ee46efd83ad5a79810a4" upstream="master"/>
+  <project name="linux/app/libgdbus" path="app/libgdbus" revision="79370be32dde657abf1128c90c72b93e75d814ed" upstream="master"/>
+  <project name="linux/app/librkdb" path="app/librkdb" revision="72fd398899e791dcf0a02b484a9be404063ed94e" upstream="master"/>
+  <project name="linux/app/mediaserver" path="app/mediaserver" revision="c37b91fbbfc1f8ca6353489502a725611e2cdadd" upstream="master"/>
+  <project name="linux/app/network_manager" path="app/netserver" revision="e5eaecc4b0091608abc47e00d8c1d9b203d20420" upstream="master"/>
+  <project name="linux/app/smart_display_service" path="app/smart_display_service" revision="60f64526f09aac2ea96243e42b4bc7be59b90ea4" upstream="master"/>
+  <project name="linux/app/storage_manager" path="app/storage_manager" revision="8bf475702a467d0805d67cddbfb7a120f83db8c3" upstream="master"/>
+  <project name="linux/app/web/ipcweb-backend" path="app/ipcweb-backend" revision="e1888224e0986f3b6dbeda927e8051834db3f063" upstream="master"/>
+  <project name="linux/app/web/ipcweb-ng" path="app/ipcweb-ng" revision="ba20c61e5645963bb187a52a0c3cc709deafa48b" upstream="master"/>
+  <project name="linux/buildroot/dl" path="buildroot/dl" revision="3bb5717bf722c11457021e1edbe69f2f161ac891" upstream="master"/>
+  <project name="linux/device/rockchip" path="device/rockchip" revision="f7ceca3f3bb253f1d64a08a8261355ffd77704a6" upstream="master">
+    <linkfile dest="mkfirmware.sh" src="common/mkfirmware.sh"/>
+    <linkfile dest="build.sh" src="common/build.sh"/>
+    <linkfile dest="rkflash.sh" src="common/rkflash.sh"/>
+    <linkfile dest="device/rockchip/.BoardConfig.mk" src="rv1126_rv1109/BoardConfig.mk"/>
+  </project>
+  <project name="linux/docs" path="docs" revision="cb6b984b6b581734ea9a45ab4152c282f1c1fa31" upstream="master"/>
+  <project name="linux/external/CallFunIpc" path="external/CallFunIpc" revision="a54cb760b7f8a115d91fdd02abfb57dbb95664b4" upstream="master"/>
+  <project name="linux/external/alsa-config" path="external/alsa-config" revision="540180c32dfbda57f26f0db16da38dad3b04609f" upstream="master"/>
+  <project name="linux/external/app" path="external/app" revision="3a06ebb791eb8bc6d2b41876f895d121be987f41" upstream="master"/>
+  <project name="linux/external/avb" path="external/avb" revision="64b5ea0130d7440084796f6a23d7cd91fac988b8" upstream="master"/>
+  <project name="linux/external/ble_wificonfig" path="external/ble_wificonfig" revision="3b56e0e268634216df1f992d944bb30158e86786" upstream="master"/>
+  <project name="linux/external/bluetooth_bsa" path="external/bluetooth_bsa" revision="652d6db0ef82e81b844ecee3023cb5bad7014889" upstream="master"/>
+  <project name="linux/external/bluez-alsa" path="external/bluez-alsa" revision="e383251a22fef7213b7e5a804e4c7a7ca621c80d" upstream="master"/>
+  <project name="linux/external/broadcom_bsa" path="external/broadcom_bsa" revision="2c4e6e0c9d4123d142f44500a4c4bae3178f3593" upstream="master"/>
+  <project name="linux/external/camera_engine_rkaiq" path="external/camera_engine_rkaiq" revision="cd341fc8b5c800ff2f3422ec32e75e9d71e1b858" upstream="master"/>
+  <project name="linux/external/common_algorithm" path="external/common_algorithm" revision="037c7b91b3824a83cb299dbcdda007f12e36bb94" upstream="master"/>
+  <project name="linux/external/eq_drc_process" path="external/eq_drc_process" revision="5883f1a78f20ba7cad730a78d5cf10587a2979c7" upstream="master"/>
+  <project name="linux/external/isp2-ipc" path="external/isp2-ipc" revision="18e409500f7bcdf4a8b785ecc890e7df5836b2c3" upstream="master"/>
+  <project name="linux/external/minigui" path="external/minigui" revision="b55f2d6f5e9ef135e16079e432819695ec29ead7" upstream="master"/>
+  <project name="linux/external/minigui_desktop" path="external/minigui_desktop" revision="9fa64dabb6bae25c07c2fc6ed40de6123f71f493" upstream="master"/>
+  <project name="linux/external/minilogger" path="external/minilogger" revision="5f0fa4698d5305d8653c2352bfcf1d9aa57064a4" upstream="master"/>
+  <project name="linux/external/rk_pcba_test" path="external/rk_pcba_test" revision="c729a8fc2c1652877443e0dc72200657f6407331" upstream="master"/>
+  <project name="linux/external/rkfacial" path="external/rkfacial" revision="bc8145a0739a0a1a1a9ef8d643065e1dc683669d" upstream="master"/>
+  <project name="linux/external/rknn_demo" path="external/rknn_demo" revision="452b17d01b9e1d4f7b38f09e7fbca278d148a1f8" upstream="master"/>
+  <project name="linux/external/rknpu" path="external/rknpu" revision="e19f1f7d3fb1d560a033e60258060ef87c598233" upstream="master"/>
+  <project name="linux/external/rkscript" path="external/rkscript" revision="e64c9798084668c1514b296808ebbb10d50efa69" upstream="master"/>
+  <project name="linux/external/rkssd" path="external/rkssd" revision="1c50d336e770a8ce09ae33b3e09d2783d5b4c2d9" upstream="master"/>
+  <project name="linux/external/rktoolkit" path="external/rktoolkit" revision="ee773784851b837c49c8c55711b82d4b81e82764" upstream="master"/>
+  <project name="linux/external/rkupdate" path="external/rkupdate" revision="0dec35553eb629783b0896bce0198dd122c9dc40" upstream="master"/>
+  <project name="linux/external/rkwifibt" path="external/rkwifibt" revision="3b44a4b5420cb25d43e49061d598eef23b5d583f" upstream="master"/>
+  <project name="linux/external/rtc_demo" path="external/rtc_demo" revision="01ea9377beae66a544191ff5dbd920f19ba4614c" upstream="master"/>
+  <project name="linux/external/tensorflow" path="external/tensorflow" revision="e1877bb157a775d76ec8c0b68467aef6d053bbb2" upstream="master"/>
+  <project name="linux/external/update_engine" path="external/update_engine" revision="ef212877ada6fe629f52485113b35a81ab31009b" upstream="master"/>
+  <project name="linux/external/uvc_app" path="external/uvc_app" revision="ca115b521cb3b5e04427d653a631ed73753d1f62" upstream="develop-4.19"/>
+  <project name="linux/external/wifiAutoSetup" path="external/wifiAutoSetup" revision="872e84394896e12989c1745f4af536b567d02de7" upstream="master"/>
+  <project name="linux/internal_doc" path="docs/.Socs" remote="rk" revision="master">
+	  <linkfile dest="docs/RV1126_RV1109" src="RV1126_RV1109"/>
+  </project>
+  <project name="linux/linux-rga" path="external/linux-rga" revision="87737c0b4425e2372086385de7fe9c54b9dbbace" upstream="master"/>
+  <project name="linux/recovery" path="external/recovery" revision="f2e3741f9bd57e6f69af838f122dcba2d1462fe4" upstream="develop"/>
+  <project name="linux/rkmedia" path="external/rkmedia" revision="1751e2c770c415e6ad5cdeed97f76959b4268d7f" upstream="master"/>
+  <project name="linux/security/bin" path="external/security/bin" revision="81c482428bdb01ba15b63bb2456ce95c12e3bd01" upstream="master"/>
+  <project name="linux/tools" path="tools" revision="e4b85d18efe414e4fb678caa4f31873aaf616f76" upstream="master">
+    <linkfile dest="tools/windows/AndroidTool/AndroidTool_Release/config.cfg" src="windows/AndroidTool/AndroidTool_Release/rv1126_rv1109-config.cfg"/>
+    <linkfile dest="tools/windows/AndroidTool/rockdev/package-file" src="windows/AndroidTool/rockdev/rv1126_rv1109-package-file"/>
+    <linkfile dest="tools/windows/AndroidTool/rockdev/mkupdate.bat" src="windows/AndroidTool/rockdev/rv1126_rv1109-mkupdate.bat"/>
+    <linkfile dest="tools/linux/Linux_Pack_Firmware/rockdev/mkupdate.sh" src="linux/Linux_Pack_Firmware/rockdev/rv1126_rv1109-mkupdate.sh"/>
+    <linkfile dest="tools/linux/Linux_Pack_Firmware/rockdev/package-file" src="linux/Linux_Pack_Firmware/rockdev/rv1126_rv1109-package-file"/>
+  </project>
+  <project name="rk/kernel" path="kernel" revision="624cb7b1965487a64937bc1b0f9f79382bca3fe6" upstream="develop-4.19"/>
+  <project name="rk/mpp" path="external/mpp" revision="fb6cdcb9c0776a6bf9d927969cfce8e3f7eac2fc" upstream="develop"/>
+  <project name="rk/prebuilts/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf" path="prebuilts/gcc/linux-x86/arm/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf" revision="b69265a7bd71cc212764a7a223da9058d8fb9444" upstream="master"/>
+  <project name="rk/prebuilts/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" path="prebuilts/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" revision="f96f76d6be89a6e28d4dac1f233f9aca9921f69b" upstream="master"/>
+  <project name="rk/prebuilts/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" path="prebuilts/gcc/linux-x86/arm/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" revision="dd4df7dff4f1df65d78939a958b760a79e3650a1" upstream="master"/>
+  <project name="rk/rk1108/buildroot" path="buildroot" revision="3598444fcea2fab61024de3ff48947b666524474" upstream="rockchip/2018.02-rc3">
+    <linkfile dest="Makefile" src="build/Makefile"/>
+    <linkfile dest="envsetup.sh" src="build/envsetup.sh"/>
+  </project>
+  <project name="rk/rkbin" path="rkbin" revision="bbb3984ab3eb6c6bad68dd73919c65a20c93a9c1" upstream="master"/>
+  <project name="rk/rknn-toolkit" path="external/rknn-toolkit" revision="7416194032cfbdc98b5d26c65c91f0aa6f2ac28f" upstream="master"/>
+  <project name="rk/rockface" path="external/rockface" revision="845a1ebfb459b2a308833022d7945907de2e47a2" upstream="master"/>
+  <project name="rk/rockx" path="external/rockx" revision="0ae1f6b044e0d6db0b8d0063618aced19de4b6b8" upstream="master"/>
+</manifest>
