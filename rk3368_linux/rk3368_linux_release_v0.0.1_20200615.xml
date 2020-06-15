@@ -4,7 +4,6 @@
 
   <default remote="rk" sync-j="4"/>
 
-  <project name="android/RKNPUTool" path="external/RKNPUTools" revision="3642c9963ee6116aad02064a155a0001bf3bb3a2" upstream="rk33/mid/8.1/develop"/>
   <project name="android/platform/external/libdrm" path="external/libdrm" revision="696a303b72faf2dd9a0850aa31e678b29e3aec08" upstream="rk33/mid/9.0/develop"/>
   <project name="android/rk/platform/system/rk_tee_user" path="external/security/rk_tee_user" revision="985a45523e9e6f2f2006e9eaa178065a382a52f9" upstream="master"/>
   <project name="android/rk/u-boot-stable" path="u-boot" revision="b768b9152f5a531ad2bd6146094fc9cea0f93b71" upstream="stable-4.4-rk3399-linux"/>
@@ -36,7 +35,6 @@
   <project name="linux/external/broadcom_bsa" path="external/broadcom_bsa" revision="eb2891ea5122619d71aabdec22df7815b2c08153" upstream="master"/>
   <project name="linux/external/cae_vad" path="external/cae_vad" revision="86f5f3d4616888feea0c3916a9663f29a3af28ba" upstream="master"/>
   <project name="linux/external/camera_engine_rkisp" path="external/camera_engine_rkisp" revision="1bff0aeccc35fa9ca60cbbe89874220c3ecb34d2" upstream="master"/>
-  <project name="linux/external/chromium" path="external/chromium" revision="7b059048e4de8f4dab50d1576a0abcd0d44b9534" upstream="master"/>
   <project name="linux/external/deviceio_release" path="external/deviceio_release" revision="3c10cd8cc09400037c7371fd8c5008a301a8917a" upstream="master"/>
   <project name="linux/external/eq_drc_process" path="external/eq_drc_process" revision="f9db232e27eef12b4454673140f049c11ccc1a0a" upstream="master"/>
   <project name="linux/external/ipc_share_memory" path="external/ipc_share_memory" revision="7e7c3de48f72f55d184e3705ab5a170ce815756a" upstream="master"/>
@@ -48,7 +46,6 @@
   <project name="linux/external/rk_pcba_test" path="external/rk_pcba_test" revision="25643cf5f522a71ed2a918b0abe15e363a893504" upstream="master"/>
   <project name="linux/external/rk_webui" path="external/rk_webui" revision="23d1035aede0b74ae119b8bd65cf0ed93c4100a6" upstream="master"/>
   <project name="linux/external/rknn_demo" path="external/rknn_demo" revision="452b17d01b9e1d4f7b38f09e7fbca278d148a1f8" upstream="master"/>
-  <project name="linux/external/rknpu" path="external/rknpu" revision="936057c09653d46806560521d527e1bc29c2c98f" upstream="master"/>
   <project name="linux/external/rkscript" path="external/rkscript" revision="22cd14b5c213c2410da9180fda8d6eb28e65631c" upstream="master"/>
   <project name="linux/external/rkssd" path="external/rkssd" revision="1c50d336e770a8ce09ae33b3e09d2783d5b4c2d9" upstream="master"/>
   <project name="linux/external/rktoolkit" path="external/rktoolkit" revision="67e2b41a02f4d30bdd12159d22fb3e17a7e8010d" upstream="master"/>
@@ -65,7 +62,7 @@
   <project name="linux/internal_doc" path="docs/.Soc_internal" revision="e776a6939053b9122445ff102706def2254725fd" upstream="master">
     <linkfile dest="docs/RK3399" src="RK3399"/>
   </project>
-  <project name="linux/libmali" path="external/libmali" revision="ea0836fd38bcb33f1ff9c5d0bf0eeaea2472ca32" upstream="master"/>
+  <project name="linux/libmali" path="external/libmali" revision="8867101e509ec9e99c2330b1dbd9830ec9350ffe" upstream="master"/>
   <project name="linux/linux-rga" path="external/linux-rga" revision="72e7764a9fe358e6ad50eb1b21176cc95802c7fb" upstream="master"/>
   <project name="linux/recovery" path="external/recovery" revision="c290f996bef9bc2cc3bde4ed12b1ed9188721f62" upstream="develop"/>
   <project name="linux/rk-rootfs-build" path="debian" revision="a268a21ec34c0f7de920b53f4a54eee434456e22" upstream="master"/>
