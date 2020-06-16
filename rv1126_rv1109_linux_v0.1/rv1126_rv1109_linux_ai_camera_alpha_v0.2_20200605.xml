@@ -25,7 +25,7 @@
   <project name="linux/app/web/ipcweb-backend" path="app/ipcweb-backend" revision="84c9f3dd7ac03a8a04f9158c4825548ceb5c1494" upstream="master"/>
   <project name="linux/app/web/ipcweb-ng" path="app/ipcweb-ng" revision="24453dfbadb6bdf3ca39bc23e3e4727c3d1d37b7" upstream="master"/>
   <project name="linux/buildroot/dl" path="buildroot/dl" revision="3bb5717bf722c11457021e1edbe69f2f161ac891" upstream="master"/>
-  <project name="linux/device/rockchip" path="device/rockchip" revision="95fae1b06592151259fa662038157548004a0189" upstream="master">
+  <project name="linux/device/rockchip" path="device/rockchip" revision="8c535dbc9fc5f4969f6b792bdd2efcb4c3829ae4" upstream="master">
     <linkfile dest="mkfirmware.sh" src="common/mkfirmware.sh"/>
     <linkfile dest="build.sh" src="common/build.sh"/>
     <linkfile dest="rkflash.sh" src="common/rkflash.sh"/>
