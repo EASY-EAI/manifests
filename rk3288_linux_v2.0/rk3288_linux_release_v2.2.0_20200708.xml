@@ -27,7 +27,7 @@
   </project>
   <project dest-branch="master" name="linux/distro" path="distro" revision="25bac31d356b52156568a32578216fb8d0b50b75" upstream="master"/>
   <project dest-branch="master" name="linux/distro/download" path="distro/download" revision="master"/>
-  <project dest-branch="master" name="linux/docs" path="docs" revision="7028e61423ad0c83fbdad6fee8c6cea7960683d3" upstream="master"/>
+  <project dest-branch="master" name="linux/docs" path="docs" revision="5b48698944c45288d5cb41b333f9899210f29b94" upstream="master"/>
   <project dest-branch="master" name="linux/external/LocalPlayer" path="external/LocalPlayer" revision="e7d5cc72e5f0da13f2765aa02bd22d03ebc82750" upstream="master"/>
   <project dest-branch="master" name="linux/external/WakeWordAgent" path="external/wakeWordAgent" revision="4a5a3c2d9d991e392894d1e5345b7487655d3cc6" upstream="master"/>
   <project dest-branch="master" name="linux/external/alsa-config" path="external/alsa-config" revision="540180c32dfbda57f26f0db16da38dad3b04609f" upstream="master"/>
@@ -75,14 +75,14 @@
   <project dest-branch="master" name="linux/rk-rootfs-build" path="debian" revision="62a6ed545f42904d5193b4465b921078520a7571" upstream="master"/>
   <project dest-branch="master" name="linux/rkmedia" path="external/rkmedia" revision="1f8d896f6cd2571b37150a8d331018ddd7693473" upstream="master"/>
   <project dest-branch="master" name="linux/security/bin" path="external/security/bin" revision="6c83b14370979e59eae51ec6558abbe7aa7417b0" upstream="master"/>
-  <project dest-branch="master" name="linux/tools" path="tools" revision="3f2af5a1e8333c0158f0db06abc6b9893dcfb8e5" upstream="master">
+  <project dest-branch="master" name="linux/tools" path="tools" revision="efa67c103f132b8553de0bb36864ba603961323c" upstream="master">
     <linkfile dest="tools/windows/RKDevTool/RKDevTool_Release/config.cfg" src="windows/RKDevTool/RKDevTool_Release/rk3288-config.cfg"/>
     <linkfile dest="tools/windows/RKDevTool/rockdev/package-file" src="windows/RKDevTool/rockdev/rk3288-package-file"/>
     <linkfile dest="tools/windows/RKDevTool/rockdev/mkupdate.bat" src="windows/RKDevTool/rockdev/rk3288-mkupdate.bat"/>
     <linkfile dest="tools/linux/Linux_Pack_Firmware/rockdev/mkupdate.sh" src="linux/Linux_Pack_Firmware/rockdev/rk3288-mkupdate.sh"/>
     <linkfile dest="tools/linux/Linux_Pack_Firmware/rockdev/package-file" src="linux/Linux_Pack_Firmware/rockdev/rk3288-package-file"/>
   </project>
-  <project dest-branch="stable-4.4-rk3288-linux" name="rk/kernel-stable" path="kernel" revision="5796788b85f5d47fb63c0ae50548d05d82c54770" upstream="stable-4.4-rk3288-linux"/>
+  <project dest-branch="stable-4.4-rk3288-linux" name="rk/kernel-stable" path="kernel" revision="a828e9911a0f9ea3f6f4133707dc276da4a27659" upstream="stable-4.4-rk3288-linux"/>
   <project dest-branch="develop" name="rk/mpp" path="external/mpp" revision="f1643a579e77ec7130fde0dc42dd5481cc6ce702" upstream="develop"/>
   <project dest-branch="master" name="rk/prebuilts/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" path="prebuilts/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" revision="f96f76d6be89a6e28d4dac1f233f9aca9921f69b" upstream="master"/>
   <project dest-branch="master" name="rk/prebuilts/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" path="prebuilts/gcc/linux-x86/arm/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" revision="dd4df7dff4f1df65d78939a958b760a79e3650a1" upstream="master"/>
