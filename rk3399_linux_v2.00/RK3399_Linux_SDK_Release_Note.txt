@@ -1,4 +1,58 @@
 ===========RK3399 Linux SDK Release Note===========
+¡¾rk3399_linux_release_v2.4.1_20200717.xml change log¡¿
+
+ Buildroot (2018.02-rc3):
+    - Fix date time isn't updated by default
+    - Support more shells and feature in power-key.sh
+    - Fix crash when hotplugging monitors
+    - Updtae rockchip_test to fix weston config
+    - Support mali egl client and egl buffer attaching on weston
+    - Support rsa authentication and tcp for adb
+    - support ntfs for recovery
+    - Upgrade mali to r18.
+
+ Distro (debian10):
+    - Fixes the dual screen display
+    - Upgrade mali to r18
+    - Fix date time isn't updated by default
+    - Fix U disk with NTFS that's not display on QT
+
+ Yocto (2.6):
+    - Upgrade mali to r18.
+
+ Kernel (4.4):
+    - Upgrade mali t76x to r18
+    - Supoort legacy api to set propert
+
+ libmali
+    - Upgrade Midgard DDK to r18p0-01rel0
+
+ rkbin (Rockchip binary):
+    - Fix sd card boot fail
+    - Fix the ATF AVE issue
+
+ docs/tools:
+    - Update recovery/Graphics document
+    - Add deviceIo Bluetooth document
+    - Add mpp/weston/chromecast/debian10 document
+    - Update Kernel/Linux/AVL/Socs/Others documents
+    - Update Linux_Upgrade_Tool: update from v1.38 to v1.49
+    - Secureboottool: update to v1.95
+    - SecurityAVB: update to v2.7
+    - Upgrade SDDiskTool to v1.62
+    - rename AndroidTool to RKDevTool, and version upgrade too v2.73
+    - Update DDR/ NAND/ eMMC AVL
+    - Remove unused documents
+    - windows: add tool for modify parameter
+
+ Debian (stretch-9.11):
+    - Update xserver to improve the performance
+    - Add pcmanfm with outline selection
+    - Support the xvimagesink for gstreamer
+    - Update mpp to fix the encode
+    - Upgrade mali to r18
+    - Fix the power key with halt
+    - update adb to fix the shell command and login
 
 ¡¾rk3399_linux_release_v2.4.0_20200430.xml change log¡¿
 
