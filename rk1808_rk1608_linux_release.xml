@@ -42,7 +42,7 @@
   <project name="linux/external/rkwifibt" path="external/rkwifibt" revision="bcfe5dc630ec1a0d129101bc3abae208ba848ccc" upstream="master"/>
   <project name="linux/external/rkscript" path="external/rkscript" revision="323a1f19975536890f42b82847afdfabb3a9948b" upstream="master"/>
   <project name="linux/external/update_engine" path="external/update_engine" revision="047d95d37b628563389eb397f19fe5f1c0c8eb05" upstream="master"/>
-  <project name="linux/external/uvc_app" path="external/uvc_app" revision="rk1808_rk1608"/>
+  <project name="linux/external/uvc_app" path="external/uvc_app" remote="origin" revision="rksl"/>
   <project name="linux/gstreamer-rockchip" path="external/gstreamer-rockchip" revision="c927a1d1d7cf4e6a0becbbc1a2b7b593b0c07396" upstream="master"/>
   <project name="linux/linux-rga" path="external/linux-rga" revision="963c5d838419dda0cd6cf6f143ae07a50a480e63" upstream="master"/>
   <project name="linux/recovery" path="external/recovery" revision="c36e724936464867f470c86135f436e80a9f57a1" upstream="develop"/>
