@@ -27,7 +27,7 @@
   </project>
   <project dest-branch="master" name="linux/distro" path="distro" revision="25bac31d356b52156568a32578216fb8d0b50b75" upstream="master"/>
   <project dest-branch="master" name="linux/distro/download" path="distro/download" revision="master"/>
-  <project dest-branch="master" name="linux/docs" path="docs" revision="5b48698944c45288d5cb41b333f9899210f29b94" upstream="master"/>
+  <project dest-branch="master" name="linux/docs" path="docs" revision="cc5cc31b0e2a1f1b2b8e4836ac41c680d30582a8" upstream="master"/>
   <project dest-branch="master" name="linux/external/LocalPlayer" path="external/LocalPlayer" revision="e7d5cc72e5f0da13f2765aa02bd22d03ebc82750" upstream="master"/>
   <project dest-branch="master" name="linux/external/WakeWordAgent" path="external/wakeWordAgent" revision="4a5a3c2d9d991e392894d1e5345b7487655d3cc6" upstream="master"/>
   <project dest-branch="master" name="linux/external/alsa-config" path="external/alsa-config" revision="540180c32dfbda57f26f0db16da38dad3b04609f" upstream="master"/>
@@ -66,7 +66,7 @@
   <project dest-branch="master" name="linux/external/uvc_app" path="external/uvc_app" revision="7905a9f812f3c6b14fabff0f5c04dfbfab298fed" upstream="master"/>
   <project dest-branch="master" name="linux/external/wifiAutoSetup" path="external/wifiAutoSetup" revision="872e84394896e12989c1745f4af536b567d02de7" upstream="master"/>
   <project dest-branch="master" name="linux/gstreamer-rockchip" path="external/gstreamer-rockchip" revision="d3a6204e49442c79694c4fd94bbdbf547c35e3a0" upstream="master"/>
-  <project dest-branch="master" name="linux/internal_doc" path="docs/.Socs" revision="30613fc038c1282bedfd617fc367aa0387555445" upstream="master">
+  <project dest-branch="master" name="linux/internal_doc" path="docs/.Socs" revision="0aae5982bdf5a29ba14a6a2d781941a002659201" upstream="master">
       <linkfile dest="docs/RK3288" src="RK3288"/>
   </project>
   <project dest-branch="master" name="linux/libmali" path="external/libmali" revision="a0350e7bde72cec769eabec4d9b1c1efbef16d46" upstream="master"/>
