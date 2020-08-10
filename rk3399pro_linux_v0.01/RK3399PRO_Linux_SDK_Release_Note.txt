@@ -2,7 +2,7 @@
 rk3399pro_linux_release_v1.3.2_20200806.xml Release Note:
 
  Kernel (4.4):
-    - Upgrade mali t76x to r18
+    - Upgrade mali t86x to r18
     - Supoort legacy api to set propert
 
  Support debian10:
