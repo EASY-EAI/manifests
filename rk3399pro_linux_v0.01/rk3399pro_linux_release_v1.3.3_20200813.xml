@@ -36,7 +36,7 @@
   </project>
   <project name="linux/distro" path="distro" revision="36e063c01f98c9912f8383562dbc726101dc3c28" upstream="stable-rk3399pro"/>
   <project name="linux/distro/download" path="distro/download" revision="83788d77516e2f669e0718ff85585f49cbe4caf8" upstream="master"/>
-  <project dest-branch="master" name="linux/docs" path="docs" revision="2f3215fb2e85e039582ff7d912e7f22010b2b5c8" upstream="master"/>
+  <project dest-branch="master" name="linux/docs" path="docs" revision="ddd915febd2d217acd3ec3c5b0c30ca1debe959f" upstream="master"/>
   <project name="linux/external/DuerClientSDK" path="external/DuerClientSDK" revision="e366033a83adb6187ee765915696d70cd36b4231" upstream="master_64bit"/>
   <project name="linux/external/LocalPlayer" path="external/LocalPlayer" revision="e7d5cc72e5f0da13f2765aa02bd22d03ebc82750" upstream="master"/>
   <project name="linux/external/WakeWordAgent" path="external/wakeWordAgent" revision="4a5a3c2d9d991e392894d1e5345b7487655d3cc6" upstream="master"/>
@@ -84,7 +84,7 @@
   <project name="linux/external/uvc_app" path="external/uvc_app" revision="b46690942cf7f010bb9588d10b5eb469b82d023f" upstream="master"/>
   <project name="linux/external/wifiAutoSetup" path="external/wifiAutoSetup" revision="d2cfc6b2ca9754311542f91e481e8576fd4ecbc0" upstream="master"/>
   <project name="linux/gstreamer-rockchip" path="external/gstreamer-rockchip" revision="9603ff7dd02cd195a1581013fb9bca991b40fbb3" upstream="master"/>
-  <project dest-branch="master" name="linux/internal_doc" path="docs/.Socs" revision="fd8c545ad81687a0a85e2c7a99809fcc0eab3506" upstream="master">
+  <project dest-branch="master" name="linux/internal_doc" path="docs/.Socs" revision="1681c97cc56545e724c6bfe0f2942857a8e72348" upstream="master">
       <linkfile dest="docs/RK3399PRO" src="RK3399PRO"/>
   </project>
   <project name="linux/libmali" path="external/libmali" revision="8d83987ce5670ab118d807004812f7733926d3c7" upstream="master"/>
