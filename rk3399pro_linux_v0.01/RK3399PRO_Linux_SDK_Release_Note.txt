@@ -1,4 +1,22 @@
 ===========RK3399PRO Linux SDK Release Note===========
+rk3399pro_linux_release_v1.3.3_20200813.xml Release Note:
+
+ - NPU
+    npu fw upgrade to v1.3.4:
+    * NPU Transfer Server: 2.0.1
+    * update rknn_server to 1.3.4(399a00a)
+    * update librknn_runtime to 1.3.4 (c18633a, ovx:44bbc5ea, 6fa8a401)
+    * ChangeLog:
+            1) Support get output tensor name (rknn_query)
+            2) Support rknn model with multiple std/scale
+            3) Refine rknn_inputs_set()
+            4) Support mish op (for yolov4)
+            5) Refine deconvolution
+            6) Bug fix
+
+- Yocto
+    - Upgrade to 3.0.3
+
 rk3399pro_linux_release_v1.3.2_20200806.xml Release Note:
 
  Kernel (4.4):
