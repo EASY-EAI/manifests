@@ -65,7 +65,7 @@
   <project dest-branch="master" name="linux/external/update_engine" path="external/update_engine" revision="ef212877ada6fe629f52485113b35a81ab31009b" upstream="master"/>
   <project dest-branch="master" name="linux/external/uvc_app" path="external/uvc_app" revision="7905a9f812f3c6b14fabff0f5c04dfbfab298fed" upstream="master"/>
   <project dest-branch="master" name="linux/external/wifiAutoSetup" path="external/wifiAutoSetup" revision="872e84394896e12989c1745f4af536b567d02de7" upstream="master"/>
-  <project dest-branch="master" name="linux/gstreamer-rockchip" path="external/gstreamer-rockchip" revision="d3a6204e49442c79694c4fd94bbdbf547c35e3a0" upstream="master"/>
+  <project dest-branch="master" name="linux/gstreamer-rockchip" path="external/gstreamer-rockchip" revision="3ff7e60c39e7b9652f138d0f5159a8d995242a8e" upstream="master"/>
   <project dest-branch="master" name="linux/internal_doc" path="docs/.Socs" revision="0aae5982bdf5a29ba14a6a2d781941a002659201" upstream="master">
       <linkfile dest="docs/RK3288" src="RK3288"/>
   </project>
