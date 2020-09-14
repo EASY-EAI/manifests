@@ -2,6 +2,11 @@
 
 ¡¾rk312x_linux_release_v1.2.0_20200806.xml change log¡¿
 
+ Kernel (4.4):
+    - optimize opp table for the chips with different leakage
+
+¡¾rk312x_linux_release_v1.2.0_20200806.xml change log¡¿
+
  Buildroot (2018.02-rc3):
     - Unified rk3126c/rk3128 buildroot config to rockchip_rk312x_defconfig
     - Update rockchip_test, to fix some test run fail
