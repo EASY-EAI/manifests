@@ -52,7 +52,7 @@
   <project dest-branch="master" name="linux/external/pcba_adb_test" path="external/pcba_adb_test" revision="0a1ca61f27007e8374d21f3af167ee5e02923f19" upstream="master"/>
   <project dest-branch="master" name="linux/external/rk_pcba_test" path="external/rk_pcba_test" revision="b2b303139665d4e256adda2b64211edd53dd45e4" upstream="master"/>
   <project dest-branch="master" name="linux/external/rkfacial" path="external/rkfacial" revision="34ec76608cb71b44bbb743827645442acea00cdb" upstream="master"/>
-  <project dest-branch="master" name="linux/external/rknpu" path="external/rknpu" revision="c4c616fbea221e6efdbef9cc6b09043907783045" upstream="master"/>
+  <project dest-branch="master" name="linux/external/rknpu" path="external/rknpu" revision="7a228969966236b25315173725b20c1e377a2960" upstream="master"/>
   <project dest-branch="master" name="linux/external/rkscript" path="external/rkscript" revision="143c2b1668a8f25302dfb1177a7221d5098cde20" upstream="master"/>
   <project dest-branch="master" name="linux/external/rkssd" path="external/rkssd" revision="1c50d336e770a8ce09ae33b3e09d2783d5b4c2d9" upstream="master"/>
   <project dest-branch="master" name="linux/external/rktoolkit" path="external/rktoolkit" revision="4d51ec5866d39becd23bac3c9bc2f0bfd9dfe777" upstream="master"/>
