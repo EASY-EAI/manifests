@@ -41,7 +41,7 @@
   <project dest-branch="master" name="linux/external/bluetooth_bsa" path="external/bluetooth_bsa" revision="4e596c44f756568f4a9f39faee3a09d582831983" upstream="master"/>
   <project dest-branch="master" name="linux/external/bluez-alsa" path="external/bluez-alsa" revision="e383251a22fef7213b7e5a804e4c7a7ca621c80d" upstream="master"/>
   <project dest-branch="master" name="linux/external/broadcom_bsa" path="external/broadcom_bsa" revision="0367344b9b15986ba98b39dafcd9b99fdc33c820" upstream="master"/>
-  <project dest-branch="master" name="linux/external/camera_engine_rkaiq" path="external/camera_engine_rkaiq" revision="79ddf608406cbc88c1d87609a18c2bcd22491a9b" upstream="master"/>
+  <project dest-branch="master" name="linux/external/camera_engine_rkaiq" path="external/camera_engine_rkaiq" revision="d218653a92dccba4ea88dc81f0fad31ca2045716" upstream="master"/>
   <project dest-branch="master" name="linux/external/common_algorithm" path="external/common_algorithm" revision="6c695762bc96c66d3ce14eb70b82e39c1f1115f4" upstream="master"/>
   <project dest-branch="master" name="linux/external/deviceio_release" path="external/deviceio_release" revision="c60fbb907e417e0b711a62787ce868b68fde484b" upstream="master"/>
   <project dest-branch="master" name="linux/external/eq_drc_process" path="external/eq_drc_process" revision="757d3c8539ed049e4f176679a2d9d9d7072a15a8" upstream="master"/>
@@ -51,7 +51,7 @@
   <project dest-branch="master" name="linux/external/minilogger" path="external/minilogger" revision="5f0fa4698d5305d8653c2352bfcf1d9aa57064a4" upstream="master"/>
   <project dest-branch="master" name="linux/external/pcba_adb_test" path="external/pcba_adb_test" revision="0a1ca61f27007e8374d21f3af167ee5e02923f19" upstream="master"/>
   <project dest-branch="master" name="linux/external/rk_pcba_test" path="external/rk_pcba_test" revision="b2b303139665d4e256adda2b64211edd53dd45e4" upstream="master"/>
-  <project dest-branch="master" name="linux/external/rkfacial" path="external/rkfacial" revision="08a44826684343e76cd0218ffb4e2b250fd4891f" upstream="master"/>
+  <project dest-branch="master" name="linux/external/rkfacial" path="external/rkfacial" revision="b1d5aa640bb7581bd5c3c608c1ce3458c7911eff" upstream="master"/>
   <project dest-branch="master" name="linux/external/rknpu" path="external/rknpu" revision="7a228969966236b25315173725b20c1e377a2960" upstream="master"/>
   <project dest-branch="master" name="linux/external/rkscript" path="external/rkscript" revision="143c2b1668a8f25302dfb1177a7221d5098cde20" upstream="master"/>
   <project dest-branch="master" name="linux/external/rkssd" path="external/rkssd" revision="1c50d336e770a8ce09ae33b3e09d2783d5b4c2d9" upstream="master"/>
@@ -83,7 +83,7 @@
   <project dest-branch="master" name="rk/prebuilts/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf" path="prebuilts/gcc/linux-x86/arm/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf" revision="b69265a7bd71cc212764a7a223da9058d8fb9444" upstream="master"/>
   <project dest-branch="master" name="rk/prebuilts/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" path="prebuilts/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" revision="f96f76d6be89a6e28d4dac1f233f9aca9921f69b" upstream="master"/>
   <project dest-branch="master" name="rk/prebuilts/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" path="prebuilts/gcc/linux-x86/arm/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" revision="dd4df7dff4f1df65d78939a958b760a79e3650a1" upstream="master"/>
-  <project dest-branch="rockchip/2018.02-rc3" name="rk/rk1108/buildroot" path="buildroot" revision="9add14fdc6e3a1a38a2f785f9413b0defe94b640" upstream="rockchip/2018.02-rc3">
+  <project dest-branch="rockchip/2018.02-rc3" name="rk/rk1108/buildroot" path="buildroot" revision="cfa587ad1839a33603db1db8ccd0b1857c7f4e3a" upstream="rockchip/2018.02-rc3">
     <linkfile dest="Makefile" src="build/Makefile"/>
     <linkfile dest="envsetup.sh" src="build/envsetup.sh"/>
   </project>
