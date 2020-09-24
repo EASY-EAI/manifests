@@ -22,7 +22,7 @@
   </project>
   <project name="linux/distro" path="distro" revision="5970e907bf989d92ee80ec3eb429a6c82520f2ae" upstream="stable-rk3328"/>
   <project name="linux/distro/download" path="distro/download" revision="83788d77516e2f669e0718ff85585f49cbe4caf8" upstream="master"/>
-  <project name="linux/docs" path="docs" revision="0cae7a147fe1590bba7637ba9973d052a0db2708" upstream="master"/>
+  <project name="linux/docs" path="docs" revision="9b0f568d330f2982b9705b7d356b35f9d867e957" upstream="master"/>
   <project name="linux/external/alsa-config" path="external/alsa-config" revision="540180c32dfbda57f26f0db16da38dad3b04609f" upstream="master"/>
   <project name="linux/external/avb" path="external/avb" revision="64b5ea0130d7440084796f6a23d7cd91fac988b8" upstream="master"/>
   <project name="linux/external/bluetooth_bsa" path="external/bluetooth_bsa" revision="eb73bdaf4324222e21afcca985e2106e2aa4f9b8" upstream="master"/>
