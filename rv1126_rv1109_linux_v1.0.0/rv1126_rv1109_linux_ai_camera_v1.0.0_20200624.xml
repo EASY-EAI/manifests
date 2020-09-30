@@ -43,8 +43,6 @@
   <project name="linux/external/common_algorithm" path="external/common_algorithm" revision="037c7b91b3824a83cb299dbcdda007f12e36bb94" upstream="master"/>
   <project name="linux/external/eq_drc_process" path="external/eq_drc_process" revision="3e1a7c6bb75ee7bd7aec0f21196328ac0ce51a30" upstream="master"/>
   <project name="linux/external/isp2-ipc" path="external/isp2-ipc" revision="16dc2bade13bca88bef966be42636d0222b25479" upstream="master"/>
-  <project name="linux/external/minigui" path="external/minigui" revision="b55f2d6f5e9ef135e16079e432819695ec29ead7" upstream="master"/>
-  <project name="linux/external/minigui_desktop" path="external/minigui_desktop" revision="9fa64dabb6bae25c07c2fc6ed40de6123f71f493" upstream="master"/>
   <project name="linux/external/minilogger" path="external/minilogger" revision="5f0fa4698d5305d8653c2352bfcf1d9aa57064a4" upstream="master"/>
   <project name="linux/external/pcba_adb_test" path="external/pcba_adb_test" revision="938e74be207c563a6189c71bcc5296a185240555" upstream="master"/>
   <project name="linux/external/rk_pcba_test" path="external/rk_pcba_test" revision="c729a8fc2c1652877443e0dc72200657f6407331" upstream="master"/>

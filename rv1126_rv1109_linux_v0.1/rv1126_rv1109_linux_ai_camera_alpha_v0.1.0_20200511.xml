@@ -41,8 +41,6 @@
   <project name="linux/external/camera_engine_rkaiq" path="external/camera_engine_rkaiq" revision="4955ed5ab4985e948833358a96582cce14a92897" upstream="master"/>
   <project name="linux/external/common_algorithm" path="external/common_algorithm" revision="a2ca079787a972734117355f1482b97cbe5a5ac9" upstream="master"/>
   <project name="linux/external/eq_drc_process" path="external/eq_drc_process" revision="f9db232e27eef12b4454673140f049c11ccc1a0a" upstream="master"/>
-  <project name="linux/external/minigui" path="external/minigui" revision="b55f2d6f5e9ef135e16079e432819695ec29ead7" upstream="master"/>
-  <project name="linux/external/minigui_desktop" path="external/minigui_desktop" revision="9fa64dabb6bae25c07c2fc6ed40de6123f71f493" upstream="master"/>
   <project name="linux/external/minilogger" path="external/minilogger" revision="9841021db83382d36f871b19994bf4af2a38af24" upstream="master"/>
   <project name="linux/external/rk_pcba_test" path="external/rk_pcba_test" revision="25643cf5f522a71ed2a918b0abe15e363a893504" upstream="master"/>
   <project name="linux/external/rknn_demo" path="external/rknn_demo" revision="452b17d01b9e1d4f7b38f09e7fbca278d148a1f8" upstream="master"/>
