@@ -1,0 +1,121 @@
+===========RV1126/RV1109 Linux SDK Release Note===========
+
+[rv1126_rv1109_linux_ai_camera_v1.4.0_20201013.xml]
+
+SDK update lists:
+    
+	1.Release RkAiq to v1.2.3,see on external/camera_engine_rkaiq/RkAiqVersion.h
+	2.ISP driver update to v 0.1.8
+	3.Optimize the UVC preview time
+	4.UVC support more PU/CT cmd default
+	5.Support PTZ/EPTZ ctl interface,see external/uvc_app/doc
+	6.Add UAC docs, see external/uac_app/doc
+	7.Update rockit/aiserver/smart displayservice version
+	8.Update NPU driver version to V1.5.0
+    9.Fix some USB compatibility issues	
+	10.Improve stability
+
+[ rv1126_rv1109_linux_ai_camera_v1.3.0_20200829.xml ]
+
+	SDK update lists:
+
+	1. Default use rockit framework to replace of rkmedia
+	2. Fix mosaic for uvc+uac config
+	3. Release RkAiq to v1.0.7
+	     - calib db: v1.2.0 magic code: 1006650
+		 - support dependant iq for hdr/normal/gray
+		 - rkisp_demo
+		   - support dual camera
+		   - add hdr x2 and x3 arg option
+		 - Isp20PollThread
+		   - correct error handle in trigger_readback
+		   - fix the bug of stopping blocked by tx thread stop process
+		 - ae support hdr3, add imx415 hdr3 xml
+		 - imx415 anti-flicker
+		 - readback two times to avoid luma detect bug
+		 - iqfiles:
+			- imx378/imx415/gc2053/gc4c33,HSNR<=>LSNR
+			- imx378/s5kgm1sp, GainRange:use Linear Mode
+			- gc2053:v0.0.2 imx415:v0.0.2 ov2718:v0.0.2
+		- ANR: add gray mode control for mfnr & uvnr param
+		- decrease AIQ heap memory usage, save 50M
+		- CamHwIsp20: move isp/ispp/mipitx,rx streaming on to prepare stage
+		- fix bugs in GainRange-dBmode
+		- support dual cameras streaming concurrently 
+		- add backlight compasation and highlight depresion interface
+		- add enable and disable dehaze interface
+		- add asd interface to get calculated environmental luma
+		- ov2718: v0.0.4 gc2053: v0.0.3 ov02k10: v0.0.2
+
+	4.Add adaptive encoding rate,optimize the buffer copy process on uvc
+	5.Improve stability
+
+[ rv1126_rv1109_linux_ai_camera_v1.2.0_20200815.xml ]
+
+	SDK update lists:
+
+	1. Firmware compatible with RV1126 and RV1109 (see Quick Start Document)
+	2. Support new EVB V13 baord (RV1126_RV1109_EVB_DDR3P216SD6_V13_20200630LXF)
+	3. Release RkAiq to v1.0.3
+	    - Calib : v1.1.7 magic code: 1023357
+		- iqfiles:
+			- rename all iqfiles
+			- add imx378, imx415,s5kgm1sp,gc2035
+			- support sensor mirror and flip
+		- ae:
+			- fix some ae uApi bugs
+			- add EnvCalibration in AE
+		- FEC/LDCH: use resource path of user config
+		- CamHwIsp20: fix wrong mutex unlock
+		- DPCC:
+			- Redefine DPCC in algo, add Expert Mode
+			- Add Fast mode in DPCC
+			- fix some compatible issues of vicap and isp
+		- rkisp_demo: streaming stop after aiq
+		-fix the bug calculating the times of readback is error in lumadetect
+	4. Support uvc H265 encode XU cmd 
+	5.Improve stability
+
+[ rv1126_rv1109_linux_ai_camera_v1.1.0_20200717.xml ]
+
+	SDK update lists:
+
+	1. support build rv1109 firmware (see Quick Start Document)
+
+	| Chip Name | Board Configuration                  | Storage Medium | EVB Board Name                                      | Support Thunder Boot |
+	| ------    | ------------------------------------ | -------------- | --------------------------------------------------- | -------------------- |
+	| RV1109    | BoardConfig-38x38-spi-nand-rv1109.mk | SPI NAND       | RV1126_RV1109_38X38_SPI_DDR3P216DD6_V10_20200511LXF | NO                   |
+	| RV1109    | BoardConfig-rv1109-uvc.mk                | eMMC           | RV1126_RV1109_EVB_DDR3P216SD6_V12_20200515KYY       | NO                   |
+	| RV1126    | BoardConfig-spi-nand.mk              | SPI NAND       | RV1126_RV1109_EVB_DDR3P216SD6_V12_20200515KYY       | NO                   |
+	| RV1126    | BoardConfig-uvc.mk                       | eMMC           | RV1126_RV1109_EVB_DDR3P216SD6_V12_20200515KYY       | NO                   |
+
+	2. Support EVB V12 Board (RV1126_RV1109_EVB_DDR3P216SD6_V12_20200515KYY)
+	3. Release ISP tuner tool and document
+	5. Support UAC
+	6. Support RamBoot
+	7. Update usb config
+	8. Optimize startup speed
+	9. Update develop document (see Quick Start Document)
+
+[ rv1126_rv1109_linux_ai_camera_v1.0.0_20200624.xml ]
+	- v1.0.0 official version
+	rv1126/rv1109 support docs lists
+	docs/Linux/Multimedia/camera/Rockchip_Instruction_Linux_Appliction_ISP20_CN.pdf
+	docs/Linux/Multimedia/Rockchip_Developer_Guide_MPP_CN.pdf
+	docs/Linux/Multimedia/Rockchip_Developer_Guide_MPP_EN.pdf
+	docs/Linux/Multimedia/Rockchip_Instructions_Linux_Rkmedia_CN.pdf
+	docs/Linux/Multimedia/camera/Rockchip_Developer_Guide_ISP20_RkAiq_CN.pdf
+	docs/Linux/Multimedia/camera/Rockchip_User_Manual_Linux_ISP2_CN.pdf
+	docs/Linux/ApplicationNote/Rockchip_Instructions_Linux_Web_Configuration_CN.pdf
+	docs/RV1126_RV1109/Rockchip_RV1126_RV1109_EVB_User_Guide_V1.0_CN.pdf
+	docs/RV1126_RV1109/Rockchip_RV1126_RV1109_EVB_User_Guide_V1.0_EN.pdf
+	docs/RV1126_RV1109/Rockchip_RV1126_RV1109_Linux_SDK_V1.0.0_20200616_CN.pdf
+	docs/RV1126_RV1109/Rockchip_RV1126_RV1109_Linux_SDK_V1.0.0_20200616_EN.pdf
+	docs/RV1126_RV1109/Rockchip_RV1126_RV1109_Quick_Start_Linux_CN.pdf
+	docs/RV1126_RV1109/Rockchip_RV1126_RV1109_Quick_Start_Linux_EN.pdf
+	docs/RV1126_RV1109/RV1109 Multimedia Codec Benchmark v1.1.pdf
+	docs/RV1126_RV1109/RV1126 Multimedia Codec Benchmark v1.1.pdf
+	docs/AVL/RKeMMCSupportList Ver1.50_20200605.pdf
+	docs/AVL/RK SpiNor and  SLC Nand SupportList Ver1.20_2020_0615.pdf
+	docs/AVL/Rockchip_Support_List_DDR_Ver2.43.pdf
+
