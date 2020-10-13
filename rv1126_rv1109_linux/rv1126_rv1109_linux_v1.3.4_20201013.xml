@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="ssh://git@www.rockchip.com.cn/linux/" name="rk"/>
+  
+  <default remote="rk" sync-j="4"/>
+  
+  <project dest-branch="rk33/mid/8.1/develop" name="android/RKNPUTool" path="external/RKNPUTools" revision="bbfd35a822f5f2f15ce2943d4d4ff0342a883c79" upstream="rk33/mid/8.1/develop"/>
+  <project dest-branch="rk33/mid/9.0/develop" name="android/platform/external/libdrm" path="external/libdrm" revision="6b4258541a585426b128a365be89c11a1c363e02" upstream="rk33/mid/9.0/develop"/>
+  <project dest-branch="develop-next" name="android/rk/platform/system/rk_tee_user" path="external/security/rk_tee_user" revision="d39ab4944febd0fec39d2a796bbaf7e7d5f0cca6" upstream="develop-next"/>
+  <project dest-branch="next-dev" name="android/rk/u-boot" path="u-boot" revision="6ab927d862e724c96dbd7667991afc1393edc9b2" upstream="next-dev"/>
+  <project dest-branch="master" name="linux/app/CameraFactoryTestServer" path="app/CameraFactoryTestServer" revision="388e75fc2165401aa286b7f5006dbd2f86591213" upstream="master"/>
+  <project dest-branch="master" name="linux/app/LibIPCProtocol" path="app/libIPCProtocol" revision="1b3e33e584e5d5d61c0ad4962a89aff96e31a3ea" upstream="master"/>
+  <project dest-branch="master" name="linux/app/QFacialGate" path="app/QFacialGate" revision="9988636c367fecc899e79ae5b516d99cae75f7a5" upstream="master"/>
+  <project dest-branch="master" name="linux/app/aiserver" path="app/aiserver" revision="5e3a9a7fe72ffc0278397a096a3745171a2d0b3a" upstream="master"/>
+  <project dest-branch="master" name="linux/app/camera" path="app/camera" revision="44a961358dcf912504a951e7caf60c7d55ed999a" upstream="master"/>
+  <project dest-branch="master" name="linux/app/dbserver" path="app/dbserver" revision="9bcaf73fbe7886f096072ef4ad5982302c2f117d" upstream="master"/>
+  <project dest-branch="master" name="linux/app/eptz_demo" path="app/eptz_demo" revision="eefc46ba96e15e52d191b0db310cfb16ecfd7f40" upstream="master"/>
+  <project dest-branch="master" name="linux/app/ficial_gate" path="app/ficial_gate" revision="276eac0305cc03ad825278f3cfc74043e906dd13" upstream="master"/>
+  <project dest-branch="master" name="linux/app/ipc-daemon" path="app/ipc-daemon" revision="4bd21b4799ba85e6ec62ee46efd83ad5a79810a4" upstream="master"/>
+  <project dest-branch="master" name="linux/app/libgdbus" path="app/libgdbus" revision="79370be32dde657abf1128c90c72b93e75d814ed" upstream="master"/>
+  <project dest-branch="master" name="linux/app/librkdb" path="app/librkdb" revision="72fd398899e791dcf0a02b484a9be404063ed94e" upstream="master"/>
+  <project dest-branch="master" name="linux/app/mediaserver" path="app/mediaserver" revision="ff9518f59e712f022a83cba421c0f90093001136" upstream="master"/>
+  <project dest-branch="master" name="linux/app/network_manager" path="app/netserver" revision="4a9d25b9d3e8e523660d181f3ff62e16f1df4451" upstream="master"/>
+  <project dest-branch="master" name="linux/app/smart_display_service" path="app/smart_display_service" revision="66c7908c584c014bec2e6c45e6db708739d36146" upstream="master"/>
+  <project dest-branch="master" name="linux/app/storage_manager" path="app/storage_manager" revision="d8250bf812d7738669f31a8fe1a5f0e9d5f91b9b" upstream="master"/>
+  <project dest-branch="master" name="linux/app/video" path="app/video" revision="b81dab76a6ebccba5b43738092bd88e9073acbdb" upstream="master"/>
+  <project dest-branch="master" name="linux/app/web/ipcweb-backend" path="app/ipcweb-backend" revision="ef396c0c7267b1a82d9aa3914e7e078bca4779c5" upstream="master"/>
+  <project dest-branch="master" name="linux/buildroot/dl" path="buildroot/dl" revision="2842ca5a5b1fb19c2fe158dd3f1c7c2ba32d7ba2" upstream="master"/>
+  <project dest-branch="master" name="linux/device/rockchip" path="device/rockchip" revision="ce19f87b3315fd0a50dfb2fc637a81fb718e57dd" upstream="master">
+    <linkfile dest="mkfirmware.sh" src="common/mkfirmware.sh"/>
+    <linkfile dest="build.sh" src="common/build.sh"/>
+    <linkfile dest="rkflash.sh" src="common/rkflash.sh"/>
+    <linkfile dest="device/rockchip/.target_product" src="rv1126_rv1109"/>
+  </project>
+  <project dest-branch="rv1126" name="linux/docs" path="docs" revision="049b2c7aee184615b6dc29ff8fc1b0c17b3eaab6" upstream="rv1126"/>
+  <project dest-branch="master" name="linux/external/CallFunIpc" path="external/CallFunIpc" revision="a54cb760b7f8a115d91fdd02abfb57dbb95664b4" upstream="master"/>
+  <project dest-branch="master" name="linux/external/alsa-config" path="external/alsa-config" revision="16078cdc78d9d4961a60c60c527a1a14972fa30d" upstream="master"/>
+  <project dest-branch="master" name="linux/external/app" path="external/app" revision="3a06ebb791eb8bc6d2b41876f895d121be987f41" upstream="master"/>
+  <project dest-branch="master" name="linux/external/avb" path="external/avb" revision="64b5ea0130d7440084796f6a23d7cd91fac988b8" upstream="master"/>
+  <project dest-branch="master" name="linux/external/ble_wificonfig" path="external/ble_wificonfig" revision="3b56e0e268634216df1f992d944bb30158e86786" upstream="master"/>
+  <project dest-branch="master" name="linux/external/bluetooth_bsa" path="external/bluetooth_bsa" revision="4e596c44f756568f4a9f39faee3a09d582831983" upstream="master"/>
+  <project dest-branch="master" name="linux/external/bluez-alsa" path="external/bluez-alsa" revision="e383251a22fef7213b7e5a804e4c7a7ca621c80d" upstream="master"/>
+  <project dest-branch="master" name="linux/external/broadcom_bsa" path="external/broadcom_bsa" revision="0367344b9b15986ba98b39dafcd9b99fdc33c820" upstream="master"/>
+  <project dest-branch="master" name="linux/external/camera_engine_rkaiq" path="external/camera_engine_rkaiq" revision="d218653a92dccba4ea88dc81f0fad31ca2045716" upstream="master"/>
+  <project dest-branch="master" name="linux/external/common_algorithm" path="external/common_algorithm" revision="6c695762bc96c66d3ce14eb70b82e39c1f1115f4" upstream="master"/>
+  <project dest-branch="master" name="linux/external/deviceio_release" path="external/deviceio_release" revision="c60fbb907e417e0b711a62787ce868b68fde484b" upstream="master"/>
+  <project dest-branch="master" name="linux/external/eq_drc_process" path="external/eq_drc_process" revision="757d3c8539ed049e4f176679a2d9d9d7072a15a8" upstream="master"/>
+  <project dest-branch="master" name="linux/external/isp2-ipc" path="external/isp2-ipc" revision="bce14ac9f969dfc722b72a3b070ceecedd37f296" upstream="master"/>
+  <project dest-branch="master" name="linux/external/minilogger" path="external/minilogger" revision="5f0fa4698d5305d8653c2352bfcf1d9aa57064a4" upstream="master"/>
+  <project dest-branch="master" name="linux/external/pcba_adb_test" path="external/pcba_adb_test" revision="0a1ca61f27007e8374d21f3af167ee5e02923f19" upstream="master"/>
+  <project dest-branch="master" name="linux/external/rk_pcba_test" path="external/rk_pcba_test" revision="b2b303139665d4e256adda2b64211edd53dd45e4" upstream="master"/>
+  <project dest-branch="master" name="linux/external/rkfacial" path="external/rkfacial" revision="b1d5aa640bb7581bd5c3c608c1ce3458c7911eff" upstream="master"/>
+  <project dest-branch="master" name="linux/external/rknpu" path="external/rknpu" revision="7a228969966236b25315173725b20c1e377a2960" upstream="master"/>
+  <project dest-branch="master" name="linux/external/rkscript" path="external/rkscript" revision="143c2b1668a8f25302dfb1177a7221d5098cde20" upstream="master"/>
+  <project dest-branch="master" name="linux/external/rkssd" path="external/rkssd" revision="1c50d336e770a8ce09ae33b3e09d2783d5b4c2d9" upstream="master"/>
+  <project dest-branch="master" name="linux/external/rktoolkit" path="external/rktoolkit" revision="4d51ec5866d39becd23bac3c9bc2f0bfd9dfe777" upstream="master"/>
+  <project dest-branch="master" name="linux/external/rkupdate" path="external/rkupdate" revision="0dec35553eb629783b0896bce0198dd122c9dc40" upstream="master"/>
+  <project dest-branch="master" name="linux/external/rkwifibt" path="external/rkwifibt" revision="9cd20f02bfda3fcf145e3a2695e4fad7f4ffc56d" upstream="master"/>
+  <project dest-branch="master" name="linux/external/rtc_demo" path="external/rtc_demo" revision="01ea9377beae66a544191ff5dbd920f19ba4614c" upstream="master"/>
+  <project dest-branch="master" name="linux/external/tensorflow" path="external/tensorflow" revision="e1877bb157a775d76ec8c0b68467aef6d053bbb2" upstream="master"/>
+  <project dest-branch="master" name="linux/external/uac_app" path="external/uac_app" revision="0ca9a7bdd6c00f72b397f79d5f54a25c497b6ce2" upstream="master"/>
+  <project dest-branch="develop-4.19" name="linux/external/uvc_app" path="external/uvc_app" revision="f3efe7c878e86938176cb8b6ed988fed8e32d67b" upstream="develop-4.19"/>
+  <project dest-branch="master" name="linux/external/wifiAutoSetup" path="external/wifiAutoSetup" revision="872e84394896e12989c1745f4af536b567d02de7" upstream="master"/>
+  <project dest-branch="master" name="linux/internal_doc" path="docs/.Socs" revision="90ab27a1f6a73fd1da10217cf86ef4d3e628699c" upstream="master">
+    <linkfile dest="docs/RV1126_RV1109" src="RV1126_RV1109"/>
+  </project>
+  <project dest-branch="master" name="linux/linux-rga" path="external/linux-rga" revision="1fc02d56d97041c86f01bc1284b7971c6098c5fb" upstream="master"/>
+  <project dest-branch="develop" name="linux/recovery" path="external/recovery" revision="f2e3741f9bd57e6f69af838f122dcba2d1462fe4" upstream="develop"/>
+  <project dest-branch="master" name="linux/rkmedia" path="external/rkmedia" revision="dbd6b7cec51d35c1083c7fe2cfc686dcd925df58" upstream="master"/>
+  <project dest-branch="master" name="linux/rockit" path="external/rockit" revision="8b1903b8bc6bc234feb2ca46c7ed915b27d225ce" upstream="master"/>
+  <project dest-branch="master" name="linux/security/bin" path="external/security/bin" revision="f59085ce658bd69678b68fd4840fb86937678125" upstream="master"/>
+  <project dest-branch="master" name="linux/tools" path="tools" revision="e837004897e0cb1ec3cd1542ddcd211263a3e7c1" upstream="master">
+    <linkfile dest="tools/windows/RKDevTool/RKDevTool_Release/config.cfg" src="windows/RKDevTool/RKDevTool_Release/rv1126_rv1109-config.cfg"/>
+    <linkfile dest="tools/windows/RKDevTool/rockdev/package-file" src="windows/RKDevTool/rockdev/rv1126_rv1109-package-file"/>
+    <linkfile dest="tools/windows/RKDevTool/rockdev/mkupdate.bat" src="windows/RKDevTool/rockdev/rv1126_rv1109-mkupdate.bat"/>
+    <linkfile dest="tools/linux/Linux_Pack_Firmware/rockdev/mkupdate.sh" src="linux/Linux_Pack_Firmware/rockdev/rv1126_rv1109-mkupdate.sh"/>
+    <linkfile dest="tools/linux/Linux_Pack_Firmware/rockdev/package-file" src="linux/Linux_Pack_Firmware/rockdev/rv1126_rv1109-package-file"/>
+  </project>
+  <project dest-branch="develop-4.19" name="rk/kernel" path="kernel" revision="34564b6204e19a1827b7d1131003c6638f677191" upstream="develop-4.19"/>
+  <project dest-branch="develop" name="rk/mpp" path="external/mpp" revision="879c161b9b3aae2cbe39b4143d71fb0bf9e3a77b" upstream="develop"/>
+  <project dest-branch="master" name="rk/prebuilts/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf" path="prebuilts/gcc/linux-x86/arm/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf" revision="b69265a7bd71cc212764a7a223da9058d8fb9444" upstream="master"/>
+  <project dest-branch="master" name="rk/prebuilts/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" path="prebuilts/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" revision="f96f76d6be89a6e28d4dac1f233f9aca9921f69b" upstream="master"/>
+  <project dest-branch="master" name="rk/prebuilts/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" path="prebuilts/gcc/linux-x86/arm/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" revision="dd4df7dff4f1df65d78939a958b760a79e3650a1" upstream="master"/>
+  <project dest-branch="rockchip/2018.02-rc3" name="rk/rk1108/buildroot" path="buildroot" revision="01e4e4bf9f6bfae4db833a8920ef64876be62841" upstream="rockchip/2018.02-rc3">
+    <linkfile dest="Makefile" src="build/Makefile"/>
+    <linkfile dest="envsetup.sh" src="build/envsetup.sh"/>
+  </project>
+  <project dest-branch="master" name="rk/rkbin" path="rkbin" revision="65de7a7be492fd8a4f2ca3ad6f99f54177b06167" upstream="master"/>
+  <project dest-branch="master" name="rk/rknn-toolkit" path="external/rknn-toolkit" revision="0d9a4316e59f23e619deb9fd3bb6965f2c47ffd0" upstream="master"/>
+  <project dest-branch="master" name="rk/rockface" path="external/rockface" revision="daf7e363ae3f2fd74d68451b7fa9a8789de7b490" upstream="master"/>
+  <project dest-branch="master" name="rk/rockx" path="external/rockx" revision="2a4ab222f46ac0b721ed9646cf1320e7f334aa00" upstream="master"/>
+</manifest>
