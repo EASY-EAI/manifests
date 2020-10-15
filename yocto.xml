@@ -14,5 +14,5 @@
     <linkfile dest="yocto/.templateconf" src=".templateconf"/>
     <linkfile dest="yocto/oe-init-build-env" src="oe-init-build-env"/>
   </project>
-  <project path="yocto/build/conf" name="linux/build" revision="18b89a0ed6fac59a0d486460617d3051e95a6010" upstream="yocto-next"/>
+  <project path="yocto/build/conf" name="linux/build" revision="97b32d39ff79f2759e0981c06d14361a748b2318" upstream="yocto-next"/>
 </manifest>
