@@ -90,7 +90,7 @@
   <project dest-branch="master" name="linux/linux-rga" path="external/linux-rga" revision="b20975d508dab7bcf56a28a371555519df4c3809" upstream="master"/>
   <project dest-branch="master" name="linux/linux-rga" path="npu/external/linux-rga" revision="72e7764a9fe358e6ad50eb1b21176cc95802c7fb" upstream="master"/>
   <project dest-branch="develop" name="linux/recovery" path="external/recovery" revision="f2e3741f9bd57e6f69af838f122dcba2d1462fe4" upstream="develop"/>
-  <project dest-branch="master" name="linux/rk-rootfs-build" path="debian" revision="d1d8bfc84c6ed3ee1ff25804162ee8caf0d71be0" upstream="master"/>
+  <project dest-branch="master" name="linux/rk-rootfs-build" path="debian" revision="4a1304001ca0d161893cc5fd923343f4e978e99b" upstream="master"/>
   <project dest-branch="master" name="linux/rkmedia" path="external/rkmedia" revision="8d0d2969f9922defd220d1a4349950d7d28aa84b" upstream="master"/>
   <project dest-branch="master" name="linux/rkmedia" path="npu/external/rkmedia" revision="6c796505c1d327f06ec6ade0df697ff84bfe75b1" upstream="master"/>
   <project dest-branch="master" name="linux/security/bin" path="external/security/bin" revision="f59085ce658bd69678b68fd4840fb86937678125" upstream="master"/>
