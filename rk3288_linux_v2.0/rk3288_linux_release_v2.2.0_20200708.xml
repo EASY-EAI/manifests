@@ -72,7 +72,7 @@
   <project dest-branch="master" name="linux/libmali" path="external/libmali" revision="a0350e7bde72cec769eabec4d9b1c1efbef16d46" upstream="master"/>
   <project dest-branch="master" name="linux/linux-rga" path="external/linux-rga" revision="87737c0b4425e2372086385de7fe9c54b9dbbace" upstream="master"/>
   <project dest-branch="develop" name="linux/recovery" path="external/recovery" revision="c290f996bef9bc2cc3bde4ed12b1ed9188721f62" upstream="develop"/>
-  <project dest-branch="master" name="linux/rk-rootfs-build" path="debian" revision="c40d6bf2e98b53e1d4e3c3421bb990e17d865a73" upstream="master"/>
+  <project dest-branch="master" name="linux/rk-rootfs-build" path="debian" revision="4a1304001ca0d161893cc5fd923343f4e978e99b" upstream="master"/>
   <project dest-branch="master" name="linux/rkmedia" path="external/rkmedia" revision="1f8d896f6cd2571b37150a8d331018ddd7693473" upstream="master"/>
   <project dest-branch="master" name="linux/security/bin" path="external/security/bin" revision="6c83b14370979e59eae51ec6558abbe7aa7417b0" upstream="master"/>
   <project dest-branch="master" name="linux/tools" path="tools" revision="efa67c103f132b8553de0bb36864ba603961323c" upstream="master">
