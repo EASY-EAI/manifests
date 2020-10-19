@@ -20,7 +20,7 @@
   <project dest-branch="master" name="linux/app/qfm" path="app/qfm" revision="cb38ba939c7ebdb1d205b68290754a115269c7e4" upstream="master"/>
   <project dest-branch="master" name="linux/app/qplayer" path="app/qplayer" revision="6b658230a246ccebb425fdfcd368b11457d4635b" upstream="master"/>
   <project dest-branch="develop" name="linux/app/settings" path="app/qsetting" revision="ce3c52211d94cca71d2ab088c6f64c02788ff9f1" upstream="develop"/>
-  <project dest-branch="master" name="linux/buildroot/dl" path="buildroot/dl" revision="eb1f4afd0cf8f0aec3f51098b52058a58d1fadbc" upstream="master"/>
+  <project dest-branch="master" name="linux/buildroot/dl" path="buildroot/dl" revision="40bcf8fd5efd6da6bd6a7e8594a792c1391903ec" upstream="stable"/>
   <project dest-branch="master" name="linux/device/rockchip" path="device/rockchip" revision="4892d86debe3dcb0e9c6fb2afdd88737c3334911" upstream="master">
     <linkfile dest="mkfirmware.sh" src="common/mkfirmware.sh"/>
     <linkfile dest="build.sh" src="common/build.sh"/>
