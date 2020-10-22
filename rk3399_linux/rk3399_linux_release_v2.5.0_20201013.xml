@@ -64,7 +64,7 @@
   <project dest-branch="master" name="linux/external/uvc_app" path="external/uvc_app" revision="9a69e274f1c7134872ca7dcd4677e9cc13de3ac8" upstream="master"/>
   <project dest-branch="master" name="linux/external/wifiAutoSetup" path="external/wifiAutoSetup" revision="872e84394896e12989c1745f4af536b567d02de7" upstream="master"/>
   <project dest-branch="master" name="linux/gstreamer-rockchip" path="external/gstreamer-rockchip" revision="70c8a002a542412c6f5c44694ebcca62fc1c3d10" upstream="master"/>
-  <project dest-branch="master" name="linux/internal_doc" path="docs/.Socs" revision="f8852817fac81ebb7ee0a99c54954135f84708b9" upstream="master">
+  <project dest-branch="master" name="linux/internal_doc" path="docs/.Socs" revision="325ae33229aea8306db165075ab00511d79d7f0b" upstream="master">
       <linkfile dest="docs/RK3399" src="RK3399"/>
   </project>
   <project dest-branch="master" name="linux/libdrm-rockchip" path="external/libdrm" revision="83fccea1aec82b2cd52a5d06e869fe4d4b2f82e4" upstream="master"/>

@@ -83,7 +83,7 @@
   <project dest-branch="master" name="linux/external/uvc_app" path="external/uvc_app" revision="9a69e274f1c7134872ca7dcd4677e9cc13de3ac8" upstream="master"/>
   <project dest-branch="master" name="linux/external/wifiAutoSetup" path="external/wifiAutoSetup" revision="872e84394896e12989c1745f4af536b567d02de7" upstream="master"/>
   <project dest-branch="master" name="linux/gstreamer-rockchip" path="external/gstreamer-rockchip" revision="70c8a002a542412c6f5c44694ebcca62fc1c3d10" upstream="master"/>
-  <project dest-branch="master" name="linux/internal_doc" path="docs/.Socs" revision="e8020a6de7a3a56ab85b80f692c798d3306588bd" upstream="master">
+  <project dest-branch="master" name="linux/internal_doc" path="docs/.Socs" revision="325ae33229aea8306db165075ab00511d79d7f0b" upstream="master">
       <linkfile dest="docs/RK3399PRO" src="RK3399PRO"/>
   </project>
   <project dest-branch="master" name="linux/libmali" path="external/libmali" revision="07daee4e8a4c379b3f474dea4699e9779d3dc7b4" upstream="master"/>
