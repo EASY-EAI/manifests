@@ -82,7 +82,7 @@
     <linkfile dest="tools/linux/Linux_Pack_Firmware/rockdev/mkupdate.sh" src="linux/Linux_Pack_Firmware/rockdev/rk3288-mkupdate.sh"/>
     <linkfile dest="tools/linux/Linux_Pack_Firmware/rockdev/package-file" src="linux/Linux_Pack_Firmware/rockdev/rk3288-package-file"/>
   </project>
-  <project dest-branch="stable-4.4-rk3288-linux" name="rk/kernel-stable" path="kernel" revision="a828e9911a0f9ea3f6f4133707dc276da4a27659" upstream="stable-4.4-rk3288-linux"/>
+  <project dest-branch="stable-4.4-rk3288-linux" name="rk/kernel-stable" path="kernel" revision="82dc7c376d04aa3c4768d1637d21436150cb169e" upstream="stable-4.4-rk3288-linux"/>
   <project dest-branch="develop" name="rk/mpp" path="external/mpp" revision="f1643a579e77ec7130fde0dc42dd5481cc6ce702" upstream="develop"/>
   <project dest-branch="master" name="rk/prebuilts/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" path="prebuilts/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" revision="f96f76d6be89a6e28d4dac1f233f9aca9921f69b" upstream="master"/>
   <project dest-branch="master" name="rk/prebuilts/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" path="prebuilts/gcc/linux-x86/arm/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" revision="dd4df7dff4f1df65d78939a958b760a79e3650a1" upstream="master"/>

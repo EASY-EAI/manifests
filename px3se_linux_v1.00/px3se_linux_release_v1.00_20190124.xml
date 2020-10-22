@@ -43,7 +43,7 @@
   </project>
   <project name="linux/external/softapDemo" path="external/softapDemo" revision="b3fc180b0dde46f56af2706615f53a3cc516189b" upstream="master"/>
   <project name="linux/external/softapServer" path="external/softapServer" revision="9158517316a050190273c6809ea88467a4276e16" upstream="master"/>
-  <project name="rk/kernel-stable" path="kernel" revision="023256403c1522551338315f83493cc14a19c6a0" upstream="stable-4.4-px3se-linux"/>
+  <project name="rk/kernel-stable" path="kernel" revision="2f158974d91f2b75139d08356bebe67a854bc6ac" upstream="stable-4.4-px3se-linux"/>
   <project name="rk/mpp" path="external/mpp" revision="67e80ebfe46558c2eb50218e57b50d51d6df2be2" upstream="develop"/>
   <project name="rk/prebuilts/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" path="prebuilts/gcc/linux-x86/arm/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" revision="dd4df7dff4f1df65d78939a958b760a79e3650a1" upstream="master"/>
   <project name="rk/rk1108/buildroot" path="buildroot" revision="8c86c455b2ab11b95d775ea4920cb314beb35717" upstream="stable-px3se">

@@ -81,7 +81,7 @@
     <linkfile dest="tools/linux/Linux_Pack_Firmware/rockdev/mkupdate.sh" src="linux/Linux_Pack_Firmware/rockdev/rk312x-mkupdate.sh"/>
     <linkfile dest="tools/linux/Linux_Pack_Firmware/rockdev/package-file" src="linux/Linux_Pack_Firmware/rockdev/rk312x-package-file"/>
   </project>
-  <project name="rk/kernel-stable" path="kernel" revision="aae1bc7a7c258cf12c5040cde6f393665a092c1b" upstream="stable-4.4-rk312x-linux"/>
+  <project name="rk/kernel-stable" path="kernel" revision="3cec7307f05c5aabd5140b4fdcf4851912a3377b" upstream="stable-4.4-rk312x-linux"/>
   <project name="rk/mpp" path="external/mpp" revision="0b5a25d9035e26338eb60a25b26d9b5c2a049e10" upstream="develop"/>
   <project name="rk/prebuilts/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" path="prebuilts/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" revision="f96f76d6be89a6e28d4dac1f233f9aca9921f69b" upstream="master"/>
   <project name="rk/prebuilts/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" path="prebuilts/gcc/linux-x86/arm/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" revision="dd4df7dff4f1df65d78939a958b760a79e3650a1" upstream="master"/>

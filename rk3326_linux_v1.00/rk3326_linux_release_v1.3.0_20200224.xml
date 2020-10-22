@@ -50,7 +50,7 @@
     <linkfile dest="tools/linux/Linux_Pack_Firmware/rockdev/mkupdate.sh" src="linux/Linux_Pack_Firmware/rockdev/rk3326-mkupdate.sh"/>
     <linkfile dest="tools/linux/Linux_Pack_Firmware/rockdev/package-file" src="linux/Linux_Pack_Firmware/rockdev/rk3326-package-file"/>
   </project>
-  <project name="rk/kernel-stable" path="kernel" revision="8300ffa92d55eead361aaad0868aa19df4f69053" upstream="stable-4.4-rk3326-linux-v2.x"/>
+  <project name="rk/kernel-stable" path="kernel" revision="75d7173d0017cd3fcfea72b483dc1f0807ffff3b" upstream="stable-4.4-rk3326-linux-v2.x"/>
   <project name="rk/mpp" path="external/mpp" revision="60c82d6d7bdd7c5b4eadb056c4d89c049eb7c6c0" upstream="develop"/>
   <project name="rk/prebuilts/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" path="prebuilts/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" revision="f96f76d6be89a6e28d4dac1f233f9aca9921f69b" upstream="master"/>
   <project name="rk/rk1108/buildroot" path="buildroot" revision="6aefa86f87136b405b97eda478337276b2712ae7" upstream="stable-px30-v1.3.x">
