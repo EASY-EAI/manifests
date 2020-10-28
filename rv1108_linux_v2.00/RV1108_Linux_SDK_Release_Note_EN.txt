@@ -1,5 +1,23 @@
 ===========RV1108 Linux SDK Release Note===========
 
+[rv1108_linux_release_v2.3.6_20201028.xml change log]
+
+1. Loader updates:
+	(1) Support W25Q128JVSIM flash;
+	(2) Support TC58CVG1S3HRAIJ flash;
+
+2、Framework updates：
+	(1) Use vendor storage interface in rktoolkit;
+	(2) Camerahal support RGB24 format;
+
+3、Kernel更新：
+	(1) Fix bug CNVD-C-2020-193874;
+	(2) Fix bug CNVD-C-2020-224264;
+	(3) Support new flash;
+
+4、App更新：
+	(1) Support control 3DNR parameters;
+
 [rv1108_linux_release_v2.3.4_20200501.xml change log]
 
 1. Application updates:

@@ -1,5 +1,23 @@
 ===========RV1108 Linux SDK Release Note===========
 
+[rv1108_linux_release_v2.3.6_20201028.xml 更新日志]
+
+1. Loader更新:
+	(1) 新增W25Q128JVSIM Flash支持;
+	(2) 新增TC58CVG1S3HRAIJ Flash支持;
+
+2、Framework更新：
+	(1) 替换新的verndor storage库；
+	(2) Camerahal支持RGB24格式；
+
+3、Kernel更新：
+	(1) 解决CNVD-C-2020-193874漏洞；
+	(2) 解决CNVD-C-2020-224264漏洞；
+	(3) 新增新Flash支持；
+
+4、App更新：
+	(1) 支持3DNR参数设置；
+
 [rv1108_linux_release_v2.3.4_20200501.xml 更新日志]
 1. App更新：
 	(1) 支持rkffplay播放视频文件；
