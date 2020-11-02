@@ -9,14 +9,14 @@
   <project dest-branch="master" name="android/rk/platform/system/rk_tee_user" path="external/security/rk_tee_user" revision="985a45523e9e6f2f2006e9eaa178065a382a52f9" upstream="master"/>
   <project dest-branch="stable-4.4-rk3399-linux" name="android/rk/u-boot-stable" path="u-boot" revision="9a4028eb5b7af5c1b96c17d1222483138abf7ae1" upstream="stable-4.4-rk3399-linux"/>
   <project dest-branch="develop" name="linux/app/QLauncher" path="app/QLauncher" revision="9f0561b58316fe42e10e65d8785cf83dd760d0cb" upstream="develop"/>
-  <project dest-branch="master" name="linux/app/demo" path="app/demo" revision="db94c6389891aef75298bc98972dd4fcc82a4a10" upstream="master"/>
+  <project dest-branch="master" name="linux/app/demo" path="app/demo" revision="1746adf6ffb1fa7992b31f00f846242d7496ec85" upstream="master"/>
   <project dest-branch="master" name="linux/app/multicamera" path="app/multicamera" revision="6c3b01afba79d69b3ed6c1d55bb5dc87f51b8df2" upstream="master"/>
   <project dest-branch="master" name="linux/app/multivideoplayer" path="app/multivideoplayer" revision="617e58ec389d6b84f99875c098792c071db87640" upstream="master"/>
   <project dest-branch="master" name="linux/app/qcamera" path="app/qcamera" revision="fc17cb9ac199095303f45aa27c59b0c901c0478b" upstream="master"/>
   <project dest-branch="master" name="linux/app/qfm" path="app/qfm" revision="cb38ba939c7ebdb1d205b68290754a115269c7e4" upstream="master"/>
   <project dest-branch="master" name="linux/app/qplayer" path="app/qplayer" revision="6b658230a246ccebb425fdfcd368b11457d4635b" upstream="master"/>
   <project dest-branch="develop" name="linux/app/settings" path="app/qsetting" revision="ce3c52211d94cca71d2ab088c6f64c02788ff9f1" upstream="develop"/>
-  <project dest-branch="master" name="linux/buildroot/dl" path="buildroot/dl" revision="40bcf8fd5efd6da6bd6a7e8594a792c1391903ec" upstream="stable"/>
+  <project dest-branch="master" name="linux/buildroot/dl" path="buildroot/dl" revision="b553a085ac42d8e1dc0a9a6b806bc88d06509b74" upstream="stable"/>
   <project dest-branch="stable-rk3399-linux" name="linux/device/rockchip" path="device/rockchip" revision="f0e1cb84eca76ded9e94533bcf5d1614982da475" upstream="stable-rk3399-linux">
     <linkfile dest="mkfirmware.sh" src="common/mkfirmware.sh"/>
     <linkfile dest="build.sh" src="common/build.sh"/>
@@ -69,9 +69,9 @@
   </project>
   <project dest-branch="master" name="linux/libdrm-rockchip" path="external/libdrm" revision="83fccea1aec82b2cd52a5d06e869fe4d4b2f82e4" upstream="master"/>
   <project dest-branch="master" name="linux/libmali" path="external/libmali" revision="07daee4e8a4c379b3f474dea4699e9779d3dc7b4" upstream="master"/>
-  <project dest-branch="master" name="linux/linux-rga" path="external/linux-rga" revision="b20975d508dab7bcf56a28a371555519df4c3809" upstream="master"/>
+  <project dest-branch="master" name="linux/linux-rga" path="external/linux-rga" revision="1fc02d56d97041c86f01bc1284b7971c6098c5fb" upstream="master"/>
   <project dest-branch="develop" name="linux/recovery" path="external/recovery" revision="f2e3741f9bd57e6f69af838f122dcba2d1462fe4" upstream="develop"/>
-  <project dest-branch="master" name="linux/rk-rootfs-build" path="debian" revision="4a1304001ca0d161893cc5fd923343f4e978e99b" upstream="master"/>
+  <project dest-branch="master" name="linux/rk-rootfs-build" path="debian" revision="4b3fff083dbb8e03ce916dca78a3055fd5cc2183" upstream="master"/>
   <project dest-branch="master" name="linux/rkmedia" path="external/rkmedia" revision="195fd2dca5d978390a4bddcba4e0e5a0969ca308" upstream="master"/>
   <project dest-branch="master" name="linux/security/bin" path="external/security/bin" revision="f59085ce658bd69678b68fd4840fb86937678125" upstream="master"/>
   <project dest-branch="master" name="linux/tools" path="tools" revision="bf8c7482f46f36c7feb889993c08a44a5a377697" upstream="master">
@@ -82,11 +82,11 @@
     <linkfile dest="tools/linux/Linux_Pack_Firmware/rockdev/package-file" src="linux/Linux_Pack_Firmware/rockdev/rk3399-package-file"/>
   </project>
   <project dest-branch="rockchip-1.20.xx" name="linux/xserver" path="external/xserver" revision="ebde46bb004fa3f81ae702d470a602d23af99589" upstream="rockchip-1.20.xx"/>
-  <project dest-branch="stable-4.4-rk3399-linux" name="rk/kernel-stable" path="kernel" revision="f85cd3685900743b022f290b606189ac76425979" upstream="stable-4.4-rk3399-linux"/>
+  <project dest-branch="stable-4.4-rk3399-linux" name="rk/kernel-stable" path="kernel" revision="361c4f7c40392d84e4b2fe43e4d476a59f4a82e2" upstream="stable-4.4-rk3399-linux"/>
   <project dest-branch="develop" name="rk/mpp" path="external/mpp" revision="db750eff51e916969d2d1cb49e0bc4ec1362f1d0" upstream="develop"/>
   <project dest-branch="master" name="rk/prebuilts/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" path="prebuilts/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" revision="f96f76d6be89a6e28d4dac1f233f9aca9921f69b" upstream="master"/>
   <project dest-branch="master" name="rk/prebuilts/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" path="prebuilts/gcc/linux-x86/arm/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" revision="dd4df7dff4f1df65d78939a958b760a79e3650a1" upstream="master"/>
-  <project dest-branch="stable-rk3399-v2.5.0-20201013" name="rk/rk1108/buildroot" path="buildroot" revision="9de3843361def94fefc1fa667169369e95bb71ee" upstream="stable-rk3399-v2.5.0-20201013">
+  <project dest-branch="stable-rk3399-v2.5.0-20201013" name="rk/rk1108/buildroot" path="buildroot" revision="34465515082425326aecf1283a09bca4988e239e" upstream="stable-rk3399-v2.5.0-20201013">
     <linkfile dest="Makefile" src="build/Makefile"/>
     <linkfile dest="envsetup.sh" src="build/envsetup.sh"/>
   </project>
