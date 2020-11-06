@@ -17,7 +17,7 @@
   <project dest-branch="master" name="linux/app/qplayer" path="app/qplayer" revision="6b658230a246ccebb425fdfcd368b11457d4635b" upstream="master"/>
   <project dest-branch="develop" name="linux/app/settings" path="app/qsetting" revision="ce3c52211d94cca71d2ab088c6f64c02788ff9f1" upstream="develop"/>
   <project dest-branch="master" name="linux/buildroot/dl" path="buildroot/dl" revision="b553a085ac42d8e1dc0a9a6b806bc88d06509b74" upstream="stable"/>
-  <project dest-branch="stable-rk3399-linux" name="linux/device/rockchip" path="device/rockchip" revision="f0e1cb84eca76ded9e94533bcf5d1614982da475" upstream="stable-rk3399-linux">
+  <project dest-branch="stable-rk3399-linux" name="linux/device/rockchip" path="device/rockchip" revision="0fe366cf14a6d5d552a5bddbc7b8ff58260ae6e6" upstream="stable-rk3399-linux">
     <linkfile dest="mkfirmware.sh" src="common/mkfirmware.sh"/>
     <linkfile dest="build.sh" src="common/build.sh"/>
     <linkfile dest="rkflash.sh" src="common/rkflash.sh"/>
@@ -25,7 +25,7 @@
   </project>
   <project dest-branch="master" name="linux/distro" path="distro" revision="075b13337d1e2514fa3bce8d877c360589811d11" upstream="master"/>
   <project dest-branch="master" name="linux/distro/download" path="distro/download" revision="83788d77516e2f669e0718ff85585f49cbe4caf8" upstream="master"/>
-  <project dest-branch="master" name="linux/docs" path="docs" revision="85385bb0eb303bbc9f1df0bfb56f2bb67fd1487d" upstream="master"/>
+  <project dest-branch="master" name="linux/docs" path="docs" revision="95c51cc5d08d8ce4175a1d7eb745bfd485c5ce56" upstream="master"/>
   <project dest-branch="master" name="linux/external/LocalPlayer" path="external/LocalPlayer" revision="e7d5cc72e5f0da13f2765aa02bd22d03ebc82750" upstream="master"/>
   <project dest-branch="master" name="linux/external/WakeWordAgent" path="external/wakeWordAgent" revision="4a5a3c2d9d991e392894d1e5345b7487655d3cc6" upstream="master"/>
   <project dest-branch="master" name="linux/external/alsa-config" path="external/alsa-config" revision="16078cdc78d9d4961a60c60c527a1a14972fa30d" upstream="master"/>
@@ -64,7 +64,7 @@
   <project dest-branch="master" name="linux/external/uvc_app" path="external/uvc_app" revision="9a69e274f1c7134872ca7dcd4677e9cc13de3ac8" upstream="master"/>
   <project dest-branch="master" name="linux/external/wifiAutoSetup" path="external/wifiAutoSetup" revision="872e84394896e12989c1745f4af536b567d02de7" upstream="master"/>
   <project dest-branch="master" name="linux/gstreamer-rockchip" path="external/gstreamer-rockchip" revision="70c8a002a542412c6f5c44694ebcca62fc1c3d10" upstream="master"/>
-  <project dest-branch="master" name="linux/internal_doc" path="docs/.Socs" revision="325ae33229aea8306db165075ab00511d79d7f0b" upstream="master">
+  <project dest-branch="master" name="linux/internal_doc" path="docs/.Socs" revision="84f866aa8141595f15658331b8abf9dc8af14d9f" upstream="master">
       <linkfile dest="docs/RK3399" src="RK3399"/>
   </project>
   <project dest-branch="master" name="linux/libdrm-rockchip" path="external/libdrm" revision="83fccea1aec82b2cd52a5d06e869fe4d4b2f82e4" upstream="master"/>
@@ -86,7 +86,7 @@
   <project dest-branch="develop" name="rk/mpp" path="external/mpp" revision="db750eff51e916969d2d1cb49e0bc4ec1362f1d0" upstream="develop"/>
   <project dest-branch="master" name="rk/prebuilts/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" path="prebuilts/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" revision="f96f76d6be89a6e28d4dac1f233f9aca9921f69b" upstream="master"/>
   <project dest-branch="master" name="rk/prebuilts/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" path="prebuilts/gcc/linux-x86/arm/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" revision="dd4df7dff4f1df65d78939a958b760a79e3650a1" upstream="master"/>
-  <project dest-branch="stable-rk3399-v2.5.0-20201013" name="rk/rk1108/buildroot" path="buildroot" revision="34465515082425326aecf1283a09bca4988e239e" upstream="stable-rk3399-v2.5.0-20201013">
+  <project dest-branch="stable-rk3399-v2.5.0-20201013" name="rk/rk1108/buildroot" path="buildroot" revision="3205c8b5fdcb9ffdb264600d78b5c392b58c8bcb" upstream="stable-rk3399-v2.5.0-20201013">
     <linkfile dest="Makefile" src="build/Makefile"/>
     <linkfile dest="envsetup.sh" src="build/envsetup.sh"/>
   </project>
