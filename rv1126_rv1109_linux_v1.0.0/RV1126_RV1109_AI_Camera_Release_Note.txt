@@ -1,5 +1,27 @@
 ===========RV1126/RV1109 Linux SDK Release Note===========
 
+[rv1126_rv1109_linux_ai_camera_v1.5.0_20201106.xml]
+
+SDK update lists:
+    
+	1.Release RkAiq to v1.0x23.0,see on external/camera_engine_rkaiq/RkAiqVersion.h
+	2.ISP driver update to v 1. 0x2. 0
+	3.IQ Tool：v1. 0x3. 0 
+	4.UVC support h.265 default
+	5.Fix UVC preview fail under Mac OS 10.15,see external/uvc_app/doc/
+	6.Fix rockit deadlock when set zoom on UVC yuyv 720p
+	7.Update rockit to fix preview green on 360p
+	8.Optimize ispserver memory,save 30M with RkAiq v1.0x23.0
+	9.Add new kernel dts rv1126-ai-cam-plus to 
+	  support NPU 800m+ logic separate from npu/vepu emmc board
+    10.Spi nand board:
+       1)default support a/b update,add new parameter for ab
+       2)support mount userdata with ubifs for a/b firmware
+       3)Clipping firmware size,uvc+uac+rkrockx nn+a/b firmware is 100M,rootfs to 45M
+       4)Update driver to the latest	   
+	11.Improve stability
+	12.Update docs and tools.
+
 [rv1126_rv1109_linux_ai_camera_v1.4.0_20201013.xml]
 
 SDK update lists:
