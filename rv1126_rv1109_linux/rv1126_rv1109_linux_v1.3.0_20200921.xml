@@ -79,7 +79,6 @@
   <project dest-branch="develop-4.19" name="rk/kernel" path="kernel" revision="34564b6204e19a1827b7d1131003c6638f677191" upstream="develop-4.19"/>
   <project dest-branch="develop" name="rk/mpp" path="external/mpp" revision="879c161b9b3aae2cbe39b4143d71fb0bf9e3a77b" upstream="develop"/>
   <project dest-branch="master" name="rk/prebuilts/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf" path="prebuilts/gcc/linux-x86/arm/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf" revision="b69265a7bd71cc212764a7a223da9058d8fb9444" upstream="master"/>
-  <project dest-branch="master" name="rk/prebuilts/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" path="prebuilts/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" revision="f96f76d6be89a6e28d4dac1f233f9aca9921f69b" upstream="master"/>
   <project dest-branch="master" name="rk/prebuilts/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" path="prebuilts/gcc/linux-x86/arm/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" revision="dd4df7dff4f1df65d78939a958b760a79e3650a1" upstream="master"/>
   <project dest-branch="rockchip/2018.02-rc3" name="rk/rk1108/buildroot" path="buildroot" revision="9add14fdc6e3a1a38a2f785f9413b0defe94b640" upstream="rockchip/2018.02-rc3">
     <linkfile dest="Makefile" src="build/Makefile"/>
