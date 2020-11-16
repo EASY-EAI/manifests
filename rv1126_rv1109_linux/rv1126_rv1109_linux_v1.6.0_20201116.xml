@@ -63,7 +63,7 @@
   <project dest-branch="master" name="linux/external/uac_app" path="external/uac_app" revision="0ca9a7bdd6c00f72b397f79d5f54a25c497b6ce2" upstream="master"/>
   <project dest-branch="develop-4.19" name="linux/external/uvc_app" path="external/uvc_app" revision="44eba8645467a32561a779da025d997689fb5010" upstream="develop-4.19"/>
   <project dest-branch="master" name="linux/external/wifiAutoSetup" path="external/wifiAutoSetup" revision="872e84394896e12989c1745f4af536b567d02de7" upstream="master"/>
-  <project dest-branch="master" name="linux/internal_doc" path="docs/.Socs" revision="5465c06aca6aded4d57d17590ad73c0834bac932" upstream="master">
+  <project dest-branch="master" name="linux/internal_doc" path="docs/.Socs" revision="1cda187b2a58287039316d5b3e6ce33689b6173e" upstream="master">
     <linkfile dest="docs/RV1126_RV1109" src="RV1126_RV1109"/>
   </project>
   <project dest-branch="im2d" name="linux/linux-rga" path="external/linux-rga" revision="94994fc41fc546cebc4a2e57099f2b54eb9364a0" upstream="im2d"/>
