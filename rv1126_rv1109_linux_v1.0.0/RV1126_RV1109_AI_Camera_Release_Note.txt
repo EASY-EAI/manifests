@@ -1,5 +1,38 @@
 ===========RV1126/RV1109 Linux SDK Release Note===========
 
+[rv1126_rv1109_linux_ai_camera_v1.6.0_20201120.xml]
+
+SDK update lists:
+    
+	1.Release RkAiq to v1.0x23.1,see on external/camera_engine_rkaiq/RkAiqVersion.h
+	2.ISP driver update to v 1. 0x2. 1
+	3.Update RKISP2x Tuner v1.3.0，fix a bug that AEC Read failed
+	4.UVC app:
+	   1) fix wemetting preview fail
+	   2)can modify the debug stream file dir with change "stream_save_dir"
+	   3)enc of framerate use host fps default
+	   4)add func that send uvc buf when enc data ready which
+		 fix send zero data to uvc at the begin
+	5.aiserver & rockit：
+	   1）add UpdateAIAlgorithmParams interface
+	   2）protect concurrent calls to cleanupAfterRun
+	   3）eptz WxH needs 120bit down-align to improve jitter
+	6.DDR: update ddr bin to v1.04
+	   1)ddr3 16bit support
+       2)optimizing ddr performance for bandwidth 16.
+	7.Update spi nand flash driver
+	8.DTS:rv1126-ai-cam.dtsi: modify link to cif by default
+	9.burner_image_kits: support boot_merge v1.2
+    10.Spi nand board:
+       1)Add vnvm partition to support vendor storage dedfault
+       2)Update RKDevInfoWriteTool_1.2.6 to fix write sn fail
+       3)Update Linux_Upgrade_Tool to V1.56
+       4)SpiImageTools to V1.44
+       5)RKDevTool to V2.78
+       6)Update driver to the latest	   
+	11.Improve stability,fix reboot fail
+	12.Update docs ，see docs/
+
 [rv1126_rv1109_linux_ai_camera_v1.5.0_20201106.xml]
 
 SDK update lists:
