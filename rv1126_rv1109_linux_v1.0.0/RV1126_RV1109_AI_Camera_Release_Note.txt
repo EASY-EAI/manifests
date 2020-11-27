@@ -1,5 +1,19 @@
 ===========RV1126/RV1109 Linux SDK Release Note===========
 
+[rv1126_rv1109_linux_ai_camera_v1.6.1_20201127.xml]
+
+SDK update lists:
+    
+	1.Fix probability spi nand ab update fail
+	2.Fix probability reboot fail
+	3.Update RKDevTool to V2.79 to support new loader fomat
+	4.UVC app:
+	   1)Fix probability quit fail when reboot
+	   2)Remove unused log default and support check camera work state
+	5.Fix ramboot fail
+	6.Update ab ota docs ，see docs/
+        7.Optimizing boot time for spi nand firmware
+
 [rv1126_rv1109_linux_ai_camera_v1.6.0_20201120.xml]
 
 SDK update lists:
