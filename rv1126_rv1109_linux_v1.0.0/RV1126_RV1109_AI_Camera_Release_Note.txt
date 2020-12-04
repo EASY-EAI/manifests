@@ -1,5 +1,26 @@
 ===========RV1126/RV1109 Linux SDK Release Note===========
 
+[rv1126_rv1109_linux_ai_camera_v1.6.2_20201204.xml]
+
+SDK update lists:
+
+        1.UAC update:
+          1)fix uac error when open uvc preview first
+          2)fix uac sound error,such as pop
+          3)usb: gadget: f_uac: add volume and mute feature unit
+          4)uac_app:support volume control
+        2.Fix probability reboot fail
+        3.Update rkbin to support old and new loader fomat for tools
+        4.UVC app:
+           1)optimize delay
+           2)Remove unused log
+           3)support camera fps ctrl
+        5.AIQ:
+           1)fix af fail
+           2)update rkisp2x_tuner v1.3.1 to support AIQ v1.0x23.1
+        6.Update camera docs ，see docs/RV1126_RV1109/Camera/
+
+
 [rv1126_rv1109_linux_ai_camera_v1.6.1_20201127.xml]
 
 SDK update lists:
