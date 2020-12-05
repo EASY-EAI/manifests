@@ -45,7 +45,6 @@
 	<project path="external/rkwifibt" name="linux/external/rkwifibt" upstream="master" revision="22427597b27ce03f1c2ab2539821acbeeeabdc7e"/>
 	<project path="external/rk_pcba_test" name="linux/external/rk_pcba_test" upstream="master" revision="fa3d220a8a9e8c46250f8242e90c404d342d46a5"/>
 	<project path="external/ueventd" name="linux/external/ueventd" upstream="master" revision="6131251e513d708fde4156639f2707decbc6fb29"/>
-	<project path="external/xserver" name="linux/xserver" upstream="rockchip-1.18" revision="2baabe700b59f5a2681558c6a764155102325974"/>
 	<project path="kernel" name="rk/kernel" upstream="develop-4.4" revision="cc20bc020b16e9b924de509e2bcdfd1fae6bc99e"/>
 	<project path="prebuilts/gcc/linux-x86/arm/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" name="rk/prebuilts/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" upstream="master" revision="dd4df7dff4f1df65d78939a958b760a79e3650a1"/>
 	<project path="rkbin" name="rk/rkbin" upstream="master" revision="ffb36c0a2df9dd6b38f2da8f842f26ddc5990800"/>
