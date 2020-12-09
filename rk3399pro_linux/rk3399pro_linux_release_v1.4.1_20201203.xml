@@ -102,7 +102,7 @@
   </project>
   <project dest-branch="stable-4.4-rk3399pro-linux" name="rk/kernel-stable" path="kernel" revision="f6c3b58cb357373cc7fa622b2dd36ced8cab25c5" upstream="stable-4.4-rk3399pro-linux"/>
   <project dest-branch="stable-4.4-rk3399pro_npu-pcie-linux" name="rk/kernel-stable" path="npu/kernel" revision="bc673f1b71315f2d76827693f74a429894557cb7" upstream="stable-4.4-rk3399pro_npu-pcie-linux"/>
-  <project dest-branch="develop" name="rk/mpp" path="external/mpp" revision="65c15a8f23eabe1d6e799d510412b6a5054652e2" upstream="develop"/>
+  <project dest-branch="develop" name="rk/mpp" path="external/mpp" revision="d9886b794a165222ee88d968f18a763dffddacb2" upstream="develop"/>
   <project dest-branch="master" name="rk/prebuilts/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" path="prebuilts/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" revision="f96f76d6be89a6e28d4dac1f233f9aca9921f69b" upstream="master"/>
   <project dest-branch="master" name="rk/prebuilts/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" path="npu/prebuilts/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" revision="f96f76d6be89a6e28d4dac1f233f9aca9921f69b" upstream="master"/>
   <project dest-branch="stable-rk3399pro-v1.4.1-20201203" name="rk/rk1108/buildroot" path="buildroot" revision="07d7d0bbe0b345806e6c019c5692e5d1645137ab" upstream="stable-rk3399pro-v1.4.1-20201203">

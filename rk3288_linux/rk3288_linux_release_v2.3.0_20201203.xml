@@ -83,7 +83,7 @@
     <linkfile dest="tools/linux/Linux_Pack_Firmware/rockdev/package-file" src="linux/Linux_Pack_Firmware/rockdev/rk3288-package-file"/>
   </project>
   <project dest-branch="stable-4.4-rk3288-linux" name="rk/kernel-stable" path="kernel" revision="f6c3b58cb357373cc7fa622b2dd36ced8cab25c5" upstream="stable-4.4-rk3288-linux"/>
-  <project dest-branch="develop" name="rk/mpp" path="external/mpp" revision="65c15a8f23eabe1d6e799d510412b6a5054652e2" upstream="develop"/>
+  <project dest-branch="develop" name="rk/mpp" path="external/mpp" revision="d9886b794a165222ee88d968f18a763dffddacb2" upstream="develop"/>
   <project dest-branch="master" name="rk/prebuilts/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" path="prebuilts/gcc/linux-x86/arm/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" revision="dd4df7dff4f1df65d78939a958b760a79e3650a1" upstream="master"/>
   <project dest-branch="stable-rk3288-v2.3.0-20201203" name="rk/rk1108/buildroot" path="buildroot" revision="07d7d0bbe0b345806e6c019c5692e5d1645137ab" upstream="stable-rk3288-v2.3.0-20201203">
     <linkfile dest="Makefile" src="build/Makefile"/>
