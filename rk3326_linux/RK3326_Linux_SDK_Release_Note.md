@@ -15,7 +15,7 @@
 - Upgrade chromium to 86.0.4240.111
 - Fix RGA blending error when global alpha too large
 - qt5multimedia: Fix crash after finished playing
-- update weston to fix some bugs
+- Update weston to fix some bugs
 ```
 
 **Debian (buster/10)**:
@@ -41,8 +41,8 @@
 **docs/tools**:
 
 ```
-- windows: RKDevTool: update V2.79 to support new loader format
-- linux: package-file: Drop out-dated :grow flag
+- Windows: RKDevTool: update V2.79 to support new loader format
+- Linux: package-file: Drop out-dated :grow flag
 - Upgrade Linux_Upgrade_Tool to V1.57
 - Upgrade DriverAssitant to V5.0
 - Update AVL documents
@@ -56,21 +56,21 @@
 **kernel**:
 
 ```
-- fixes the exception that is related with display
-- fixes wifi initialization failure
-- fixes wifi "pno scan failed"
+- Fixes the exception that is related with display
+- Fixes wifi initialization failure
+- Fixes wifi "pno scan failed"
 ```
 
 **buildroot**:
 
 ```
-- fixes wrong capacity for mtp
-- use qsetting application instead of old setting applcation
+- Fixes wrong capacity for mtp
+- Use qsetting application instead of old setting applcation
 - fix seek video error
-- support ums feature
-- support webrtc
-- support gcc 8.1.0
-- add a uvc_app for camera debug test
+- Support ums feature
+- Support webrtc
+- Support gcc 8.1.0
+- Add a uvc_app for camera debug test
 ```
 
 **debian 10**:
@@ -84,13 +84,13 @@
 **kernel**:
 
 ```
-- fixes upgrade issue for nand flash
+- Fixes upgrade issue for nand flash
 ```
 
 **rkbin**:
 
 ```
-- fixes IDB backup regions break up the FTL data region
+- Fixes IDB backup regions break up the FTL data region
 ```
 
 **u-boot**:
@@ -102,7 +102,7 @@
 **camera_engine_rkisp**:
 
 ```
-- remove dependancy with libdrm that fixes the crash whitout the display system
+- Remove dependancy with libdrm that fixes the crash whitout the display system
 ```
 
 ## rk3326_linux_release_v1.2.1_20191012.xml Release Note
@@ -118,33 +118,33 @@
 **Buildroot(2018.02-rc3)**:
 
 ```
-- support up to Qt 5.12.2
-- support chromium brower
-- weston suoport rotate and scale
-- support x11 packages
-- mali support x11
-- provide a mali that has only opencl feature
-- add a customized configuration for robot product
-- enable ccahe to improve compile speed
-- fix compile error on ubuntu 19.04
-- support zstd compression algorithm for squashfs
-- upgrade glibc to 2.29
+- Support up to Qt 5.12.2
+- Support chromium brower
+- Weston suoport rotate and scale
+- Support x11 packages
+- Mali support x11
+- Provide a mali that has only opencl feature
+- Add a customized configuration for robot product
+- Enable ccahe to improve compile speed
+- Fix compile error on ubuntu 19.04
+- Support zstd compression algorithm for squashfs
+- Upgrade glibc to 2.29
 ```
 
 **kernel**:
 
 ```
-- upgrade to 4.4.189
-- fix logo blink issue
-- fix some power regulators can't turn off while suspending
-- add a customized configuration for robot product
+- Upgrade to 4.4.189
+- Fix logo blink issue
+- Fix some power regulators can't turn off while suspending
+- Add a customized configuration for robot product
 ```
 
 **rkisp upgrade to v2.2.0**:
 
 ```
-- support blink light control
-- optimize capture process
+- Support blink light control
+- Optimize capture process
 ```
 
 **rkbin**:
@@ -152,11 +152,11 @@
 ```
 - ddr.bin upgrade to v1.13
 - bl32 upgrade to v1.12
-    fix ota upgrade failure
+    Fix ota upgrade failure
 - bl31 upgrade to v1.16
-    support uart0 wakeup
-    support atags
-    support boot from secondary cpu
+    Support uart0 wakeup
+    Support atags
+    Support boot from secondary cpu
 - miniloder upgrade to v1.15
 ```
 
@@ -169,9 +169,9 @@
 **applications**:
 
 ```
-- remove the original gallery,video,music applications, provide the new application to replace
-- use the new camera application, that is compatible with the usb camera, and support the differents camera switching
-- various fix
+- Remove the original gallery,video,music applications, provide the new application to replace
+- Use the new camera application, that is compatible with the usb camera, and support the differents camera switching
+- Various fix
 ```
 
 ## rk3326_linux_release_v1.10_20190425.xml Release Note
@@ -180,19 +180,19 @@
 
 ```
 - WiFi/BT compatibility support
-- bluetooth a2dp support
-- recovery image size optimization
-- support secure boot
-- fix sound playback issue for h264
-- fix video display issue for h264
+- Bluetooth a2dp support
+- Recovery image size optimization
+- Support secure boot
+- Fix sound playback issue for h264
+- Fix video display issue for h264
 ```
 
 **document**:
 
 ```
-- recovery guide
+- Recovery guide
 - pcba guide
-- hdmi cec guide
+- HDMI CEC guide
 - drm display driver development guide
 ```
 
@@ -202,30 +202,30 @@
 - DriverAssitant upgrade to v4.8
 - AndroidTool upgrade to v2.67
 - FactoryTool upgrade to v1.66
-- rename rk_provision_tool to RKDevInfoWriteTool, and upgrade to v1.0.4
+- Rename rk_provision_tool to RKDevInfoWriteTool, and upgrade to v1.0.4
 ```
 
 **kernel**:
 
 ```
-- fix rkisp interrupt storm in some scenarios
-- fix kernel lockup after the system is resumed, it's caused by nand/sfc flash
-- fix kernel lockup while the watchdog is enable
-- memory log (pstore) support
-- fix loader upgradation fail upduring ota
-- fix powerup failure for ov5695
-- add the support for 4k page spi nand flash:ATO25D1GA, XT26G02B, XT26G01B, HYF4GQ4UAACBE
-- hardware crypto feature support
+- Fix rkisp interrupt storm in some scenarios
+- Fix kernel lockup after the system is resumed, it's caused by nand/sfc flash
+- Fix kernel lockup while the watchdog is enable
+- Memory log (pstore) support
+- Fix loader upgradation fail upduring ota
+- Fix powerup failure for ov5695
+- Add the support for 4k page spi nand flash:ATO25D1GA, XT26G02B, XT26G01B, HYF4GQ4UAACBE
+- Hardware crypto feature support
 ```
 
 **Application**:
 
 ```
-- fix touch event invalid scenario
-- improve bluetooth feature
+- Fix touch event invalid scenario
+- Improve bluetooth feature
 - mpeg4 video support
-- fix the hangup after takephotos continuously
-- fix the others device can't connect to AP
+- Fix the hangup after takephotos continuously
+- Fix the others device can't connect to AP
 - wav and wma audio support
 ```
 
@@ -238,23 +238,23 @@
 **uboot**:
 
 ```
-- add the support for NandFlash H27TDG8T2D8R
-- support kernel compression image
-- add the low voltage protection for PMIC rk809/rk817
-- add the watchdog support
-- add the MEDIA_BUS_FMT_RGB666_1X7X3_JEIDA format support for lvds display
+- Add the support for NandFlash H27TDG8T2D8R
+- Support kernel compression image
+- Add the low voltage protection for PMIC rk809/rk817
+- Add the watchdog support
+- Add the MEDIA_BUS_FMT_RGB666_1X7X3_JEIDA format support for lvds display
 ```
 
 **rkisp**:
 
 ```
-- upgrade to v2.0.0
+- Upgrade to v2.0.0
 ```
 
 **libdrm**:
 
 ```
-- switch branch to rk33/mid/9.0/Develop
+- Switch branch to rk33/mid/9.0/Develop
 ```
 
 ## rk3326_linux_release_v1.00_20190215.xml Release Note
@@ -262,11 +262,11 @@
 **buildroot**:
 
 ```
-- add a simple configuration for robot product
-- fixup ssh error on squashfs filesystem
+- Add a simple configuration for robot product
+- Fixup ssh error on squashfs filesystem
 - camera_engine_rkisp upgrade to v1.6
-- add camera test scripts
-- imporve audio test scripts
+- Add camera test scripts
+- Imporve audio test scripts
 ```
 
 **rkbin**:
@@ -278,17 +278,17 @@
 **u-boot**:
 
 ```
-- enable OF_LIVE feature
-- add a new configuration without bl32
+- Enable OF_LIVE feature
+- Add a new configuration without bl32
 ```
 
 **kernel**:
 
 ```
-- support black/white camera
-- enable rockchip pvtm feature to optimize power consumption
-- support camera sensor:ov7750, 0v7251, ov7725
-- rk817/rk809 codec support S32_LE
+- Support black/white camera
+- Enable rockchip pvtm feature to optimize power consumption
+- Support camera sensor:ov7750, 0v7251, ov7725
+- RK817/RK809 codec support S32_LE
 ```
 
 **document**:

@@ -13,10 +13,10 @@
 **Buildroot (2018.02-rc3)**:
 
 ```
-- upgrade chromium to 86.0.4240.111
+- Upgrade chromium to 86.0.4240.111
 - Fix RGA blending error when global alpha too large
 - qt5multimedia: Fix crash after finished playing
-- update weston to fix some bugs
+- Update weston to fix some bugs
 ```
 
 **Debian (buster/10)**:
@@ -42,8 +42,8 @@
 **docs/tools**:
 
 ```
-- windows: RKDevTool: update V2.79 to support new loader format
-- linux: package-file: Drop out-dated :grow flag
+- Windows: RKDevTool: update V2.79 to support new loader format
+- Linux: package-file: Drop out-dated :grow flag
 - Upgrade Linux_Upgrade_Tool to V1.57
 - Upgrade DriverAssitant to V5.0
 - Update AVL documents
@@ -75,7 +75,7 @@
 - Updtae rockchip_test to fix weston config
 - Support mali egl client and egl buffer attaching on weston
 - Support rsa authentication and tcp for adb
-- support ntfs for recovery
+- Support ntfs for recovery
 - gst1-plugins-bad: kmssink/waylandsink: Bump to gst upstream
 - qt5wayland: Update patches to fix some bugs
 ```
@@ -84,8 +84,8 @@
 
 ```
 - Support Yocto
-- fixes the dual screen display
-- upgrade mali to r18
+- Fixes the dual screen display
+- Upgrade mali to r18
 - Fix date time isn't updated by default
 - Fix U disk with NTFS that's not display on QT
 ```
@@ -114,13 +114,13 @@
 **Kernel (4.4)**:
 
 ```
-- adjust bin-scaling-sel table
-- adjust pvtm-voltage-sel table
+- Adjust bin-scaling-sel table
+- Adjust pvtm-voltage-sel table
 - Add vcc_otg_vbus control for rk3288-evb-rk808-linux
-- fixes the pwm-cells of pwm3 on rk3288 SoCs
+- Fixes the pwm-cells of pwm3 on rk3288 SoCs
 - Fixes wifi wakeup issue
 - Upgrade mali t76x to r18
-- supoort legacy api to set propert
+- Supoort legacy api to set propert
 - Fix gcc9 stringop-truncation compilation error
 ```
 
@@ -143,12 +143,12 @@
 - Add mpp/weston/chromecast/debian10 document
 - Update Kernel/Linux/AVL/Socs/Others documents
 - Update window/linux upgrade tools
-AndroidTool: update from v2.69 to v2.71
-Linux_Upgrade_Tool: update from v1.38 to v1.49
+  AndroidTool: update from v2.69 to v2.71
+  Linux_Upgrade_Tool: update from v1.38 to v1.49
 - Secureboottool: update to v1.95
 - SecurityAVB: update to v2.7
 - Upgrade SDDiskTool to v1.62
-- rename AndroidTool to RKDevTool, and version upgrade too v2.73
+- Rename AndroidTool to RKDevTool, and version upgrade too v2.73
 - Update DDR/ NAND/ eMMC AVL
 - Remove unused documents
 - Update adb to support the env variable

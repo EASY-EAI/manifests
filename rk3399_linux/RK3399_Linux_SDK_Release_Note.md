@@ -198,8 +198,8 @@
 - Update rk3399 release document to v2.4.0
 - Add mpp/weston/chromecast/debian10 document
 - Update window/linux upgrade tools
-AndroidTool: update from v2.69 to v2.71
-Linux_Upgrade_Tool: update from v1.38 to v1.49
+  AndroidTool: update from v2.69 to v2.71
+  Linux_Upgrade_Tool: update from v1.38 to v1.49
 ```
 
 **Debian (stretch-9.11)**:
@@ -224,7 +224,7 @@ Linux_Upgrade_Tool: update from v1.38 to v1.49
 - Upgrade QT verison from 5.9.4 to 5.12.2
 - Support Chromium Browser (74.0.3729.157)
 - Upgrade Xserver-xorg to v1.20.4
-- change the new qt app to instead the old apps
+- Change the new qt app to instead the old apps
     new apps: qcamera  qfm  QLauncher+  qplayer  qsetting
     old apps: camera gallery  music  QLauncher  settings  video
 - Add the missing license/copyright with legal-info
@@ -313,8 +313,8 @@ Linux_Upgrade_Tool: update from v1.38 to v1.49
 **Yocto (thud 2.6.2)**:
 
 ```
-- add rockchip-rkisp
-- chromium-ozone-wayland: Support 78.0.3904.97g
+- Add rockchip-rkisp
+- Chromium-ozone-wayland: Support 78.0.3904.97g
 - Support adding extra volumes
 - Gstreamer-rockchip: Update source and patches
 - Gstreamer1.0-plugins-base: xvimagesink: Support dma buffer 			  rendering
@@ -422,7 +422,7 @@ Linux_Upgrade_Tool: update from v1.38 to v1.49
 
 ```
 - The ddr bin update to v1.18
-- rk3399: ddr: update version to v1.18
+- RK3399: ddr: update version to v1.18
     built from ddr init project commit:
     d91c3eb Version: DDR Version 1.18 20190218
     Update feature:

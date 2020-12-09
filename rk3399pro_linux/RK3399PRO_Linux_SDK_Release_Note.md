@@ -46,8 +46,8 @@
 **docs/tools**:
 
 ```
-- windows: RKDevTool: update V2.79 to support new loader format
-- linux: package-file: Drop out-dated :grow flag
+- Windows: RKDevTool: update V2.79 to support new loader format
+- Linux: package-file: Drop out-dated :grow flag
 - Upgrade Linux_Upgrade_Tool to V1.57
 - Upgrade DriverAssitant to V5.0
 - Upgrade SpiImageTools to V1.44
@@ -58,9 +58,9 @@
 **NPU**:
 
 ```
-- update rknn_server to 1.3.1 (6ebb4d7)
+- Update rknn_server to 1.3.1 (6ebb4d7)
 - NPU Transfer Server: 1.9.8 (40e4a8a@2020-01-02T09:16:20)
-- update librknn_runtime to 1.3.1 (7c5d3d8)
+- Update librknn_runtime to 1.3.1 (7c5d3d8)
 ChangeLog:
 1) Maxpool OP: support stride 1,2,1,1
 2) Deconvolution OP: support MxN weight
@@ -104,9 +104,9 @@ ChangeLog:
 
 ```
 - Add release_patch for every Socs
-- add deian10 guide v1.0.0
-- add mpp/weston/chromecast documents
-- update v1.2.2 documents for rk3399pro
+- Add deian10 guide v1.0.0
+- Add mpp/weston/chromecast documents
+- Update v1.2.2 documents for rk3399pro
 ```
 
 ## rk3399pro_linux_release_v1.2.0_20191224.xml Release Note
@@ -125,7 +125,7 @@ ChangeLog:
 - Upgrade QT verison from 5.9.4 to 5.12.2
 - Support Chromium Browser (74.0.3729.157)
 - Upgrade Xserver-xorg to v1.20.4
-- change the new qt app to replace the old apps
+- Change the new qt app to replace the old apps
 new apps: qcamera  qfm  QLauncher+  qplayer  qsetting
 old apps: camera gallery  music  QLauncher  settings  video
 - Add the missing license/copyright with legal-info
@@ -147,24 +147,24 @@ matched rkisp1 driver version: v0.1.5
 
 ```
 - Upgrade to 4.4.194
-		fixes sd card on rk3399pro evb board
-		update rk3399pro evb v13 dts for linux
-		enable iep for rk3399pro evb linux
+		Fixes sd card on rk3399pro evb board
+		Update rk3399pro evb v13 dts for linux
+		Enable iep for rk3399pro evb linux
 		Support Camera N4 on rk3399pro evb v13 board
 		Put the dp in vopb for rk3399pro evb
 		In order to more stable, increase the minimum voltage to from 800mv to 825mv
 		Fixes the HDMI status in resume
 		Add the rk3399 lpddr4 dts for reference
 		Fixes nvme/p-cie interface sdd
-		camera stuff update...etc
+		Camera stuff update...etc
 ```
 
 **rkbin (Rockchip binary)**:
 
 ```
 - npu: lion: ddr: update to v1.04 20191121
-	Update feature:
-		1) update cpu and npu's priorty to 1, vop's priority to 3 and ohter master's priority to 2
+	Update features:
+		1) Update cpu and npu's priorty to 1, vop's priority to 3 and ohter master's priority to 2
 		2) agingx0 set to 0x4, aging0 set to 0x33, aging1,2 set to 0xff.
 	- rknpu_lion: bl31: update version to v1.10
 	  update feature:
@@ -176,7 +176,7 @@ matched rkisp1 driver version: v0.1.5
 		3c788026d plat: rk1808: add pll driver
 		1a5b97455 plat: rk1808: change bl31_base to 0x40000
 	- npu: lion: bl32: update version to v1.12
-	  Update feature:
+	  Update features:
 		9a5e8974 scripts: add checkbuild.sh to build all platforms
 		9ae3c85f scripts: refine build scripts
 		991e5c92 drivers: crypto_v2: modify des/aes finish condition
@@ -198,9 +198,9 @@ matched rkisp1 driver version: v0.1.5
 - Upgrade AndroidTool from v2.67 to v2.69, support for ubifs
 - Update rk_provision_tool to RKDevInfoWriteTool_V1.0.4
 V1.0.4:
-1.add two custom id
-2.the rk_provision_tool rename to RKDevInfoWriteTool
-- upgrade SDDiskTool to v1.59
+1.Add two custom id
+2.The rk_provision_tool rename to RKDevInfoWriteTool
+- Upgrade SDDiskTool to v1.59
 ```
 
 **Debian9 (stretch-9.11)**:
@@ -212,11 +212,11 @@ V1.0.4:
 - Update mpp
 - Update rga
 - Support Camera N4 on rk3399pro evb v13 board
-- support exa/glamor hw acceleration on xserver
+- Support exa/glamor hw acceleration on xserver
 - Update camera_engine_rksip to v2.2.0
 - Add LICENSE.txt
 - QT upgraded to v5.11
-- fixes system suspend/resume for rk3399pro Socs
+- Fixes system suspend/resume for rk3399pro Socs
 - Add glmark2 normal mode
 - Add video hardware acceleration for chromium
 ```
