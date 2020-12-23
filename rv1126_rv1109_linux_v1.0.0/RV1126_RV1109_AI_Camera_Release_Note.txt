@@ -1,5 +1,34 @@
 ===========RV1126/RV1109 Linux SDK Release Note===========
 
+[rv1126_rv1109_linux_ai_camera_v1.7.0_20201223.xml]
+
+SDK update lists:
+
+        1.Update spi nand flash driver to fix bad block（important）
+        2.Update rockit to 1209：
+	   - implement hierarchical log control
+           - implement isp auto gatting
+           - fix crashed when failed to init isp format
+        3.Update USB driver to fix bug
+           - uac: fix uvc+uac+rndis+adb device adb shell fail
+           - uvc: fix rndis resize fifo before open uvc error 
+        4.UVC app:
+           - optimize preview time
+           - optimize mpp
+           - fix uvc no output when aiserver restart
+	   - fix d/qbuf manager error
+	   - check ispserver before control pu cmd
+	   - fix pu cmd set crash for ispserver
+        5.AIQ release v1.0x23.2:
+           - update RKISP2x Tuner tool to v1.3.2：fix the bug that AE Enable not used in AEC_Write
+           - fix ldch for imx378
+	6.smart_display_service：Resolved client exit causing the program to crash
+	7. ispserver & dbserver：
+	   - db_monitor: manage db info and storage
+	   - fix awb ctrl 
+           - support POWER_LINE_FREQUENCY_CONTROL 50HZ 25fps，60HZ 30fps for hdr sensor
+        8.Update docs and tools
+
 [rv1126_rv1109_linux_ai_camera_v1.6.2_20201204.xml]
 
 SDK update lists:
