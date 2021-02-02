@@ -87,51 +87,6 @@
 - Upgrade SpiImageTools to V1.44
 ```
 
-## rk3399pro_linux_release_v1.4.1_20201203.xml Release Note
-
-**Buildroot (2018.02-rc3)**:
-
-```
-- Resize the calculated items for Qlauncher
-- Update config for rkwifi module by default
-- Update rockchip_test for more tests
-- Move mpp tests config for debug.config
-- Update weston to fix some bugs
-- Fix crash after finished playing for qt5multimedia
-- Fix random crashes when removing all screens for qt5wayland
-- Update chromium-wayland to 86.0.4240.111
-- Update gstreamer-rockchip for mppjpegdec
-```
-
-**Debian10 (buster)**:
-
-```
-- Upgrade Debian9 to Debian10
-```
-
-**Yocto**:
-
-```
-- Upgrade Yocto from 3.0 to 3.2
-```
-
-**Kernel (4.4)**:
-
-```
-- Fix multivideo and wifi CVE issues
-- Fix gsl3673 touch issue on standby
-```
-
-**docs/tools**:
-
-```
-- Windows: RKDevTool: update V2.79 to support new loader format
-- Linux: package-file: Drop out-dated :grow flag
-- Upgrade Linux_Upgrade_Tool to V1.57
-- Upgrade DriverAssitant to V5.0
-- Upgrade SpiImageTools to V1.44
-```
-
 ## rk3399pro_linux_release_v1.3.0_20200324.xml Release Note
 
 **NPU**:

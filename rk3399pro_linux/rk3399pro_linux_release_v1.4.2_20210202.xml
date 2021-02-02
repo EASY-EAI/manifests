@@ -82,14 +82,14 @@
   <project dest-branch="master" name="linux/external/uvc_app" path="external/uvc_app" revision="9a69e274f1c7134872ca7dcd4677e9cc13de3ac8" upstream="master"/>
   <project dest-branch="master" name="linux/external/wifiAutoSetup" path="external/wifiAutoSetup" revision="872e84394896e12989c1745f4af536b567d02de7" upstream="master"/>
   <project dest-branch="master" name="linux/gstreamer-rockchip" path="external/gstreamer-rockchip" revision="a779505710996459166dc1ff4a003a2b7acc8292" upstream="master"/>
-  <project dest-branch="master" name="linux/internal_doc" path="docs/.Socs" revision="c9f56ad99daf4f4a383d45790fc2297a5cfda3b9" upstream="master">
+  <project dest-branch="master" name="linux/internal_doc" path="docs/.Socs" revision="c45173515cc1b5077c8c3546c2aa73a4e55fcbe3" upstream="master">
       <linkfile dest="docs/RK3399PRO" src="RK3399PRO"/>
   </project>
   <project dest-branch="master" name="linux/libmali" path="external/libmali" revision="53201e41314dcdb2261da771ce776f7702df8d2f" upstream="master"/>
   <project dest-branch="master" name="linux/linux-rga" path="external/linux-rga" revision="06fc7c40a087809abb9402ca257f7a481f58031b" upstream="master"/>
   <project dest-branch="master" name="linux/linux-rga" path="npu/external/linux-rga" revision="72e7764a9fe358e6ad50eb1b21176cc95802c7fb" upstream="master"/>
   <project dest-branch="develop" name="linux/recovery" path="external/recovery" revision="fa009038a0c54d45dd9c0caecc51ee3806a9c4e4" upstream="develop"/>
-  <project dest-branch="master" name="linux/rk-rootfs-build" path="debian" revision="c169765ce7df7bb5a4d3ecd9edbf6e71e21ab191" upstream="master"/>
+  <project dest-branch="master" name="linux/rk-rootfs-build" path="debian" revision="ec14c7c679987c3da79b55b7bcc899dd239cd97a" upstream="master"/>
   <project dest-branch="master" name="linux/rkmedia" path="external/rkmedia" revision="215caf635f1b4e2cb023650dbd0bc0e5c8920cf0" upstream="master"/>
   <project dest-branch="master" name="linux/rkmedia" path="npu/external/rkmedia" revision="6c796505c1d327f06ec6ade0df697ff84bfe75b1" upstream="master"/>
   <project dest-branch="master" name="linux/security/bin" path="external/security/bin" revision="f59085ce658bd69678b68fd4840fb86937678125" upstream="master"/>
@@ -115,6 +115,6 @@
   </project>
   <project dest-branch="stable-4.4-rk3399pro-linux" name="rk/rkbin-stable" path="rkbin" revision="1e96eab7cc6477dcaaac6b762b77d565d6c92926" upstream="stable-4.4-rk3399pro-linux"/>
   <project dest-branch="master" name="rk/rkbin" path="npu/rkbin" revision="2112f458bc492e497ff5579c96b67068ba95de14" upstream="master"/>
-  <project dest-branch="master" name="rk/rknn-toolkit" path="external/rknn-toolkit" revision="0cc2944c99eae1e58f0657b65057d565e414f073" upstream="master"/>
+  <project dest-branch="master" name="rk/rknn-toolkit" path="external/rknn-toolkit" revision="4b8425805418e05faed5cafedb8ab7768a48c8dc" upstream="master"/>
   <project dest-branch="master" name="rk/rockx" path="external/rockx" revision="95a0c81ad2f12c450cbc622120fd0767d8e29137" upstream="master"/>
 </manifest>
