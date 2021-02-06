@@ -3,6 +3,12 @@
 [rv1126_rv1109_linux_ai_camera_v1.8.0_20210129.xml]
 
 SDK update lists:
+1. 更新spi nand驱动程序，稳定性优化
+2. 修复128M spi nand 非AB固件挂载rootfs失败问题
+
+[rv1126_rv1109_linux_ai_camera_v1.8.0_20210129.xml]
+
+SDK update lists:
 1. system更新：
 	-开机时间优化
 	-修复spi nand no-ab 编译打包失败问题
