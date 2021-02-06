@@ -75,7 +75,7 @@
     <linkfile dest="tools/linux/Linux_Pack_Firmware/rockdev/mkupdate.sh" src="linux/Linux_Pack_Firmware/rockdev/rv1126_rv1109-mkupdate.sh"/>
     <linkfile dest="tools/linux/Linux_Pack_Firmware/rockdev/package-file" src="linux/Linux_Pack_Firmware/rockdev/rv1126_rv1109-package-file"/>
   </project>
-  <project name="rk/kernel" path="kernel" revision="9f7fa0092ea9727953e4ef32f8282dcff83c51fd" upstream="develop-4.19-rv1109-uvc-stable"/>
+  <project name="rk/kernel" path="kernel" revision="6684379d778f49a640c902b5574af9ab6a887b14" upstream="develop-4.19-rv1109-uvc-stable"/>
   <project name="rk/mpp" path="external/mpp" revision="41c9c809b0c1d7164954468daf20710ffac1f87d" upstream="develop"/>
   <project name="rk/prebuilts/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf" path="prebuilts/gcc/linux-x86/arm/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf" revision="27edb819ca803f5da253ccbd4134d6337a7310d1" upstream="master"/>
   <project name="rk/prebuilts/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" path="prebuilts/gcc/linux-x86/arm/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" revision="dd4df7dff4f1df65d78939a958b760a79e3650a1" upstream="master"/>
