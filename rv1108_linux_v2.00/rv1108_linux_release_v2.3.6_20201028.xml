@@ -19,7 +19,7 @@
   <project name="rk/rk1108/apps/at_server" path="app/at_server" revision="f38dace44357bcb4ccc8bdbdf2096bfb5646b7c7" upstream="master"/>
   <project name="rk/rk1108/apps/cvr" path="app/cvr" revision="229eb334c67e6a599ebcb9b142fdde2266d779ee" upstream="master"/>
   <project name="rk/rk1108/apps/device_manager" path="app/device_manager" revision="7209dd5b3c4467b4010bdc6b9ef4d0634250efc0" upstream="master"/>
-  <project name="rk/rk1108/apps/face" path="app/face" revision="202a118bc12a91dc7a7d0ec107bb450f38645e2b" upstream="master"/>
+  <project name="rk/rk1108/apps/face" path="app/face" revision="4c388688b0b00fe9ae943e599c0b2f19c848981a" upstream="master"/>
   <project name="rk/rk1108/apps/lock" path="app/lock" revision="03848ec72f2468e47495f1cbf788835338a19962" upstream="master"/>
   <project name="rk/rk1108/apps/pcba_test" path="app/pcba_test" revision="21e90f1a491818e02bc4227fda7053d9699048fc" upstream="master"/>
   <project name="rk/rk1108/apps/system_manager" path="app/system_manager" revision="36fa0177148d34059416b6a31f95ea7bf40a32e0" upstream="master"/>
