@@ -86,7 +86,7 @@
     <linkfile dest="Makefile" src="build/Makefile"/>
     <linkfile dest="envsetup.sh" src="build/envsetup.sh"/>
   </project>
-  <project name="rk/rkbin" path="rkbin" revision="21eb4b702d76a7da766463e933dd3bf7ebc08263" upstream="master"/>
+  <project name="rk/rkbin" path="rkbin" revision="ba17802fbf10005d7d65c713a647497ce8cb5623" upstream="master"/>
   <project name="rk/rknn-toolkit" path="external/rknn-toolkit" revision="4b8425805418e05faed5cafedb8ab7768a48c8dc" upstream="master"/>
   <project name="rk/rockface" path="external/rockface" revision="c15e36566c5bf07e1f8449e9087d73533b4ff420" upstream="master"/>
   <project name="rk/rockx" path="external/rockx" revision="a72ab4785626e693fcdddb602f9aec4acf639433" upstream="master"/>
