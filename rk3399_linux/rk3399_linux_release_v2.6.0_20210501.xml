@@ -30,7 +30,6 @@
   <project dest-branch="master" name="linux/app/storage_manager" path="app/storage_manager" revision="69c472191357d99748e7e2a7a4747aec6e82b479" upstream="master"/>
   <project dest-branch="master" name="linux/app/web/ipcweb-backend" path="app/ipcweb-backend" revision="dcc1652a681e8ab1599f0b317e84f1bbe4a9d695" upstream="master"/>
   <project dest-branch="master" name="linux/app/web/ipcweb-ng" path="app/ipcweb-ng" revision="ca9ad4f24bb46568dbbb80ac216a6e2b5f872d23" upstream="master"/>
-  <project dest-branch="yocto-next" name="linux/build" path="yocto/build/conf" revision="2cb4aba5babee1211bf26dde9b15b057d6772602" upstream="yocto-next"/>
   <project dest-branch="master" name="linux/device/rockchip" path="device/rockchip" revision="3443852d6451989cfa3c505f20dd1a63e2c9e3d0" upstream="master">
     <linkfile dest="mkfirmware.sh" src="common/mkfirmware.sh"/>
     <linkfile dest="build.sh" src="common/build.sh"/>
@@ -43,9 +42,6 @@
   <project dest-branch="master" name="linux/external/app" path="external/app" revision="3a06ebb791eb8bc6d2b41876f895d121be987f41" upstream="master"/>
   <project dest-branch="master" name="linux/external/avb" path="external/avb" revision="64b5ea0130d7440084796f6a23d7cd91fac988b8" upstream="master"/>
   <project dest-branch="master" name="linux/external/ble_wificonfig" path="external/ble_wificonfig" revision="3b56e0e268634216df1f992d944bb30158e86786" upstream="master"/>
-  <project dest-branch="master" name="linux/external/bluetooth_bsa" path="external/bluetooth_bsa" revision="ebea134dbaf0b6fe09fe1f50cc3eedffacd99a52" upstream="master"/>
-  <project dest-branch="master" name="linux/external/bluez-alsa" path="external/bluez-alsa" revision="e383251a22fef7213b7e5a804e4c7a7ca621c80d" upstream="master"/>
-  <project dest-branch="master" name="linux/external/broadcom_bsa" path="external/broadcom_bsa" revision="d7855e9dc601d69b00aa5e52ab03e68f35ac5aa5" upstream="master"/>
   <project dest-branch="master" name="linux/external/camera_engine_rkisp" path="external/camera_engine_rkisp" revision="66874dce46531ccaa3534fcddc5f89415f6349d3" upstream="master"/>
   <project dest-branch="master" name="linux/external/chromium" path="external/chromium" revision="bba90aee6a986fca85e8cf79c2917ebf5a2b6e17" upstream="master"/>
   <project dest-branch="master" name="linux/external/common_algorithm" path="external/common_algorithm" revision="612721079a722f3a9b8ab2c29c918b58d6244278" upstream="master"/>
@@ -54,9 +50,7 @@
   <project dest-branch="master" name="linux/external/isp2-ipc" path="external/isp2-ipc" revision="4894b6113c15e36dbea479c66defe08c13534c52" upstream="master"/>
   <project dest-branch="master" name="linux/external/libglCompositor" path="external/libglCompositor" revision="48602d31d015d2c0ecdac9ff842e704caf54a503" upstream="master"/>
   <project dest-branch="master" name="linux/external/minigui" path="external/minigui" revision="56dfcf3f4d2978cabe7684ca64073ebdfaae73b6" upstream="master"/>
-  <project dest-branch="master" name="linux/external/minigui_desktop" path="external/minigui_desktop" revision="9fa64dabb6bae25c07c2fc6ed40de6123f71f493" upstream="master"/>
   <project dest-branch="master" name="linux/external/minilogger" path="external/minilogger" revision="5f0fa4698d5305d8653c2352bfcf1d9aa57064a4" upstream="master"/>
-  <project dest-branch="master" name="linux/external/mpv" path="external/mpv" revision="4f05cc7637510dccfad9a81bc49d61a4226a58eb" upstream="master"/>
   <project dest-branch="master" name="linux/external/pcba_adb_test" path="external/pcba_adb_test" revision="0a1ca61f27007e8374d21f3af167ee5e02923f19" upstream="master"/>
   <project dest-branch="master" name="linux/external/rk_pcba_test" path="external/rk_pcba_test" revision="36e07775f017df15a8f20e62f52cb59e1ed3ae10" upstream="master"/>
   <project dest-branch="master" name="linux/external/rkfacial" path="external/rkfacial" revision="1f24c840d02792f5f5fd08d98459b27eb7dc34a2" upstream="master"/>
@@ -66,7 +60,6 @@
   <project dest-branch="master" name="linux/external/rkwifibt" path="external/rkwifibt" revision="a389710ca130405a0e6e4f22bc0335c976a5c4b0" upstream="master"/>
   <project dest-branch="master" name="linux/external/rtc_demo" path="external/rtc_demo" revision="01ea9377beae66a544191ff5dbd920f19ba4614c" upstream="master"/>
   <project dest-branch="master" name="linux/external/softapDemo" path="external/softapDemo" revision="4c7d1bd3d28df276d263f49324b022b44b3a1c85" upstream="master"/>
-  <project dest-branch="master" name="linux/external/tensorflow" path="external/tensorflow" revision="e1877bb157a775d76ec8c0b68467aef6d053bbb2" upstream="master"/>
   <project dest-branch="master" name="linux/external/uac_app" path="external/uac_app" revision="98521baa8d82b29629c5ff8fd22ea580feb54163" upstream="master"/>
   <project dest-branch="master" name="linux/external/update_engine" path="external/update_engine" revision="ef212877ada6fe629f52485113b35a81ab31009b" upstream="master"/>
   <project dest-branch="develop-4.19" name="linux/external/uvc_app" path="external/uvc_app" revision="17c44584663520b22f34473088c8bdd67fc33346" upstream="develop-4.19"/>
