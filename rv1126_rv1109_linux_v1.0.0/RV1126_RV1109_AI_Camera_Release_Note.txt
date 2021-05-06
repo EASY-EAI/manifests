@@ -1,5 +1,39 @@
 ===========RV1126/RV1109 Linux SDK Release Note===========
 
+[rv1126_rv1109_linux_ai_camera_v1.9.0_20210506.xml]
+
+SDK update lists:
+1.isp驱动更新到v1.0x6.0；
+2.aiq更新到最新v1.0x66.0 版本：
+   1. 解决一些API bug
+   2. 支持dvp接口，工具支持多sensor
+   3. 支持ISPP参数同步
+   4. 解决许多NR，AWB，AE，TMO等模块效果问题
+   5. 支持动静判决，及修复引入的稳定性问题等；
+   6. 支持Socket IPC，该功能主要给tolserver工具使用，实现不断流在线调试功能；
+   7. uAPI 支持线程安全等；
+
+3.Tuning Tool:更新到 v1.6.0；
+4.usb auto suspend功能合并；
+5.uvc app更新：
+  1. 优化mjpeg 4kp30；
+  2. 修复pu指令调用内存泄露问题；
+  3. 修复 mac os低版本无法支持3k微帧问题；
+  4.修复打开osd功能未使用导致的异常问题；
+  5. conf增加帧率控制配置功能；
+  6. 修复默认电力线频率配置无效问题；
+  7.uvc添加nv12/i420格式支持，默认关闭.；
+  8.修复Ubuntu 18.04下CT指令功能用v4l2-ctl指令无法显示问题；
+6.dbserver：修复内存泄露；
+7.usb:合并添加uvc debug节点和打印trace功能;
+8.更新一键debug脚本，支持usb debug信息打印；
+9.aiserver：修复eptz disable编译失败问题；
+10.usb:解决uac和rndis复合设备window无法兼容问题;
+11.usb:解决win10上uac2驱动安装失败问题
+12.usb：修复客诉4k h265开关UVC老化控制器异常问题；
+13.kernel/rkbin/uboot等其它模块更新到最新版本；
+14.文档工具更新到最新版本。
+
 [rv1126_rv1109_linux_ai_camera_v1.8.0_20210129.xml]
 
 SDK update lists:
