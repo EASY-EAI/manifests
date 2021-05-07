@@ -8,7 +8,7 @@
   <project name="android/rk/platform/system/rk_tee_user" path="external/security/rk_tee_user" revision="1aa969e2c0c473367bca1a51d7367f96db155fb7" upstream="develop-next"/>
   <project name="android/rk/u-boot" path="u-boot" revision="84da59db7e6eeee02e121a9bd98aecbf7d709e33" upstream="next-dev"/>
   <project name="linux/app/CameraFactoryTestServer" path="app/CameraFactoryTestServer" revision="4bf562db7718264772ed9c52e1afc54ccebc8356" upstream="master"/>
-  <project name="linux/app/LibIPCProtocol" path="app/libIPCProtocol" revision="d6de9ce40264f11a4a8b32f7d9d2b4a9a590f7cc" upstream="master"/>
+  <project name="linux/app/LibIPCProtocol" path="app/libIPCProtocol" revision="d6de9ce40264f11a4a8b32f7d9d2b4a9a590f7cc" upstream="aicamera"/>
   <project name="linux/app/aiserver" path="app/aiserver" revision="be0503bcd0a896ad3fe48f156066aa49cf982daa" upstream="master"/>
   <project name="linux/app/camera" path="app/camera" revision="44a961358dcf912504a951e7caf60c7d55ed999a" upstream="master"/>
   <project name="linux/app/dbserver" path="app/dbserver" revision="8ec43a70f6b6e20ab6bac793f06aa885362632c5" upstream="master"/>
@@ -29,7 +29,7 @@
     <linkfile dest="device/rockchip/.target_product" src="rv1126_rv1109"/>
     <linkfile dest="device/rockchip/.BoardConfig.mk" src="rv1126_rv1109/BoardConfig-uvcc.mk"/>
   </project>
-  <project name="linux/docs" path="docs" revision="80f45e09354f7e2823cb4950d6a00c596a5da92a" upstream="rv1126"/>
+  <project name="linux/docs" path="docs" revision="3a3e961e3461cc57d4f594d47ff4f343ee7ac10f" upstream="rv1126"/>
   <project name="linux/external/CallFunIpc" path="external/CallFunIpc" revision="b23fcde9739d9bdcc3c477caa0a845355825711f" upstream="master"/>
   <project name="linux/external/alsa-config" path="external/alsa-config" revision="16078cdc78d9d4961a60c60c527a1a14972fa30d" upstream="master"/>
   <project name="linux/external/app" path="external/app" revision="3a06ebb791eb8bc6d2b41876f895d121be987f41" upstream="master"/>
