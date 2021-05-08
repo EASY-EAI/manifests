@@ -10,7 +10,7 @@
   <project dest-branch="develop-next" name="android/rk/platform/system/rk_tee_user" path="external/security/rk_tee_user" revision="fb8d1b867822903291c9a5de9289844df2f8f598" upstream="develop-next"/>
   <project dest-branch="next-dev" name="android/rk/u-boot" path="u-boot" revision="9c409da6993cc630ce6e1bed1cd806d9ffa5ef9b" upstream="next-dev"/>
   <project dest-branch="master" name="linux/app/CameraFactoryTestServer" path="app/CameraFactoryTestServer" revision="4bf562db7718264772ed9c52e1afc54ccebc8356" upstream="master"/>
-  <project dest-branch="master" name="linux/app/LibIPCProtocol" path="app/libIPCProtocol" revision="6fe4cb96c761253f4002db1f3be71b24dc946cd2" upstream="master"/>
+  <project dest-branch="master" name="linux/app-new/LibIPCProtocol" path="app/libIPCProtocol" revision="6fe4cb96c761253f4002db1f3be71b24dc946cd2" upstream="master"/>
   <project dest-branch="master" name="linux/app/QFacialGate" path="app/QFacialGate" revision="87f2c3643b41ed70e9551e0039edc8369dbe626a" upstream="master"/>
   <project dest-branch="develop" name="linux/app/QLauncher" path="app/QLauncher" revision="a17ceb273aaa6f5c9aaf9f570d4ee56e28135c9d" upstream="develop"/>
   <project dest-branch="master" name="linux/app/aiserver" path="app/aiserver" revision="be0503bcd0a896ad3fe48f156066aa49cf982daa" upstream="master"/>
@@ -20,16 +20,16 @@
   <project dest-branch="master" name="linux/app/ipc-daemon" path="app/ipc-daemon" revision="30b8dc6f23c4623324bcd051659ef8b45018a8c2" upstream="master"/>
   <project dest-branch="master" name="linux/app/libgdbus" path="app/libgdbus" revision="79370be32dde657abf1128c90c72b93e75d814ed" upstream="master"/>
   <project dest-branch="master" name="linux/app/librkdb" path="app/librkdb" revision="72fd398899e791dcf0a02b484a9be404063ed94e" upstream="master"/>
-  <project dest-branch="master" name="linux/app/mediaserver" path="app/mediaserver" revision="3640ee4984aefc07dd71693b15dad0d4443abb1a" upstream="master"/>
+  <project dest-branch="master" name="linux/app-new/mediaserver" path="app/mediaserver" revision="3640ee4984aefc07dd71693b15dad0d4443abb1a" upstream="master"/>
   <project dest-branch="master" name="linux/app/multivideoplayer" path="app/multivideoplayer" revision="5d566e0b2ab416c251b54d59d6237e7164c7e270" upstream="master"/>
   <project dest-branch="master" name="linux/app/network_manager" path="app/netserver" revision="2c696348c2e4dd2eb278efd38370255e752eb4d7" upstream="master"/>
   <project dest-branch="master" name="linux/app/qcamera" path="app/qcamera" revision="1cf0d51ba5448151cf93cd4446a153de245274c1" upstream="master"/>
-  <project dest-branch="master" name="linux/app/qfm" path="app/qfm" revision="f4168c8fb3b103efb8bab14d6cadd3424483be6f" upstream="master"/>
+  <project dest-branch="master" name="linux/app-new/qfm" path="app/qfm" revision="7e94be4d1ce41e395909da8b963ad46c65ca285f" upstream="master"/>
   <project dest-branch="master" name="linux/app/qplayer" path="app/qplayer" revision="0121646c9fe2335eef9a963071d07b797a17487e" upstream="master"/>
   <project dest-branch="develop" name="linux/app/settings" path="app/qsetting" revision="20862b44029127524d9336ddd7664207fb500e74" upstream="develop"/>
   <project dest-branch="master" name="linux/app/storage_manager" path="app/storage_manager" revision="69c472191357d99748e7e2a7a4747aec6e82b479" upstream="master"/>
-  <project dest-branch="master" name="linux/app/web/ipcweb-backend" path="app/ipcweb-backend" revision="dcc1652a681e8ab1599f0b317e84f1bbe4a9d695" upstream="master"/>
-  <project dest-branch="master" name="linux/app/web/ipcweb-ng" path="app/ipcweb-ng" revision="ca9ad4f24bb46568dbbb80ac216a6e2b5f872d23" upstream="master"/>
+  <project dest-branch="master" name="linux/app/web-new/ipcweb-backend" path="app/ipcweb-backend" revision="1885a61babe060c16a84c172712146d4206361df" upstream="master"/>
+  <project dest-branch="master" name="linux/app/web-new/ipcweb-ng" path="app/ipcweb-ng" revision="ca9ad4f24bb46568dbbb80ac216a6e2b5f872d23" upstream="master"/>
   <project dest-branch="master" name="linux/device/rockchip" path="device/rockchip" revision="3443852d6451989cfa3c505f20dd1a63e2c9e3d0" upstream="master">
     <linkfile dest="mkfirmware.sh" src="common/mkfirmware.sh"/>
     <linkfile dest="build.sh" src="common/build.sh"/>
@@ -81,7 +81,7 @@
     <linkfile dest="tools/linux/Linux_Pack_Firmware/rockdev/package-file" src="linux/Linux_Pack_Firmware/rockdev/rk3399-package-file"/>
   </project>
   <project dest-branch="stable-4.4-rk3399-linux" name="rk/kernel-stable" path="kernel" revision="stable-4.4-rk3399-linux"/>
-  <project dest-branch="develop" name="rk/mpp" path="external/mpp" revision="b3df607ac2827b60f7d309554cb365e3070daaf8" upstream="develop"/>
+  <project dest-branch="develop" name="rk/mpp" path="external/mpp" revision="03f94da031f956f79885314e21e14508efcd8cf8" upstream="develop"/>
   <project dest-branch="master" name="rk/prebuilts/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu" path="prebuilts/gcc/linux-x86/aarch64/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu" revision="2edfa6dde1f73c5b3c6de980e3450443e35c0a0f" upstream="master"/>
   <project dest-branch="master" name="rk/prebuilts/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" path="prebuilts/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" revision="f96f76d6be89a6e28d4dac1f233f9aca9921f69b" upstream="master"/>
   <project dest-branch="rockchip/2018.02-rc3" name="linux/buildroot" path="buildroot" revision="fa8f04233d32949932cf3c65da687e7bb40316c7" upstream="rockchip/2018.02-rc3">
