@@ -69,7 +69,7 @@
       <linkfile dest="docs/RK3399" src="RK3399"/>
   </project>
   <project dest-branch="master" name="linux/libmali" path="external/libmali" revision="8f79d9779786328410d19559fb66932b7b6ae74d" upstream="master"/>
-  <project dest-branch="im2d" name="linux/linux-rga" path="external/linux-rga" revision="55191004c8b097eeafd7b34c6324b3b6f54968cc" upstream="im2d"/>
+  <project dest-branch="im2d" name="linux/linux-rga" path="external/linux-rga" revision="25329b922ceda0ffdbef51e97d9188ee5d49c59d" upstream="im2d"/>
   <project dest-branch="develop" name="linux/recovery" path="external/recovery" revision="bbc6411da057c8eb2aff98cbd6bea1d6ff1493b8" upstream="develop"/>
   <project dest-branch="master" name="linux/rk-rootfs-build" path="debian" revision="master"/>
   <project dest-branch="master" name="linux/security/bin" path="external/security/bin" revision="f59085ce658bd69678b68fd4840fb86937678125" upstream="master"/>
