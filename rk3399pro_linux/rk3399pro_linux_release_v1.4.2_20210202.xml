@@ -17,7 +17,7 @@
   <project dest-branch="master" name="linux/app/multivideoplayer" path="app/multivideoplayer" revision="5d566e0b2ab416c251b54d59d6237e7164c7e270" upstream="master"/>
   <project dest-branch="master" name="linux/app/n4" path="npu/app/n4" revision="6e3fc43844746cfbf4498f63f27472023c01f0a0" upstream="master"/>
   <project dest-branch="master" name="linux/app/qcamera" path="app/qcamera" revision="fc17cb9ac199095303f45aa27c59b0c901c0478b" upstream="master"/>
-  <project dest-branch="master" name="linux/app/qfm" path="app/qfm" revision="bdf11d9a3c4742b796796f331ab0200e64e2e6dd" upstream="master"/>
+  <project dest-branch="master" name="linux/app-new/qfm" path="app/qfm" revision="7e94be4d1ce41e395909da8b963ad46c65ca285f" upstream="master"/>
   <project dest-branch="master" name="linux/app/qplayer" path="app/qplayer" revision="f9a2e4ebfff9fd38832d4e205e5a3d38b2e91d1c" upstream="master"/>
   <project dest-branch="develop" name="linux/app/settings" path="app/qsetting" revision="ce3c52211d94cca71d2ab088c6f64c02788ff9f1" upstream="develop"/>
   <project dest-branch="stable" name="linux/buildroot/dl" path="buildroot/dl" revision="939379c396fd29e48a7a973d1042cb313900d537" upstream="stable"/>
