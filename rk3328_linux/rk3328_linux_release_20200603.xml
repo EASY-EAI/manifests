@@ -10,7 +10,7 @@
   <project name="linux/app/demo" path="app/demo" revision="119f509cb03319e3d244f925ec242156e24f75df" upstream="master"/>
   <project name="linux/app/multivideoplayer" path="app/multivideoplayer" revision="617e58ec389d6b84f99875c098792c071db87640" upstream="master"/>
   <project name="linux/app/qcamera" path="app/qcamera" revision="fc17cb9ac199095303f45aa27c59b0c901c0478b" upstream="master"/>
-  <project name="linux/app/qfm" path="app/qfm" revision="cb38ba939c7ebdb1d205b68290754a115269c7e4" upstream="master"/>
+  <project name="linux/app/qfm" path="app/qfm" revision="7e94be4d1ce41e395909da8b963ad46c65ca285f" upstream="master"/>
   <project name="linux/app/qplayer" path="app/qplayer" revision="cf359f850956d7ac2c1679f0fb39cd52978593a1" upstream="master"/>
   <project name="linux/app/settings" path="app/qsetting" revision="4d0252a31aecc79d23dfd4696b674b522e630479" upstream="develop"/>
   <project name="linux/buildroot/dl" path="buildroot/dl" revision="cd79e8e74ad0246112627fe9815dccad52fb6763" upstream="master"/>
