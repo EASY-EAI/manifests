@@ -58,5 +58,5 @@
     <linkfile dest="Makefile" src="build/Makefile"/>
     <linkfile dest="envsetup.sh" src="build/envsetup.sh"/>
   </project>
-  <project name="rk/rkbin-stable" path="rkbin" revision="864654a0849fa1facd8f53eb7509620a232d3c07" upstream="stable-4.4-rk3308-linux-1.2.3"/>
+  <project name="rk/rkbin-stable" path="rkbin" revision="864654a0849fa1facd8f53eb7509620a232d3c07" upstream="stable-4.4-rk3308-linux-1.2.3-B"/>
 </manifest>
