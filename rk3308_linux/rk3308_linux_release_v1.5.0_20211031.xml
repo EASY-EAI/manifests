@@ -12,6 +12,7 @@
     <linkfile dest="build.sh" src="common/build.sh"/>
     <linkfile dest="rkflash.sh" src="common/rkflash.sh"/>
     <linkfile dest="device/rockchip/.BoardConfig.mk" src="rk3308/BoardConfig.mk"/>
+    <linkfile dest="device/rockchip/.target_product" src="rk3308"/>
   </project>
   <project name="linux/docs" path="docs" revision="f46f5e7487f7685009f823e1f765a0233bb33052" upstream="master"/>
   <project name="linux/external/DuerClientSDK" path="external/DuerClientSDK" revision="e366033a83adb6187ee765915696d70cd36b4231" upstream="master_64bit"/>
