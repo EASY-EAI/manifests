@@ -14,7 +14,7 @@
   <project name="linux/app/multicamera" path="app/multicamera" revision="6c3b01afba79d69b3ed6c1d55bb5dc87f51b8df2" upstream="master"/>
   <project name="linux/app/multivideoplayer" path="app/multivideoplayer" revision="617e58ec389d6b84f99875c098792c071db87640" upstream="master"/>
   <project name="linux/app/qcamera" path="app/qcamera" revision="fc17cb9ac199095303f45aa27c59b0c901c0478b" upstream="master"/>
-  <project name="linux/app/qfm" path="app/qfm" revision="cb38ba939c7ebdb1d205b68290754a115269c7e4" upstream="master"/>
+  <project name="linux/app/qfm" path="app/qfm" revision="7e94be4d1ce41e395909da8b963ad46c65ca285f" upstream="master"/>
   <project name="linux/app/qplayer" path="app/qplayer" revision="6b658230a246ccebb425fdfcd368b11457d4635b" upstream="master"/>
   <project name="linux/app/rkffplay" path="app/rkffplay" revision="86d42148b4639462cdf87d80efb39b12201dea17" upstream="master"/>
   <project name="linux/app/settings" path="app/qsetting" revision="ce3c52211d94cca71d2ab088c6f64c02788ff9f1" upstream="develop"/>
